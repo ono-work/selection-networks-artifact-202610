@@ -141,9 +141,7 @@ the full n <= 10 table and re-checks irredundancy in seconds).
   `provenance/INVESTIGATION_av12_17.md`); it does not improve the
   published lower bound, since the structural lower bound is already 9
   (`VDepth(12,17) >= VDepth(12,13) = SDepth(13) = 9`), and no published
-  value depends on it. The paper's prose describes the planned
-  evaluation domain (t <= 11 at n = 17, "four cells not evaluated");
-  the preserved sweep in fact completed all of t = 12 before stopping.
+  value depends on it.
 - The 44 improved lower endpoints are reconstructed mechanically by
   `scripts/reconstruct_final_tables.py` into
   `generated/weight_game_improvements.csv`
