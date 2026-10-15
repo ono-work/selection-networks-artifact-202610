@@ -133,12 +133,17 @@ the full n <= 10 table and re-checks irredundancy in seconds).
   bundled with this artifact.
 - Coverage: every U-type cell at 11 <= n <= 17 is covered via
   `t <= floor(n/2)` plus mirror duality. V-type: every non-exact cell
-  through n <= 16 and every t <= 11 at n = 17; the four cells n = 17,
-  12 <= t <= 15 were **not evaluated** (state spaces T >= 13) and the paper
-  reports them as not checked. (The stored sweep additionally contains an
-  evaluation at n = 17, t = 12 with `A_V(12,17) = 8`, below the
-  structural lower bound 9, so it affects no bound; see
-  `weight_game/results/sweep_log.txt`.)
+  through n <= 16 and every t <= 12 at n = 17 were evaluated. The three
+  cells n = 17, 13 <= t <= 15 were **not evaluated** (state spaces
+  T >= 14). Provenance note: the stored value `A_V(12,17) = 8` is a
+  complete exhaustive evaluation (`complete: true`, 1501 s, see
+  `weight_game/results/sweep_log.txt` and
+  `provenance/INVESTIGATION_av12_17.md`); it does not improve the
+  published lower bound, since the structural lower bound is already 9
+  (`VDepth(12,17) >= VDepth(12,13) = SDepth(13) = 9`), and no published
+  value depends on it. The paper's prose describes the planned
+  evaluation domain (t <= 11 at n = 17, "four cells not evaluated");
+  the preserved sweep in fact completed all of t = 12 before stopping.
 - The 44 improved lower endpoints are reconstructed mechanically by
   `scripts/reconstruct_final_tables.py` into
   `generated/weight_game_improvements.csv`
