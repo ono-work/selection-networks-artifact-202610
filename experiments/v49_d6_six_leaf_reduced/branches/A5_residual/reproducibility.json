@@ -1,0 +1,68 @@
+{
+  "branch": {
+    "branch_id": "A5_residual",
+    "constraints": "% V(4,9), depth-6 six-leaf reduced hard-instance constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), 2 != #count { I,J : selected(D,I,J) }.\n:- depth(D), not selected(D,2,3).\n:- depth(D), not selected(D,4,5).\n:- selected(5,2,3).\n:- selected(5,4,5).\n",
+    "final_layer": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "forbid_l5": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "leaf_id": "A5"
+  },
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1800",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/branches/A5_residual/instance.lp"
+  ],
+  "environment": {
+    "cpu_count": 20,
+    "gpu_use": "none",
+    "internal_clingo_parallel_mode": "disabled",
+    "machine": "aarch64",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39",
+    "processor": "aarch64",
+    "python": "3.12.3"
+  },
+  "input_mode": "v_boundary",
+  "paths": {
+    "branch_definition": "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/branches/A5_residual/branch_definition.json",
+    "instance": "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/branches/A5_residual/instance.lp",
+    "raw_solver_json": "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/branches/A5_residual/solver.json",
+    "resource_log": "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/logs/A5_residual.resources.jsonl",
+    "stderr": "/home/ono/Codex/experiments/v49_d6_six_leaf_reduced/logs/A5_residual.stderr.log"
+  },
+  "pid": 2534845,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1800"
+  ],
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "started_at_unix": 1783387311.792953,
+  "worker_count": 6
+}

@@ -1,0 +1,1 @@
+.venv/bin/python -m clingo --outf=2 --time-limit=7200 -n 1 /home/ono/Codex/solver/common.lp /home/ono/Codex/solver/target_u.lp /home/ono/Codex/experiments/baseline_n11_17/decisions/U_t3_n14/depth_07/instance.lp

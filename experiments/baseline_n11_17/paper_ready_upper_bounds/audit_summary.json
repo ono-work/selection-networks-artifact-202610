@@ -1,0 +1,11 @@
+{
+  "entry_count": 306,
+  "frontier_count": 129,
+  "formula_citation_status": "citation TODO",
+  "v2_10_16_exact": true,
+  "removed_v2_11_16_depth6": true,
+  "u_table_change_count": 0,
+  "derivation_tree_parse": true,
+  "no_u_duality_for_v": true,
+  "no_v_t_monotonicity_for_u": true
+}

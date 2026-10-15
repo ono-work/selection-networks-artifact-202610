@@ -1,0 +1,40 @@
+{
+  "branch_id": "B6_residual_L5eq3__p1_0__p6_2",
+  "category": "p1_0__p6_2",
+  "category_constraints": "% Tail category for B6_residual_L5eq3: p1_0__p6_2\n:- selected(5,1,J).\n:- not selected(5,2,6).\n",
+  "category_matching_count": 39,
+  "final_layer": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "l5_count": 3,
+  "leaf_id": "B6",
+  "parent_branch_id": "B6_residual_L5eq3",
+  "queue_position": 5,
+  "residual_id": "B6_residual",
+  "workload_class": "B6eq3_one_idle_near"
+}

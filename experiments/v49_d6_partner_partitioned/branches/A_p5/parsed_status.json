@@ -1,0 +1,24 @@
+{
+  "branch_id": "A_p5",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 1103,
+  "error_message": null,
+  "final_layer_comparator_count": 2,
+  "final_wire4_comparator": [
+    4,
+    5
+  ],
+  "parent_id": "A",
+  "partner": 5,
+  "peak_rss_kb": 78844,
+  "returncode": 0,
+  "runtime_seconds": 1200.7415614619968,
+  "status": "TIMEOUT",
+  "support": [
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "worker_count": 8
+}

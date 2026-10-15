@@ -1,0 +1,155 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/branch_definition.json",
+  "branch_id": "A_p2",
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 31,
+  "error_message": null,
+  "final_layer_comparator_count": 2,
+  "final_wire4_comparator": [
+    2,
+    4
+  ],
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/instance.lp",
+  "layer_comparator_counts": null,
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/reproducibility.json",
+  "network_json_path": null,
+  "parent_id": "A",
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/parsed_status.json",
+  "partner": 2,
+  "peak_rss_kb": 75732,
+  "pid": 2432275,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p2.resources.jsonl",
+  "runtime_seconds": 33.98334579000948,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 27057,
+      "Backtracks": 1,
+      "Choices": 33620,
+      "Conflicts": 27058,
+      "RestartAvg": 229.297,
+      "RestartLast": 97,
+      "Restarts": 118
+    },
+    "Jumps": {
+      "Avg": 1.232,
+      "AvgExec": 1.228,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 95,
+        "Max": 1,
+        "Sum": 95
+      },
+      "Levels": 33331,
+      "LevelsExec": 33236,
+      "Max": 24,
+      "MaxExec": 24,
+      "Sum": 27057
+    },
+    "LP": {
+      "Atoms": 18150,
+      "Bodies": {
+        "Count": {
+          "Final": 53,
+          "Original": 56
+        },
+        "Final": 131239,
+        "Original": 131200
+      },
+      "Equivalences": {
+        "Atom": 514,
+        "Body": 1487,
+        "Other": 1419,
+        "Sum": 3420
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 153966,
+        "Original": 153920
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 33.118,
+      "Lemma": {
+        "Deleted": 19842,
+        "Sum": 27057,
+        "Type": [
+          {
+            "Binary": 250,
+            "Ratio": 2.949,
+            "Sum": 798,
+            "Ternary": 548,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 39.929,
+            "Sum": 27057,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 376434,
+        "Sum": 502055,
+        "Ternary": 83588
+      },
+      "Eliminated": 0,
+      "Frozen": 12044,
+      "Variables": 122222
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "support": [
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "verifier_json_path": null,
+  "verifier_ok": null,
+  "worker_count": 8
+}

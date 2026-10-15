@@ -1,0 +1,38 @@
+{
+  "branch_id": "B6_residual_L5eq4__unused_wire_4",
+  "category": "unused_wire_4",
+  "category_constraints": "% Tail category for B6_residual_L5eq4: unused_wire_4\n:- selected(5,4,J).\n:- selected(5,I,4).\n",
+  "category_matching_count": 78,
+  "final_layer": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "l5_count": 4,
+  "leaf_id": "B6",
+  "parent_branch_id": "B6_residual_L5eq4",
+  "residual_id": "B6_residual"
+}

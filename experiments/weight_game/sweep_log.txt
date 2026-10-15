@@ -1,0 +1,130 @@
+U t=1 n=11 (dual t=10): A=4 time=0.00s frontier<= 1
+U t=2 n=11 (dual t=9): A=5 time=0.00s frontier<= 4
+U t=3 n=11 (dual t=8): A=5 time=0.00s frontier<= 4
+U t=4 n=11 (dual t=7): A=5 time=0.00s frontier<= 9
+U t=5 n=11 (dual t=6): A=5 time=0.01s frontier<= 14
+U t=1 n=12 (dual t=11): A=4 time=0.00s frontier<= 1
+U t=2 n=12 (dual t=10): A=5 time=0.00s frontier<= 4
+U t=3 n=12 (dual t=9): A=5 time=0.00s frontier<= 4
+U t=4 n=12 (dual t=8): A=5 time=0.00s frontier<= 9
+U t=5 n=12 (dual t=7): A=5 time=0.01s frontier<= 24
+U t=6 n=12 (dual t=6): A=5 time=0.03s frontier<= 49
+U t=1 n=13 (dual t=12): A=4 time=0.00s frontier<= 1
+U t=2 n=13 (dual t=11): A=5 time=0.00s frontier<= 4
+U t=3 n=13 (dual t=10): A=5 time=0.00s frontier<= 4
+U t=4 n=13 (dual t=9): A=6 time=0.01s frontier<= 14
+U t=5 n=13 (dual t=8): A=5 time=0.03s frontier<= 22
+U t=6 n=13 (dual t=7): A=6 time=0.11s frontier<= 36
+U t=1 n=14 (dual t=13): A=4 time=0.00s frontier<= 1
+U t=2 n=14 (dual t=12): A=5 time=0.00s frontier<= 4
+U t=3 n=14 (dual t=11): A=5 time=0.00s frontier<= 5
+U t=4 n=14 (dual t=10): A=6 time=0.01s frontier<= 16
+U t=5 n=14 (dual t=9): A=5 time=0.02s frontier<= 25
+U t=6 n=14 (dual t=8): A=6 time=0.06s frontier<= 31
+U t=7 n=14 (dual t=7): A=6 time=0.22s frontier<= 59
+U t=1 n=15 (dual t=14): A=4 time=0.00s frontier<= 1
+U t=2 n=15 (dual t=13): A=5 time=0.00s frontier<= 5
+U t=3 n=15 (dual t=12): A=5 time=0.00s frontier<= 5
+U t=4 n=15 (dual t=11): A=6 time=0.02s frontier<= 18
+U t=5 n=15 (dual t=10): A=6 time=0.10s frontier<= 30
+U t=6 n=15 (dual t=9): A=6 time=0.40s frontier<= 61
+U t=7 n=15 (dual t=8): A=6 time=0.85s frontier<= 76
+U t=1 n=16 (dual t=15): A=4 time=0.00s frontier<= 1
+U t=2 n=16 (dual t=14): A=5 time=0.00s frontier<= 5
+U t=3 n=16 (dual t=13): A=5 time=0.00s frontier<= 5
+U t=4 n=16 (dual t=12): A=6 time=0.01s frontier<= 16
+U t=5 n=16 (dual t=11): A=6 time=0.05s frontier<= 33
+U t=6 n=16 (dual t=10): A=6 time=0.23s frontier<= 52
+U t=7 n=16 (dual t=9): A=6 time=0.44s frontier<= 52
+U t=8 n=16 (dual t=8): A=6 time=2.48s frontier<= 128
+U t=1 n=17 (dual t=16): A=5 time=0.00s frontier<= 1
+U t=2 n=17 (dual t=15): A=6 time=0.00s frontier<= 5
+U t=3 n=17 (dual t=14): A=6 time=0.00s frontier<= 5
+U t=4 n=17 (dual t=13): A=6 time=0.04s frontier<= 18
+U t=5 n=17 (dual t=12): A=6 time=0.21s frontier<= 35
+U t=6 n=17 (dual t=11): A=6 time=0.97s frontier<= 59
+U t=7 n=17 (dual t=10): A=6 time=1.82s frontier<= 59
+U t=8 n=17 (dual t=9): A=6 time=10.03s frontier<= 149
+V t=1 n=11: A=4 time=0.00s frontier<= 1
+V t=1 n=12: A=4 time=0.00s frontier<= 1
+V t=1 n=13: A=4 time=0.00s frontier<= 1
+V t=1 n=14: A=4 time=0.00s frontier<= 1
+V t=1 n=15: A=4 time=0.00s frontier<= 1
+V t=1 n=16: A=4 time=0.00s frontier<= 1
+V t=1 n=17: A=5 time=0.00s frontier<= 1
+V t=2 n=11: A=5 time=0.00s frontier<= 4
+V t=2 n=12: A=5 time=0.00s frontier<= 4
+V t=2 n=13: A=6 time=0.00s frontier<= 4
+V t=2 n=14: A=6 time=0.00s frontier<= 4
+V t=2 n=15: A=6 time=0.00s frontier<= 5
+V t=2 n=16: A=6 time=0.00s frontier<= 5
+V t=2 n=17: A=6 time=0.00s frontier<= 5
+V t=3 n=11: A=5 time=0.00s frontier<= 4
+V t=3 n=12: A=5 time=0.00s frontier<= 4
+V t=3 n=13: A=6 time=0.00s frontier<= 4
+V t=3 n=14: A=6 time=0.00s frontier<= 5
+V t=3 n=15: A=6 time=0.00s frontier<= 5
+V t=3 n=16: A=6 time=0.00s frontier<= 5
+V t=3 n=17: A=6 time=0.00s frontier<= 5
+V t=4 n=11: A=6 time=0.00s frontier<= 9
+V t=4 n=12: A=6 time=0.00s frontier<= 9
+V t=4 n=13: A=7 time=0.00s frontier<= 14
+V t=4 n=14: A=7 time=0.00s frontier<= 16
+V t=4 n=15: A=7 time=0.00s frontier<= 18
+V t=4 n=16: A=7 time=0.00s frontier<= 16
+V t=4 n=17: A=7 time=0.01s frontier<= 18
+V t=5 n=11: A=6 time=0.00s frontier<= 14
+V t=5 n=12: A=6 time=0.00s frontier<= 24
+V t=5 n=13: A=7 time=0.01s frontier<= 22
+V t=5 n=14: A=7 time=0.01s frontier<= 25
+V t=5 n=15: A=7 time=0.01s frontier<= 30
+V t=5 n=16: A=7 time=0.01s frontier<= 33
+V t=5 n=17: A=7 time=0.03s frontier<= 35
+V t=6 n=11: A=6 time=0.03s frontier<= 20
+V t=6 n=12: A=6 time=0.01s frontier<= 49
+V t=6 n=13: A=7 time=0.02s frontier<= 36
+V t=6 n=14: A=7 time=0.02s frontier<= 31
+V t=6 n=15: A=7 time=0.07s frontier<= 61
+V t=6 n=16: A=7 time=0.08s frontier<= 52
+V t=6 n=17: A=7 time=0.17s frontier<= 59
+V t=7 n=11: A=6 time=0.04s frontier<= 20
+V t=7 n=12: A=6 time=0.07s frontier<= 56
+V t=7 n=13: A=7 time=0.20s frontier<= 39
+V t=7 n=14: A=7 time=0.10s frontier<= 59
+V t=7 n=15: A=7 time=0.24s frontier<= 76
+V t=7 n=16: A=7 time=0.21s frontier<= 52
+V t=7 n=17: A=7 time=0.53s frontier<= 59
+V t=8 n=11: A=6 time=0.14s frontier<= 49
+V t=8 n=12: A=6 time=0.22s frontier<= 78
+V t=8 n=13: A=7 time=1.12s frontier<= 113
+V t=8 n=14: A=7 time=0.86s frontier<= 95
+V t=8 n=15: A=7 time=4.38s frontier<= 218
+V t=8 n=16: A=7 time=1.51s frontier<= 128
+V t=8 n=17: A=8 time=3.88s frontier<= 149
+V t=9 n=11: A=6 time=0.34s frontier<= 67
+V t=9 n=12: A=6 time=0.58s frontier<= 117
+V t=9 n=13: A=7 time=3.05s frontier<= 170
+V t=9 n=14: A=7 time=2.86s frontier<= 215
+V t=9 n=15: A=7 time=13.49s frontier<= 316
+V t=9 n=16: A=7 time=9.88s frontier<= 276
+V t=9 n=17: A=8 time=42.63s frontier<= 303
+V t=10 n=11: A=6 time=0.91s frontier<= 136
+V t=10 n=12: A=6 time=1.56s frontier<= 190
+V t=10 n=13: A=7 time=9.35s frontier<= 364
+V t=10 n=14: A=7 time=8.74s frontier<= 346
+V t=10 n=15: A=7 time=49.65s frontier<= 587
+V t=10 n=16: A=7 time=37.17s frontier<= 513
+V t=10 n=17: A=8 time=176.36s frontier<= 691
+V t=11 n=11: A=6 time=1.72s frontier<= 174
+V t=11 n=12: A=6 time=2.64s frontier<= 219
+V t=11 n=13: A=7 time=18.27s frontier<= 418
+V t=11 n=14: A=7 time=19.17s frontier<= 435
+V t=11 n=15: A=7 time=118.88s frontier<= 723
+V t=11 n=16: A=7 time=94.23s frontier<= 620
+V t=11 n=17: A=8 time=412.01s frontier<= 793
+V t=12 n=12: A=6 time=4.31s frontier<= 249
+V t=12 n=13: A=7 time=38.50s frontier<= 520
+V t=12 n=14: A=7 time=44.06s frontier<= 572
+V t=12 n=15: A=7 time=325.63s frontier<= 1034
+V t=12 n=16: A=7 time=312.62s frontier<= 1219
+V t=12 n=17: A=8 time=1501.37s frontier<= 1474

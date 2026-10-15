@@ -1,0 +1,4 @@
+ABORTED_BY_USER
+Target: U(4,15) depth 8
+Stopped at UTC: 2026-07-14T02:10:07.062540+00:00
+Existing artifacts were preserved; no solver conclusion is recorded.

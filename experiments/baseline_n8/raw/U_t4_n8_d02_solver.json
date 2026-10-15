@@ -1,0 +1,25 @@
+{
+  "Solver": "pyclingo version 5.8.0",
+  "Input": [
+    "/home/ono/Codex/solver/common.lp","/home/ono/Codex/solver/target_u.lp","experiments/baseline_n8/decisions/U_t4_n8/depth_02/instance.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Stop": 0.040
+    }
+  ],
+  "Result": "UNSATISFIABLE",
+  "Models": {
+    "Number": 0,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.040,
+    "Solve": 0.011,
+    "Model": 0.000,
+    "Unsat": 0.011,
+    "CPU": 0.040
+  }
+}

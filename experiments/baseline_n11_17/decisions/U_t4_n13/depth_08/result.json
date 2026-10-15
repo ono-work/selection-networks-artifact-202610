@@ -1,0 +1,32 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t4_n13/depth_08",
+  "case": "U_t4_n13_depth8",
+  "current_interval": "[5,8]",
+  "depth": 8,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(4,4) >= 0 || N_MONOTONICITY_LOWER: UDepth(4,5) >= 0 || N_MONOTONICITY_LOWER: UDepth(4,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(4,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(4,8) >= 0 || N_MONOTONICITY_LOWER: UDepth(4,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,12) >= 5 || U_DUALITY_LOWER: UDepth(9,13)=UDepth(4,13) || U_DUALITY_LOWER: UDepth(9,13)=UDepth(4,13) || N_MONOTONICITY_LOWER: UDepth(4,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,12) >= 5 || U_DUALITY_LOWER: UDepth(9,13)=UDepth(4,13) || U_DUALITY_LOWER: UDepth(9,13)=UDepth(4,13) || N_MONOTONICITY_LOWER: UDepth(4,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(4,12) >= 5 || U_DUALITY_LOWER: UDepth(9,13)=UDepth(4,13)",
+  "mirror_t_by_duality": 9,
+  "n": 13,
+  "network_json_path": "experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/network.json",
+  "notes": "5 <= UDepth(4,13) <= 8",
+  "previous_depth7_status": "TIMEOUT",
+  "runtime_seconds": 91.44090520590544,
+  "solver_status": "SATISFIABLE",
+  "status": "VERIFIED_SAT",
+  "t": 4,
+  "upper_bound_established": true,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "U",
+    "message": "verified all binary inputs",
+    "n": 13,
+    "ok": true,
+    "output": null,
+    "t": 4
+  },
+  "verifier_json_path": "experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/verifier.json",
+  "verifier_status": "VERIFIED_SAT",
+  "verifier_trace_summary_path": "experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/verifier_trace_summary.json"
+}

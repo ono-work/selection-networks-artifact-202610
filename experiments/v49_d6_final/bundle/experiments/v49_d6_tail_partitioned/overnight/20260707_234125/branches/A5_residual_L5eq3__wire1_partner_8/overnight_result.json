@@ -1,0 +1,150 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/A5_residual_L5eq3__wire1_partner_8/branch_definition.json",
+  "branch_id": "A5_residual_L5eq3__wire1_partner_8",
+  "census_matching_count": 86,
+  "choices": 798074.0,
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=14400",
+    "--seed=1",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/A5_residual_L5eq3__wire1_partner_8/instance.lp"
+  ],
+  "conflicts": 726766.0,
+  "cpu_snapshots": 1186,
+  "dispatch_time": "2026-07-07T14:41:25Z",
+  "error_message": null,
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/A5_residual_L5eq3__wire1_partner_8/instance.lp",
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/A5_residual_L5eq3__wire1_partner_8/metadata.json",
+  "network_path": null,
+  "parent_family": "A5_residual_L5eq3",
+  "peak_rss_kb": 75460,
+  "queue_position": 17,
+  "raw_json_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/A5_residual_L5eq3__wire1_partner_8/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/logs/A5_residual_L5eq3__wire1_partner_8.resources.jsonl",
+  "restarts": 1788.0,
+  "result_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/A5_residual_L5eq3__wire1_partner_8/overnight_result.json",
+  "runtime_seconds": 1507.3085568489623,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=14400",
+    "--seed=1"
+  ],
+  "solving_time": null,
+  "stats": {
+    "Core": {
+      "Backjumps": 726765,
+      "Backtracks": 1,
+      "Choices": 798074,
+      "Conflicts": 726766,
+      "RestartAvg": 406.468,
+      "RestartLast": 5062,
+      "Restarts": 1788
+    },
+    "Jumps": {
+      "Avg": 1.087,
+      "AvgExec": 1.086,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 201,
+        "Max": 1,
+        "Sum": 201
+      },
+      "Levels": 789774,
+      "LevelsExec": 789573,
+      "Max": 31,
+      "MaxExec": 31,
+      "Sum": 726765
+    },
+    "LP": {
+      "Atoms": 18661,
+      "Bodies": {
+        "Count": {
+          "Final": 56,
+          "Original": 57
+        },
+        "Final": 134157,
+        "Original": 134158
+      },
+      "Equivalences": {
+        "Atom": 1595,
+        "Body": 1552,
+        "Other": 6637,
+        "Sum": 9784
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 158510,
+        "Original": 158477
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 1506.351,
+      "Lemma": {
+        "Deleted": 687227,
+        "Sum": 726765,
+        "Type": [
+          {
+            "Binary": 1328,
+            "Ratio": 0.689,
+            "Sum": 5011,
+            "Ternary": 3683,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 34.366,
+            "Sum": 726765,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 337185,
+        "Sum": 448270,
+        "Ternary": 73491
+      },
+      "Eliminated": 0,
+      "Frozen": 11394,
+      "Variables": 118626
+    }
+  },
+  "status": "UNSAT",
+  "stderr_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/logs/A5_residual_L5eq3__wire1_partner_8.stderr.log",
+  "stdout_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/A5_residual_L5eq3__wire1_partner_8/solver.json",
+  "timeout_seconds": 14400,
+  "verifier_ok": null,
+  "verifier_path": null,
+  "workload_class": "A5_tail"
+}

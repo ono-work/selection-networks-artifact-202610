@@ -1,0 +1,8 @@
+{
+  "caveat": "This is a computational-evidence certificate, not a human-readable proof of each solver UNSAT result.",
+  "dependency_graph": "proof_dependency_graph.json",
+  "manifest": "evidence_manifest.json",
+  "problems": [],
+  "result": "VDepth(4,9)=7",
+  "status": "AFFIRMATIVE"
+}

@@ -1,0 +1,912 @@
+{
+ "U_1_11": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 0.00010180473327636719
+ },
+ "U_1_12": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 2.9802322387695312e-05
+ },
+ "U_1_13": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 4.5299530029296875e-05
+ },
+ "U_1_14": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 3.3855438232421875e-05
+ },
+ "U_1_15": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 5.14984130859375e-05
+ },
+ "U_1_16": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 4.076957702636719e-05
+ },
+ "U_1_17": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 6,
+  "time_seconds": 7.963180541992188e-05
+ },
+ "U_2_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0003039836883544922
+ },
+ "U_2_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.00017070770263671875
+ },
+ "U_2_13": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0006518363952636719
+ },
+ "U_2_14": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0002567768096923828
+ },
+ "U_2_15": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0007388591766357422
+ },
+ "U_2_16": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 6,
+  "time_seconds": 0.00036072731018066406
+ },
+ "U_2_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0009911060333251953
+ },
+ "U_3_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0006773471832275391
+ },
+ "U_3_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0003685951232910156
+ },
+ "U_3_13": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0011539459228515625
+ },
+ "U_3_14": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0009829998016357422
+ },
+ "U_3_15": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 6,
+  "time_seconds": 0.002052783966064453
+ },
+ "U_3_16": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0011169910430908203
+ },
+ "U_3_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.003391265869140625
+ },
+ "U_4_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 9,
+  "rounds_recorded": 6,
+  "time_seconds": 0.00321197509765625
+ },
+ "U_4_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 9,
+  "rounds_recorded": 6,
+  "time_seconds": 0.0018575191497802734
+ },
+ "U_4_13": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 14,
+  "rounds_recorded": 7,
+  "time_seconds": 0.00855708122253418
+ },
+ "U_4_14": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 16,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0056650638580322266
+ },
+ "U_4_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 18,
+  "rounds_recorded": 7,
+  "time_seconds": 0.022842884063720703
+ },
+ "U_4_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 16,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0101318359375
+ },
+ "U_4_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 18,
+  "rounds_recorded": 7,
+  "time_seconds": 0.03595471382141113
+ },
+ "U_5_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 14,
+  "rounds_recorded": 6,
+  "time_seconds": 0.009819507598876953
+ },
+ "U_5_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 24,
+  "rounds_recorded": 6,
+  "time_seconds": 0.008754968643188477
+ },
+ "U_5_13": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 22,
+  "rounds_recorded": 6,
+  "time_seconds": 0.030207395553588867
+ },
+ "U_5_14": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 25,
+  "rounds_recorded": 6,
+  "time_seconds": 0.021320104598999023
+ },
+ "U_5_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 30,
+  "rounds_recorded": 7,
+  "time_seconds": 0.09542655944824219
+ },
+ "U_5_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 33,
+  "rounds_recorded": 7,
+  "time_seconds": 0.05113649368286133
+ },
+ "U_5_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 35,
+  "rounds_recorded": 7,
+  "time_seconds": 0.21418118476867676
+ },
+ "U_6_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 49,
+  "rounds_recorded": 6,
+  "time_seconds": 0.028519392013549805
+ },
+ "U_6_13": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 36,
+  "rounds_recorded": 7,
+  "time_seconds": 0.1099245548248291
+ },
+ "U_6_14": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 31,
+  "rounds_recorded": 7,
+  "time_seconds": 0.059706687927246094
+ },
+ "U_6_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 61,
+  "rounds_recorded": 7,
+  "time_seconds": 0.40000128746032715
+ },
+ "U_6_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 52,
+  "rounds_recorded": 7,
+  "time_seconds": 0.22736239433288574
+ },
+ "U_6_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 7,
+  "time_seconds": 0.97220778465271
+ },
+ "U_7_14": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 7,
+  "time_seconds": 0.21552228927612305
+ },
+ "U_7_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 76,
+  "rounds_recorded": 7,
+  "time_seconds": 0.848731279373169
+ },
+ "U_7_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 52,
+  "rounds_recorded": 7,
+  "time_seconds": 0.4419076442718506
+ },
+ "U_7_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 7,
+  "time_seconds": 1.8171770572662354
+ },
+ "U_8_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 128,
+  "rounds_recorded": 7,
+  "time_seconds": 2.4756078720092773
+ },
+ "U_8_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 149,
+  "rounds_recorded": 7,
+  "time_seconds": 10.026303768157959
+ },
+ "V_10_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 136,
+  "rounds_recorded": 7,
+  "time_seconds": 0.9070782661437988
+ },
+ "V_10_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 190,
+  "rounds_recorded": 7,
+  "time_seconds": 1.5604238510131836
+ },
+ "V_10_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 364,
+  "rounds_recorded": 8,
+  "time_seconds": 9.353343963623047
+ },
+ "V_10_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 346,
+  "rounds_recorded": 8,
+  "time_seconds": 8.737265825271606
+ },
+ "V_10_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 587,
+  "rounds_recorded": 8,
+  "time_seconds": 49.65253567695618
+ },
+ "V_10_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 513,
+  "rounds_recorded": 8,
+  "time_seconds": 37.16648578643799
+ },
+ "V_10_17": {
+  "A": 8,
+  "complete": true,
+  "max_frontier_size": 691,
+  "rounds_recorded": 9,
+  "time_seconds": 176.3552007675171
+ },
+ "V_11_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 174,
+  "rounds_recorded": 7,
+  "time_seconds": 1.7174932956695557
+ },
+ "V_11_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 219,
+  "rounds_recorded": 7,
+  "time_seconds": 2.635702133178711
+ },
+ "V_11_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 418,
+  "rounds_recorded": 8,
+  "time_seconds": 18.269022464752197
+ },
+ "V_11_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 435,
+  "rounds_recorded": 8,
+  "time_seconds": 19.16579556465149
+ },
+ "V_11_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 723,
+  "rounds_recorded": 8,
+  "time_seconds": 118.8814480304718
+ },
+ "V_11_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 620,
+  "rounds_recorded": 8,
+  "time_seconds": 94.22783017158508
+ },
+ "V_11_17": {
+  "A": 8,
+  "complete": true,
+  "max_frontier_size": 793,
+  "rounds_recorded": 9,
+  "time_seconds": 412.0084140300751
+ },
+ "V_12_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 249,
+  "rounds_recorded": 7,
+  "time_seconds": 4.308340311050415
+ },
+ "V_12_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 520,
+  "rounds_recorded": 8,
+  "time_seconds": 38.501737117767334
+ },
+ "V_12_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 572,
+  "rounds_recorded": 8,
+  "time_seconds": 44.055235147476196
+ },
+ "V_12_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 1034,
+  "rounds_recorded": 8,
+  "time_seconds": 325.63253951072693
+ },
+ "V_12_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 1219,
+  "rounds_recorded": 8,
+  "time_seconds": 312.6150314807892
+ },
+ "V_12_17": {
+  "A": 8,
+  "complete": true,
+  "max_frontier_size": 1474,
+  "rounds_recorded": 9,
+  "time_seconds": 1501.3656492233276
+ },
+ "V_1_11": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 1.5974044799804688e-05
+ },
+ "V_1_12": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 2.3603439331054688e-05
+ },
+ "V_1_13": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 1.1444091796875e-05
+ },
+ "V_1_14": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 1.2874603271484375e-05
+ },
+ "V_1_15": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 1.2159347534179688e-05
+ },
+ "V_1_16": {
+  "A": 4,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 5,
+  "time_seconds": 1.2874603271484375e-05
+ },
+ "V_1_17": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 1,
+  "rounds_recorded": 6,
+  "time_seconds": 1.52587890625e-05
+ },
+ "V_2_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 4.0531158447265625e-05
+ },
+ "V_2_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 3.7670135498046875e-05
+ },
+ "V_2_13": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0005955696105957031
+ },
+ "V_2_14": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 7,
+  "time_seconds": 6.890296936035156e-05
+ },
+ "V_2_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 8.535385131835938e-05
+ },
+ "V_2_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 7.867813110351562e-05
+ },
+ "V_2_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 7.534027099609375e-05
+ },
+ "V_3_11": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 8.0108642578125e-05
+ },
+ "V_3_12": {
+  "A": 5,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 6,
+  "time_seconds": 0.00010180473327636719
+ },
+ "V_3_13": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 4,
+  "rounds_recorded": 7,
+  "time_seconds": 0.00020599365234375
+ },
+ "V_3_14": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.00020551681518554688
+ },
+ "V_3_15": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0003421306610107422
+ },
+ "V_3_16": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.00021219253540039062
+ },
+ "V_3_17": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 5,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0003285408020019531
+ },
+ "V_4_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 9,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0008759498596191406
+ },
+ "V_4_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 9,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0007579326629638672
+ },
+ "V_4_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 14,
+  "rounds_recorded": 8,
+  "time_seconds": 0.0013554096221923828
+ },
+ "V_4_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 16,
+  "rounds_recorded": 8,
+  "time_seconds": 0.0014557838439941406
+ },
+ "V_4_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 18,
+  "rounds_recorded": 8,
+  "time_seconds": 0.00353240966796875
+ },
+ "V_4_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 16,
+  "rounds_recorded": 8,
+  "time_seconds": 0.0028502941131591797
+ },
+ "V_4_17": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 18,
+  "rounds_recorded": 8,
+  "time_seconds": 0.005074739456176758
+ },
+ "V_5_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 14,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0031414031982421875
+ },
+ "V_5_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 24,
+  "rounds_recorded": 7,
+  "time_seconds": 0.0035424232482910156
+ },
+ "V_5_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 22,
+  "rounds_recorded": 8,
+  "time_seconds": 0.00828099250793457
+ },
+ "V_5_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 25,
+  "rounds_recorded": 8,
+  "time_seconds": 0.007925987243652344
+ },
+ "V_5_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 30,
+  "rounds_recorded": 8,
+  "time_seconds": 0.013706684112548828
+ },
+ "V_5_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 33,
+  "rounds_recorded": 8,
+  "time_seconds": 0.012768983840942383
+ },
+ "V_5_17": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 35,
+  "rounds_recorded": 8,
+  "time_seconds": 0.029538393020629883
+ },
+ "V_6_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 20,
+  "rounds_recorded": 7,
+  "time_seconds": 0.025607585906982422
+ },
+ "V_6_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 49,
+  "rounds_recorded": 7,
+  "time_seconds": 0.014479875564575195
+ },
+ "V_6_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 36,
+  "rounds_recorded": 8,
+  "time_seconds": 0.023558855056762695
+ },
+ "V_6_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 31,
+  "rounds_recorded": 8,
+  "time_seconds": 0.021622180938720703
+ },
+ "V_6_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 61,
+  "rounds_recorded": 8,
+  "time_seconds": 0.07094097137451172
+ },
+ "V_6_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 52,
+  "rounds_recorded": 8,
+  "time_seconds": 0.07589912414550781
+ },
+ "V_6_17": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 8,
+  "time_seconds": 0.1670823097229004
+ },
+ "V_7_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 20,
+  "rounds_recorded": 7,
+  "time_seconds": 0.040309906005859375
+ },
+ "V_7_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 56,
+  "rounds_recorded": 7,
+  "time_seconds": 0.06924104690551758
+ },
+ "V_7_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 39,
+  "rounds_recorded": 8,
+  "time_seconds": 0.19725251197814941
+ },
+ "V_7_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 8,
+  "time_seconds": 0.09895992279052734
+ },
+ "V_7_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 76,
+  "rounds_recorded": 8,
+  "time_seconds": 0.23978543281555176
+ },
+ "V_7_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 52,
+  "rounds_recorded": 8,
+  "time_seconds": 0.21338582038879395
+ },
+ "V_7_17": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 59,
+  "rounds_recorded": 8,
+  "time_seconds": 0.5319826602935791
+ },
+ "V_8_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 49,
+  "rounds_recorded": 7,
+  "time_seconds": 0.14482450485229492
+ },
+ "V_8_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 78,
+  "rounds_recorded": 7,
+  "time_seconds": 0.21769475936889648
+ },
+ "V_8_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 113,
+  "rounds_recorded": 8,
+  "time_seconds": 1.1211512088775635
+ },
+ "V_8_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 95,
+  "rounds_recorded": 8,
+  "time_seconds": 0.856687068939209
+ },
+ "V_8_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 218,
+  "rounds_recorded": 8,
+  "time_seconds": 4.384193658828735
+ },
+ "V_8_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 128,
+  "rounds_recorded": 8,
+  "time_seconds": 1.512096643447876
+ },
+ "V_8_17": {
+  "A": 8,
+  "complete": true,
+  "max_frontier_size": 149,
+  "rounds_recorded": 9,
+  "time_seconds": 3.8768770694732666
+ },
+ "V_9_11": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 67,
+  "rounds_recorded": 7,
+  "time_seconds": 0.34114718437194824
+ },
+ "V_9_12": {
+  "A": 6,
+  "complete": true,
+  "max_frontier_size": 117,
+  "rounds_recorded": 7,
+  "time_seconds": 0.5750179290771484
+ },
+ "V_9_13": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 170,
+  "rounds_recorded": 8,
+  "time_seconds": 3.049975633621216
+ },
+ "V_9_14": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 215,
+  "rounds_recorded": 8,
+  "time_seconds": 2.8628406524658203
+ },
+ "V_9_15": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 316,
+  "rounds_recorded": 8,
+  "time_seconds": 13.492299556732178
+ },
+ "V_9_16": {
+  "A": 7,
+  "complete": true,
+  "max_frontier_size": 276,
+  "rounds_recorded": 8,
+  "time_seconds": 9.881335735321045
+ },
+ "V_9_17": {
+  "A": 8,
+  "complete": true,
+  "max_frontier_size": 303,
+  "rounds_recorded": 9,
+  "time_seconds": 42.627094745635986
+ }
+}

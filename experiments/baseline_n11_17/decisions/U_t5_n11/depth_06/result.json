@@ -1,0 +1,32 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06",
+  "case": "U_t5_n11_depth6",
+  "current_interval": "[5,6]",
+  "depth": 6,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(5,5) >= 0 || N_MONOTONICITY_LOWER: UDepth(5,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(5,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(5,8) >= 0 || N_MONOTONICITY_LOWER: UDepth(5,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,10) >= 5 || U_DUALITY_LOWER: UDepth(6,11)=UDepth(5,11) || U_DUALITY_LOWER: UDepth(6,11)=UDepth(5,11) || N_MONOTONICITY_LOWER: UDepth(5,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,10) >= 5 || U_DUALITY_LOWER: UDepth(6,11)=UDepth(5,11) || U_DUALITY_LOWER: UDepth(6,11)=UDepth(5,11) || N_MONOTONICITY_LOWER: UDepth(5,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(5,10) >= 5 || U_DUALITY_LOWER: UDepth(6,11)=UDepth(5,11)",
+  "n": 11,
+  "network_json_path": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/network.json",
+  "notes": "5 <= UDepth(5,11) <= 6",
+  "previous_depth5_artifact_directory": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_05",
+  "previous_depth5_status": "TIMEOUT",
+  "runtime_seconds": 1695.9494648780674,
+  "solver_status": "SATISFIABLE",
+  "status": "VERIFIED_SAT",
+  "t": 5,
+  "upper_bound_6_established": true,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "U",
+    "message": "verified all binary inputs",
+    "n": 11,
+    "ok": true,
+    "output": null,
+    "t": 5
+  },
+  "verifier_json_path": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/verifier.json",
+  "verifier_status": "VERIFIED_SAT",
+  "verifier_trace_summary_path": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/verifier_trace_summary.json"
+}

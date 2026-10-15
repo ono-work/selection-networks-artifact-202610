@@ -1,0 +1,53 @@
+{
+  "formula_added": true,
+  "citation_status": "citation TODO",
+  "v2_changes": [
+    {
+      "kind": "V",
+      "n": 11,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    },
+    {
+      "kind": "V",
+      "n": 12,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    },
+    {
+      "kind": "V",
+      "n": 13,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    },
+    {
+      "kind": "V",
+      "n": 14,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    },
+    {
+      "kind": "V",
+      "n": 15,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    },
+    {
+      "kind": "V",
+      "n": 16,
+      "t": 2,
+      "before": 7,
+      "after": 6
+    }
+  ],
+  "v2_n17": 8,
+  "exact_10_16": true,
+  "frontier_removed": true,
+  "u_table_changes": [],
+  "backup_timestamp": "20260716T220534Z"
+}

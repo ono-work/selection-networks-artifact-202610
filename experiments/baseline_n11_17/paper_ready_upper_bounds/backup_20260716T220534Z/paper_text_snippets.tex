@@ -1,0 +1,25 @@
+% Upper-bound construction paragraph.
+We first collect exact or independently verified small selection networks from the computational artifact set. We then close the resulting upper-bound table under padding, U-duality, the implication from V-type to U-type selection, monotonicity of V-type witnesses in the selection parameter, and binary merge constructions. In particular, for U-type selection we use
+\[
+\mathrm{UDepth}(t,n_1+n_2)
+\le
+\max\{\mathrm{UDepth}(t,n_1),\mathrm{UDepth}(t,n_2)\}
++\mathrm{UDepth}(t,2t),
+\]
+and for V-type selection we use the candidate-collection construction
+\[
+\mathrm{VDepth}(t,n_1+n_2)
+\le
+\max\{\mathrm{UDepth}(t,n_1),\mathrm{UDepth}(t,n_2)\}
++\mathrm{VDepth}(t,2t).
+\]
+Full sorting networks are used only as fallback upper bounds.
+
+% U-table caption draft.
+Upper bounds for U-type selection networks up to $n=17$. Entries marked $v$ have an explicit independently verified witness artifact, entries marked $c$ are obtained by constructive closure rules, and entries marked $s$ use the full-sorting fallback. Unmarked entries are exact or trivial according to the provenance audit.
+
+% V-table caption draft.
+Upper bounds for V-type selection networks up to $n=17$, with the same provenance markers as in the U-type table. The table records upper bounds unless exactness is explicitly stated in the accompanying audit.
+
+% Caveat sentence.
+All entries in these tables are upper bounds unless explicitly marked exact in the provenance audit; some construction-derived entries do not yet have separately stored verified network artifacts. The $n=17$ sorting-depth fallback retains a citation TODO in the current local notes.

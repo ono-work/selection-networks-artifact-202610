@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "candar2026-selection-networks-artifact"
+version = "1.0.0"
+description = "Computational artifact for 'Exact Depths and Bounds for Small Selection Networks' (CANDAR 2026)"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+solver = ["clingo==5.8.0"]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

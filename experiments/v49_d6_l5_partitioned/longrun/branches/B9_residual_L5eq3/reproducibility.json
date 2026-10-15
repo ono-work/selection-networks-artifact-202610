@@ -1,0 +1,78 @@
+{
+  "branch": {
+    "branch_id": "B9_residual_L5eq3",
+    "constraints": ":- 3 != #count { I,J : selected(5,I,J) }.\n",
+    "final_layer": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "forbid_l5": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "l5_count": 3,
+    "leaf_id": "B9",
+    "residual_id": "B9_residual"
+  },
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=3600",
+    "--seed=1",
+    "--parallel-mode=4,split",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/instance.lp"
+  ],
+  "config": {
+    "benchmark_summary_path": "/home/ono/Codex/experiments/v49_d6_solver_config_benchmark/reports/benchmark_results.json",
+    "nproc": 20,
+    "parallel_options": [
+      "--parallel-mode=4,split"
+    ],
+    "selected_config": "split_4thread",
+    "threads_per_branch": 4,
+    "worker_formula": "min(14, max(1, floor((20 - 2) / 4)))",
+    "workers": 4
+  },
+  "run_metadata": {
+    "cpu_count": 20,
+    "file_hashes": {
+      "/home/ono/Codex/solver/common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+      "/home/ono/Codex/solver/target_v.lp": "ddae98e3a4bd702b9d97342ab558f7a4670eb7c7caf5dd726e28aef7cfe77f1a",
+      "src/run_v49_d6_l5_longrun.py": "fa5650207adeb8c17695a9dbc29905209ff6fd5358b0402cffe3c21f87bbf2d5",
+      "src/run_v49_d6_l5_partitioned.py": "0045515a5ebe18db0b6e0a495a839bf04136ff92ff441bba6a85866cddb89c15"
+    },
+    "git_head": "7c06ad41aa6b9037ce471cebc143dae24897f5f5",
+    "git_status_short": "M README.md\n M SPEC.md\n M src/experiment.py\n M src/generate_instance.py\n M src/network.py\n M tests/test_calibration_matrix.py\n M tests/test_network.py\n?? docs/literature/\n?? docs/v49_d6/\n?? docs/v49_d6_six_leaf_reductions.md\n?? docs/v49_d6_terminal_profiles.md\n?? docs/v_boundary_and_v49_support_partition.md\n?? experiments/baseline_n7/\n?? experiments/baseline_n8/\n?? experiments/baseline_n9/\n?? experiments/v49_d6_bp5_final_layer_partitioned/\n?? experiments/v49_d6_closure_audit/\n?? experiments/v49_d6_l5_partitioned/\n?? experiments/v49_d6_partitioned/\n?? experiments/v49_d6_partner_partitioned/\n?? experiments/v49_d6_refined_partitioned/\n?? experiments/v49_d6_six_leaf_reduced/\n?? experiments/v49_d6_solver_config_benchmark/\n?? experiments/v49_d6_support_partitioned/\n?? scripts/benchmark_v49_d6_solver_config.sh\n?? scripts/run_v49_d6_bp5_final_layer_partitioned.sh\n?? scripts/run_v49_d6_l5_longrun.sh\n?? scripts/run_v49_d6_l5_partitioned.sh\n?? scripts/run_v49_d6_partitioned.sh\n?? scripts/run_v49_d6_partner_partitioned.sh\n?? scripts/run_v49_d6_refined_partitioned.sh\n?? scripts/run_v49_d6_six_leaf_reduced.sh\n?? scripts/run_v49_d6_support_partitioned.sh\n?? src/analyze_v49_d6_six_leaf_reductions.py\n?? src/analyze_v49_d6_terminal_profiles.py\n?? src/benchmark_v49_d6_solver_config.py\n?? src/run_v49_d6_bp5_final_layer_partitioned.py\n?? src/run_v49_d6_l5_longrun.py\n?? src/run_v49_d6_l5_partitioned.py\n?? src/run_v49_d6_partitioned.py\n?? src/run_v49_d6_partner_partitioned.py\n?? src/run_v49_d6_refined_partitioned.py\n?? src/run_v49_d6_six_leaf_reduced.py\n?? src/run_v49_d6_support_partitioned.py\n?? src/v49_d6_closure_audit.py\n?? tests/test_u_mirror_duality.py\n?? tests/test_v49_d6_bp5_final_layer_partitioned.py\n?? tests/test_v49_d6_closure_audit.py\n?? tests/test_v49_d6_l5_partitioned.py\n?? tests/test_v49_d6_partitioned.py\n?? tests/test_v49_d6_partner_partitioned.py\n?? tests/test_v49_d6_refined_partitioned.py\n?? tests/test_v49_d6_six_leaf_reductions.py\n?? tests/test_v49_d6_solver_config_and_longrun.py\n?? tests/test_v49_d6_support_partitioned.py",
+    "gpu_use": "none",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39"
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "timeout_seconds": 3600
+}

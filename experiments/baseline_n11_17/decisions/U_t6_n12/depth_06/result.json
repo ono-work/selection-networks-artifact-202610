@@ -1,0 +1,23 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t6_n12/depth_06",
+  "case": "U_t6_n12_depth6",
+  "current_interval": "[5,?]",
+  "depth": 6,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(6,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,8) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,9) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || U_DUALITY_LOWER: UDepth(6,12)=UDepth(6,12) || U_DUALITY_LOWER: UDepth(6,12)=UDepth(6,12) || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || U_DUALITY_LOWER: UDepth(6,12)=UDepth(6,12) || U_DUALITY_LOWER: UDepth(6,12)=UDepth(6,12) || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || U_DUALITY_LOWER: UDepth(6,12)=UDepth(6,12)",
+  "n": 12,
+  "network_json_path": null,
+  "notes": "upper bound 6 not established",
+  "previous_depth5_artifact_directory": "experiments/baseline_n11_17/decisions/U_t6_n12/depth_05",
+  "previous_depth5_status": "TIMEOUT",
+  "runtime_seconds": 7200.703546850011,
+  "solver_status": "UNKNOWN",
+  "status": "TIMEOUT",
+  "t": 6,
+  "upper_bound_6_established": false,
+  "verifier": null,
+  "verifier_json_path": null,
+  "verifier_status": "n/a",
+  "verifier_trace_summary_path": null
+}

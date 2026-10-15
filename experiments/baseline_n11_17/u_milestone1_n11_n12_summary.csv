@@ -1,0 +1,10 @@
+kind,n,t,depth,solver_status,verifier_status,exact_conclusion,runtime_seconds,artifact_directory,notes
+U,11,2,5,SATISFIABLE,VERIFIED_SAT,"UDepth(2,11)=5",57.762257,experiments/baseline_n11_17/decisions/U_t2_n11/depth_05,lower bound 5 from generated bounds table
+U,11,3,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.234930,experiments/baseline_n11_17/decisions/U_t3_n11/depth_05,lower bound 5 from generated bounds table
+U,11,4,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.265775,experiments/baseline_n11_17/decisions/U_t4_n11/depth_05,lower bound 5 from generated bounds table
+U,11,5,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.252158,experiments/baseline_n11_17/decisions/U_t5_n11/depth_05,lower bound 5 from generated bounds table
+U,12,2,5,SATISFIABLE,VERIFIED_SAT,"UDepth(2,12)=5",586.393676,experiments/baseline_n11_17/decisions/U_t2_n12/depth_05,lower bound 5 from generated bounds table
+U,12,3,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.606605,experiments/baseline_n11_17/decisions/U_t3_n12/depth_05,lower bound 5 from generated bounds table
+U,12,4,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.580586,experiments/baseline_n11_17/decisions/U_t4_n12/depth_05,lower bound 5 from generated bounds table
+U,12,5,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.653323,experiments/baseline_n11_17/decisions/U_t5_n12/depth_05,lower bound 5 from generated bounds table
+U,12,6,5,UNKNOWN,n/a,unresolved due to TIMEOUT,7200.551061,experiments/baseline_n11_17/decisions/U_t6_n12/depth_05,lower bound 5 from generated bounds table

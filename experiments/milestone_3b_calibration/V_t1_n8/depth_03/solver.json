@@ -1,0 +1,33 @@
+{
+  "Solver": "pyclingo version 5.8.0",
+  "Input": [
+    "/home/ono/Codex/solver/common.lp","/home/ono/Codex/solver/target_v.lp","experiments/milestone_3b_calibration/V_t1_n8/depth_03/instance.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.083,
+          "Value": [
+            "selected(1,1,3)", "selected(1,4,5)", "selected(1,2,7)", "selected(1,6,8)", "selected(2,1,2)", "selected(2,4,6)", "selected(2,3,7)", "selected(2,5,8)", "selected(3,1,4)"
+          ]
+        }
+      ],
+      "Stop": 0.083
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "yes"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.083,
+    "Solve": 0.040,
+    "Model": 0.039,
+    "Unsat": 0.000,
+    "CPU": 0.083
+  }
+}

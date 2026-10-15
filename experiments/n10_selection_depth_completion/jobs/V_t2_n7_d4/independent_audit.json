@@ -1,0 +1,16 @@
+{
+  "decision": "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/decision.json",
+  "decision_sha256": "27a29df1a69c349b4dd6d5888b69a47ea6cf07fe5de11814995195dc9b7360be",
+  "depth": 4,
+  "fresh_verification": null,
+  "instance": "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/instance.lp",
+  "instance_sha256": "dd1595d2a065bad15950052381e859aa7a45310cbb2bedb4c83983187f8e79e1",
+  "kind": "V",
+  "n": 7,
+  "raw_solver": "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/solver.json",
+  "raw_solver_sha256": "6126e4a1de053def575107a613730d26c1b0c2c5427356ba1c2190748cb7ad33",
+  "runtime_seconds": 0.4307973887771368,
+  "solver_result": "UNSATISFIABLE",
+  "status": "UNSAT",
+  "t": 2
+}

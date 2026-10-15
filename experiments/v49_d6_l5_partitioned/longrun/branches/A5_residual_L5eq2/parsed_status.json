@@ -1,0 +1,10 @@
+{
+  "branch_id": "A5_residual_L5eq2",
+  "clingo_result": "UNSATISFIABLE",
+  "cpu_snapshots": 469,
+  "error_message": null,
+  "peak_rss_kb": 151112,
+  "runtime_seconds": 495.83639992395183,
+  "status": "UNSAT",
+  "timeout_seconds": 3600
+}

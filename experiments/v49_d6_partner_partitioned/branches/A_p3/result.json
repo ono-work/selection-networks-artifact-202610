@@ -1,0 +1,155 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/branch_definition.json",
+  "branch_id": "A_p3",
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 548,
+  "error_message": null,
+  "final_layer_comparator_count": 2,
+  "final_wire4_comparator": [
+    3,
+    4
+  ],
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/instance.lp",
+  "layer_comparator_counts": null,
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/reproducibility.json",
+  "network_json_path": null,
+  "parent_id": "A",
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/parsed_status.json",
+  "partner": 3,
+  "peak_rss_kb": 75532,
+  "pid": 2432277,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p3.resources.jsonl",
+  "runtime_seconds": 603.0189215320279,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 402168,
+      "Backtracks": 1,
+      "Choices": 443788,
+      "Conflicts": 402169,
+      "RestartAvg": 393.511,
+      "RestartLast": 21414,
+      "Restarts": 1022
+    },
+    "Jumps": {
+      "Avg": 1.093,
+      "AvgExec": 1.092,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 198,
+        "Max": 1,
+        "Sum": 198
+      },
+      "Levels": 439487,
+      "LevelsExec": 439289,
+      "Max": 26,
+      "MaxExec": 26,
+      "Sum": 402168
+    },
+    "LP": {
+      "Atoms": 18150,
+      "Bodies": {
+        "Count": {
+          "Final": 53,
+          "Original": 56
+        },
+        "Final": 131239,
+        "Original": 131200
+      },
+      "Equivalences": {
+        "Atom": 507,
+        "Body": 1487,
+        "Other": 1505,
+        "Sum": 3499
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 153967,
+        "Original": 153921
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 601.927,
+      "Lemma": {
+        "Deleted": 371104,
+        "Sum": 402168,
+        "Type": [
+          {
+            "Binary": 932,
+            "Ratio": 0.885,
+            "Sum": 3561,
+            "Ternary": 2629,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 30.714,
+            "Sum": 402168,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 374306,
+        "Sum": 499401,
+        "Ternary": 83388
+      },
+      "Eliminated": 0,
+      "Frozen": 12036,
+      "Variables": 121684
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "support": [
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "verifier_json_path": null,
+  "verifier_ok": null,
+  "worker_count": 8
+}

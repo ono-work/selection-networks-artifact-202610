@@ -1,0 +1,31 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t2_n13/depth_07",
+  "case": "U_t2_n13_depth7",
+  "current_interval": "[5,7]",
+  "depth": 7,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(2,2) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,3) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,4) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,5) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,8) >= 4 || N_MONOTONICITY_LOWER: UDepth(2,9) >= 4 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || U_DUALITY_LOWER: UDepth(11,13)=UDepth(2,13) || U_DUALITY_LOWER: UDepth(11,13)=UDepth(2,13) || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || U_DUALITY_LOWER: UDepth(11,13)=UDepth(2,13) || U_DUALITY_LOWER: UDepth(11,13)=UDepth(2,13) || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || U_DUALITY_LOWER: UDepth(11,13)=UDepth(2,13)",
+  "mirror_t_by_duality": 11,
+  "n": 13,
+  "network_json_path": "experiments/baseline_n11_17/decisions/U_t2_n13/depth_07/network.json",
+  "notes": "5 <= UDepth(2,13) <= 7",
+  "runtime_seconds": 99.53239653690252,
+  "solver_status": "SATISFIABLE",
+  "status": "VERIFIED_SAT",
+  "t": 2,
+  "upper_bound_established": true,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "U",
+    "message": "verified all binary inputs",
+    "n": 13,
+    "ok": true,
+    "output": null,
+    "t": 2
+  },
+  "verifier_json_path": "experiments/baseline_n11_17/decisions/U_t2_n13/depth_07/verifier.json",
+  "verifier_status": "VERIFIED_SAT",
+  "verifier_trace_summary_path": "experiments/baseline_n11_17/decisions/U_t2_n13/depth_07/verifier_trace_summary.json"
+}

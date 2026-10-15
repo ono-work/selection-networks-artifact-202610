@@ -1,0 +1,38 @@
+{
+  "branch_id": "OO_12_OS_38",
+  "clingo_result": "UNSATISFIABLE",
+  "cpu_snapshots": 223,
+  "error_message": null,
+  "final_layer_comparators": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "fixed_comparator": [
+    4,
+    5
+  ],
+  "output_output_comparator": [
+    1,
+    2
+  ],
+  "output_suffix_comparator": [
+    3,
+    8
+  ],
+  "peak_rss_kb": 74428,
+  "returncode": 0,
+  "runtime_seconds": 239.31706279999344,
+  "status": "UNSAT",
+  "timeout_seconds": 1800,
+  "worker_count": 8
+}

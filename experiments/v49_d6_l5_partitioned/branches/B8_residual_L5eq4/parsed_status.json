@@ -1,0 +1,12 @@
+{
+  "branch_id": "B8_residual_L5eq4",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 842,
+  "error_message": null,
+  "peak_rss_kb": 75128,
+  "returncode": 0,
+  "runtime_seconds": 900.4683475909987,
+  "status": "TIMEOUT",
+  "timeout_seconds": 900,
+  "worker_count": 6
+}

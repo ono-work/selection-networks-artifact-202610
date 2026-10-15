@@ -1,0 +1,139 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/branches/B6_residual_L5eq4__unused_wire_3/branch_definition.json",
+  "branch_id": "B6_residual_L5eq4__unused_wire_3",
+  "census_matching_count": 78,
+  "choices": 37047.0,
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=600",
+    "--seed=1",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/branches/B6_residual_L5eq4__unused_wire_3/instance.lp"
+  ],
+  "conflicts": 32411.0,
+  "cpu_snapshots": 41,
+  "dispatch_time": "2026-07-07T13:56:14Z",
+  "error_message": null,
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/branches/B6_residual_L5eq4__unused_wire_3/instance.lp",
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/raw/B6_residual_L5eq4__unused_wire_3/metadata.json",
+  "network_path": null,
+  "parent_family": "B6_residual_L5eq4",
+  "peak_rss_kb": 72744,
+  "queue_position": 18,
+  "raw_json_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/raw/B6_residual_L5eq4__unused_wire_3/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/logs/B6_residual_L5eq4__unused_wire_3.resources.jsonl",
+  "restarts": 126.0,
+  "result_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/branches/B6_residual_L5eq4__unused_wire_3/screening_result.json",
+  "runtime_seconds": 52.31678836303763,
+  "solving_time": null,
+  "stats": {
+    "Core": {
+      "Backjumps": 32410,
+      "Backtracks": 1,
+      "Choices": 37047,
+      "Conflicts": 32411,
+      "RestartAvg": 257.222,
+      "RestartLast": 2371,
+      "Restarts": 126
+    },
+    "Jumps": {
+      "Avg": 1.131,
+      "AvgExec": 1.129,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 51,
+        "Max": 1,
+        "Sum": 51
+      },
+      "Levels": 36655,
+      "LevelsExec": 36604,
+      "Max": 37,
+      "MaxExec": 37,
+      "Sum": 32410
+    },
+    "LP": {
+      "Atoms": 18661,
+      "Bodies": {
+        "Count": {
+          "Final": 56,
+          "Original": 57
+        },
+        "Final": 128477,
+        "Original": 128478
+      },
+      "Equivalences": {
+        "Atom": 1470,
+        "Body": 1650,
+        "Other": 5959,
+        "Sum": 9079
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 152844,
+        "Original": 152812
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 50.695,
+      "Lemma": {
+        "Deleted": 26589,
+        "Sum": 32410,
+        "Type": [
+          {
+            "Binary": 300,
+            "Ratio": 2.857,
+            "Sum": 926,
+            "Ternary": 626,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 27.232,
+            "Sum": 32410,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 348151,
+        "Sum": 462903,
+        "Ternary": 76119
+      },
+      "Eliminated": 0,
+      "Frozen": 11495,
+      "Variables": 115229
+    }
+  },
+  "status": "UNSAT",
+  "stderr_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/screening/logs/B6_residual_L5eq4__unused_wire_3.stderr.log",
+  "timeout_seconds": 600,
+  "verifier_ok": null
+}

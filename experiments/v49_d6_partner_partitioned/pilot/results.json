@@ -1,0 +1,2341 @@
+{
+  "branches": [
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/branch_definition.json",
+      "branch_id": "A_p2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 31,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        2,
+        4
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/parsed_status.json",
+      "partner": 2,
+      "peak_rss_kb": 75732,
+      "pid": 2432275,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p2/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p2.resources.jsonl",
+      "runtime_seconds": 33.98334579000948,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 27057,
+          "Backtracks": 1,
+          "Choices": 33620,
+          "Conflicts": 27058,
+          "RestartAvg": 229.297,
+          "RestartLast": 97,
+          "Restarts": 118
+        },
+        "Jumps": {
+          "Avg": 1.232,
+          "AvgExec": 1.228,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 95,
+            "Max": 1,
+            "Sum": 95
+          },
+          "Levels": 33331,
+          "LevelsExec": 33236,
+          "Max": 24,
+          "MaxExec": 24,
+          "Sum": 27057
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 131239,
+            "Original": 131200
+          },
+          "Equivalences": {
+            "Atom": 514,
+            "Body": 1487,
+            "Other": 1419,
+            "Sum": 3420
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153966,
+            "Original": 153920
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 33.118,
+          "Lemma": {
+            "Deleted": 19842,
+            "Sum": 27057,
+            "Type": [
+              {
+                "Binary": 250,
+                "Ratio": 2.949,
+                "Sum": 798,
+                "Ternary": 548,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 39.929,
+                "Sum": 27057,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 376434,
+            "Sum": 502055,
+            "Ternary": 83588
+          },
+          "Eliminated": 0,
+          "Frozen": 12044,
+          "Variables": 122222
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/branch_definition.json",
+      "branch_id": "A_p3",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 548,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        3,
+        4
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/parsed_status.json",
+      "partner": 3,
+      "peak_rss_kb": 75532,
+      "pid": 2432277,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p3/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p3.resources.jsonl",
+      "runtime_seconds": 603.0189215320279,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 402168,
+          "Backtracks": 1,
+          "Choices": 443788,
+          "Conflicts": 402169,
+          "RestartAvg": 393.511,
+          "RestartLast": 21414,
+          "Restarts": 1022
+        },
+        "Jumps": {
+          "Avg": 1.093,
+          "AvgExec": 1.092,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 198,
+            "Max": 1,
+            "Sum": 198
+          },
+          "Levels": 439487,
+          "LevelsExec": 439289,
+          "Max": 26,
+          "MaxExec": 26,
+          "Sum": 402168
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 131239,
+            "Original": 131200
+          },
+          "Equivalences": {
+            "Atom": 507,
+            "Body": 1487,
+            "Other": 1505,
+            "Sum": 3499
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153967,
+            "Original": 153921
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 601.927,
+          "Lemma": {
+            "Deleted": 371104,
+            "Sum": 402168,
+            "Type": [
+              {
+                "Binary": 932,
+                "Ratio": 0.885,
+                "Sum": 3561,
+                "Ternary": 2629,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 30.714,
+                "Sum": 402168,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 374306,
+            "Sum": 499401,
+            "Ternary": 83388
+          },
+          "Eliminated": 0,
+          "Frozen": 12036,
+          "Variables": 121684
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/branch_definition.json",
+      "branch_id": "A_p5",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 1103,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        4,
+        5
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/parsed_status.json",
+      "partner": 5,
+      "peak_rss_kb": 78844,
+      "pid": 2432278,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p5/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p5.resources.jsonl",
+      "runtime_seconds": 1200.7415614619968,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 995703,
+          "Backtracks": 0,
+          "Choices": 1112704,
+          "Conflicts": 995703,
+          "RestartAvg": 462.258,
+          "RestartLast": 156,
+          "Restarts": 2154
+        },
+        "Jumps": {
+          "Avg": 1.104,
+          "AvgExec": 1.104,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 244,
+            "Max": 1,
+            "Sum": 244
+          },
+          "Levels": 1099320,
+          "LevelsExec": 1099076,
+          "Max": 111,
+          "MaxExec": 111,
+          "Sum": 995703
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 130983,
+            "Original": 130944
+          },
+          "Equivalences": {
+            "Atom": 510,
+            "Body": 1494,
+            "Other": 1350,
+            "Sum": 3354
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153716,
+            "Original": 153670
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 1199.671,
+          "Lemma": {
+            "Deleted": 953397,
+            "Sum": 995703,
+            "Type": [
+              {
+                "Binary": 1409,
+                "Ratio": 0.414,
+                "Sum": 4123,
+                "Ternary": 2714,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 34.264,
+                "Sum": 995703,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 385418,
+            "Sum": 514378,
+            "Ternary": 85541
+          },
+          "Eliminated": 0,
+          "Frozen": 12290,
+          "Variables": 126169
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/branch_definition.json",
+      "branch_id": "A_p6",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 1103,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        4,
+        6
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/parsed_status.json",
+      "partner": 6,
+      "peak_rss_kb": 78768,
+      "pid": 2432279,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p6/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p6.resources.jsonl",
+      "runtime_seconds": 1200.7498213309445,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 1089537,
+          "Backtracks": 0,
+          "Choices": 1211344,
+          "Conflicts": 1089537,
+          "RestartAvg": 436.863,
+          "RestartLast": 176,
+          "Restarts": 2494
+        },
+        "Jumps": {
+          "Avg": 1.099,
+          "AvgExec": 1.099,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 364,
+            "Max": 1,
+            "Sum": 364
+          },
+          "Levels": 1197559,
+          "LevelsExec": 1197195,
+          "Max": 76,
+          "MaxExec": 76,
+          "Sum": 1089537
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 130983,
+            "Original": 130944
+          },
+          "Equivalences": {
+            "Atom": 510,
+            "Body": 1494,
+            "Other": 1350,
+            "Sum": 3354
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153720,
+            "Original": 153674
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 1199.81,
+          "Lemma": {
+            "Deleted": 1046093,
+            "Sum": 1089537,
+            "Type": [
+              {
+                "Binary": 1278,
+                "Ratio": 0.378,
+                "Sum": 4115,
+                "Ternary": 2837,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 30.5,
+                "Sum": 1089537,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 385288,
+            "Sum": 514248,
+            "Ternary": 85541
+          },
+          "Eliminated": 0,
+          "Frozen": 12290,
+          "Variables": 126169
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/branch_definition.json",
+      "branch_id": "A_p7",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 1060,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        4,
+        7
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/parsed_status.json",
+      "partner": 7,
+      "peak_rss_kb": 78888,
+      "pid": 2432280,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p7/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p7.resources.jsonl",
+      "runtime_seconds": 1155.7388713010005,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 840552,
+          "Backtracks": 1,
+          "Choices": 1011371,
+          "Conflicts": 840553,
+          "RestartAvg": 411.43,
+          "RestartLast": 6907,
+          "Restarts": 2043
+        },
+        "Jumps": {
+          "Avg": 1.182,
+          "AvgExec": 1.181,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 268,
+            "Max": 1,
+            "Sum": 268
+          },
+          "Levels": 993217,
+          "LevelsExec": 992949,
+          "Max": 205,
+          "MaxExec": 205,
+          "Sum": 840552
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 130983,
+            "Original": 130944
+          },
+          "Equivalences": {
+            "Atom": 510,
+            "Body": 1494,
+            "Other": 1350,
+            "Sum": 3354
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153724,
+            "Original": 153678
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 1155.049,
+          "Lemma": {
+            "Deleted": 805538,
+            "Sum": 840552,
+            "Type": [
+              {
+                "Binary": 993,
+                "Ratio": 0.355,
+                "Sum": 2984,
+                "Ternary": 1991,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 38.366,
+                "Sum": 840552,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 385158,
+            "Sum": 514118,
+            "Ternary": 85541
+          },
+          "Eliminated": 0,
+          "Frozen": 12290,
+          "Variables": 126169
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/branch_definition.json",
+      "branch_id": "A_p8",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 196,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        4,
+        8
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/parsed_status.json",
+      "partner": 8,
+      "peak_rss_kb": 77196,
+      "pid": 2432281,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p8/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p8.resources.jsonl",
+      "runtime_seconds": 215.84055856999476,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 198835,
+          "Backtracks": 1,
+          "Choices": 225869,
+          "Conflicts": 198836,
+          "RestartAvg": 348.833,
+          "RestartLast": 59,
+          "Restarts": 570
+        },
+        "Jumps": {
+          "Avg": 1.124,
+          "AvgExec": 1.123,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 164,
+            "Max": 1,
+            "Sum": 164
+          },
+          "Levels": 223512,
+          "LevelsExec": 223348,
+          "Max": 58,
+          "MaxExec": 58,
+          "Sum": 198835
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 130983,
+            "Original": 130944
+          },
+          "Equivalences": {
+            "Atom": 510,
+            "Body": 1494,
+            "Other": 1350,
+            "Sum": 3354
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153728,
+            "Original": 153682
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 215.237,
+          "Lemma": {
+            "Deleted": 180188,
+            "Sum": 198835,
+            "Type": [
+              {
+                "Binary": 694,
+                "Ratio": 1.343,
+                "Sum": 2671,
+                "Ternary": 1977,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 32.358,
+                "Sum": 198835,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 385028,
+            "Sum": 513988,
+            "Ternary": 85541
+          },
+          "Eliminated": 0,
+          "Frozen": 12290,
+          "Variables": 126169
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/branch_definition.json",
+      "branch_id": "A_p9",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 562,
+      "error_message": null,
+      "final_layer_comparator_count": 2,
+      "final_wire4_comparator": [
+        4,
+        9
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "A",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/parsed_status.json",
+      "partner": 9,
+      "peak_rss_kb": 77204,
+      "pid": 2432282,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/A_p9/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/A_p9.resources.jsonl",
+      "runtime_seconds": 618.3994643010083,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 479245,
+          "Backtracks": 1,
+          "Choices": 520633,
+          "Conflicts": 479246,
+          "RestartAvg": 395.417,
+          "RestartLast": 1457,
+          "Restarts": 1212
+        },
+        "Jumps": {
+          "Avg": 1.076,
+          "AvgExec": 1.076,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 148,
+            "Max": 1,
+            "Sum": 148
+          },
+          "Levels": 515629,
+          "LevelsExec": 515481,
+          "Max": 39,
+          "MaxExec": 39,
+          "Sum": 479245
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 53,
+              "Original": 56
+            },
+            "Final": 130983,
+            "Original": 130944
+          },
+          "Equivalences": {
+            "Atom": 510,
+            "Body": 1494,
+            "Other": 1350,
+            "Sum": 3354
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153732,
+            "Original": 153686
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 617.605,
+          "Lemma": {
+            "Deleted": 450871,
+            "Sum": 479245,
+            "Type": [
+              {
+                "Binary": 907,
+                "Ratio": 0.891,
+                "Sum": 4268,
+                "Ternary": 3361,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 31.397,
+                "Sum": 479245,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 384898,
+            "Sum": 513858,
+            "Ternary": 85541
+          },
+          "Eliminated": 0,
+          "Frozen": 12290,
+          "Variables": 126169
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/branch_definition.json",
+      "branch_id": "B_p1",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 48,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        1,
+        4
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/parsed_status.json",
+      "partner": 1,
+      "peak_rss_kb": 77380,
+      "pid": 2432283,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p1.resources.jsonl",
+      "runtime_seconds": 52.885874448984396,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 42655,
+          "Backtracks": 1,
+          "Choices": 51301,
+          "Conflicts": 42656,
+          "RestartAvg": 288.209,
+          "RestartLast": 199,
+          "Restarts": 148
+        },
+        "Jumps": {
+          "Avg": 1.193,
+          "AvgExec": 1.191,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 113,
+            "Max": 1,
+            "Sum": 113
+          },
+          "Levels": 50905,
+          "LevelsExec": 50792,
+          "Max": 44,
+          "MaxExec": 44,
+          "Sum": 42655
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 131077,
+            "Original": 131072
+          },
+          "Equivalences": {
+            "Atom": 549,
+            "Body": 1498,
+            "Other": 974,
+            "Sum": 3021
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153768,
+            "Original": 153756
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 52.191,
+          "Lemma": {
+            "Deleted": 32108,
+            "Sum": 42655,
+            "Type": [
+              {
+                "Binary": 322,
+                "Ratio": 2.567,
+                "Sum": 1095,
+                "Ternary": 773,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 38.446,
+                "Sum": 42655,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 390916,
+            "Sum": 520992,
+            "Ternary": 86267
+          },
+          "Eliminated": 0,
+          "Frozen": 12225,
+          "Variables": 126812
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/branch_definition.json",
+      "branch_id": "B_p2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 29,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        2,
+        4
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/parsed_status.json",
+      "partner": 2,
+      "peak_rss_kb": 77112,
+      "pid": 2432608,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p2/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p2.resources.jsonl",
+      "runtime_seconds": 32.043542574043386,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 26088,
+          "Backtracks": 1,
+          "Choices": 32492,
+          "Conflicts": 26089,
+          "RestartAvg": 221.085,
+          "RestartLast": 75,
+          "Restarts": 118
+        },
+        "Jumps": {
+          "Avg": 1.235,
+          "AvgExec": 1.231,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 106,
+            "Max": 1,
+            "Sum": 106
+          },
+          "Levels": 32224,
+          "LevelsExec": 32118,
+          "Max": 43,
+          "MaxExec": 43,
+          "Sum": 26088
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 131077,
+            "Original": 131072
+          },
+          "Equivalences": {
+            "Atom": 520,
+            "Body": 1498,
+            "Other": 983,
+            "Sum": 3001
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153769,
+            "Original": 153757
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 30.874,
+          "Lemma": {
+            "Deleted": 18674,
+            "Sum": 26088,
+            "Type": [
+              {
+                "Binary": 340,
+                "Ratio": 3.856,
+                "Sum": 1006,
+                "Ternary": 666,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 41.719,
+                "Sum": 26088,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 388764,
+            "Sum": 517874,
+            "Ternary": 85574
+          },
+          "Eliminated": 0,
+          "Frozen": 12219,
+          "Variables": 126039
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/branch_definition.json",
+      "branch_id": "B_p3",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 402,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        3,
+        4
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/parsed_status.json",
+      "partner": 3,
+      "peak_rss_kb": 76932,
+      "pid": 2432780,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p3/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p3.resources.jsonl",
+      "runtime_seconds": 442.48021173797315,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 337538,
+          "Backtracks": 1,
+          "Choices": 375589,
+          "Conflicts": 337539,
+          "RestartAvg": 331.57,
+          "RestartLast": 959,
+          "Restarts": 1018
+        },
+        "Jumps": {
+          "Avg": 1.101,
+          "AvgExec": 1.1,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 194,
+            "Max": 1,
+            "Sum": 194
+          },
+          "Levels": 371528,
+          "LevelsExec": 371334,
+          "Max": 44,
+          "MaxExec": 44,
+          "Sum": 337538
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 131077,
+            "Original": 131072
+          },
+          "Equivalences": {
+            "Atom": 513,
+            "Body": 1498,
+            "Other": 1019,
+            "Sum": 3030
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153770,
+            "Original": 153758
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 441.316,
+          "Lemma": {
+            "Deleted": 309129,
+            "Sum": 337538,
+            "Type": [
+              {
+                "Binary": 858,
+                "Ratio": 0.984,
+                "Sum": 3323,
+                "Ternary": 2465,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 31.225,
+                "Sum": 337538,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 386550,
+            "Sum": 515070,
+            "Ternary": 85200
+          },
+          "Eliminated": 0,
+          "Frozen": 12211,
+          "Variables": 125437
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/branch_definition.json",
+      "branch_id": "B_p5",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 1108,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        4,
+        5
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/parsed_status.json",
+      "partner": 5,
+      "peak_rss_kb": 81088,
+      "pid": 2432924,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p5/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p5.resources.jsonl",
+      "runtime_seconds": 1200.9244822610053,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 977401,
+          "Backtracks": 0,
+          "Choices": 1098131,
+          "Conflicts": 977401,
+          "RestartAvg": 456.943,
+          "RestartLast": 257,
+          "Restarts": 2139
+        },
+        "Jumps": {
+          "Avg": 1.11,
+          "AvgExec": 1.109,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 216,
+            "Max": 1,
+            "Sum": 216
+          },
+          "Levels": 1084473,
+          "LevelsExec": 1084257,
+          "Max": 43,
+          "MaxExec": 43,
+          "Sum": 977401
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 130821,
+            "Original": 130816
+          },
+          "Equivalences": {
+            "Atom": 521,
+            "Body": 1506,
+            "Other": 1367,
+            "Sum": 3394
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153519,
+            "Original": 153507
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 1199.762,
+          "Lemma": {
+            "Deleted": 934466,
+            "Sum": 977401,
+            "Type": [
+              {
+                "Binary": 1462,
+                "Ratio": 0.428,
+                "Sum": 4182,
+                "Ternary": 2720,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 42.534,
+                "Sum": 977401,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 396885,
+            "Sum": 528932,
+            "Ternary": 87153
+          },
+          "Eliminated": 0,
+          "Frozen": 12460,
+          "Variables": 129581
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/branch_definition.json",
+      "branch_id": "B_p6",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 988,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        4,
+        6
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/parsed_status.json",
+      "partner": 6,
+      "peak_rss_kb": 80328,
+      "pid": 2434269,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p6.resources.jsonl",
+      "runtime_seconds": 1067.3582656690269,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 826423,
+          "Backtracks": 1,
+          "Choices": 928248,
+          "Conflicts": 826424,
+          "RestartAvg": 404.119,
+          "RestartLast": 13738,
+          "Restarts": 2045
+        },
+        "Jumps": {
+          "Avg": 1.111,
+          "AvgExec": 1.11,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 248,
+            "Max": 1,
+            "Sum": 248
+          },
+          "Levels": 917816,
+          "LevelsExec": 917568,
+          "Max": 43,
+          "MaxExec": 43,
+          "Sum": 826423
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 130821,
+            "Original": 130816
+          },
+          "Equivalences": {
+            "Atom": 521,
+            "Body": 1506,
+            "Other": 1367,
+            "Sum": 3394
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153523,
+            "Original": 153511
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 1066.843,
+          "Lemma": {
+            "Deleted": 790283,
+            "Sum": 826423,
+            "Type": [
+              {
+                "Binary": 1349,
+                "Ratio": 0.571,
+                "Sum": 4719,
+                "Ternary": 3370,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 44.177,
+                "Sum": 826423,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 396755,
+            "Sum": 528802,
+            "Ternary": 87153
+          },
+          "Eliminated": 0,
+          "Frozen": 12460,
+          "Variables": 129581
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/branch_definition.json",
+      "branch_id": "B_p7",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 562,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        4,
+        7
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/parsed_status.json",
+      "partner": 7,
+      "peak_rss_kb": 78944,
+      "pid": 2459619,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p7/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p7.resources.jsonl",
+      "runtime_seconds": 609.4370136190555,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 486783,
+          "Backtracks": 1,
+          "Choices": 546358,
+          "Conflicts": 486784,
+          "RestartAvg": 398.024,
+          "RestartLast": 37,
+          "Restarts": 1223
+        },
+        "Jumps": {
+          "Avg": 1.111,
+          "AvgExec": 1.11,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 175,
+            "Max": 1,
+            "Sum": 175
+          },
+          "Levels": 540745,
+          "LevelsExec": 540570,
+          "Max": 146,
+          "MaxExec": 146,
+          "Sum": 486783
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 130821,
+            "Original": 130816
+          },
+          "Equivalences": {
+            "Atom": 521,
+            "Body": 1506,
+            "Other": 1367,
+            "Sum": 3394
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153527,
+            "Original": 153515
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 608.739,
+          "Lemma": {
+            "Deleted": 454877,
+            "Sum": 486783,
+            "Type": [
+              {
+                "Binary": 890,
+                "Ratio": 0.684,
+                "Sum": 3330,
+                "Ternary": 2440,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 41.141,
+                "Sum": 486783,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 396625,
+            "Sum": 528672,
+            "Ternary": 87153
+          },
+          "Eliminated": 0,
+          "Frozen": 12460,
+          "Variables": 129581
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/branch_definition.json",
+      "branch_id": "B_p8",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 154,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        4,
+        8
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/parsed_status.json",
+      "partner": 8,
+      "peak_rss_kb": 78232,
+      "pid": 2460618,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p8/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p8.resources.jsonl",
+      "runtime_seconds": 169.47676780400798,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 120490,
+          "Backtracks": 1,
+          "Choices": 138423,
+          "Conflicts": 120491,
+          "RestartAvg": 317.079,
+          "RestartLast": 791,
+          "Restarts": 380
+        },
+        "Jumps": {
+          "Avg": 1.137,
+          "AvgExec": 1.136,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 149,
+            "Max": 1,
+            "Sum": 149
+          },
+          "Levels": 137043,
+          "LevelsExec": 136894,
+          "Max": 34,
+          "MaxExec": 34,
+          "Sum": 120490
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 130821,
+            "Original": 130816
+          },
+          "Equivalences": {
+            "Atom": 521,
+            "Body": 1506,
+            "Other": 1367,
+            "Sum": 3394
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153531,
+            "Original": 153519
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 168.127,
+          "Lemma": {
+            "Deleted": 104482,
+            "Sum": 120490,
+            "Type": [
+              {
+                "Binary": 595,
+                "Ratio": 1.901,
+                "Sum": 2290,
+                "Ternary": 1695,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 35.02,
+                "Sum": 120490,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 396495,
+            "Sum": 528542,
+            "Ternary": 87153
+          },
+          "Eliminated": 0,
+          "Frozen": 12460,
+          "Variables": 129581
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/branch_definition.json",
+      "branch_id": "B_p9",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 137,
+      "error_message": null,
+      "final_layer_comparator_count": 3,
+      "final_wire4_comparator": [
+        4,
+        9
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/instance.lp",
+      "layer_comparator_counts": null,
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/reproducibility.json",
+      "network_json_path": null,
+      "parent_id": "B",
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/parsed_status.json",
+      "partner": 9,
+      "peak_rss_kb": 78232,
+      "pid": 2460762,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p9/solver.json",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p9.resources.jsonl",
+      "runtime_seconds": 150.85525020898785,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=1200"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 103703,
+          "Backtracks": 1,
+          "Choices": 117626,
+          "Conflicts": 103704,
+          "RestartAvg": 328.174,
+          "RestartLast": 709,
+          "Restarts": 316
+        },
+        "Jumps": {
+          "Avg": 1.124,
+          "AvgExec": 1.123,
+          "Bounded": {
+            "Avg": 1.0,
+            "Levels": 116,
+            "Max": 1,
+            "Sum": 116
+          },
+          "Levels": 116533,
+          "LevelsExec": 116417,
+          "Max": 34,
+          "MaxExec": 34,
+          "Sum": 103703
+        },
+        "LP": {
+          "Atoms": 18150,
+          "Bodies": {
+            "Count": {
+              "Final": 54,
+              "Original": 56
+            },
+            "Final": 130821,
+            "Original": 130816
+          },
+          "Equivalences": {
+            "Atom": 521,
+            "Body": 1506,
+            "Other": 1367,
+            "Sum": 3394
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 153535,
+            "Original": 153523
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 1.0,
+          "CPU": 149.714,
+          "Lemma": {
+            "Deleted": 91541,
+            "Sum": 103703,
+            "Type": [
+              {
+                "Binary": 551,
+                "Ratio": 2.126,
+                "Sum": 2205,
+                "Ternary": 1654,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 34.323,
+                "Sum": 103703,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 1,
+          "Splits": 0
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 396365,
+            "Sum": 528412,
+            "Ternary": 87153
+          },
+          "Eliminated": 0,
+          "Frozen": 12460,
+          "Variables": 129581
+        }
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "support": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeout_seconds": 1200,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 8
+    }
+  ],
+  "input_mode": "v_boundary",
+  "mode": "pilot",
+  "timeout_seconds": 1200,
+  "worker_count": 8
+}

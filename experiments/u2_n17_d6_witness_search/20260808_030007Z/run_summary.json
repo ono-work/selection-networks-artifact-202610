@@ -1,0 +1,34 @@
+{
+  "finished_at_utc": "2026-08-08T03:04:24.665157+00:00",
+  "network_comparator_count": 42,
+  "network_layer_sizes": [
+    8,
+    7,
+    6,
+    6,
+    7,
+    8
+  ],
+  "parse_error": null,
+  "peak_rss_kbytes": 163564,
+  "process_exit_status": 0,
+  "raw_models": {
+    "More": "yes",
+    "Number": 1
+  },
+  "raw_result": "SATISFIABLE",
+  "sha256": {
+    "instance.lp": "5e4b20525bccf9ac6ebcd3d99f8baf3cae22f33079641f31204c17f38c1c7f44",
+    "raw_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw_stdout.json": "5652d4221a14b3a6f8b403bf131024e0753c4b0a9b2fcbdfd82bafb6b6b2d61f",
+    "snapshot_common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+    "snapshot_target_u.lp": "f7e1dbdcc940ef3a752475624dfae737815c908fdc267e6fa5f03420d865af61",
+    "source_common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+    "source_target_u.lp": "f7e1dbdcc940ef3a752475624dfae737815c908fdc267e6fa5f03420d865af61"
+  },
+  "started_at_utc": "2026-08-08T03:02:52.395533+00:00",
+  "system_cpu_seconds": 0.07797899999999999,
+  "user_cpu_seconds": 92.166203,
+  "verified_sat": true,
+  "wall_seconds": 92.26961707789451
+}

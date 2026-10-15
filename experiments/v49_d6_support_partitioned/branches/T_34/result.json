@@ -1,0 +1,146 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/branch_definition.json",
+  "branch_id": "T_34",
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 563,
+  "error_message": null,
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/instance.lp",
+  "layer_comparator_counts": null,
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/reproducibility.json",
+  "network_json_path": null,
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/parsed_status.json",
+  "peak_rss_kb": 77508,
+  "pid": 2153017,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/branches/T_34/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_support_partitioned/logs/T_34.resources.jsonl",
+  "runtime_seconds": 592.2080514270347,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 467422,
+      "Backtracks": 1,
+      "Choices": 525913,
+      "Conflicts": 467423,
+      "RestartAvg": 396.12,
+      "RestartLast": 79,
+      "Restarts": 1180
+    },
+    "Jumps": {
+      "Avg": 1.115,
+      "AvgExec": 1.114,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 350,
+        "Max": 1,
+        "Sum": 350
+      },
+      "Levels": 520943,
+      "LevelsExec": 520593,
+      "Max": 43,
+      "MaxExec": 43,
+      "Sum": 467422
+    },
+    "LP": {
+      "Atoms": 18147,
+      "Bodies": {
+        "Count": {
+          "Final": 54,
+          "Original": 54
+        },
+        "Final": 131468,
+        "Original": 131468
+      },
+      "Equivalences": {
+        "Atom": 523,
+        "Body": 1498,
+        "Other": 734,
+        "Sum": 2755
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 154172,
+        "Original": 154172
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 591.63,
+      "Lemma": {
+        "Deleted": 437315,
+        "Sum": 467422,
+        "Type": [
+          {
+            "Binary": 1061,
+            "Ratio": 0.9,
+            "Sum": 4209,
+            "Ternary": 3148,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 29.277,
+            "Sum": 467422,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 387277,
+        "Sum": 517873,
+        "Ternary": 87846
+      },
+      "Eliminated": 0,
+      "Frozen": 12066,
+      "Variables": 126082
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "support": [
+    3,
+    4
+  ],
+  "timeout_seconds": 900,
+  "verifier_json_path": null,
+  "verifier_ok": null
+}

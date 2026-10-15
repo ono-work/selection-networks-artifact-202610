@@ -1,0 +1,21 @@
+{
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--time-limit=7200",
+    "-n",
+    "1",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_u.lp",
+    "/home/ono/Codex/experiments/baseline_n11_17/decisions/U_t6_n13/depth_07/instance.lp"
+  ],
+  "gpu_use": "none",
+  "parse_error": null,
+  "returncode": 0,
+  "runtime_seconds": 7201.852589251939,
+  "stderr": "*** Info : (pyclingo): Sending shutdown signal...\nTraceback (most recent call last):\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/application.py\", line 377, in _pyclingo_application_main\n    app.main(Control(control), [_to_str(files[i]) for i in range(size)])\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/__main__.py\", line 38, in main\n    control.solve()\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/control.py\", line 1081, in solve\n    ret = handle.get()\n          ^^^^^^^^^^^^\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/solving.py\", line 583, in get\n    res = _c_call(\n          ^^^^^^^^\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/_internal.py\", line 50, in _c_call\n    _handle_error(c_fun(*args, p_ret), handler)\n  File \"/home/ono/Codex/.venv/lib/python3.12/site-packages/clingo/_internal.py\", line 81, in _handle_error\n    raise RuntimeError(msg)\nRuntimeError: solving stopped by signal\n*** ERROR: (pyclingo): solving stopped by signal\n*** Info : (pyclingo): Shutdown completed in 0.130 seconds\n",
+  "timeout_seconds": 7200
+}

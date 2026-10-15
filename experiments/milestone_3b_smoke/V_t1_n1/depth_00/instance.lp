@@ -1,0 +1,9 @@
+n(1).
+t(1).
+depth(0).
+input(0).
+zero_count(0,1).
+bit(0,1,0).
+input(1).
+zero_count(1,0).
+bit(1,1,1).

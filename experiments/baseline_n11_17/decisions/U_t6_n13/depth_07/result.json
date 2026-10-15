@@ -1,0 +1,22 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t6_n13/depth_07",
+  "case": "U_t6_n13_depth7",
+  "current_interval": "[5,?]",
+  "depth": 7,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(6,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,8) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,9) >= 0 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,12) >= 5 || U_DUALITY_LOWER: UDepth(7,13)=UDepth(6,13) || U_DUALITY_LOWER: UDepth(7,13)=UDepth(6,13) || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,12) >= 5 || U_DUALITY_LOWER: UDepth(7,13)=UDepth(6,13) || U_DUALITY_LOWER: UDepth(7,13)=UDepth(6,13) || N_MONOTONICITY_LOWER: UDepth(6,9) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(6,12) >= 5 || U_DUALITY_LOWER: UDepth(7,13)=UDepth(6,13)",
+  "mirror_t_by_duality": 7,
+  "n": 13,
+  "network_json_path": null,
+  "notes": "upper bound 7 not established",
+  "runtime_seconds": 7201.852589251939,
+  "solver_status": "UNKNOWN",
+  "status": "TIMEOUT",
+  "t": 6,
+  "upper_bound_established": false,
+  "verifier": null,
+  "verifier_json_path": null,
+  "verifier_status": "n/a",
+  "verifier_trace_summary_path": null
+}

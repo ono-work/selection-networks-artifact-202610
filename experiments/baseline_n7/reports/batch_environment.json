@@ -1,0 +1,26 @@
+{
+  "canonical_driver": ".venv/bin/python -m src.experiment",
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "dirty_worktree_status": "M README.md\n M SPEC.md\n M src/experiment.py\n M src/network.py\n M tests/test_calibration_matrix.py\n M tests/test_network.py\n?? docs/literature/\n?? experiments/baseline_n7/\n?? tests/test_u_mirror_duality.py",
+  "git_head": "7c06ad41aa6b9037ce471cebc143dae24897f5f5",
+  "host_metadata": {
+    "machine": "aarch64",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "release": "6.17.0-1021-nvidia",
+    "system": "Linux"
+  },
+  "preflight_tests": ".venv/bin/python -m pytest: 99 passed in 8.38s",
+  "sha256": {
+    "solver/common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+    "solver/target_u.lp": "f7e1dbdcc940ef3a752475624dfae737815c908fdc267e6fa5f03420d865af61",
+    "solver/target_v.lp": "ddae98e3a4bd702b9d97342ab558f7a4670eb7c7caf5dd726e28aef7cfe77f1a",
+    "src/experiment.py": "0cb57736087474f50491fe9aa5f50110b62798d8ae82438d6d17d9df1a729922",
+    "src/generate_instance.py": "ab79f7c69e495fab96eca4edc8097e50b13057010305ddf7ea6b2e7f274b51e5",
+    "src/network.py": "962093cb9484025e918b690bf26fc10d7eb3e0a08333c40d3272f0e898b2de33",
+    "src/parse_model.py": "3a62ff9e04ac6c737c17e2875a360fac1a8c7dd2e1efc93303c23ae5dcb0b2e2",
+    "src/solver.py": "b654448d3ed5d5f7f0073808e4691943ade8031044ba2fd2e6efffce0807c5d8",
+    "src/verify.py": "28d353d2cc796bf099f79c4db8e2587677d83e987b0ad3b2e526496b1b389219"
+  },
+  "timeout_seconds_per_instance": 1200
+}

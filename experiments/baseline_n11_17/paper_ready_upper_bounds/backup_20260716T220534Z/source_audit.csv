@@ -1,0 +1,17 @@
+source_path,status,source_kind,entries_contributed,citation_readiness,caveats
+docs/n10/u_selection_decisions.md,exists,verified SAT report,n=10 U/V exact/verified entries,local-note-only,
+docs/n10/n10_v_selection_decisions.md,exists,verified SAT report,n=10 U/V exact/verified entries,local-note-only,
+docs/n10/n10_depth_summary.md,exists,exact computational table,n=10 U/V exact/verified entries,paper-ready,integrated n=10 table; check bibliography before final paper
+experiments/baseline_n10/n10_depth_summary.json,exists,exact computational table,n=10 U/V exact/verified entries,paper-ready,integrated n=10 table; check bibliography before final paper
+docs/n11_17/u_milestone1_n11_n12.md,exists,verified SAT report,"U(2,11), U(2,12) depth-5 verified and TIMEOUT context",local-note-only,runtime is operational only
+docs/n11_17/u_milestone1_depth6_upper_bounds.md,exists,verified SAT report,"U(3..5,11), U(3..4,12) depth-6 verified upper bounds",local-note-only,runtime is operational only
+docs/n11_17/u_n12_central_depth7_upper_bounds.md,exists,verified SAT report,"U(5,12), U(6,12) depth-7 verified upper bounds",local-note-only,runtime is operational only
+docs/n11_17/u_upper_bounds_n13_n14_depth7.md,exists,verified SAT report,"U(2,13), U(3,13), U(2,14) verified upper bounds; TIMEOUT context",local-note-only,runtime is operational only
+docs/n11_17/u_upper_bounds_n13_n14_depth8.md,exists,verified SAT report,"U(4,13), U(3,14) verified upper bounds; TIMEOUT context",local-note-only,runtime is operational only
+docs/n11_17/selection_bounds_summary.md,exists,sorting-depth note,"lower bounds, sorting-depth planning table, citation notes",local-note-only,
+docs/n11_17/selection_bounds_notes.md,exists,theoretical note,"lower bounds, sorting-depth planning table, citation notes",local-note-only,n=17 sorting citation TODO
+docs/n11_17/constructive_upper_bound_closure.md,exists,generated closure result,constructive closure tables and derivation trees,local-note-only,machine-generated audit input
+experiments/baseline_n11_17/constructive_upper_bounds/upper_bounds_all.json,exists,generated closure result,constructive closure tables and derivation trees,local-note-only,machine-generated audit input
+experiments/baseline_n11_17/constructive_upper_bounds/derivation_trees.json,exists,generated closure result,constructive closure tables and derivation trees,local-note-only,machine-generated audit input
+"U(2,2^k) formula",theoretical fact used,theoretical note,"U(2,n) padding bounds",citation TODO,"No paper-ready citation for UDepth(2,2^k)=k+ceil(log2 k)-1 was found in local notes."
+SortDepth(1..17) planning table,theoretical/planning fact used,sorting-depth note,sorting fallback upper bounds,citation TODO for n=17; local-note-only for n<=16,n=17 remains TODO_SORTING_DEPTH_CITATION in local notes

@@ -1,0 +1,6641 @@
+{
+  "config": {
+    "benchmark_summary_path": "/home/ono/Codex/experiments/v49_d6_solver_config_benchmark/reports/benchmark_results.json",
+    "nproc": 20,
+    "parallel_options": [
+      "--parallel-mode=4,split"
+    ],
+    "selected_config": "split_4thread",
+    "threads_per_branch": 4,
+    "worker_formula": "min(14, max(1, floor((20 - 2) / 4)))",
+    "workers": 4
+  },
+  "results": [
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/branch_definition.json",
+      "branch_id": "A5_residual_L5eq2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 469,
+      "error_message": null,
+      "final_layer": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/instance.lp",
+      "l5_count": 2,
+      "layer_comparator_counts": null,
+      "leaf_id": "A5",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/parsed_status.json",
+      "peak_rss_kb": 151112,
+      "pid": 2778399,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq2/solver.json",
+      "residual_id": "A5_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/A5_residual_L5eq2.resources.jsonl",
+      "runtime_seconds": 495.83639992395183,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 902087,
+          "Backtracks": 87,
+          "Choices": 1010781,
+          "Conflicts": 902174,
+          "RestartAvg": 265.086,
+          "RestartLast": 15443,
+          "Restarts": 3403
+        },
+        "Jumps": {
+          "Avg": 1.099,
+          "AvgExec": 1.098,
+          "Bounded": {
+            "Avg": 4.187,
+            "Levels": 850,
+            "Max": 16,
+            "Sum": 203
+          },
+          "Levels": 991610,
+          "LevelsExec": 990760,
+          "Max": 24,
+          "MaxExec": 24,
+          "Sum": 902087
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 52,
+              "Original": 57
+            },
+            "Final": 129509,
+            "Original": 129466
+          },
+          "Equivalences": {
+            "Atom": 488,
+            "Body": 1472,
+            "Other": 2443,
+            "Sum": 4403
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 152222,
+            "Original": 152165
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 25.791,
+          "CPU": 1980.793,
+          "Distribution": {
+            "AvgLbd": 3.659,
+            "Distributed": 65743,
+            "Ratio": 0.073
+          },
+          "Integration": {
+            "AvgJump": 4.108,
+            "Integrated": 197202,
+            "Ratio": 3.0,
+            "Units": 1893
+          },
+          "Lemma": {
+            "Deleted": 918792,
+            "Sum": 1002637,
+            "Type": [
+              {
+                "Binary": 2849,
+                "Ratio": 0.879,
+                "Sum": 8813,
+                "Ternary": 5964,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 37.838,
+                "Sum": 902081,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 12.212,
+                "Sum": 100556,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 91,
+          "Splits": 90
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 355354,
+            "Sum": 473152,
+            "Ternary": 78874
+          },
+          "Eliminated": 0,
+          "Frozen": 12051,
+          "Variables": 117286
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 219972,
+              "Backtracks": 24,
+              "Choices": 246180,
+              "Conflicts": 219996,
+              "RestartAvg": 262.81,
+              "RestartLast": 5076,
+              "Restarts": 837
+            },
+            "Jumps": {
+              "Avg": 1.097,
+              "AvgExec": 1.096,
+              "Bounded": {
+                "Avg": 3.889,
+                "Levels": 105,
+                "Max": 13,
+                "Sum": 27
+              },
+              "Levels": 241255,
+              "LevelsExec": 241150,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 219972
+            },
+            "More": {
+              "AvgGPLength": 25.75,
+              "CPU": 495.171,
+              "Distribution": {
+                "AvgLbd": 3.672,
+                "Distributed": 15687,
+                "Ratio": 0.071
+              },
+              "Integration": {
+                "AvgJump": 4.327,
+                "Integrated": 50056,
+                "Units": 490
+              },
+              "Lemma": {
+                "Deleted": 224366,
+                "Sum": 244020,
+                "Type": [
+                  {
+                    "Binary": 674,
+                    "Ratio": 0.856,
+                    "Sum": 2088,
+                    "Ternary": 1414,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.71,
+                    "Sum": 219972,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.857,
+                    "Sum": 24048,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 24,
+              "Splits": 22
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 259331,
+              "Backtracks": 18,
+              "Choices": 289983,
+              "Conflicts": 259349,
+              "RestartAvg": 298.425,
+              "RestartLast": 15443,
+              "Restarts": 869
+            },
+            "Jumps": {
+              "Avg": 1.1,
+              "AvgExec": 1.098,
+              "Bounded": {
+                "Avg": 4.299,
+                "Levels": 503,
+                "Max": 10,
+                "Sum": 117
+              },
+              "Levels": 285333,
+              "LevelsExec": 284830,
+              "Max": 23,
+              "MaxExec": 23,
+              "Sum": 259331
+            },
+            "More": {
+              "AvgGPLength": 21.619,
+              "CPU": 495.219,
+              "Distribution": {
+                "AvgLbd": 3.598,
+                "Distributed": 16554,
+                "Ratio": 0.064
+              },
+              "Integration": {
+                "AvgJump": 3.442,
+                "Integrated": 49177,
+                "Units": 371
+              },
+              "Lemma": {
+                "Deleted": 265051,
+                "Sum": 286701,
+                "Type": [
+                  {
+                    "Binary": 808,
+                    "Ratio": 0.849,
+                    "Sum": 2435,
+                    "Ternary": 1627,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.029,
+                    "Sum": 259328,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 13.32,
+                    "Sum": 27373,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 21,
+              "Splits": 25
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 232058,
+              "Backtracks": 24,
+              "Choices": 259772,
+              "Conflicts": 232082,
+              "RestartAvg": 242.485,
+              "RestartLast": 427,
+              "Restarts": 957
+            },
+            "Jumps": {
+              "Avg": 1.098,
+              "AvgExec": 1.097,
+              "Bounded": {
+                "Avg": 3.452,
+                "Levels": 107,
+                "Max": 16,
+                "Sum": 31
+              },
+              "Levels": 254688,
+              "LevelsExec": 254581,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 232058
+            },
+            "More": {
+              "AvgGPLength": 28.833,
+              "CPU": 495.187,
+              "Distribution": {
+                "AvgLbd": 3.687,
+                "Distributed": 18725,
+                "Ratio": 0.081
+              },
+              "Integration": {
+                "AvgJump": 4.404,
+                "Integrated": 47007,
+                "Units": 507
+              },
+              "Lemma": {
+                "Deleted": 233890,
+                "Sum": 255290,
+                "Type": [
+                  {
+                    "Binary": 659,
+                    "Ratio": 0.842,
+                    "Sum": 2150,
+                    "Ternary": 1491,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.318,
+                    "Sum": 232058,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.299,
+                    "Sum": 23232,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 24,
+              "Splits": 15
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 190726,
+              "Backtracks": 21,
+              "Choices": 214846,
+              "Conflicts": 190747,
+              "RestartAvg": 257.738,
+              "RestartLast": 826,
+              "Restarts": 740
+            },
+            "Jumps": {
+              "Avg": 1.103,
+              "AvgExec": 1.102,
+              "Bounded": {
+                "Avg": 4.821,
+                "Levels": 135,
+                "Max": 14,
+                "Sum": 28
+              },
+              "Levels": 210334,
+              "LevelsExec": 210199,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 190726
+            },
+            "More": {
+              "AvgGPLength": 26.5,
+              "CPU": 495.216,
+              "Distribution": {
+                "AvgLbd": 3.677,
+                "Distributed": 14777,
+                "Ratio": 0.077
+              },
+              "Integration": {
+                "AvgJump": 4.088,
+                "Integrated": 50962,
+                "Units": 525
+              },
+              "Lemma": {
+                "Deleted": 195485,
+                "Sum": 216626,
+                "Type": [
+                  {
+                    "Binary": 708,
+                    "Ratio": 0.988,
+                    "Sum": 2140,
+                    "Ternary": 1432,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.422,
+                    "Sum": 190723,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.191,
+                    "Sum": 25903,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 22,
+              "Splits": 28
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/branch_definition.json",
+      "branch_id": "A5_residual_L5eq3",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3405,
+      "error_message": null,
+      "final_layer": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/instance.lp",
+      "l5_count": 3,
+      "layer_comparator_counts": null,
+      "leaf_id": "A5",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/parsed_status.json",
+      "peak_rss_kb": 171992,
+      "pid": 2778400,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq3/solver.json",
+      "residual_id": "A5_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/A5_residual_L5eq3.resources.jsonl",
+      "runtime_seconds": 3600.8496417090064,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 7167407,
+          "Backtracks": 42,
+          "Choices": 7776091,
+          "Conflicts": 7167449,
+          "RestartAvg": 380.678,
+          "RestartLast": 53063,
+          "Restarts": 18828
+        },
+        "Jumps": {
+          "Avg": 1.072,
+          "AvgExec": 1.071,
+          "Bounded": {
+            "Avg": 4.246,
+            "Levels": 1537,
+            "Max": 13,
+            "Sum": 362
+          },
+          "Levels": 7680075,
+          "LevelsExec": 7678538,
+          "Max": 34,
+          "MaxExec": 34,
+          "Sum": 7167407
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 52,
+              "Original": 57
+            },
+            "Final": 129509,
+            "Original": 129466
+          },
+          "Equivalences": {
+            "Atom": 488,
+            "Body": 1472,
+            "Other": 2443,
+            "Sum": 4403
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 152222,
+            "Original": 152165
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 42.196,
+          "CPU": 14399.098,
+          "Distribution": {
+            "AvgLbd": 3.701,
+            "Distributed": 176685,
+            "Ratio": 0.025
+          },
+          "Integration": {
+            "AvgJump": 3.98,
+            "Integrated": 530052,
+            "Ratio": 3.0,
+            "Units": 3208
+          },
+          "Lemma": {
+            "Deleted": 7302236,
+            "Sum": 7502949,
+            "Type": [
+              {
+                "Binary": 6964,
+                "Ratio": 0.288,
+                "Sum": 21636,
+                "Ternary": 14672,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 39.04,
+                "Sum": 7167407,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 10.659,
+                "Sum": 335542,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 46,
+          "Splits": 45
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 355354,
+            "Sum": 473152,
+            "Ternary": 78874
+          },
+          "Eliminated": 0,
+          "Frozen": 12051,
+          "Variables": 117286
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1686857,
+              "Backtracks": 12,
+              "Choices": 1829932,
+              "Conflicts": 1686869,
+              "RestartAvg": 386.274,
+              "RestartLast": 1911,
+              "Restarts": 4367
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 2.833,
+                "Levels": 204,
+                "Max": 11,
+                "Sum": 72
+              },
+              "Levels": 1808610,
+              "LevelsExec": 1808406,
+              "Max": 28,
+              "MaxExec": 28,
+              "Sum": 1686857
+            },
+            "More": {
+              "AvgGPLength": 16.692,
+              "CPU": 3599.732,
+              "Distribution": {
+                "AvgLbd": 3.735,
+                "Distributed": 42005,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 4.09,
+                "Integrated": 134679,
+                "Units": 888
+              },
+              "Lemma": {
+                "Deleted": 1720813,
+                "Sum": 1767667,
+                "Type": [
+                  {
+                    "Binary": 1678,
+                    "Ratio": 0.291,
+                    "Sum": 5147,
+                    "Ternary": 3469,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 41.423,
+                    "Sum": 1686857,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.339,
+                    "Sum": 80810,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 13,
+              "Splits": 12
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1741406,
+              "Backtracks": 10,
+              "Choices": 1886163,
+              "Conflicts": 1741416,
+              "RestartAvg": 365.611,
+              "RestartLast": 53063,
+              "Restarts": 4763
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.069,
+              "Bounded": {
+                "Avg": 4.32,
+                "Levels": 216,
+                "Max": 12,
+                "Sum": 50
+              },
+              "Levels": 1862538,
+              "LevelsExec": 1862322,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 1741406
+            },
+            "More": {
+              "AvgGPLength": 80.182,
+              "CPU": 3599.788,
+              "Distribution": {
+                "AvgLbd": 3.72,
+                "Distributed": 43546,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 4.125,
+                "Integrated": 133138,
+                "Units": 857
+              },
+              "Lemma": {
+                "Deleted": 1772296,
+                "Sum": 1823208,
+                "Type": [
+                  {
+                    "Binary": 1670,
+                    "Ratio": 0.293,
+                    "Sum": 5347,
+                    "Ternary": 3677,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.592,
+                    "Sum": 1741406,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.442,
+                    "Sum": 81802,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 11,
+              "Splits": 9
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1864554,
+              "Backtracks": 12,
+              "Choices": 2021228,
+              "Conflicts": 1864566,
+              "RestartAvg": 377.287,
+              "RestartLast": 21764,
+              "Restarts": 4942
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 6.761,
+                "Levels": 311,
+                "Max": 13,
+                "Sum": 46
+              },
+              "Levels": 1995850,
+              "LevelsExec": 1995539,
+              "Max": 26,
+              "MaxExec": 26,
+              "Sum": 1864554
+            },
+            "More": {
+              "AvgGPLength": 33.615,
+              "CPU": 3599.785,
+              "Distribution": {
+                "AvgLbd": 3.713,
+                "Distributed": 44548,
+                "Ratio": 0.024
+              },
+              "Integration": {
+                "AvgJump": 4.109,
+                "Integrated": 132136,
+                "Units": 856
+              },
+              "Lemma": {
+                "Deleted": 1896431,
+                "Sum": 1945690,
+                "Type": [
+                  {
+                    "Binary": 1689,
+                    "Ratio": 0.266,
+                    "Sum": 5185,
+                    "Ternary": 3496,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.453,
+                    "Sum": 1864554,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.596,
+                    "Sum": 81136,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 13,
+              "Splits": 12
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1874590,
+              "Backtracks": 8,
+              "Choices": 2038768,
+              "Conflicts": 1874598,
+              "RestartAvg": 394.153,
+              "RestartLast": 1083,
+              "Restarts": 4756
+            },
+            "Jumps": {
+              "Avg": 1.074,
+              "AvgExec": 1.073,
+              "Bounded": {
+                "Avg": 4.155,
+                "Levels": 806,
+                "Max": 11,
+                "Sum": 194
+              },
+              "Levels": 2013077,
+              "LevelsExec": 2012271,
+              "Max": 34,
+              "MaxExec": 34,
+              "Sum": 1874590
+            },
+            "More": {
+              "AvgGPLength": 45.0,
+              "CPU": 3599.793,
+              "Distribution": {
+                "AvgLbd": 3.643,
+                "Distributed": 46586,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 3.435,
+                "Integrated": 130099,
+                "Units": 607
+              },
+              "Lemma": {
+                "Deleted": 1912696,
+                "Sum": 1966384,
+                "Type": [
+                  {
+                    "Binary": 1927,
+                    "Ratio": 0.303,
+                    "Sum": 5957,
+                    "Ternary": 4030,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.835,
+                    "Sum": 1874590,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.189,
+                    "Sum": 91794,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 9,
+              "Splits": 12
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/branch_definition.json",
+      "branch_id": "A5_residual_L5eq4",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 2828,
+      "error_message": null,
+      "final_layer": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/instance.lp",
+      "l5_count": 4,
+      "layer_comparator_counts": null,
+      "leaf_id": "A5",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/parsed_status.json",
+      "peak_rss_kb": 170240,
+      "pid": 2778401,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/A5_residual_L5eq4/solver.json",
+      "residual_id": "A5_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/A5_residual_L5eq4.resources.jsonl",
+      "runtime_seconds": 2990.634063528967,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 6484672,
+          "Backtracks": 114,
+          "Choices": 7035352,
+          "Conflicts": 6484786,
+          "RestartAvg": 382.509,
+          "RestartLast": 7541,
+          "Restarts": 16953
+        },
+        "Jumps": {
+          "Avg": 1.072,
+          "AvgExec": 1.071,
+          "Bounded": {
+            "Avg": 4.132,
+            "Levels": 1475,
+            "Max": 18,
+            "Sum": 357
+          },
+          "Levels": 6948781,
+          "LevelsExec": 6947306,
+          "Max": 33,
+          "MaxExec": 33,
+          "Sum": 6484672
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 52,
+              "Original": 57
+            },
+            "Final": 129509,
+            "Original": 129466
+          },
+          "Equivalences": {
+            "Atom": 488,
+            "Body": 1472,
+            "Other": 2443,
+            "Sum": 4403
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 152222,
+            "Original": 152165
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 29.491,
+          "CPU": 11959.582,
+          "Distribution": {
+            "AvgLbd": 3.691,
+            "Distributed": 171038,
+            "Ratio": 0.026
+          },
+          "Integration": {
+            "AvgJump": 3.884,
+            "Integrated": 513070,
+            "Ratio": 3.0,
+            "Units": 3371
+          },
+          "Lemma": {
+            "Deleted": 6595573,
+            "Sum": 6802192,
+            "Type": [
+              {
+                "Binary": 7115,
+                "Ratio": 0.315,
+                "Sum": 21429,
+                "Ternary": 14314,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 39.527,
+                "Sum": 6484672,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 10.965,
+                "Sum": 317520,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 114,
+          "Splits": 113
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 355354,
+            "Sum": 473152,
+            "Ternary": 78874
+          },
+          "Eliminated": 0,
+          "Frozen": 12051,
+          "Variables": 117286
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1530568,
+              "Backtracks": 23,
+              "Choices": 1662030,
+              "Conflicts": 1530591,
+              "RestartAvg": 380.644,
+              "RestartLast": 468,
+              "Restarts": 4021
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 4.438,
+                "Levels": 213,
+                "Max": 18,
+                "Sum": 48
+              },
+              "Levels": 1641118,
+              "LevelsExec": 1640905,
+              "Max": 25,
+              "MaxExec": 25,
+              "Sum": 1530568
+            },
+            "More": {
+              "AvgGPLength": 22.739,
+              "CPU": 2989.972,
+              "Distribution": {
+                "AvgLbd": 3.717,
+                "Distributed": 39665,
+                "Ratio": 0.026
+              },
+              "Integration": {
+                "AvgJump": 4.087,
+                "Integrated": 131363,
+                "Units": 961
+              },
+              "Lemma": {
+                "Deleted": 1557619,
+                "Sum": 1608600,
+                "Type": [
+                  {
+                    "Binary": 1716,
+                    "Ratio": 0.32,
+                    "Sum": 5152,
+                    "Ternary": 3436,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.747,
+                    "Sum": 1530568,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.759,
+                    "Sum": 78032,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 25
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1758229,
+              "Backtracks": 29,
+              "Choices": 1906849,
+              "Conflicts": 1758258,
+              "RestartAvg": 404.749,
+              "RestartLast": 7541,
+              "Restarts": 4344
+            },
+            "Jumps": {
+              "Avg": 1.071,
+              "AvgExec": 1.071,
+              "Bounded": {
+                "Avg": 4.27,
+                "Levels": 807,
+                "Max": 14,
+                "Sum": 189
+              },
+              "Levels": 1883603,
+              "LevelsExec": 1882796,
+              "Max": 33,
+              "MaxExec": 33,
+              "Sum": 1758229
+            },
+            "More": {
+              "AvgGPLength": 23.966,
+              "CPU": 2989.995,
+              "Distribution": {
+                "AvgLbd": 3.644,
+                "Distributed": 47421,
+                "Ratio": 0.027
+              },
+              "Integration": {
+                "AvgJump": 3.859,
+                "Integrated": 123617,
+                "Units": 609
+              },
+              "Lemma": {
+                "Deleted": 1788402,
+                "Sum": 1845683,
+                "Type": [
+                  {
+                    "Binary": 1979,
+                    "Ratio": 0.322,
+                    "Sum": 5950,
+                    "Ternary": 3971,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.154,
+                    "Sum": 1758229,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.644,
+                    "Sum": 87454,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 29,
+              "Splits": 28
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1697639,
+              "Backtracks": 30,
+              "Choices": 1839972,
+              "Conflicts": 1697669,
+              "RestartAvg": 371.637,
+              "RestartLast": 1304,
+              "Restarts": 4568
+            },
+            "Jumps": {
+              "Avg": 1.071,
+              "AvgExec": 1.071,
+              "Bounded": {
+                "Avg": 3.803,
+                "Levels": 270,
+                "Max": 12,
+                "Sum": 71
+              },
+              "Levels": 1817876,
+              "LevelsExec": 1817606,
+              "Max": 23,
+              "MaxExec": 23,
+              "Sum": 1697639
+            },
+            "More": {
+              "AvgGPLength": 30.9,
+              "CPU": 2989.672,
+              "Distribution": {
+                "AvgLbd": 3.714,
+                "Distributed": 43642,
+                "Ratio": 0.026
+              },
+              "Integration": {
+                "AvgJump": 3.859,
+                "Integrated": 127380,
+                "Units": 901
+              },
+              "Lemma": {
+                "Deleted": 1723008,
+                "Sum": 1768699,
+                "Type": [
+                  {
+                    "Binary": 1672,
+                    "Ratio": 0.281,
+                    "Sum": 4975,
+                    "Ternary": 3303,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 42.502,
+                    "Sum": 1697639,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.565,
+                    "Sum": 71060,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 30,
+              "Splits": 27
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1498236,
+              "Backtracks": 32,
+              "Choices": 1626501,
+              "Conflicts": 1498268,
+              "RestartAvg": 372.696,
+              "RestartLast": 7525,
+              "Restarts": 4020
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 3.776,
+                "Levels": 185,
+                "Max": 13,
+                "Sum": 49
+              },
+              "Levels": 1606184,
+              "LevelsExec": 1605999,
+              "Max": 26,
+              "MaxExec": 26,
+              "Sum": 1498236
+            },
+            "More": {
+              "AvgGPLength": 38.031,
+              "CPU": 2989.942,
+              "Distribution": {
+                "AvgLbd": 3.697,
+                "Distributed": 40310,
+                "Ratio": 0.027
+              },
+              "Integration": {
+                "AvgJump": 3.709,
+                "Integrated": 130710,
+                "Units": 900
+              },
+              "Lemma": {
+                "Deleted": 1526544,
+                "Sum": 1579210,
+                "Type": [
+                  {
+                    "Binary": 1748,
+                    "Ratio": 0.339,
+                    "Sum": 5352,
+                    "Ternary": 3604,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.695,
+                    "Sum": 1498236,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.782,
+                    "Sum": 80974,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 32,
+              "Splits": 33
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/branch_definition.json",
+      "branch_id": "B6_residual_L5eq2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 512,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/instance.lp",
+      "l5_count": 2,
+      "layer_comparator_counts": null,
+      "leaf_id": "B6",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/parsed_status.json",
+      "peak_rss_kb": 154352,
+      "pid": 2778402,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq2/solver.json",
+      "residual_id": "B6_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B6_residual_L5eq2.resources.jsonl",
+      "runtime_seconds": 541.3827837639838,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 1156935,
+          "Backtracks": 82,
+          "Choices": 1283267,
+          "Conflicts": 1157017,
+          "RestartAvg": 290.906,
+          "RestartLast": 5555,
+          "Restarts": 3977
+        },
+        "Jumps": {
+          "Avg": 1.091,
+          "AvgExec": 1.09,
+          "Bounded": {
+            "Avg": 4.156,
+            "Levels": 1089,
+            "Max": 19,
+            "Sum": 262
+          },
+          "Levels": 1262611,
+          "LevelsExec": 1261522,
+          "Max": 37,
+          "MaxExec": 37,
+          "Sum": 1156935
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 29.477,
+          "CPU": 2162.237,
+          "Distribution": {
+            "AvgLbd": 3.651,
+            "Distributed": 71790,
+            "Ratio": 0.062
+          },
+          "Integration": {
+            "AvgJump": 3.996,
+            "Integrated": 215357,
+            "Ratio": 3.0,
+            "Units": 1973
+          },
+          "Lemma": {
+            "Deleted": 1179378,
+            "Sum": 1279365,
+            "Type": [
+              {
+                "Binary": 3885,
+                "Ratio": 0.918,
+                "Sum": 11743,
+                "Ternary": 7858,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 36.325,
+                "Sum": 1156935,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.741,
+                "Sum": 122430,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 86,
+          "Splits": 85
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358914,
+            "Sum": 476616,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 272308,
+              "Backtracks": 23,
+              "Choices": 300238,
+              "Conflicts": 272331,
+              "RestartAvg": 250.744,
+              "RestartLast": 3124,
+              "Restarts": 1086
+            },
+            "Jumps": {
+              "Avg": 1.084,
+              "AvgExec": 1.083,
+              "Bounded": {
+                "Avg": 3.439,
+                "Levels": 227,
+                "Max": 13,
+                "Sum": 66
+              },
+              "Levels": 295222,
+              "LevelsExec": 294995,
+              "Max": 30,
+              "MaxExec": 30,
+              "Sum": 272308
+            },
+            "More": {
+              "AvgGPLength": 37.652,
+              "CPU": 540.561,
+              "Distribution": {
+                "AvgLbd": 3.667,
+                "Distributed": 19314,
+                "Ratio": 0.071
+              },
+              "Integration": {
+                "AvgJump": 3.829,
+                "Integrated": 52474,
+                "Units": 491
+              },
+              "Lemma": {
+                "Deleted": 279758,
+                "Sum": 302826,
+                "Type": [
+                  {
+                    "Binary": 979,
+                    "Ratio": 0.983,
+                    "Sum": 2977,
+                    "Ternary": 1998,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 35.943,
+                    "Sum": 272308,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.047,
+                    "Sum": 30518,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 282229,
+              "Backtracks": 17,
+              "Choices": 315820,
+              "Conflicts": 282246,
+              "RestartAvg": 339.626,
+              "RestartLast": 5555,
+              "Restarts": 831
+            },
+            "Jumps": {
+              "Avg": 1.102,
+              "AvgExec": 1.101,
+              "Bounded": {
+                "Avg": 4.11,
+                "Levels": 374,
+                "Max": 8,
+                "Sum": 91
+              },
+              "Levels": 311023,
+              "LevelsExec": 310649,
+              "Max": 26,
+              "MaxExec": 26,
+              "Sum": 282229
+            },
+            "More": {
+              "AvgGPLength": 19.316,
+              "CPU": 540.55,
+              "Distribution": {
+                "AvgLbd": 3.622,
+                "Distributed": 16415,
+                "Ratio": 0.058
+              },
+              "Integration": {
+                "AvgJump": 4.0,
+                "Integrated": 55371,
+                "Units": 465
+              },
+              "Lemma": {
+                "Deleted": 290063,
+                "Sum": 315195,
+                "Type": [
+                  {
+                    "Binary": 1026,
+                    "Ratio": 0.979,
+                    "Sum": 3086,
+                    "Ternary": 2060,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.059,
+                    "Sum": 282229,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.54,
+                    "Sum": 32966,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 19,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 339706,
+              "Backtracks": 21,
+              "Choices": 375218,
+              "Conflicts": 339727,
+              "RestartAvg": 307.426,
+              "RestartLast": 1587,
+              "Restarts": 1105
+            },
+            "Jumps": {
+              "Avg": 1.088,
+              "AvgExec": 1.087,
+              "Bounded": {
+                "Avg": 4.738,
+                "Levels": 308,
+                "Max": 19,
+                "Sum": 65
+              },
+              "Levels": 369667,
+              "LevelsExec": 369359,
+              "Max": 37,
+              "MaxExec": 37,
+              "Sum": 339706
+            },
+            "More": {
+              "AvgGPLength": 34.818,
+              "CPU": 540.61,
+              "Distribution": {
+                "AvgLbd": 3.645,
+                "Distributed": 19079,
+                "Ratio": 0.056
+              },
+              "Integration": {
+                "AvgJump": 4.083,
+                "Integrated": 52710,
+                "Units": 469
+              },
+              "Lemma": {
+                "Deleted": 341940,
+                "Sum": 369336,
+                "Type": [
+                  {
+                    "Binary": 1003,
+                    "Ratio": 0.811,
+                    "Sum": 2995,
+                    "Ternary": 1992,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.052,
+                    "Sum": 339706,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.474,
+                    "Sum": 29630,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 22,
+              "Splits": 19
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 262692,
+              "Backtracks": 21,
+              "Choices": 291991,
+              "Conflicts": 262713,
+              "RestartAvg": 275.07,
+              "RestartLast": 1585,
+              "Restarts": 955
+            },
+            "Jumps": {
+              "Avg": 1.091,
+              "AvgExec": 1.091,
+              "Bounded": {
+                "Avg": 4.5,
+                "Levels": 180,
+                "Max": 12,
+                "Sum": 40
+              },
+              "Levels": 286699,
+              "LevelsExec": 286519,
+              "Max": 23,
+              "MaxExec": 23,
+              "Sum": 262692
+            },
+            "More": {
+              "AvgGPLength": 24.364,
+              "CPU": 540.516,
+              "Distribution": {
+                "AvgLbd": 3.667,
+                "Distributed": 16982,
+                "Ratio": 0.065
+              },
+              "Integration": {
+                "AvgJump": 4.069,
+                "Integrated": 54802,
+                "Units": 548
+              },
+              "Lemma": {
+                "Deleted": 267617,
+                "Sum": 292008,
+                "Type": [
+                  {
+                    "Binary": 877,
+                    "Ratio": 0.919,
+                    "Sum": 2685,
+                    "Ternary": 1808,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.287,
+                    "Sum": 262692,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.836,
+                    "Sum": 29316,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 22,
+              "Splits": 18
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/branch_definition.json",
+      "branch_id": "B6_residual_L5eq3",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3405,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/instance.lp",
+      "l5_count": 3,
+      "layer_comparator_counts": null,
+      "leaf_id": "B6",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/parsed_status.json",
+      "peak_rss_kb": 176356,
+      "pid": 2781732,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq3/solver.json",
+      "residual_id": "B6_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B6_residual_L5eq3.resources.jsonl",
+      "runtime_seconds": 3600.7638433999964,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 7969469,
+          "Backtracks": 7,
+          "Choices": 8653339,
+          "Conflicts": 7969476,
+          "RestartAvg": 424.766,
+          "RestartLast": 103012,
+          "Restarts": 18762
+        },
+        "Jumps": {
+          "Avg": 1.073,
+          "AvgExec": 1.073,
+          "Bounded": {
+            "Avg": 3.627,
+            "Levels": 1389,
+            "Max": 9,
+            "Sum": 383
+          },
+          "Levels": 8553652,
+          "LevelsExec": 8552263,
+          "Max": 54,
+          "MaxExec": 54,
+          "Sum": 7969469
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 136.182,
+          "CPU": 14397.484,
+          "Distribution": {
+            "AvgLbd": 3.675,
+            "Distributed": 157302,
+            "Ratio": 0.02
+          },
+          "Integration": {
+            "AvgJump": 4.066,
+            "Integrated": 471906,
+            "Ratio": 3.0,
+            "Units": 3367
+          },
+          "Lemma": {
+            "Deleted": 8086144,
+            "Sum": 8333944,
+            "Type": [
+              {
+                "Binary": 9338,
+                "Ratio": 0.35,
+                "Sum": 29160,
+                "Ternary": 19822,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 36.977,
+                "Sum": 7969469,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 10.363,
+                "Sum": 364475,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 11,
+          "Splits": 10
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358914,
+            "Sum": 476616,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1904754,
+              "Backtracks": 1,
+              "Choices": 2066728,
+              "Conflicts": 1904755,
+              "RestartAvg": 449.871,
+              "RestartLast": 14637,
+              "Restarts": 4234
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 2.962,
+                "Levels": 237,
+                "Max": 5,
+                "Sum": 80
+              },
+              "Levels": 2042180,
+              "LevelsExec": 2041943,
+              "Max": 25,
+              "MaxExec": 25,
+              "Sum": 1904754
+            },
+            "More": {
+              "AvgGPLength": 193.5,
+              "CPU": 3598.996,
+              "Distribution": {
+                "AvgLbd": 3.66,
+                "Distributed": 30533,
+                "Ratio": 0.016
+              },
+              "Integration": {
+                "AvgJump": 4.123,
+                "Integrated": 126769,
+                "Units": 925
+              },
+              "Lemma": {
+                "Deleted": 1945485,
+                "Sum": 2000622,
+                "Type": [
+                  {
+                    "Binary": 2391,
+                    "Ratio": 0.371,
+                    "Sum": 7422,
+                    "Ternary": 5031,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.29,
+                    "Sum": 1904754,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.799,
+                    "Sum": 95868,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 2,
+              "Splits": 1
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1965061,
+              "Backtracks": 4,
+              "Choices": 2124338,
+              "Conflicts": 1965065,
+              "RestartAvg": 368.818,
+              "RestartLast": 6189,
+              "Restarts": 5328
+            },
+            "Jumps": {
+              "Avg": 1.069,
+              "AvgExec": 1.068,
+              "Bounded": {
+                "Avg": 2.902,
+                "Levels": 177,
+                "Max": 9,
+                "Sum": 61
+              },
+              "Levels": 2099826,
+              "LevelsExec": 2099649,
+              "Max": 21,
+              "MaxExec": 21,
+              "Sum": 1965061
+            },
+            "More": {
+              "AvgGPLength": 145.0,
+              "CPU": 3599.502,
+              "Distribution": {
+                "AvgLbd": 3.725,
+                "Distributed": 45944,
+                "Ratio": 0.023
+              },
+              "Integration": {
+                "AvgJump": 3.926,
+                "Integrated": 111358,
+                "Units": 880
+              },
+              "Lemma": {
+                "Deleted": 1983171,
+                "Sum": 2043148,
+                "Type": [
+                  {
+                    "Binary": 2106,
+                    "Ratio": 0.325,
+                    "Sum": 6650,
+                    "Ternary": 4544,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 35.583,
+                    "Sum": 1965061,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.777,
+                    "Sum": 78087,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 5,
+              "Splits": 1
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2080152,
+              "Backtracks": 2,
+              "Choices": 2252414,
+              "Conflicts": 2080154,
+              "RestartAvg": 407.394,
+              "RestartLast": 14608,
+              "Restarts": 5106
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.356,
+                "Levels": 453,
+                "Max": 9,
+                "Sum": 104
+              },
+              "Levels": 2225206,
+              "LevelsExec": 2224753,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 2080152
+            },
+            "More": {
+              "AvgGPLength": 128.333,
+              "CPU": 3599.559,
+              "Distribution": {
+                "AvgLbd": 3.658,
+                "Distributed": 37600,
+                "Ratio": 0.018
+              },
+              "Integration": {
+                "AvgJump": 4.036,
+                "Integrated": 119702,
+                "Units": 831
+              },
+              "Lemma": {
+                "Deleted": 2112626,
+                "Sum": 2172579,
+                "Type": [
+                  {
+                    "Binary": 2397,
+                    "Ratio": 0.344,
+                    "Sum": 7479,
+                    "Ternary": 5082,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.253,
+                    "Sum": 2080152,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.956,
+                    "Sum": 92427,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 3,
+              "Splits": 4
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2019502,
+              "Backtracks": 0,
+              "Choices": 2209859,
+              "Conflicts": 2019502,
+              "RestartAvg": 493.283,
+              "RestartLast": 103012,
+              "Restarts": 4094
+            },
+            "Jumps": {
+              "Avg": 1.083,
+              "AvgExec": 1.082,
+              "Bounded": {
+                "Avg": 3.783,
+                "Levels": 522,
+                "Max": 4,
+                "Sum": 138
+              },
+              "Levels": 2186440,
+              "LevelsExec": 2185918,
+              "Max": 54,
+              "MaxExec": 54,
+              "Sum": 2019502
+            },
+            "More": {
+              "AvgGPLength": 1.0,
+              "CPU": 3599.426,
+              "Distribution": {
+                "AvgLbd": 3.647,
+                "Distributed": 43225,
+                "Ratio": 0.021
+              },
+              "Integration": {
+                "AvgJump": 4.196,
+                "Integrated": 114077,
+                "Units": 731
+              },
+              "Lemma": {
+                "Deleted": 2044862,
+                "Sum": 2117595,
+                "Type": [
+                  {
+                    "Binary": 2444,
+                    "Ratio": 0.359,
+                    "Sum": 7609,
+                    "Ternary": 5165,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.697,
+                    "Sum": 2019502,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.766,
+                    "Sum": 98093,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 1,
+              "Splits": 4
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/branch_definition.json",
+      "branch_id": "B6_residual_L5eq4",
+      "clingo_result": "UNKNOWN",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3405,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/instance.lp",
+      "l5_count": 4,
+      "layer_comparator_counts": null,
+      "leaf_id": "B6",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/parsed_status.json",
+      "peak_rss_kb": 175484,
+      "pid": 2781990,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B6_residual_L5eq4/solver.json",
+      "residual_id": "B6_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B6_residual_L5eq4.resources.jsonl",
+      "runtime_seconds": 3600.718888619973,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 7244979,
+          "Backtracks": 3,
+          "Choices": 7859368,
+          "Conflicts": 7244982,
+          "RestartAvg": 444.123,
+          "RestartLast": 6624,
+          "Restarts": 16313
+        },
+        "Jumps": {
+          "Avg": 1.072,
+          "AvgExec": 1.072,
+          "Bounded": {
+            "Avg": 3.739,
+            "Levels": 1589,
+            "Max": 7,
+            "Sum": 425
+          },
+          "Levels": 7770154,
+          "LevelsExec": 7768565,
+          "Max": 35,
+          "MaxExec": 35,
+          "Sum": 7244979
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 111.714,
+          "CPU": 14397.641,
+          "Distribution": {
+            "AvgLbd": 3.659,
+            "Distributed": 142067,
+            "Ratio": 0.02
+          },
+          "Integration": {
+            "AvgJump": 4.032,
+            "Integrated": 426201,
+            "Ratio": 3.0,
+            "Units": 3570
+          },
+          "Lemma": {
+            "Deleted": 7361675,
+            "Sum": 7588003,
+            "Type": [
+              {
+                "Binary": 9385,
+                "Ratio": 0.375,
+                "Sum": 28437,
+                "Ternary": 19052,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 38.22,
+                "Sum": 7244979,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 10.381,
+                "Sum": 343024,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 7,
+          "Splits": 6
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358914,
+            "Sum": 476616,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1825682,
+              "Backtracks": 1,
+              "Choices": 1975382,
+              "Conflicts": 1825683,
+              "RestartAvg": 415.873,
+              "RestartLast": 6624,
+              "Restarts": 4390
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 3.455,
+                "Levels": 152,
+                "Max": 7,
+                "Sum": 44
+              },
+              "Levels": 1953114,
+              "LevelsExec": 1952962,
+              "Max": 19,
+              "MaxExec": 19,
+              "Sum": 1825682
+            },
+            "More": {
+              "AvgGPLength": 169.5,
+              "CPU": 3599.522,
+              "Distribution": {
+                "AvgLbd": 3.706,
+                "Distributed": 35646,
+                "Ratio": 0.02
+              },
+              "Integration": {
+                "AvgJump": 4.134,
+                "Integrated": 106421,
+                "Units": 955
+              },
+              "Lemma": {
+                "Deleted": 1846128,
+                "Sum": 1899869,
+                "Type": [
+                  {
+                    "Binary": 2122,
+                    "Ratio": 0.338,
+                    "Sum": 6416,
+                    "Ternary": 4294,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.493,
+                    "Sum": 1825682,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.78,
+                    "Sum": 74187,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 2,
+              "Splits": 0
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1671376,
+              "Backtracks": 1,
+              "Choices": 1809368,
+              "Conflicts": 1671377,
+              "RestartAvg": 441.929,
+              "RestartLast": 3909,
+              "Restarts": 3782
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.069,
+              "Bounded": {
+                "Avg": 2.972,
+                "Levels": 214,
+                "Max": 7,
+                "Sum": 72
+              },
+              "Levels": 1787721,
+              "LevelsExec": 1787507,
+              "Max": 27,
+              "MaxExec": 27,
+              "Sum": 1671376
+            },
+            "More": {
+              "AvgGPLength": 214.0,
+              "CPU": 3599.482,
+              "Distribution": {
+                "AvgLbd": 3.668,
+                "Distributed": 30225,
+                "Ratio": 0.018
+              },
+              "Integration": {
+                "AvgJump": 3.94,
+                "Integrated": 111842,
+                "Units": 988
+              },
+              "Lemma": {
+                "Deleted": 1710035,
+                "Sum": 1763230,
+                "Type": [
+                  {
+                    "Binary": 2391,
+                    "Ratio": 0.414,
+                    "Sum": 7293,
+                    "Ternary": 4902,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.586,
+                    "Sum": 1671376,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.748,
+                    "Sum": 91854,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 2,
+              "Splits": 1
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2236403,
+              "Backtracks": 1,
+              "Choices": 2412801,
+              "Conflicts": 2236404,
+              "RestartAvg": 480.534,
+              "RestartLast": 710,
+              "Restarts": 4654
+            },
+            "Jumps": {
+              "Avg": 1.068,
+              "AvgExec": 1.067,
+              "Bounded": {
+                "Avg": 4.133,
+                "Levels": 496,
+                "Max": 7,
+                "Sum": 120
+              },
+              "Levels": 2387364,
+              "LevelsExec": 2386868,
+              "Max": 35,
+              "MaxExec": 35,
+              "Sum": 2236403
+            },
+            "More": {
+              "AvgGPLength": 7.0,
+              "CPU": 3599.063,
+              "Distribution": {
+                "AvgLbd": 3.65,
+                "Distributed": 38274,
+                "Ratio": 0.017
+              },
+              "Integration": {
+                "AvgJump": 3.982,
+                "Integrated": 103793,
+                "Units": 886
+              },
+              "Lemma": {
+                "Deleted": 2259908,
+                "Sum": 2319898,
+                "Type": [
+                  {
+                    "Binary": 2403,
+                    "Ratio": 0.314,
+                    "Sum": 7286,
+                    "Ternary": 4883,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.838,
+                    "Sum": 2236403,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 9.998,
+                    "Sum": 83495,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 2,
+              "Splits": 2
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1511518,
+              "Backtracks": 0,
+              "Choices": 1661817,
+              "Conflicts": 1511518,
+              "RestartAvg": 433.472,
+              "RestartLast": 45,
+              "Restarts": 3487
+            },
+            "Jumps": {
+              "Avg": 1.086,
+              "AvgExec": 1.086,
+              "Bounded": {
+                "Avg": 3.847,
+                "Levels": 727,
+                "Max": 4,
+                "Sum": 189
+              },
+              "Levels": 1641955,
+              "LevelsExec": 1641228,
+              "Max": 35,
+              "MaxExec": 35,
+              "Sum": 1511518
+            },
+            "More": {
+              "AvgGPLength": 1.0,
+              "CPU": 3599.573,
+              "Distribution": {
+                "AvgLbd": 3.616,
+                "Distributed": 37922,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 4.084,
+                "Integrated": 104145,
+                "Units": 741
+              },
+              "Lemma": {
+                "Deleted": 1545604,
+                "Sum": 1605006,
+                "Type": [
+                  {
+                    "Binary": 2469,
+                    "Ratio": 0.464,
+                    "Sum": 7442,
+                    "Ternary": 4973,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.887,
+                    "Sum": 1511518,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.82,
+                    "Sum": 93488,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 1,
+              "Splits": 3
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "TIMEOUT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/branch_definition.json",
+      "branch_id": "B7_residual_L5eq2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 472,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/instance.lp",
+      "l5_count": 2,
+      "layer_comparator_counts": null,
+      "leaf_id": "B7",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/parsed_status.json",
+      "peak_rss_kb": 161168,
+      "pid": 2818988,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq2/solver.json",
+      "residual_id": "B7_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B7_residual_L5eq2.resources.jsonl",
+      "runtime_seconds": 499.10791951901047,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 939697,
+          "Backtracks": 80,
+          "Choices": 1054464,
+          "Conflicts": 939777,
+          "RestartAvg": 278.676,
+          "RestartLast": 3487,
+          "Restarts": 3372
+        },
+        "Jumps": {
+          "Avg": 1.102,
+          "AvgExec": 1.101,
+          "Bounded": {
+            "Avg": 4.157,
+            "Levels": 1114,
+            "Max": 30,
+            "Sum": 268
+          },
+          "Levels": 1035264,
+          "LevelsExec": 1034150,
+          "Max": 33,
+          "MaxExec": 33,
+          "Sum": 939697
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 29.1,
+          "CPU": 1992.57,
+          "Distribution": {
+            "AvgLbd": 3.624,
+            "Distributed": 61505,
+            "Ratio": 0.065
+          },
+          "Integration": {
+            "AvgJump": 4.025,
+            "Integrated": 184495,
+            "Ratio": 3.0,
+            "Units": 1984
+          },
+          "Lemma": {
+            "Deleted": 955416,
+            "Sum": 1045360,
+            "Type": [
+              {
+                "Binary": 3945,
+                "Ratio": 1.098,
+                "Sum": 11475,
+                "Ternary": 7530,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 54.166,
+                "Sum": 939697,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 21.34,
+                "Sum": 105663,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 80,
+          "Splits": 79
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358913,
+            "Sum": 476615,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 199679,
+              "Backtracks": 20,
+              "Choices": 224983,
+              "Conflicts": 199699,
+              "RestartAvg": 255.671,
+              "RestartLast": 1495,
+              "Restarts": 781
+            },
+            "Jumps": {
+              "Avg": 1.103,
+              "AvgExec": 1.102,
+              "Bounded": {
+                "Avg": 3.54,
+                "Levels": 177,
+                "Max": 30,
+                "Sum": 50
+              },
+              "Levels": 220264,
+              "LevelsExec": 220087,
+              "Max": 31,
+              "MaxExec": 31,
+              "Sum": 199679
+            },
+            "More": {
+              "AvgGPLength": 21.5,
+              "CPU": 498.118,
+              "Distribution": {
+                "AvgLbd": 3.644,
+                "Distributed": 14197,
+                "Ratio": 0.071
+              },
+              "Integration": {
+                "AvgJump": 4.178,
+                "Integrated": 47299,
+                "Units": 535
+              },
+              "Lemma": {
+                "Deleted": 204471,
+                "Sum": 224711,
+                "Type": [
+                  {
+                    "Binary": 902,
+                    "Ratio": 1.201,
+                    "Sum": 2699,
+                    "Ternary": 1797,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.139,
+                    "Sum": 199679,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.044,
+                    "Sum": 25032,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 17
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 241326,
+              "Backtracks": 18,
+              "Choices": 271643,
+              "Conflicts": 241344,
+              "RestartAvg": 280.286,
+              "RestartLast": 2685,
+              "Restarts": 861
+            },
+            "Jumps": {
+              "Avg": 1.105,
+              "AvgExec": 1.104,
+              "Bounded": {
+                "Avg": 4.066,
+                "Levels": 309,
+                "Max": 9,
+                "Sum": 76
+              },
+              "Levels": 266757,
+              "LevelsExec": 266448,
+              "Max": 30,
+              "MaxExec": 30,
+              "Sum": 241326
+            },
+            "More": {
+              "AvgGPLength": 32.667,
+              "CPU": 498.147,
+              "Distribution": {
+                "AvgLbd": 3.617,
+                "Distributed": 15673,
+                "Ratio": 0.065
+              },
+              "Integration": {
+                "AvgJump": 4.055,
+                "Integrated": 45826,
+                "Units": 469
+              },
+              "Lemma": {
+                "Deleted": 244244,
+                "Sum": 268522,
+                "Type": [
+                  {
+                    "Binary": 1018,
+                    "Ratio": 1.086,
+                    "Sum": 2917,
+                    "Ternary": 1899,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.623,
+                    "Sum": 241326,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 32.792,
+                    "Sum": 27196,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 18,
+              "Splits": 18
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 287813,
+              "Backtracks": 22,
+              "Choices": 318348,
+              "Conflicts": 287835,
+              "RestartAvg": 288.39,
+              "RestartLast": 1968,
+              "Restarts": 998
+            },
+            "Jumps": {
+              "Avg": 1.09,
+              "AvgExec": 1.088,
+              "Bounded": {
+                "Avg": 4.221,
+                "Levels": 325,
+                "Max": 12,
+                "Sum": 77
+              },
+              "Levels": 313574,
+              "LevelsExec": 313249,
+              "Max": 33,
+              "MaxExec": 33,
+              "Sum": 287813
+            },
+            "More": {
+              "AvgGPLength": 37.864,
+              "CPU": 498.153,
+              "Distribution": {
+                "AvgLbd": 3.639,
+                "Distributed": 18295,
+                "Ratio": 0.064
+              },
+              "Integration": {
+                "AvgJump": 3.672,
+                "Integrated": 43210,
+                "Units": 488
+              },
+              "Lemma": {
+                "Deleted": 288762,
+                "Sum": 312622,
+                "Type": [
+                  {
+                    "Binary": 1002,
+                    "Ratio": 0.931,
+                    "Sum": 2909,
+                    "Ternary": 1907,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 90.6,
+                    "Sum": 287813,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.198,
+                    "Sum": 24809,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 22,
+              "Splits": 18
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 210879,
+              "Backtracks": 20,
+              "Choices": 239490,
+              "Conflicts": 210899,
+              "RestartAvg": 288.086,
+              "RestartLast": 3487,
+              "Restarts": 732
+            },
+            "Jumps": {
+              "Avg": 1.113,
+              "AvgExec": 1.111,
+              "Bounded": {
+                "Avg": 4.662,
+                "Levels": 303,
+                "Max": 19,
+                "Sum": 65
+              },
+              "Levels": 234669,
+              "LevelsExec": 234366,
+              "Max": 29,
+              "MaxExec": 29,
+              "Sum": 210879
+            },
+            "More": {
+              "AvgGPLength": 23.85,
+              "CPU": 498.152,
+              "Distribution": {
+                "AvgLbd": 3.59,
+                "Distributed": 13340,
+                "Ratio": 0.063
+              },
+              "Integration": {
+                "AvgJump": 4.181,
+                "Integrated": 48160,
+                "Units": 492
+              },
+              "Lemma": {
+                "Deleted": 217939,
+                "Sum": 239505,
+                "Type": [
+                  {
+                    "Binary": 1023,
+                    "Ratio": 1.232,
+                    "Sum": 2950,
+                    "Ternary": 1927,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.548,
+                    "Sum": 210879,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 28.252,
+                    "Sum": 28626,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 26
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/branch_definition.json",
+      "branch_id": "B7_residual_L5eq3",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3007,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/instance.lp",
+      "l5_count": 3,
+      "layer_comparator_counts": null,
+      "leaf_id": "B7",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/parsed_status.json",
+      "peak_rss_kb": 173908,
+      "pid": 2821833,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq3/solver.json",
+      "residual_id": "B7_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B7_residual_L5eq3.resources.jsonl",
+      "runtime_seconds": 3178.6296863869647,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 6781353,
+          "Backtracks": 97,
+          "Choices": 7383471,
+          "Conflicts": 6781450,
+          "RestartAvg": 375.782,
+          "RestartLast": 7889,
+          "Restarts": 18046
+        },
+        "Jumps": {
+          "Avg": 1.075,
+          "AvgExec": 1.075,
+          "Bounded": {
+            "Avg": 4.037,
+            "Levels": 1655,
+            "Max": 22,
+            "Sum": 410
+          },
+          "Levels": 7289384,
+          "LevelsExec": 7287729,
+          "Max": 39,
+          "MaxExec": 39,
+          "Sum": 6781353
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 40.168,
+          "CPU": 12710.935,
+          "Distribution": {
+            "AvgLbd": 3.675,
+            "Distributed": 175455,
+            "Ratio": 0.026
+          },
+          "Integration": {
+            "AvgJump": 3.959,
+            "Integrated": 526357,
+            "Ratio": 3.0,
+            "Units": 3689
+          },
+          "Lemma": {
+            "Deleted": 6903042,
+            "Sum": 7140092,
+            "Type": [
+              {
+                "Binary": 9302,
+                "Ratio": 0.4,
+                "Sum": 28563,
+                "Ternary": 19261,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 37.299,
+                "Sum": 6781353,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.395,
+                "Sum": 358739,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 101,
+          "Splits": 100
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358913,
+            "Sum": 476615,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1455919,
+              "Backtracks": 26,
+              "Choices": 1581581,
+              "Conflicts": 1455945,
+              "RestartAvg": 342.006,
+              "RestartLast": 2668,
+              "Restarts": 4257
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 3.917,
+                "Levels": 235,
+                "Max": 15,
+                "Sum": 60
+              },
+              "Levels": 1560401,
+              "LevelsExec": 1560166,
+              "Max": 39,
+              "MaxExec": 39,
+              "Sum": 1455919
+            },
+            "More": {
+              "AvgGPLength": 46.0,
+              "CPU": 3177.776,
+              "Distribution": {
+                "AvgLbd": 3.704,
+                "Distributed": 43171,
+                "Ratio": 0.03
+              },
+              "Integration": {
+                "AvgJump": 4.034,
+                "Integrated": 132284,
+                "Units": 975
+              },
+              "Lemma": {
+                "Deleted": 1477216,
+                "Sum": 1535322,
+                "Type": [
+                  {
+                    "Binary": 2084,
+                    "Ratio": 0.421,
+                    "Sum": 6471,
+                    "Ternary": 4387,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 35.875,
+                    "Sum": 1455919,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.792,
+                    "Sum": 79403,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 29,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1842288,
+              "Backtracks": 19,
+              "Choices": 1999652,
+              "Conflicts": 1842307,
+              "RestartAvg": 408.128,
+              "RestartLast": 5845,
+              "Restarts": 4514
+            },
+            "Jumps": {
+              "Avg": 1.072,
+              "AvgExec": 1.072,
+              "Bounded": {
+                "Avg": 3.368,
+                "Levels": 394,
+                "Max": 22,
+                "Sum": 117
+              },
+              "Levels": 1975367,
+              "LevelsExec": 1974973,
+              "Max": 26,
+              "MaxExec": 26,
+              "Sum": 1842288
+            },
+            "More": {
+              "AvgGPLength": 42.316,
+              "CPU": 3177.857,
+              "Distribution": {
+                "AvgLbd": 3.669,
+                "Distributed": 39175,
+                "Ratio": 0.021
+              },
+              "Integration": {
+                "AvgJump": 3.765,
+                "Integrated": 136278,
+                "Units": 976
+              },
+              "Lemma": {
+                "Deleted": 1879896,
+                "Sum": 1936816,
+                "Type": [
+                  {
+                    "Binary": 2387,
+                    "Ratio": 0.378,
+                    "Sum": 7329,
+                    "Ternary": 4942,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.183,
+                    "Sum": 1842288,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.562,
+                    "Sum": 94528,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 19,
+              "Splits": 20
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1945300,
+              "Backtracks": 28,
+              "Choices": 2108973,
+              "Conflicts": 1945328,
+              "RestartAvg": 376.485,
+              "RestartLast": 7889,
+              "Restarts": 5167
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.553,
+                "Levels": 469,
+                "Max": 19,
+                "Sum": 103
+              },
+              "Levels": 2082377,
+              "LevelsExec": 2081908,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 1945300
+            },
+            "More": {
+              "AvgGPLength": 46.464,
+              "CPU": 3177.535,
+              "Distribution": {
+                "AvgLbd": 3.678,
+                "Distributed": 47792,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 3.994,
+                "Integrated": 127659,
+                "Units": 906
+              },
+              "Lemma": {
+                "Deleted": 1974403,
+                "Sum": 2034077,
+                "Type": [
+                  {
+                    "Binary": 2400,
+                    "Ratio": 0.361,
+                    "Sum": 7344,
+                    "Ternary": 4944,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.372,
+                    "Sum": 1945300,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.953,
+                    "Sum": 88777,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 28,
+              "Splits": 25
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1537846,
+              "Backtracks": 24,
+              "Choices": 1693265,
+              "Conflicts": 1537870,
+              "RestartAvg": 374.354,
+              "RestartLast": 459,
+              "Restarts": 4108
+            },
+            "Jumps": {
+              "Avg": 1.087,
+              "AvgExec": 1.086,
+              "Bounded": {
+                "Avg": 4.285,
+                "Levels": 557,
+                "Max": 14,
+                "Sum": 130
+              },
+              "Levels": 1671239,
+              "LevelsExec": 1670682,
+              "Max": 30,
+              "MaxExec": 30,
+              "Sum": 1537846
+            },
+            "More": {
+              "AvgGPLength": 24.72,
+              "CPU": 3177.768,
+              "Distribution": {
+                "AvgLbd": 3.649,
+                "Distributed": 45317,
+                "Ratio": 0.029
+              },
+              "Integration": {
+                "AvgJump": 4.061,
+                "Integrated": 130136,
+                "Units": 832
+              },
+              "Lemma": {
+                "Deleted": 1571527,
+                "Sum": 1633877,
+                "Type": [
+                  {
+                    "Binary": 2431,
+                    "Ratio": 0.454,
+                    "Sum": 7419,
+                    "Ternary": 4988,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.693,
+                    "Sum": 1537846,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.136,
+                    "Sum": 96031,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 25,
+              "Splits": 31
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/branch_definition.json",
+      "branch_id": "B7_residual_L5eq4",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3244,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/instance.lp",
+      "l5_count": 4,
+      "layer_comparator_counts": null,
+      "leaf_id": "B7",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/parsed_status.json",
+      "peak_rss_kb": 173720,
+      "pid": 2822481,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B7_residual_L5eq4/solver.json",
+      "residual_id": "B7_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B7_residual_L5eq4.resources.jsonl",
+      "runtime_seconds": 3429.0638646369916,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 6281551,
+          "Backtracks": 95,
+          "Choices": 6841715,
+          "Conflicts": 6281646,
+          "RestartAvg": 370.549,
+          "RestartLast": 44615,
+          "Restarts": 16952
+        },
+        "Jumps": {
+          "Avg": 1.075,
+          "AvgExec": 1.075,
+          "Bounded": {
+            "Avg": 4.135,
+            "Levels": 1712,
+            "Max": 18,
+            "Sum": 414
+          },
+          "Levels": 6754558,
+          "LevelsExec": 6752846,
+          "Max": 36,
+          "MaxExec": 36,
+          "Sum": 6281551
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 32.0,
+          "CPU": 13712.465,
+          "Distribution": {
+            "AvgLbd": 3.673,
+            "Distributed": 166395,
+            "Ratio": 0.026
+          },
+          "Integration": {
+            "AvgJump": 4.072,
+            "Integrated": 499175,
+            "Ratio": 3.0,
+            "Units": 3433
+          },
+          "Lemma": {
+            "Deleted": 6393164,
+            "Sum": 6612587,
+            "Type": [
+              {
+                "Binary": 9121,
+                "Ratio": 0.413,
+                "Sum": 27290,
+                "Ternary": 18169,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 39.631,
+                "Sum": 6281549,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.327,
+                "Sum": 331038,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 97,
+          "Splits": 96
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358913,
+            "Sum": 476615,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1506811,
+              "Backtracks": 23,
+              "Choices": 1641494,
+              "Conflicts": 1506834,
+              "RestartAvg": 348.557,
+              "RestartLast": 3421,
+              "Restarts": 4323
+            },
+            "Jumps": {
+              "Avg": 1.075,
+              "AvgExec": 1.075,
+              "Bounded": {
+                "Avg": 4.048,
+                "Levels": 251,
+                "Max": 11,
+                "Sum": 62
+              },
+              "Levels": 1620300,
+              "LevelsExec": 1620049,
+              "Max": 23,
+              "MaxExec": 23,
+              "Sum": 1506811
+            },
+            "More": {
+              "AvgGPLength": 33.696,
+              "CPU": 3428.078,
+              "Distribution": {
+                "AvgLbd": 3.691,
+                "Distributed": 39598,
+                "Ratio": 0.026
+              },
+              "Integration": {
+                "AvgJump": 4.149,
+                "Integrated": 126790,
+                "Units": 900
+              },
+              "Lemma": {
+                "Deleted": 1528896,
+                "Sum": 1580662,
+                "Type": [
+                  {
+                    "Binary": 2105,
+                    "Ratio": 0.395,
+                    "Sum": 6239,
+                    "Ternary": 4134,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.194,
+                    "Sum": 1506811,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.195,
+                    "Sum": 73851,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1619916,
+              "Backtracks": 22,
+              "Choices": 1759722,
+              "Conflicts": 1619938,
+              "RestartAvg": 387.725,
+              "RestartLast": 44615,
+              "Restarts": 4178
+            },
+            "Jumps": {
+              "Avg": 1.073,
+              "AvgExec": 1.073,
+              "Bounded": {
+                "Avg": 3.609,
+                "Levels": 332,
+                "Max": 13,
+                "Sum": 92
+              },
+              "Levels": 1737989,
+              "LevelsExec": 1737657,
+              "Max": 36,
+              "MaxExec": 36,
+              "Sum": 1619916
+            },
+            "More": {
+              "AvgGPLength": 35.348,
+              "CPU": 3428.028,
+              "Distribution": {
+                "AvgLbd": 3.683,
+                "Distributed": 39884,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 3.973,
+                "Integrated": 126508,
+                "Units": 922
+              },
+              "Lemma": {
+                "Deleted": 1654980,
+                "Sum": 1704444,
+                "Type": [
+                  {
+                    "Binary": 2294,
+                    "Ratio": 0.406,
+                    "Sum": 6927,
+                    "Ternary": 4633,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 39.08,
+                    "Sum": 1619915,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.678,
+                    "Sum": 84529,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 27
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1365472,
+              "Backtracks": 28,
+              "Choices": 1499264,
+              "Conflicts": 1365500,
+              "RestartAvg": 379.72,
+              "RestartLast": 8906,
+              "Restarts": 3596
+            },
+            "Jumps": {
+              "Avg": 1.084,
+              "AvgExec": 1.083,
+              "Bounded": {
+                "Avg": 4.376,
+                "Levels": 582,
+                "Max": 18,
+                "Sum": 133
+              },
+              "Levels": 1479801,
+              "LevelsExec": 1479219,
+              "Max": 27,
+              "MaxExec": 27,
+              "Sum": 1365472
+            },
+            "More": {
+              "AvgGPLength": 23.75,
+              "CPU": 3428.192,
+              "Distribution": {
+                "AvgLbd": 3.656,
+                "Distributed": 42137,
+                "Ratio": 0.031
+              },
+              "Integration": {
+                "AvgJump": 4.047,
+                "Integrated": 124258,
+                "Units": 808
+              },
+              "Lemma": {
+                "Deleted": 1399744,
+                "Sum": 1455935,
+                "Type": [
+                  {
+                    "Binary": 2394,
+                    "Ratio": 0.489,
+                    "Sum": 7123,
+                    "Ternary": 4729,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 41.32,
+                    "Sum": 1365471,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.349,
+                    "Sum": 90464,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 28,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1789352,
+              "Backtracks": 22,
+              "Choices": 1941235,
+              "Conflicts": 1789374,
+              "RestartAvg": 368.559,
+              "RestartLast": 9515,
+              "Restarts": 4855
+            },
+            "Jumps": {
+              "Avg": 1.071,
+              "AvgExec": 1.071,
+              "Bounded": {
+                "Avg": 4.307,
+                "Levels": 547,
+                "Max": 16,
+                "Sum": 127
+              },
+              "Levels": 1916468,
+              "LevelsExec": 1915921,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 1789352
+            },
+            "More": {
+              "AvgGPLength": 37.0,
+              "CPU": 3428.167,
+              "Distribution": {
+                "AvgLbd": 3.665,
+                "Distributed": 44776,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 4.126,
+                "Integrated": 121619,
+                "Units": 803
+              },
+              "Lemma": {
+                "Deleted": 1809544,
+                "Sum": 1871546,
+                "Type": [
+                  {
+                    "Binary": 2328,
+                    "Ratio": 0.374,
+                    "Sum": 7001,
+                    "Ternary": 4673,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.049,
+                    "Sum": 1789352,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.987,
+                    "Sum": 82194,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 21
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/branch_definition.json",
+      "branch_id": "B8_residual_L5eq2",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 554,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/instance.lp",
+      "l5_count": 2,
+      "layer_comparator_counts": null,
+      "leaf_id": "B8",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/parsed_status.json",
+      "peak_rss_kb": 154316,
+      "pid": 2825293,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq2/solver.json",
+      "residual_id": "B8_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B8_residual_L5eq2.resources.jsonl",
+      "runtime_seconds": 585.4489279830013,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 1137329,
+          "Backtracks": 126,
+          "Choices": 1257171,
+          "Conflicts": 1137455,
+          "RestartAvg": 267.985,
+          "RestartLast": 6648,
+          "Restarts": 4244
+        },
+        "Jumps": {
+          "Avg": 1.087,
+          "AvgExec": 1.086,
+          "Bounded": {
+            "Avg": 4.224,
+            "Levels": 1111,
+            "Max": 22,
+            "Sum": 263
+          },
+          "Levels": 1236493,
+          "LevelsExec": 1235382,
+          "Max": 29,
+          "MaxExec": 29,
+          "Sum": 1137329
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 30.767,
+          "CPU": 2337.527,
+          "Distribution": {
+            "AvgLbd": 3.647,
+            "Distributed": 81379,
+            "Ratio": 0.072
+          },
+          "Integration": {
+            "AvgJump": 3.842,
+            "Integrated": 244111,
+            "Ratio": 3.0,
+            "Units": 1938
+          },
+          "Lemma": {
+            "Deleted": 1164484,
+            "Sum": 1272905,
+            "Type": [
+              {
+                "Binary": 4110,
+                "Ratio": 0.953,
+                "Sum": 12130,
+                "Ternary": 8020,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 35.38,
+                "Sum": 1137329,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 12.593,
+                "Sum": 135576,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 129,
+          "Splits": 128
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358912,
+            "Sum": 476614,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 267778,
+              "Backtracks": 24,
+              "Choices": 295929,
+              "Conflicts": 267802,
+              "RestartAvg": 270.483,
+              "RestartLast": 1796,
+              "Restarts": 990
+            },
+            "Jumps": {
+              "Avg": 1.085,
+              "AvgExec": 1.085,
+              "Bounded": {
+                "Avg": 3.639,
+                "Levels": 131,
+                "Max": 11,
+                "Sum": 36
+              },
+              "Levels": 290619,
+              "LevelsExec": 290488,
+              "Max": 29,
+              "MaxExec": 29,
+              "Sum": 267778
+            },
+            "More": {
+              "AvgGPLength": 30.76,
+              "CPU": 584.386,
+              "Distribution": {
+                "AvgLbd": 3.648,
+                "Distributed": 16073,
+                "Ratio": 0.06
+              },
+              "Integration": {
+                "AvgJump": 3.972,
+                "Integrated": 65306,
+                "Units": 503
+              },
+              "Lemma": {
+                "Deleted": 276756,
+                "Sum": 301497,
+                "Type": [
+                  {
+                    "Binary": 933,
+                    "Ratio": 0.934,
+                    "Sum": 2816,
+                    "Ternary": 1883,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.221,
+                    "Sum": 267778,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 13.176,
+                    "Sum": 33719,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 25,
+              "Splits": 25
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 295531,
+              "Backtracks": 33,
+              "Choices": 325013,
+              "Conflicts": 295564,
+              "RestartAvg": 252.807,
+              "RestartLast": 953,
+              "Restarts": 1169
+            },
+            "Jumps": {
+              "Avg": 1.083,
+              "AvgExec": 1.082,
+              "Bounded": {
+                "Avg": 3.424,
+                "Levels": 291,
+                "Max": 13,
+                "Sum": 85
+              },
+              "Levels": 320094,
+              "LevelsExec": 319803,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 295531
+            },
+            "More": {
+              "AvgGPLength": 32.371,
+              "CPU": 584.368,
+              "Distribution": {
+                "AvgLbd": 3.658,
+                "Distributed": 22808,
+                "Ratio": 0.077
+              },
+              "Integration": {
+                "AvgJump": 3.467,
+                "Integrated": 58555,
+                "Units": 482
+              },
+              "Lemma": {
+                "Deleted": 299848,
+                "Sum": 328053,
+                "Type": [
+                  {
+                    "Binary": 1041,
+                    "Ratio": 0.937,
+                    "Sum": 3073,
+                    "Ternary": 2032,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 33.511,
+                    "Sum": 295531,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.509,
+                    "Sum": 32522,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 35,
+              "Splits": 33
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 319629,
+              "Backtracks": 35,
+              "Choices": 351565,
+              "Conflicts": 319664,
+              "RestartAvg": 280.869,
+              "RestartLast": 6648,
+              "Restarts": 1138
+            },
+            "Jumps": {
+              "Avg": 1.083,
+              "AvgExec": 1.082,
+              "Bounded": {
+                "Avg": 4.726,
+                "Levels": 345,
+                "Max": 18,
+                "Sum": 73
+              },
+              "Levels": 346204,
+              "LevelsExec": 345859,
+              "Max": 19,
+              "MaxExec": 19,
+              "Sum": 319629
+            },
+            "More": {
+              "AvgGPLength": 35.514,
+              "CPU": 584.386,
+              "Distribution": {
+                "AvgLbd": 3.645,
+                "Distributed": 21948,
+                "Ratio": 0.069
+              },
+              "Integration": {
+                "AvgJump": 4.027,
+                "Integrated": 59425,
+                "Units": 444
+              },
+              "Lemma": {
+                "Deleted": 320911,
+                "Sum": 353449,
+                "Type": [
+                  {
+                    "Binary": 1062,
+                    "Ratio": 0.878,
+                    "Sum": 3104,
+                    "Ternary": 2042,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 35.48,
+                    "Sum": 319629,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.172,
+                    "Sum": 33820,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 35,
+              "Splits": 34
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 254391,
+              "Backtracks": 34,
+              "Choices": 284664,
+              "Conflicts": 254425,
+              "RestartAvg": 268.628,
+              "RestartLast": 897,
+              "Restarts": 947
+            },
+            "Jumps": {
+              "Avg": 1.099,
+              "AvgExec": 1.098,
+              "Bounded": {
+                "Avg": 4.986,
+                "Levels": 344,
+                "Max": 22,
+                "Sum": 69
+              },
+              "Levels": 279576,
+              "LevelsExec": 279232,
+              "Max": 24,
+              "MaxExec": 24,
+              "Sum": 254391
+            },
+            "More": {
+              "AvgGPLength": 24.235,
+              "CPU": 584.387,
+              "Distribution": {
+                "AvgLbd": 3.638,
+                "Distributed": 20550,
+                "Ratio": 0.081
+              },
+              "Integration": {
+                "AvgJump": 3.908,
+                "Integrated": 60825,
+                "Units": 509
+              },
+              "Lemma": {
+                "Deleted": 266969,
+                "Sum": 289906,
+                "Type": [
+                  {
+                    "Binary": 1074,
+                    "Ratio": 1.082,
+                    "Sum": 3137,
+                    "Ternary": 2063,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.541,
+                    "Sum": 254391,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.516,
+                    "Sum": 35515,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 34,
+              "Splits": 36
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/branch_definition.json",
+      "branch_id": "B8_residual_L5eq3",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3010,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/instance.lp",
+      "l5_count": 3,
+      "layer_comparator_counts": null,
+      "leaf_id": "B8",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/parsed_status.json",
+      "peak_rss_kb": 175204,
+      "pid": 2825531,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq3/solver.json",
+      "residual_id": "B8_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B8_residual_L5eq3.resources.jsonl",
+      "runtime_seconds": 3181.71082522301,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 7274111,
+          "Backtracks": 90,
+          "Choices": 7894750,
+          "Conflicts": 7274201,
+          "RestartAvg": 383.231,
+          "RestartLast": 9301,
+          "Restarts": 18981
+        },
+        "Jumps": {
+          "Avg": 1.072,
+          "AvgExec": 1.072,
+          "Bounded": {
+            "Avg": 4.035,
+            "Levels": 1622,
+            "Max": 30,
+            "Sum": 402
+          },
+          "Levels": 7799038,
+          "LevelsExec": 7797416,
+          "Max": 34,
+          "MaxExec": 34,
+          "Sum": 7274111
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 35.767,
+          "CPU": 12719.806,
+          "Distribution": {
+            "AvgLbd": 3.681,
+            "Distributed": 180480,
+            "Ratio": 0.025
+          },
+          "Integration": {
+            "AvgJump": 3.924,
+            "Integrated": 541426,
+            "Ratio": 3.0,
+            "Units": 3573
+          },
+          "Lemma": {
+            "Deleted": 7405987,
+            "Sum": 7635020,
+            "Type": [
+              {
+                "Binary": 9264,
+                "Ratio": 0.372,
+                "Sum": 28427,
+                "Ternary": 19163,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 38.163,
+                "Sum": 7274110,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 10.965,
+                "Sum": 360910,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 90,
+          "Splits": 89
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358912,
+            "Sum": 476614,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1530883,
+              "Backtracks": 20,
+              "Choices": 1658472,
+              "Conflicts": 1530903,
+              "RestartAvg": 346.275,
+              "RestartLast": 9301,
+              "Restarts": 4421
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.246,
+                "Levels": 242,
+                "Max": 9,
+                "Sum": 57
+              },
+              "Levels": 1637835,
+              "LevelsExec": 1637593,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 1530883
+            },
+            "More": {
+              "AvgGPLength": 69.9,
+              "CPU": 3179.925,
+              "Distribution": {
+                "AvgLbd": 3.717,
+                "Distributed": 44866,
+                "Ratio": 0.029
+              },
+              "Integration": {
+                "AvgJump": 4.008,
+                "Integrated": 135612,
+                "Units": 894
+              },
+              "Lemma": {
+                "Deleted": 1558403,
+                "Sum": 1611238,
+                "Type": [
+                  {
+                    "Binary": 2102,
+                    "Ratio": 0.398,
+                    "Sum": 6420,
+                    "Ternary": 4318,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.081,
+                    "Sum": 1530882,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.998,
+                    "Sum": 80356,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 21
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2063707,
+              "Backtracks": 20,
+              "Choices": 2234173,
+              "Conflicts": 2063727,
+              "RestartAvg": 386.534,
+              "RestartLast": 3332,
+              "Restarts": 5339
+            },
+            "Jumps": {
+              "Avg": 1.069,
+              "AvgExec": 1.069,
+              "Bounded": {
+                "Avg": 3.921,
+                "Levels": 349,
+                "Max": 11,
+                "Sum": 89
+              },
+              "Levels": 2205921,
+              "LevelsExec": 2205572,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 2063707
+            },
+            "More": {
+              "AvgGPLength": 20.1,
+              "CPU": 3180.029,
+              "Distribution": {
+                "AvgLbd": 3.672,
+                "Distributed": 45018,
+                "Ratio": 0.022
+              },
+              "Integration": {
+                "AvgJump": 3.996,
+                "Integrated": 135457,
+                "Units": 932
+              },
+              "Lemma": {
+                "Deleted": 2095252,
+                "Sum": 2154690,
+                "Type": [
+                  {
+                    "Binary": 2364,
+                    "Ratio": 0.338,
+                    "Sum": 7278,
+                    "Ternary": 4914,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.377,
+                    "Sum": 2063707,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.836,
+                    "Sum": 90983,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 19
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2024215,
+              "Backtracks": 27,
+              "Choices": 2192989,
+              "Conflicts": 2024242,
+              "RestartAvg": 389.048,
+              "RestartLast": 7424,
+              "Restarts": 5203
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 3.602,
+                "Levels": 353,
+                "Max": 21,
+                "Sum": 98
+              },
+              "Levels": 2166665,
+              "LevelsExec": 2166312,
+              "Max": 27,
+              "MaxExec": 27,
+              "Sum": 2024215
+            },
+            "More": {
+              "AvgGPLength": 34.63,
+              "CPU": 3180.06,
+              "Distribution": {
+                "AvgLbd": 3.679,
+                "Distributed": 42725,
+                "Ratio": 0.021
+              },
+              "Integration": {
+                "AvgJump": 3.659,
+                "Integrated": 137748,
+                "Units": 956
+              },
+              "Lemma": {
+                "Deleted": 2061339,
+                "Sum": 2117299,
+                "Type": [
+                  {
+                    "Binary": 2359,
+                    "Ratio": 0.343,
+                    "Sum": 7272,
+                    "Ternary": 4913,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.076,
+                    "Sum": 2024215,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.575,
+                    "Sum": 93084,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 27,
+              "Splits": 22
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1655306,
+              "Backtracks": 23,
+              "Choices": 1809116,
+              "Conflicts": 1655329,
+              "RestartAvg": 411.973,
+              "RestartLast": 721,
+              "Restarts": 4018
+            },
+            "Jumps": {
+              "Avg": 1.081,
+              "AvgExec": 1.08,
+              "Bounded": {
+                "Avg": 4.291,
+                "Levels": 678,
+                "Max": 30,
+                "Sum": 158
+              },
+              "Levels": 1788617,
+              "LevelsExec": 1787939,
+              "Max": 34,
+              "MaxExec": 34,
+              "Sum": 1655306
+            },
+            "More": {
+              "AvgGPLength": 21.043,
+              "CPU": 3179.793,
+              "Distribution": {
+                "AvgLbd": 3.658,
+                "Distributed": 47871,
+                "Ratio": 0.029
+              },
+              "Integration": {
+                "AvgJump": 4.063,
+                "Integrated": 132609,
+                "Units": 791
+              },
+              "Lemma": {
+                "Deleted": 1690993,
+                "Sum": 1751793,
+                "Type": [
+                  {
+                    "Binary": 2439,
+                    "Ratio": 0.426,
+                    "Sum": 7457,
+                    "Ternary": 5018,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.23,
+                    "Sum": 1655306,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.434,
+                    "Sum": 96487,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 23,
+              "Splits": 27
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/branch_definition.json",
+      "branch_id": "B8_residual_L5eq4",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 3339,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/instance.lp",
+      "l5_count": 4,
+      "layer_comparator_counts": null,
+      "leaf_id": "B8",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/parsed_status.json",
+      "peak_rss_kb": 179304,
+      "pid": 2828548,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B8_residual_L5eq4/solver.json",
+      "residual_id": "B8_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B8_residual_L5eq4.resources.jsonl",
+      "runtime_seconds": 3517.774204135989,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 6950432,
+          "Backtracks": 81,
+          "Choices": 7539154,
+          "Conflicts": 6950513,
+          "RestartAvg": 381.598,
+          "RestartLast": 25950,
+          "Restarts": 18214
+        },
+        "Jumps": {
+          "Avg": 1.071,
+          "AvgExec": 1.071,
+          "Bounded": {
+            "Avg": 3.969,
+            "Levels": 1679,
+            "Max": 14,
+            "Sum": 423
+          },
+          "Levels": 7446410,
+          "LevelsExec": 7444731,
+          "Max": 36,
+          "MaxExec": 36,
+          "Sum": 6950432
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 33.108,
+          "CPU": 14064.787,
+          "Distribution": {
+            "AvgLbd": 3.683,
+            "Distributed": 179247,
+            "Ratio": 0.026
+          },
+          "Integration": {
+            "AvgJump": 3.897,
+            "Integrated": 537714,
+            "Ratio": 3.0,
+            "Units": 3538
+          },
+          "Lemma": {
+            "Deleted": 7093115,
+            "Sum": 7317343,
+            "Type": [
+              {
+                "Binary": 9124,
+                "Ratio": 0.38,
+                "Sum": 27837,
+                "Ternary": 18713,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 39.38,
+                "Sum": 6950432,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.058,
+                "Sum": 366911,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 83,
+          "Splits": 82
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358912,
+            "Sum": 476614,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1675580,
+              "Backtracks": 19,
+              "Choices": 1815829,
+              "Conflicts": 1675599,
+              "RestartAvg": 374.013,
+              "RestartLast": 3298,
+              "Restarts": 4480
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.519,
+                "Levels": 244,
+                "Max": 11,
+                "Sum": 54
+              },
+              "Levels": 1792793,
+              "LevelsExec": 1792549,
+              "Max": 21,
+              "MaxExec": 21,
+              "Sum": 1675580
+            },
+            "More": {
+              "AvgGPLength": 34.526,
+              "CPU": 3516.258,
+              "Distribution": {
+                "AvgLbd": 3.698,
+                "Distributed": 39806,
+                "Ratio": 0.024
+              },
+              "Integration": {
+                "AvgJump": 4.044,
+                "Integrated": 139438,
+                "Units": 935
+              },
+              "Lemma": {
+                "Deleted": 1705679,
+                "Sum": 1758416,
+                "Type": [
+                  {
+                    "Binary": 2068,
+                    "Ratio": 0.362,
+                    "Sum": 6357,
+                    "Ternary": 4289,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.517,
+                    "Sum": 1675580,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.068,
+                    "Sum": 82836,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 19,
+              "Splits": 19
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1790264,
+              "Backtracks": 20,
+              "Choices": 1939080,
+              "Conflicts": 1790284,
+              "RestartAvg": 382.29,
+              "RestartLast": 24291,
+              "Restarts": 4683
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.069,
+              "Bounded": {
+                "Avg": 3.57,
+                "Levels": 332,
+                "Max": 14,
+                "Sum": 93
+              },
+              "Levels": 1914770,
+              "LevelsExec": 1914438,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 1790264
+            },
+            "More": {
+              "AvgGPLength": 23.05,
+              "CPU": 3516.04,
+              "Distribution": {
+                "AvgLbd": 3.689,
+                "Distributed": 41735,
+                "Ratio": 0.023
+              },
+              "Integration": {
+                "AvgJump": 3.728,
+                "Integrated": 137510,
+                "Units": 966
+              },
+              "Lemma": {
+                "Deleted": 1831779,
+                "Sum": 1887391,
+                "Type": [
+                  {
+                    "Binary": 2326,
+                    "Ratio": 0.377,
+                    "Sum": 7112,
+                    "Ternary": 4786,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.635,
+                    "Sum": 1790264,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.741,
+                    "Sum": 97127,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 24
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1690964,
+              "Backtracks": 23,
+              "Choices": 1832850,
+              "Conflicts": 1690987,
+              "RestartAvg": 370.257,
+              "RestartLast": 25950,
+              "Restarts": 4567
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.009,
+                "Levels": 461,
+                "Max": 9,
+                "Sum": 115
+              },
+              "Levels": 1809955,
+              "LevelsExec": 1809494,
+              "Max": 36,
+              "MaxExec": 36,
+              "Sum": 1690964
+            },
+            "More": {
+              "AvgGPLength": 34.4,
+              "CPU": 3516.206,
+              "Distribution": {
+                "AvgLbd": 3.672,
+                "Distributed": 45908,
+                "Ratio": 0.027
+              },
+              "Integration": {
+                "AvgJump": 3.835,
+                "Integrated": 133317,
+                "Units": 891
+              },
+              "Lemma": {
+                "Deleted": 1729628,
+                "Sum": 1783409,
+                "Type": [
+                  {
+                    "Binary": 2340,
+                    "Ratio": 0.4,
+                    "Sum": 7133,
+                    "Ternary": 4793,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.475,
+                    "Sum": 1690964,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.533,
+                    "Sum": 92445,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 25,
+              "Splits": 16
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1793624,
+              "Backtracks": 19,
+              "Choices": 1951395,
+              "Conflicts": 1793643,
+              "RestartAvg": 400.005,
+              "RestartLast": 2229,
+              "Restarts": 4484
+            },
+            "Jumps": {
+              "Avg": 1.075,
+              "AvgExec": 1.075,
+              "Bounded": {
+                "Avg": 3.988,
+                "Levels": 642,
+                "Max": 12,
+                "Sum": 161
+              },
+              "Levels": 1928892,
+              "LevelsExec": 1928250,
+              "Max": 27,
+              "MaxExec": 27,
+              "Sum": 1793624
+            },
+            "More": {
+              "AvgGPLength": 40.579,
+              "CPU": 3516.282,
+              "Distribution": {
+                "AvgLbd": 3.676,
+                "Distributed": 51798,
+                "Ratio": 0.029
+              },
+              "Integration": {
+                "AvgJump": 4.007,
+                "Integrated": 127449,
+                "Units": 746
+              },
+              "Lemma": {
+                "Deleted": 1826029,
+                "Sum": 1888127,
+                "Type": [
+                  {
+                    "Binary": 2390,
+                    "Ratio": 0.383,
+                    "Sum": 7235,
+                    "Ternary": 4845,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 39.896,
+                    "Sum": 1793624,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.887,
+                    "Sum": 94503,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 19,
+              "Splits": 23
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/branch_definition.json",
+      "branch_id": "B9_residual_L5eq3",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 2374,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/instance.lp",
+      "l5_count": 3,
+      "layer_comparator_counts": null,
+      "leaf_id": "B9",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/parsed_status.json",
+      "peak_rss_kb": 172412,
+      "pid": 2862374,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq3/solver.json",
+      "residual_id": "B9_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B9_residual_L5eq3.resources.jsonl",
+      "runtime_seconds": 2469.652039462002,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 6949562,
+          "Backtracks": 83,
+          "Choices": 7550437,
+          "Conflicts": 6949645,
+          "RestartAvg": 377.714,
+          "RestartLast": 35215,
+          "Restarts": 18399
+        },
+        "Jumps": {
+          "Avg": 1.073,
+          "AvgExec": 1.073,
+          "Bounded": {
+            "Avg": 4.289,
+            "Levels": 1827,
+            "Max": 15,
+            "Sum": 426
+          },
+          "Levels": 7456361,
+          "LevelsExec": 7454534,
+          "Max": 94,
+          "MaxExec": 94,
+          "Sum": 6949562
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 30.624,
+          "CPU": 9876.217,
+          "Distribution": {
+            "AvgLbd": 3.678,
+            "Distributed": 174998,
+            "Ratio": 0.025
+          },
+          "Integration": {
+            "AvgJump": 3.957,
+            "Integrated": 524966,
+            "Ratio": 3.0,
+            "Units": 3694
+          },
+          "Lemma": {
+            "Deleted": 7077855,
+            "Sum": 7298612,
+            "Type": [
+              {
+                "Binary": 9261,
+                "Ratio": 0.39,
+                "Sum": 28439,
+                "Ternary": 19178,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 37.491,
+                "Sum": 6949562,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.229,
+                "Sum": 349050,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 85,
+          "Splits": 84
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358911,
+            "Sum": 476613,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1657344,
+              "Backtracks": 18,
+              "Choices": 1794218,
+              "Conflicts": 1657362,
+              "RestartAvg": 353.755,
+              "RestartLast": 2495,
+              "Restarts": 4685
+            },
+            "Jumps": {
+              "Avg": 1.069,
+              "AvgExec": 1.069,
+              "Bounded": {
+                "Avg": 4.82,
+                "Levels": 294,
+                "Max": 15,
+                "Sum": 61
+              },
+              "Levels": 1771562,
+              "LevelsExec": 1771268,
+              "Max": 21,
+              "MaxExec": 21,
+              "Sum": 1657344
+            },
+            "More": {
+              "AvgGPLength": 70.611,
+              "CPU": 2469.017,
+              "Distribution": {
+                "AvgLbd": 3.712,
+                "Distributed": 43202,
+                "Ratio": 0.026
+              },
+              "Integration": {
+                "AvgJump": 3.862,
+                "Integrated": 131787,
+                "Units": 999
+              },
+              "Lemma": {
+                "Deleted": 1684203,
+                "Sum": 1734779,
+                "Type": [
+                  {
+                    "Binary": 2092,
+                    "Ratio": 0.375,
+                    "Sum": 6497,
+                    "Ternary": 4405,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 35.721,
+                    "Sum": 1657344,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.806,
+                    "Sum": 77435,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 18,
+              "Splits": 19
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1865362,
+              "Backtracks": 26,
+              "Choices": 2022810,
+              "Conflicts": 1865388,
+              "RestartAvg": 369.965,
+              "RestartLast": 35215,
+              "Restarts": 5042
+            },
+            "Jumps": {
+              "Avg": 1.071,
+              "AvgExec": 1.071,
+              "Bounded": {
+                "Avg": 4.207,
+                "Levels": 467,
+                "Max": 15,
+                "Sum": 111
+              },
+              "Levels": 1997677,
+              "LevelsExec": 1997210,
+              "Max": 94,
+              "MaxExec": 94,
+              "Sum": 1865362
+            },
+            "More": {
+              "AvgGPLength": 20.786,
+              "CPU": 2469.095,
+              "Distribution": {
+                "AvgLbd": 3.688,
+                "Distributed": 45268,
+                "Ratio": 0.024
+              },
+              "Integration": {
+                "AvgJump": 3.796,
+                "Integrated": 129721,
+                "Units": 948
+              },
+              "Lemma": {
+                "Deleted": 1900175,
+                "Sum": 1953565,
+                "Type": [
+                  {
+                    "Binary": 2361,
+                    "Ratio": 0.37,
+                    "Sum": 7235,
+                    "Ternary": 4874,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 36.859,
+                    "Sum": 1865362,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.649,
+                    "Sum": 88203,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 28,
+              "Splits": 23
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1886480,
+              "Backtracks": 19,
+              "Choices": 2043488,
+              "Conflicts": 1886499,
+              "RestartAvg": 407.976,
+              "RestartLast": 5100,
+              "Restarts": 4624
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.222,
+                "Levels": 456,
+                "Max": 10,
+                "Sum": 108
+              },
+              "Levels": 2018869,
+              "LevelsExec": 2018413,
+              "Max": 25,
+              "MaxExec": 25,
+              "Sum": 1886480
+            },
+            "More": {
+              "AvgGPLength": 20.0,
+              "CPU": 2469.103,
+              "Distribution": {
+                "AvgLbd": 3.663,
+                "Distributed": 42072,
+                "Ratio": 0.022
+              },
+              "Integration": {
+                "AvgJump": 4.121,
+                "Integrated": 132925,
+                "Units": 932
+              },
+              "Lemma": {
+                "Deleted": 1917900,
+                "Sum": 1973834,
+                "Type": [
+                  {
+                    "Binary": 2375,
+                    "Ratio": 0.369,
+                    "Sum": 7274,
+                    "Ternary": 4899,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.405,
+                    "Sum": 1886480,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.89,
+                    "Sum": 87354,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 19,
+              "Splits": 18
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1540376,
+              "Backtracks": 20,
+              "Choices": 1689921,
+              "Conflicts": 1540396,
+              "RestartAvg": 380.528,
+              "RestartLast": 1341,
+              "Restarts": 4048
+            },
+            "Jumps": {
+              "Avg": 1.083,
+              "AvgExec": 1.083,
+              "Bounded": {
+                "Avg": 4.178,
+                "Levels": 610,
+                "Max": 12,
+                "Sum": 146
+              },
+              "Levels": 1668253,
+              "LevelsExec": 1667643,
+              "Max": 27,
+              "MaxExec": 27,
+              "Sum": 1540376
+            },
+            "More": {
+              "AvgGPLength": 18.5,
+              "CPU": 2469.001,
+              "Distribution": {
+                "AvgLbd": 3.648,
+                "Distributed": 44456,
+                "Ratio": 0.029
+              },
+              "Integration": {
+                "AvgJump": 4.072,
+                "Integrated": 130533,
+                "Units": 815
+              },
+              "Lemma": {
+                "Deleted": 1575577,
+                "Sum": 1636434,
+                "Type": [
+                  {
+                    "Binary": 2433,
+                    "Ratio": 0.454,
+                    "Sum": 7433,
+                    "Ternary": 5000,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 40.265,
+                    "Sum": 1540376,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 12.41,
+                    "Sum": 96058,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 20,
+              "Splits": 24
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    },
+    {
+      "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/branch_definition.json",
+      "branch_id": "B9_residual_L5eq4",
+      "clingo_result": "UNSATISFIABLE",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_v.lp",
+        "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/instance.lp"
+      ],
+      "comparator_count": null,
+      "cpu_snapshots": 2671,
+      "error_message": null,
+      "final_layer": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "input_mode": "v_boundary",
+      "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/instance.lp",
+      "l5_count": 4,
+      "layer_comparator_counts": null,
+      "leaf_id": "B9",
+      "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/reproducibility.json",
+      "network_json_path": null,
+      "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/parsed_status.json",
+      "peak_rss_kb": 178212,
+      "pid": 2864407,
+      "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/branches/B9_residual_L5eq4/solver.json",
+      "residual_id": "B9_residual",
+      "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/longrun/logs/B9_residual_L5eq4.resources.jsonl",
+      "runtime_seconds": 2755.120036469947,
+      "solver_options": [
+        "--outf=2",
+        "--stats=2",
+        "-n",
+        "1",
+        "--time-limit=3600",
+        "--seed=1",
+        "--parallel-mode=4,split"
+      ],
+      "solver_statistics": {
+        "Core": {
+          "Backjumps": 8026071,
+          "Backtracks": 132,
+          "Choices": 8704775,
+          "Conflicts": 8026203,
+          "RestartAvg": 409.285,
+          "RestartLast": 112084,
+          "Restarts": 19610
+        },
+        "Jumps": {
+          "Avg": 1.072,
+          "AvgExec": 1.072,
+          "Bounded": {
+            "Avg": 4.297,
+            "Levels": 1925,
+            "Max": 19,
+            "Sum": 448
+          },
+          "Levels": 8602510,
+          "LevelsExec": 8600585,
+          "Max": 62,
+          "MaxExec": 62,
+          "Sum": 8026071
+        },
+        "LP": {
+          "Atoms": 18153,
+          "Bodies": {
+            "Count": {
+              "Final": 50,
+              "Original": 57
+            },
+            "Final": 128502,
+            "Original": 128455
+          },
+          "Equivalences": {
+            "Atom": 579,
+            "Body": 1470,
+            "Other": 2696,
+            "Sum": 4745
+          },
+          "Rules": {
+            "Choice": {
+              "Final": 216,
+              "Original": 216
+            },
+            "Final": 151224,
+            "Original": 151156
+          },
+          "Tight": "yes"
+        },
+        "More": {
+          "AvgGPLength": 33.007,
+          "CPU": 11017.291,
+          "Distribution": {
+            "AvgLbd": 3.674,
+            "Distributed": 184950,
+            "Ratio": 0.023
+          },
+          "Integration": {
+            "AvgJump": 3.999,
+            "Integrated": 554830,
+            "Ratio": 3.0,
+            "Units": 3702
+          },
+          "Lemma": {
+            "Deleted": 8171430,
+            "Sum": 8416609,
+            "Type": [
+              {
+                "Binary": 9876,
+                "Ratio": 0.358,
+                "Sum": 30133,
+                "Ternary": 20257,
+                "Type": "Short"
+              },
+              {
+                "AvgLen": 38.341,
+                "Sum": 8026071,
+                "Type": "Conflict"
+              },
+              {
+                "AvgLen": 0.0,
+                "Sum": 0,
+                "Type": "Loop"
+              },
+              {
+                "AvgLen": 11.553,
+                "Sum": 390538,
+                "Type": "Other"
+              }
+            ]
+          },
+          "Models": 0,
+          "Problems": 139,
+          "Splits": 138
+        },
+        "Problem": {
+          "AcycEdges": 0,
+          "Constraints": {
+            "Binary": 358911,
+            "Sum": 476613,
+            "Ternary": 77483
+          },
+          "Eliminated": 0,
+          "Frozen": 11958,
+          "Variables": 116611
+        },
+        "Thread": [
+          {
+            "Core": {
+              "Backjumps": 1845337,
+              "Backtracks": 28,
+              "Choices": 2010840,
+              "Conflicts": 1845365,
+              "RestartAvg": 391.459,
+              "RestartLast": 5366,
+              "Restarts": 4714
+            },
+            "Jumps": {
+              "Avg": 1.076,
+              "AvgExec": 1.076,
+              "Bounded": {
+                "Avg": 5.597,
+                "Levels": 403,
+                "Max": 19,
+                "Sum": 72
+              },
+              "Levels": 1985794,
+              "LevelsExec": 1985391,
+              "Max": 25,
+              "MaxExec": 25,
+              "Sum": 1845337
+            },
+            "More": {
+              "AvgGPLength": 35.25,
+              "CPU": 2754.475,
+              "Distribution": {
+                "AvgLbd": 3.687,
+                "Distributed": 45171,
+                "Ratio": 0.024
+              },
+              "Integration": {
+                "AvgJump": 4.169,
+                "Integrated": 139769,
+                "Units": 947
+              },
+              "Lemma": {
+                "Deleted": 1876286,
+                "Sum": 1937419,
+                "Type": [
+                  {
+                    "Binary": 2257,
+                    "Ratio": 0.358,
+                    "Sum": 6928,
+                    "Ternary": 4671,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.366,
+                    "Sum": 1845337,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 13.537,
+                    "Sum": 92082,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 28,
+              "Splits": 28
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1957634,
+              "Backtracks": 34,
+              "Choices": 2129550,
+              "Conflicts": 1957668,
+              "RestartAvg": 398.217,
+              "RestartLast": 20744,
+              "Restarts": 4916
+            },
+            "Jumps": {
+              "Avg": 1.074,
+              "AvgExec": 1.074,
+              "Bounded": {
+                "Avg": 4.246,
+                "Levels": 552,
+                "Max": 14,
+                "Sum": 130
+              },
+              "Levels": 2103309,
+              "LevelsExec": 2102757,
+              "Max": 22,
+              "MaxExec": 22,
+              "Sum": 1957634
+            },
+            "More": {
+              "AvgGPLength": 33.579,
+              "CPU": 2754.129,
+              "Distribution": {
+                "AvgLbd": 3.654,
+                "Distributed": 49824,
+                "Ratio": 0.025
+              },
+              "Integration": {
+                "AvgJump": 4.056,
+                "Integrated": 135121,
+                "Units": 828
+              },
+              "Lemma": {
+                "Deleted": 1989597,
+                "Sum": 2056318,
+                "Type": [
+                  {
+                    "Binary": 2562,
+                    "Ratio": 0.38,
+                    "Sum": 7804,
+                    "Ternary": 5242,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 39.829,
+                    "Sum": 1957634,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.96,
+                    "Sum": 98684,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 38,
+              "Splits": 33
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 2428855,
+              "Backtracks": 38,
+              "Choices": 2621572,
+              "Conflicts": 2428893,
+              "RestartAvg": 449.206,
+              "RestartLast": 112084,
+              "Restarts": 5407
+            },
+            "Jumps": {
+              "Avg": 1.068,
+              "AvgExec": 1.068,
+              "Bounded": {
+                "Avg": 3.227,
+                "Levels": 355,
+                "Max": 11,
+                "Sum": 110
+              },
+              "Levels": 2593596,
+              "LevelsExec": 2593241,
+              "Max": 25,
+              "MaxExec": 25,
+              "Sum": 2428855
+            },
+            "More": {
+              "AvgGPLength": 25.829,
+              "CPU": 2754.126,
+              "Distribution": {
+                "AvgLbd": 3.683,
+                "Distributed": 47101,
+                "Ratio": 0.019
+              },
+              "Integration": {
+                "AvgJump": 4.04,
+                "Integrated": 137849,
+                "Units": 945
+              },
+              "Lemma": {
+                "Deleted": 2465366,
+                "Sum": 2527641,
+                "Type": [
+                  {
+                    "Binary": 2526,
+                    "Ratio": 0.305,
+                    "Sum": 7702,
+                    "Ternary": 5176,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 37.862,
+                    "Sum": 2428855,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 10.563,
+                    "Sum": 98786,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 41,
+              "Splits": 40
+            }
+          },
+          {
+            "Core": {
+              "Backjumps": 1794245,
+              "Backtracks": 32,
+              "Choices": 1942813,
+              "Conflicts": 1794277,
+              "RestartAvg": 392.356,
+              "RestartLast": 654,
+              "Restarts": 4573
+            },
+            "Jumps": {
+              "Avg": 1.07,
+              "AvgExec": 1.07,
+              "Bounded": {
+                "Avg": 4.522,
+                "Levels": 615,
+                "Max": 14,
+                "Sum": 136
+              },
+              "Levels": 1919811,
+              "LevelsExec": 1919196,
+              "Max": 62,
+              "MaxExec": 62,
+              "Sum": 1794245
+            },
+            "More": {
+              "AvgGPLength": 39.562,
+              "CPU": 2754.561,
+              "Distribution": {
+                "AvgLbd": 3.673,
+                "Distributed": 42854,
+                "Ratio": 0.024
+              },
+              "Integration": {
+                "AvgJump": 3.749,
+                "Integrated": 142091,
+                "Units": 982
+              },
+              "Lemma": {
+                "Deleted": 1840181,
+                "Sum": 1895231,
+                "Type": [
+                  {
+                    "Binary": 2531,
+                    "Ratio": 0.406,
+                    "Sum": 7699,
+                    "Ternary": 5168,
+                    "Type": "Short"
+                  },
+                  {
+                    "AvgLen": 38.367,
+                    "Sum": 1794245,
+                    "Type": "Conflict"
+                  },
+                  {
+                    "AvgLen": 0.0,
+                    "Sum": 0,
+                    "Type": "Loop"
+                  },
+                  {
+                    "AvgLen": 11.294,
+                    "Sum": 100986,
+                    "Type": "Other"
+                  }
+                ]
+              },
+              "Models": 0,
+              "Problems": 32,
+              "Splits": 37
+            }
+          }
+        ]
+      },
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "timeout_seconds": 3600,
+      "verifier_json_path": null,
+      "verifier_ok": null,
+      "worker_count": 4
+    }
+  ]
+}

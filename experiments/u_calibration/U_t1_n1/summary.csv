@@ -1,0 +1,12 @@
+n,t,kind,depth,status,command,solver_version,runtime_seconds,instance_path,raw_solver_json_path,network_json_path,verifier_json_path,verifier_ok,error_message
+1,1,U,0,SAT,"['.venv/bin/python', '-m', 'clingo', '--outf=2', '--time-limit=10', '-n', '1', '/home/ono/Codex/solver/common.lp', '/home/ono/Codex/solver/target_u.lp', 'experiments/u_calibration/U_t1_n1/depth_00/instance.lp']","pyclingo version 5.8.0
+Address model: 64-bit
+
+libclingo version 5.8.0
+Configuration: without Python, without Lua
+
+libclasp version 3.4.0 (libpotassco version 1.2.0)
+Configuration: WITH_THREADS=1
+Copyright (C) Benjamin Kaufmann
+
+License: The MIT License <https://opensource.org/licenses/MIT>",0.024779427098110318,experiments/u_calibration/U_t1_n1/depth_00/instance.lp,experiments/u_calibration/U_t1_n1/depth_00/solver.json,experiments/u_calibration/U_t1_n1/depth_00/network.json,experiments/u_calibration/U_t1_n1/depth_00/verifier.json,True,

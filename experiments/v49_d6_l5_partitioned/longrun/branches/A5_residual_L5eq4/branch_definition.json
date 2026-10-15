@@ -1,0 +1,27 @@
+{
+  "branch_id": "A5_residual_L5eq4",
+  "constraints": ":- 4 != #count { I,J : selected(5,I,J) }.\n",
+  "final_layer": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "l5_count": 4,
+  "leaf_id": "A5",
+  "residual_id": "A5_residual"
+}

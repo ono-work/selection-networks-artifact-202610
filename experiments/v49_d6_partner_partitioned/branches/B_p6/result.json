@@ -1,0 +1,156 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/branch_definition.json",
+  "branch_id": "B_p6",
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 988,
+  "error_message": null,
+  "final_layer_comparator_count": 3,
+  "final_wire4_comparator": [
+    4,
+    6
+  ],
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/instance.lp",
+  "layer_comparator_counts": null,
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/reproducibility.json",
+  "network_json_path": null,
+  "parent_id": "B",
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/parsed_status.json",
+  "partner": 6,
+  "peak_rss_kb": 80328,
+  "pid": 2434269,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p6/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p6.resources.jsonl",
+  "runtime_seconds": 1067.3582656690269,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 826423,
+      "Backtracks": 1,
+      "Choices": 928248,
+      "Conflicts": 826424,
+      "RestartAvg": 404.119,
+      "RestartLast": 13738,
+      "Restarts": 2045
+    },
+    "Jumps": {
+      "Avg": 1.111,
+      "AvgExec": 1.11,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 248,
+        "Max": 1,
+        "Sum": 248
+      },
+      "Levels": 917816,
+      "LevelsExec": 917568,
+      "Max": 43,
+      "MaxExec": 43,
+      "Sum": 826423
+    },
+    "LP": {
+      "Atoms": 18150,
+      "Bodies": {
+        "Count": {
+          "Final": 54,
+          "Original": 56
+        },
+        "Final": 130821,
+        "Original": 130816
+      },
+      "Equivalences": {
+        "Atom": 521,
+        "Body": 1506,
+        "Other": 1367,
+        "Sum": 3394
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 153523,
+        "Original": 153511
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 1066.843,
+      "Lemma": {
+        "Deleted": 790283,
+        "Sum": 826423,
+        "Type": [
+          {
+            "Binary": 1349,
+            "Ratio": 0.571,
+            "Sum": 4719,
+            "Ternary": 3370,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 44.177,
+            "Sum": 826423,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 396755,
+        "Sum": 528802,
+        "Ternary": 87153
+      },
+      "Eliminated": 0,
+      "Frozen": 12460,
+      "Variables": 129581
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "support": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "verifier_json_path": null,
+  "verifier_ok": null,
+  "worker_count": 8
+}

@@ -1,0 +1,23 @@
+	Command being timed: "/home/ono/Agent/.venv/bin/python -m clingo --outf=2 --stats=2 -n 1 --time-limit=900 /home/ono/Agent/solver/common.lp /home/ono/Agent/solver/target_v.lp /home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq1/instance.lp"
+	User time (seconds): 84.24
+	System time (seconds): 0.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17747
+	Voluntary context switches: 1
+	Involuntary context switches: 826
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

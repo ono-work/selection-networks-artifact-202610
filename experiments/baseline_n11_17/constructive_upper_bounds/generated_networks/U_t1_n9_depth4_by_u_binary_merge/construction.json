@@ -1,0 +1,13 @@
+{
+  "components": [
+    "experiments/u_calibration/U_t1_n1/depth_00/network.json",
+    "experiments/u_calibration/U_t1_n8/depth_03/network.json",
+    "experiments/u_calibration/U_t1_n2/depth_01/network.json"
+  ],
+  "depth": 4,
+  "derivation_id": "d1547",
+  "kind": "U",
+  "n": 9,
+  "rule": "U_BINARY_MERGE",
+  "t": 1
+}

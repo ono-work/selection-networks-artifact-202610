@@ -1,0 +1,793 @@
+[
+  {
+    "comparator_count": 0,
+    "first_sat_depth": 0,
+    "kind": "V",
+    "layer_comparator_counts": [],
+    "minimum_depth": 0,
+    "n": 1,
+    "runtime_seconds": 0.037025452009402215,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n1/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 1,
+    "first_sat_depth": 1,
+    "kind": "V",
+    "layer_comparator_counts": [
+      1
+    ],
+    "minimum_depth": 1,
+    "n": 2,
+    "runtime_seconds": 0.06057757593225688,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n2/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 1,
+    "first_sat_depth": 1,
+    "kind": "V",
+    "layer_comparator_counts": [
+      1
+    ],
+    "minimum_depth": 1,
+    "n": 2,
+    "runtime_seconds": 0.06169274996500462,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t2_n2/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 2,
+    "first_sat_depth": 2,
+    "kind": "V",
+    "layer_comparator_counts": [
+      1,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 3,
+    "runtime_seconds": 0.08534466999117285,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n3/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 3,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      1,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 3,
+    "runtime_seconds": 0.12313415901735425,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t2_n3/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 3,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      1,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 3,
+    "runtime_seconds": 0.12274417304433882,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t3_n3/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 3,
+    "first_sat_depth": 2,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 4,
+    "runtime_seconds": 0.0994171139318496,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n4/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 5,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 4,
+    "runtime_seconds": 0.09606125904247165,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t2_n4/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 6,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 3,
+    "n": 4,
+    "runtime_seconds": 0.09500717709306628,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t3_n4/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 6,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 3,
+    "n": 4,
+    "runtime_seconds": 0.09345881314948201,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t4_n4/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 4,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 5,
+    "runtime_seconds": 0.0974194590235129,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n5/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 7,
+    "first_sat_depth": 4,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2,
+      1
+    ],
+    "minimum_depth": 4,
+    "n": 5,
+    "runtime_seconds": 0.12698690593242645,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t2_n5/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 10,
+    "first_sat_depth": 5,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 5,
+    "n": 5,
+    "runtime_seconds": 0.16000651696231216,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t3_n5/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 10,
+    "first_sat_depth": 5,
+    "kind": "V",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 5,
+    "n": 5,
+    "runtime_seconds": 0.1629715858725831,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t4_n5/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 5,
+    "first_sat_depth": 3,
+    "kind": "V",
+    "layer_comparator_counts": [
+      3,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 6,
+    "runtime_seconds": 0.10648398310877383,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t1_n6/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 10,
+    "first_sat_depth": 4,
+    "kind": "V",
+    "layer_comparator_counts": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "minimum_depth": 4,
+    "n": 6,
+    "runtime_seconds": 0.1466138520045206,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t2_n6/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 14,
+    "first_sat_depth": 5,
+    "kind": "V",
+    "layer_comparator_counts": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "minimum_depth": 5,
+    "n": 6,
+    "runtime_seconds": 0.2145812070230022,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t3_n6/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 14,
+    "first_sat_depth": 5,
+    "kind": "V",
+    "layer_comparator_counts": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "minimum_depth": 5,
+    "n": 6,
+    "runtime_seconds": 0.18699057982303202,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/V_t4_n6/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 0,
+    "first_sat_depth": 0,
+    "kind": "U",
+    "layer_comparator_counts": [],
+    "minimum_depth": 0,
+    "n": 1,
+    "runtime_seconds": 0.023162967059761286,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n1/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 1,
+    "first_sat_depth": 1,
+    "kind": "U",
+    "layer_comparator_counts": [
+      1
+    ],
+    "minimum_depth": 1,
+    "n": 2,
+    "runtime_seconds": 0.0464621790451929,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n2/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 0,
+    "first_sat_depth": 0,
+    "kind": "U",
+    "layer_comparator_counts": [],
+    "minimum_depth": 0,
+    "n": 2,
+    "runtime_seconds": 0.023381103994324803,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t2_n2/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 2,
+    "first_sat_depth": 2,
+    "kind": "U",
+    "layer_comparator_counts": [
+      1,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 3,
+    "runtime_seconds": 0.06968423700891435,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n3/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 2,
+    "first_sat_depth": 2,
+    "kind": "U",
+    "layer_comparator_counts": [
+      1,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 3,
+    "runtime_seconds": 0.09846132411621511,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t2_n3/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 0,
+    "first_sat_depth": 0,
+    "kind": "U",
+    "layer_comparator_counts": [],
+    "minimum_depth": 0,
+    "n": 3,
+    "runtime_seconds": 0.03709365695249289,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t3_n3/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 3,
+    "first_sat_depth": 2,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 4,
+    "runtime_seconds": 0.08617829601280391,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n4/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 4,
+    "first_sat_depth": 2,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      2
+    ],
+    "minimum_depth": 2,
+    "n": 4,
+    "runtime_seconds": 0.09777961112558842,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t2_n4/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 3,
+    "first_sat_depth": 2,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      1
+    ],
+    "minimum_depth": 2,
+    "n": 4,
+    "runtime_seconds": 0.07248057692777365,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t3_n4/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 0,
+    "first_sat_depth": 0,
+    "kind": "U",
+    "layer_comparator_counts": [],
+    "minimum_depth": 0,
+    "n": 4,
+    "runtime_seconds": 0.023395346011966467,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t4_n4/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 4,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 5,
+    "runtime_seconds": 0.09885022311937064,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n5/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 6,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 3,
+    "n": 5,
+    "runtime_seconds": 0.09947667899541557,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t2_n5/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 6,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 3,
+    "n": 5,
+    "runtime_seconds": 0.09902268496807665,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t3_n5/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 5,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      2,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 5,
+    "runtime_seconds": 0.11417167319450527,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t4_n5/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 5,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      3,
+      1,
+      1
+    ],
+    "minimum_depth": 3,
+    "n": 6,
+    "runtime_seconds": 0.13710267411079258,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t1_n6/summary.csv",
+    "t": 1,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 11,
+    "first_sat_depth": 4,
+    "kind": "U",
+    "layer_comparator_counts": [
+      3,
+      3,
+      3,
+      2
+    ],
+    "minimum_depth": 4,
+    "n": 6,
+    "runtime_seconds": 0.21798637486062944,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t2_n6/summary.csv",
+    "t": 2,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 9,
+    "first_sat_depth": 3,
+    "kind": "U",
+    "layer_comparator_counts": [
+      3,
+      3,
+      3
+    ],
+    "minimum_depth": 3,
+    "n": 6,
+    "runtime_seconds": 0.11075151199474931,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t3_n6/summary.csv",
+    "t": 3,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "timeout_seconds": 10
+  },
+  {
+    "comparator_count": 8,
+    "first_sat_depth": 4,
+    "kind": "U",
+    "layer_comparator_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "minimum_depth": 4,
+    "n": 6,
+    "runtime_seconds": 0.1604793919250369,
+    "status": "MINIMUM_FOUND",
+    "summary_path": "experiments/milestone_3b_smoke/U_t4_n6/summary.csv",
+    "t": 4,
+    "tested_depths": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "timeout_seconds": 10
+  }
+]

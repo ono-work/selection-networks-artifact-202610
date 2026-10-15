@@ -1,0 +1,154 @@
+kind,n,t,best_upper_bound,provenance_type,primary_rule,primary_source,exact_status,lower_bound_if_known,gap_if_known,network_artifact_available,generated_network_path,verifier_status,sorting_fallback,notes
+U,1,1,0,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n1/depth_00/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n1/depth_00/network.json,VERIFIED_SAT,0,existing network.json artifact
+U,2,1,1,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n2/depth_01/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n2/depth_01/network.json,VERIFIED_SAT,1,existing network.json artifact
+U,2,2,0,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t2_n2/depth_00/network.json,EXACT_TRIVIAL,,,True,experiments/u_calibration/U_t2_n2/depth_00/network.json,VERIFIED_SAT,1,existing network.json artifact
+U,3,1,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n3/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n3/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,3,2,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t2_n3/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t2_n3/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,3,3,0,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t3_n3/depth_00/network.json,EXACT_TRIVIAL,,,True,experiments/milestone_3b_smoke/U_t3_n3/depth_00/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,4,1,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n4/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n4/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,4,2,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t2_n4/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t2_n4/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,4,3,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t3_n4/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t3_n4/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,4,4,0,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t4_n4/depth_00/network.json,EXACT_TRIVIAL,,,True,experiments/milestone_3b_smoke/U_t4_n4/depth_00/network.json,VERIFIED_SAT,3,existing network.json artifact
+U,5,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n5/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n5/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,5,2,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t2_n5/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t2_n5/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,5,3,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t3_n5/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t3_n5/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,5,4,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t4_n5/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t4_n5/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,5,5,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,5,
+U,6,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n6/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n6/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,6,2,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t2_n6/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t2_n6/depth_04/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,6,3,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t3_n6/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t3_n6/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,6,4,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/U_t4_n6/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/U_t4_n6/depth_04/network.json,VERIFIED_SAT,5,existing network.json artifact
+U,6,5,3,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,5,U only
+U,6,6,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,5,
+U,7,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n7/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n7/depth_03/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,7,2,4,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+U,7,3,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n7/decisions/U_t3_n7/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n7/decisions/U_t3_n7/depth_04/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,7,4,4,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+U,7,5,4,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+U,7,6,3,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,U only
+U,7,7,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,6,
+U,8,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t1_n8/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t1_n8/depth_03/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,8,2,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/u_calibration/U_t2_n8/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/u_calibration/U_t2_n8/depth_04/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,8,3,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n8/decisions/U_t3_n8/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n8/decisions/U_t3_n8/depth_04/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,8,4,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n8/decisions/U_t4_n8/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n8/decisions/U_t4_n8/depth_04/network.json,VERIFIED_SAT,6,existing network.json artifact
+U,8,5,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,U only
+U,8,6,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,U only
+U,8,7,3,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,U only
+U,8,8,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,6,
+U,9,1,4,GENERATED_VERIFIED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,,,True,experiments/baseline_n11_17/constructive_upper_bounds/generated_networks/U_t1_n9_depth4_by_u_binary_merge/network.json,VERIFIED,7,
+U,9,2,5,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+U,9,3,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n9/decisions/U_t3_n9/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n9/decisions/U_t3_n9/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,9,4,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n9/decisions/U_t4_n9/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n9/decisions/U_t4_n9/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,9,5,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+U,9,6,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+U,9,7,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+U,9,8,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,U only
+U,9,9,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,7,
+U,10,1,4,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+U,10,2,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n10/decisions/U_t2_n10/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n10/decisions/U_t2_n10/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,10,3,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n10/decisions/U_t3_n10/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n10/decisions/U_t3_n10/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,10,4,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n10/decisions/U_t4_n10/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n10/decisions/U_t4_n10/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,10,5,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n10/decisions/U_t5_n10/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n10/decisions/U_t5_n10/depth_05/network.json,VERIFIED_SAT,7,existing network.json artifact
+U,10,6,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,U only
+U,10,7,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,U only
+U,10,8,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,U only
+U,10,9,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,U only
+U,10,10,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,,,False,,not_applicable,7,
+U,11,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,one-selection tournament upper bound
+U,11,2,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t2_n11/depth_05/network.json,UPPER_BOUND_ONLY,5,0,True,experiments/baseline_n11_17/decisions/U_t2_n11/depth_05/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,11,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/network.json,UPPER_BOUND_ONLY,5,1,True,experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,11,4,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/network.json,UPPER_BOUND_ONLY,5,1,True,experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,11,5,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/network.json,UPPER_BOUND_ONLY,5,1,True,experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,11,6,6,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,1,False,,not_applicable,8,U only
+U,11,7,6,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,1,False,,not_applicable,8,U only
+U,11,8,6,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,1,False,,not_applicable,8,
+U,11,9,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,8,U only
+U,11,10,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,U only
+U,11,11,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,8,
+U,12,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,one-selection tournament upper bound
+U,12,2,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t2_n12/depth_05/network.json,UPPER_BOUND_ONLY,5,0,True,experiments/baseline_n11_17/decisions/U_t2_n12/depth_05/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,12,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t3_n12/depth_06/network.json,UPPER_BOUND_ONLY,5,1,True,experiments/baseline_n11_17/decisions/U_t3_n12/depth_06/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,12,4,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t4_n12/depth_06/network.json,UPPER_BOUND_ONLY,5,1,True,experiments/baseline_n11_17/decisions/U_t4_n12/depth_06/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,12,5,7,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t5_n12/depth_07/network.json,UPPER_BOUND_ONLY,5,2,True,experiments/baseline_n11_17/decisions/U_t5_n12/depth_07/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,12,6,7,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t6_n12/depth_07/network.json,UPPER_BOUND_ONLY,5,2,True,experiments/baseline_n11_17/decisions/U_t6_n12/depth_07/network.json,VERIFIED_SAT,8,existing network.json artifact
+U,12,7,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,8,U only
+U,12,8,6,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,1,False,,not_applicable,8,U only
+U,12,9,6,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,1,False,,not_applicable,8,U only
+U,12,10,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,8,U only
+U,12,11,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,U only
+U,12,12,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,8,
+U,13,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,one-selection tournament upper bound
+U,13,2,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,
+U,13,3,7,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t3_n13/depth_07/network.json,UPPER_BOUND_ONLY,5,2,True,experiments/baseline_n11_17/decisions/U_t3_n13/depth_07/network.json,VERIFIED_SAT,9,existing network.json artifact
+U,13,4,8,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/network.json,UPPER_BOUND_ONLY,5,3,True,experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/network.json,VERIFIED_SAT,9,existing network.json artifact
+U,13,5,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,13,6,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,13,7,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,13,8,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,13,9,8,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,U only
+U,13,10,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,U only
+U,13,11,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,U only
+U,13,12,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,U only
+U,13,13,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,9,
+U,14,1,4,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+U,14,2,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,
+U,14,3,7,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,
+U,14,4,8,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,
+U,14,5,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,14,6,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,14,7,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,14,8,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,14,9,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,14,10,8,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,U only
+U,14,11,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,U only
+U,14,12,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,U only
+U,14,13,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,U only
+U,14,14,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,9,
+U,15,1,4,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+U,15,2,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,
+U,15,3,7,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,
+U,15,4,8,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,
+U,15,5,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,6,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,7,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,8,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,9,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,10,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,15,11,8,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,U only
+U,15,12,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,U only
+U,15,13,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,U only
+U,15,14,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,U only
+U,15,15,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,9,
+U,16,1,4,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+U,16,2,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,U only
+U,16,3,7,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,
+U,16,4,8,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,
+U,16,5,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,16,6,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,U only
+U,16,7,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,U only
+U,16,8,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,
+U,16,9,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,U only
+U,16,10,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,U only
+U,16,11,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,9,U only
+U,16,12,8,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,9,U only
+U,16,13,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,9,U only
+U,16,14,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,9,U only
+U,16,15,4,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,U only
+U,16,16,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,9,
+U,17,1,5,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,10,
+U,17,2,7,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,10,
+U,17,3,8,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,10,
+U,17,4,9,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,10,
+U,17,5,10,THEOREM_DERIVED,U_BINARY_MERGE,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,
+U,17,6,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,7,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,8,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,9,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,10,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,11,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,12,10,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,5,False,,not_applicable,10,U only
+U,17,13,9,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,4,False,,not_applicable,10,U only
+U,17,14,8,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,3,False,,not_applicable,10,U only
+U,17,15,7,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,2,False,,not_applicable,10,U only
+U,17,16,5,THEOREM_DERIVED,U_DUALITY,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,10,U only
+U,17,17,0,THEOREM_DERIVED,U_ALL_WIRE_TRIVIAL,definition,EXACT_TRIVIAL,0,0,False,,not_applicable,10,

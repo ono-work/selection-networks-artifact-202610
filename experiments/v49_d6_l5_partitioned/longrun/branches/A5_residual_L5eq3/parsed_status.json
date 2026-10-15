@@ -1,0 +1,10 @@
+{
+  "branch_id": "A5_residual_L5eq3",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 3405,
+  "error_message": null,
+  "peak_rss_kb": 171992,
+  "runtime_seconds": 3600.8496417090064,
+  "status": "TIMEOUT",
+  "timeout_seconds": 3600
+}

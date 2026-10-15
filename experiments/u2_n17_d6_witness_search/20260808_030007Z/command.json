@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/ono/Agent/.venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_u.lp",
+    "/home/ono/Agent/experiments/u2_n17_d6_witness_search/20260808_030007Z/instance.lp"
+  ]
+}

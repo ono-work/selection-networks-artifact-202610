@@ -1,0 +1,24 @@
+{
+  "artifact_directory": "experiments/baseline_n10/decisions/U_t4_n10/depth_05",
+  "case": "U_t4_n10_depth5",
+  "depth": 5,
+  "kind": "U",
+  "n": 10,
+  "network_json_path": "experiments/baseline_n10/decisions/U_t4_n10/depth_05/network.json",
+  "runtime_seconds": 352.6449912019889,
+  "solver_status": "SATISFIABLE",
+  "status": "VERIFIED_SAT",
+  "t": 4,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "U",
+    "message": "verified all binary inputs",
+    "n": 10,
+    "ok": true,
+    "output": null,
+    "t": 4
+  },
+  "verifier_json_path": "experiments/baseline_n10/decisions/U_t4_n10/depth_05/verifier.json",
+  "verifier_trace_summary_path": "experiments/baseline_n10/decisions/U_t4_n10/depth_05/verifier_trace_summary.json"
+}

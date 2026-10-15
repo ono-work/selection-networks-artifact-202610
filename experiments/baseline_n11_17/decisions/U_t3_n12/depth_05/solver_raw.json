@@ -1,0 +1,26 @@
+{
+  "Solver": "pyclingo version 5.8.0",
+  "Input": [
+    "/home/ono/Codex/solver/common.lp","/home/ono/Codex/solver/target_u.lp","/home/ono/Codex/experiments/baseline_n11_17/decisions/U_t3_n12/depth_05/instance.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Stop": 7200.069
+    }
+  ],
+  "Result": "UNKNOWN",
+  "TIME LIMIT": 1,
+  "Models": {
+    "Number": 0,
+    "More": "yes"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 7200.068,
+    "Solve": 7194.345,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 7198.071
+  }
+}

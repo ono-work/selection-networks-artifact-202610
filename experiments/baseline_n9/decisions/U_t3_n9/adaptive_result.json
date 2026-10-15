@@ -1,0 +1,78 @@
+{
+  "attempted_depths": [
+    4,
+    5
+  ],
+  "decisions": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--time-limit=7200",
+        "-n",
+        "1",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_u.lp",
+        "experiments/baseline_n9/decisions/U_t3_n9/depth_04/instance.lp"
+      ],
+      "comparator_count": null,
+      "depth": 4,
+      "error_message": null,
+      "instance_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_04/instance.lp",
+      "kind": "U",
+      "layer_comparator_counts": null,
+      "n": 9,
+      "network_json_path": null,
+      "raw_solver_json_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_04/solver.json",
+      "runtime_seconds": 127.24151037200136,
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "UNSAT",
+      "t": 3,
+      "verifier_json_path": null,
+      "verifier_ok": null
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "clingo",
+        "--outf=2",
+        "--time-limit=7200",
+        "-n",
+        "1",
+        "/home/ono/Codex/solver/common.lp",
+        "/home/ono/Codex/solver/target_u.lp",
+        "experiments/baseline_n9/decisions/U_t3_n9/depth_05/instance.lp"
+      ],
+      "comparator_count": 19,
+      "depth": 5,
+      "error_message": null,
+      "instance_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_05/instance.lp",
+      "kind": "U",
+      "layer_comparator_counts": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "n": 9,
+      "network_json_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_05/network.json",
+      "raw_solver_json_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_05/solver.json",
+      "runtime_seconds": 0.7895640120004828,
+      "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+      "status": "SAT",
+      "t": 3,
+      "verifier_json_path": "experiments/baseline_n9/decisions/U_t3_n9/depth_05/verifier.json",
+      "verifier_ok": true
+    }
+  ],
+  "kind": "U",
+  "minimum_depth": 5,
+  "n": 9,
+  "status": "EXACT_CONFIRMED",
+  "t": 3,
+  "timeout_seconds": 7200
+}

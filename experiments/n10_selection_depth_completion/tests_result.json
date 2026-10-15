@@ -1,0 +1,16 @@
+{
+  "full_suite": {
+    "command": ".venv/bin/python -m pytest -q",
+    "duration_seconds": 104.96,
+    "failed": 0,
+    "passed": 421,
+    "status": "PASSED"
+  },
+  "targeted_suite": {
+    "command": ".venv/bin/python -m pytest tests/test_n10_selection_depth_completion.py tests/test_selection_bounds.py tests/test_experiment.py -q",
+    "duration_seconds": 1.59,
+    "failed": 0,
+    "passed": 28,
+    "status": "PASSED"
+  }
+}

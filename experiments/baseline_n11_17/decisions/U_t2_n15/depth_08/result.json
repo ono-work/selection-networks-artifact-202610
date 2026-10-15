@@ -1,0 +1,33 @@
+{
+  "artifact_directory": "experiments/baseline_n11_17/decisions/U_t2_n15/depth_08",
+  "case": "U_t2_n15_depth8",
+  "current_interval": "[5,8]",
+  "depth": 8,
+  "kind": "U",
+  "lower_bound": 5,
+  "lower_bound_source": "N_MONOTONICITY_LOWER: UDepth(2,2) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,3) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,4) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,5) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,6) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,7) >= 0 || N_MONOTONICITY_LOWER: UDepth(2,8) >= 4 || N_MONOTONICITY_LOWER: UDepth(2,9) >= 4 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,13) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,14) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,13) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,14) >= 5 || U_DUALITY_LOWER: UDepth(13,15)=UDepth(2,15) || U_DUALITY_LOWER: UDepth(13,15)=UDepth(2,15) || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,13) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,14) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,13) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,14) >= 5 || U_DUALITY_LOWER: UDepth(13,15)=UDepth(2,15) || U_DUALITY_LOWER: UDepth(13,15)=UDepth(2,15) || N_MONOTONICITY_LOWER: UDepth(2,10) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,11) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,12) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,13) >= 5 || N_MONOTONICITY_LOWER: UDepth(2,14) >= 5 || U_DUALITY_LOWER: UDepth(13,15)=UDepth(2,15)",
+  "mirror_t_by_duality": 13,
+  "n": 15,
+  "network_json_path": "experiments/baseline_n11_17/decisions/U_t2_n15/depth_08/network.json",
+  "notes": "5 <= UDepth(2,15) <= 8",
+  "runtime_seconds": 1379.837204420939,
+  "solver_status": "SATISFIABLE",
+  "sorting_fallback_upper_bound": 9,
+  "status": "VERIFIED_SAT",
+  "t": 2,
+  "upper_bound": 8,
+  "upper_bound_established": true,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "U",
+    "message": "verified all binary inputs",
+    "n": 15,
+    "ok": true,
+    "output": null,
+    "t": 2
+  },
+  "verifier_json_path": "experiments/baseline_n11_17/decisions/U_t2_n15/depth_08/verifier.json",
+  "verifier_status": "VERIFIED_SAT",
+  "verifier_trace_summary_path": "experiments/baseline_n11_17/decisions/U_t2_n15/depth_08/verifier_trace_summary.json"
+}

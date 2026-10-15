@@ -1,0 +1,150 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/B6_residual_L5eq4__unused_wire_8/branch_definition.json",
+  "branch_id": "B6_residual_L5eq4__unused_wire_8",
+  "census_matching_count": 68,
+  "choices": 4661233.0,
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=14400",
+    "--seed=1",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/B6_residual_L5eq4__unused_wire_8/instance.lp"
+  ],
+  "conflicts": 4288960.0,
+  "cpu_snapshots": 5842,
+  "dispatch_time": "2026-07-07T14:41:25Z",
+  "error_message": null,
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/B6_residual_L5eq4__unused_wire_8/instance.lp",
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/B6_residual_L5eq4__unused_wire_8/metadata.json",
+  "network_path": null,
+  "parent_family": "B6_residual_L5eq4",
+  "peak_rss_kb": 82336,
+  "queue_position": 16,
+  "raw_json_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/B6_residual_L5eq4__unused_wire_8/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/logs/B6_residual_L5eq4__unused_wire_8.resources.jsonl",
+  "restarts": 8190.0,
+  "result_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/branches/B6_residual_L5eq4__unused_wire_8/overnight_result.json",
+  "runtime_seconds": 6512.609304896963,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=14400",
+    "--seed=1"
+  ],
+  "solving_time": null,
+  "stats": {
+    "Core": {
+      "Backjumps": 4288959,
+      "Backtracks": 1,
+      "Choices": 4661233,
+      "Conflicts": 4288960,
+      "RestartAvg": 523.682,
+      "RestartLast": 79999,
+      "Restarts": 8190
+    },
+    "Jumps": {
+      "Avg": 1.076,
+      "AvgExec": 1.076,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 374,
+        "Max": 1,
+        "Sum": 374
+      },
+      "Levels": 4614561,
+      "LevelsExec": 4614187,
+      "Max": 27,
+      "MaxExec": 27,
+      "Sum": 4288959
+    },
+    "LP": {
+      "Atoms": 18661,
+      "Bodies": {
+        "Count": {
+          "Final": 56,
+          "Original": 57
+        },
+        "Final": 127691,
+        "Original": 127692
+      },
+      "Equivalences": {
+        "Atom": 625,
+        "Body": 1523,
+        "Other": 3049,
+        "Sum": 5197
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 152058,
+        "Original": 152026
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 6510.751,
+      "Lemma": {
+        "Deleted": 4199087,
+        "Sum": 4288959,
+        "Type": [
+          {
+            "Binary": 2477,
+            "Ratio": 0.203,
+            "Sum": 8708,
+            "Ternary": 6231,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 31.781,
+            "Sum": 4288959,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 349866,
+        "Sum": 464310,
+        "Ternary": 75688
+      },
+      "Eliminated": 0,
+      "Frozen": 12335,
+      "Variables": 113999
+    }
+  },
+  "status": "UNSAT",
+  "stderr_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/logs/B6_residual_L5eq4__unused_wire_8.stderr.log",
+  "stdout_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/overnight/20260707_234125/raw/B6_residual_L5eq4__unused_wire_8/solver.json",
+  "timeout_seconds": 14400,
+  "verifier_ok": null,
+  "verifier_path": null,
+  "workload_class": "B6eq4_unused_tail"
+}

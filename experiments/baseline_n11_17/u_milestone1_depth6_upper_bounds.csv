@@ -1,0 +1,8 @@
+kind,n,t,depth,previous_depth5_status,solver_status,verifier_status,upper_bound_6_established,lower_bound,current_interval,runtime_seconds,artifact_directory,notes
+U,11,3,6,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,6]",252.61805257294327,experiments/baseline_n11_17/decisions/U_t3_n11/depth_06,"5 <= UDepth(3,11) <= 6"
+U,11,4,6,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,6]",321.11602751293685,experiments/baseline_n11_17/decisions/U_t4_n11/depth_06,"5 <= UDepth(4,11) <= 6"
+U,11,5,6,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,6]",1695.9494648780674,experiments/baseline_n11_17/decisions/U_t5_n11/depth_06,"5 <= UDepth(5,11) <= 6"
+U,12,3,6,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,6]",1003.1729555900674,experiments/baseline_n11_17/decisions/U_t3_n12/depth_06,"5 <= UDepth(3,12) <= 6"
+U,12,4,6,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,6]",2959.909415388014,experiments/baseline_n11_17/decisions/U_t4_n12/depth_06,"5 <= UDepth(4,12) <= 6"
+U,12,5,6,TIMEOUT,UNKNOWN,n/a,False,5,"[5,?]",7200.65761001897,experiments/baseline_n11_17/decisions/U_t5_n12/depth_06,upper bound 6 not established
+U,12,6,6,TIMEOUT,UNKNOWN,n/a,False,5,"[5,?]",7200.703546850011,experiments/baseline_n11_17/decisions/U_t6_n12/depth_06,upper bound 6 not established

@@ -1,0 +1,20 @@
+{
+  "artifact_directory": "experiments/baseline_n10/decisions/V_t2_n10/depth_05",
+  "case": "V_t2_n10_depth5",
+  "command_path": "experiments/baseline_n10/decisions/V_t2_n10/depth_05/command.txt",
+  "depth": 5,
+  "instance_path": "experiments/baseline_n10/decisions/V_t2_n10/depth_05/instance.lp",
+  "kind": "V",
+  "n": 10,
+  "network_json_path": null,
+  "runtime_seconds": 3013.6466712779948,
+  "solver_json_path": "experiments/baseline_n10/decisions/V_t2_n10/depth_05/solver.json",
+  "solver_metadata_path": "experiments/baseline_n10/decisions/V_t2_n10/depth_05/solver_metadata.json",
+  "solver_raw_json_path": "experiments/baseline_n10/decisions/V_t2_n10/depth_05/solver_raw.json",
+  "solver_status": "UNSATISFIABLE",
+  "status": "UNSAT",
+  "t": 2,
+  "verifier": null,
+  "verifier_json_path": null,
+  "verifier_trace_summary_path": null
+}

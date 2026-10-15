@@ -1,0 +1,45 @@
+kind,n,t,before_lower,game_bound,after_lower,upper,mechanism
+U,13,4,5,6,6,8,game value at the cell or its mirror dual
+U,13,6,5,6,6,9,game value at the cell or its mirror dual
+U,13,7,5,6,6,9,game value at the cell or its mirror dual
+U,13,9,5,6,6,8,game value at the cell or its mirror dual
+U,14,4,5,6,6,8,game value at the cell or its mirror dual
+U,14,5,5,5,6,9,propagation of game-improved cells (n-monotonicity and mirror duality)
+U,14,6,5,6,6,9,game value at the cell or its mirror dual
+U,14,7,5,6,6,9,game value at the cell or its mirror dual
+U,14,8,5,6,6,9,game value at the cell or its mirror dual
+U,14,9,5,5,6,9,propagation of game-improved cells (n-monotonicity and mirror duality)
+U,14,10,5,6,6,8,game value at the cell or its mirror dual
+U,15,4,5,6,6,8,game value at the cell or its mirror dual
+U,15,5,5,6,6,9,game value at the cell or its mirror dual
+U,15,6,5,6,6,9,game value at the cell or its mirror dual
+U,15,7,5,6,6,9,game value at the cell or its mirror dual
+U,15,8,5,6,6,9,game value at the cell or its mirror dual
+U,15,9,5,6,6,9,game value at the cell or its mirror dual
+U,15,10,5,6,6,9,game value at the cell or its mirror dual
+U,15,11,5,6,6,8,game value at the cell or its mirror dual
+U,16,4,5,6,6,8,game value at the cell or its mirror dual
+U,16,5,5,6,6,9,game value at the cell or its mirror dual
+U,16,6,5,6,6,9,game value at the cell or its mirror dual
+U,16,7,5,6,6,9,game value at the cell or its mirror dual
+U,16,8,5,6,6,9,game value at the cell or its mirror dual
+U,16,9,5,6,6,9,game value at the cell or its mirror dual
+U,16,10,5,6,6,9,game value at the cell or its mirror dual
+U,16,11,5,6,6,9,game value at the cell or its mirror dual
+U,16,12,5,6,6,8,game value at the cell or its mirror dual
+U,17,2,5,6,6,6,game value at the cell or its mirror dual
+U,17,3,5,6,6,8,game value at the cell or its mirror dual
+U,17,4,5,6,6,9,game value at the cell or its mirror dual
+U,17,5,5,6,6,10,game value at the cell or its mirror dual
+U,17,6,5,6,6,10,game value at the cell or its mirror dual
+U,17,7,5,6,6,10,game value at the cell or its mirror dual
+U,17,8,5,6,6,10,game value at the cell or its mirror dual
+U,17,9,5,6,6,10,game value at the cell or its mirror dual
+U,17,10,5,6,6,10,game value at the cell or its mirror dual
+U,17,11,5,6,6,10,game value at the cell or its mirror dual
+U,17,12,5,6,6,10,game value at the cell or its mirror dual
+U,17,13,5,6,6,9,game value at the cell or its mirror dual
+U,17,14,5,6,6,8,game value at the cell or its mirror dual
+U,17,15,5,6,6,6,game value at the cell or its mirror dual
+V,17,8,7,8,8,10,game value at the cell or its mirror dual
+V,17,9,7,8,8,10,game value at the cell or its mirror dual

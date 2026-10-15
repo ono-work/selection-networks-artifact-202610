@@ -1,0 +1,13 @@
+{
+  "branch_id": "B7_residual",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 1689,
+  "error_message": null,
+  "leaf_id": "B7",
+  "peak_rss_kb": 77684,
+  "returncode": 0,
+  "runtime_seconds": 1800.467790775001,
+  "status": "TIMEOUT",
+  "timeout_seconds": 1800,
+  "worker_count": 6
+}

@@ -1,0 +1,62 @@
+{
+  "branch": {
+    "branch_id": "B_p1",
+    "constraints": "% V(4,9), depth-6 partner-partition hard-instance constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n% No suffix-wire permutation symmetry or canonical suffix partner is assumed.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), not touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), not touched(D,3).\n:- depth(D), not touched(D,4).\n:- depth(D), 3 != #count { I,J : selected(D,I,J) }.\n:- depth(D), not selected(D,1,4).\n",
+    "final_layer_comparator_count": 3,
+    "final_wire4_comparator": [
+      1,
+      4
+    ],
+    "parent_constraints": ":- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), not touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), not touched(D,3).\n:- depth(D), not touched(D,4).\n:- depth(D), 3 != #count { I,J : selected(D,I,J) }.\n",
+    "parent_id": "B",
+    "partner": 1,
+    "partner_constraint": ":- depth(D), not selected(D,1,4).\n",
+    "support": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/instance.lp"
+  ],
+  "environment": {
+    "cpu_count": 20,
+    "gpu_use": "none",
+    "internal_clingo_parallel_mode": "disabled",
+    "machine": "aarch64",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39",
+    "processor": "aarch64",
+    "python": "3.12.3"
+  },
+  "input_mode": "v_boundary",
+  "paths": {
+    "branch_definition": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/branch_definition.json",
+    "instance": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/instance.lp",
+    "raw_solver_json": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/branches/B_p1/solver.json",
+    "resource_log": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p1.resources.jsonl",
+    "stderr": "/home/ono/Codex/experiments/v49_d6_partner_partitioned/logs/B_p1.stderr.log"
+  },
+  "pid": 2432283,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1200"
+  ],
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "started_at_unix": 1783379445.7841222,
+  "worker_count": 8
+}

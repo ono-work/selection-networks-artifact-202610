@@ -1,0 +1,15 @@
+{
+  "artifact_directory": "experiments/baseline_n10/decisions/U_t2_n10/depth_04",
+  "case": "U_t2_n10_depth4",
+  "depth": 4,
+  "kind": "U",
+  "n": 10,
+  "network_json_path": null,
+  "runtime_seconds": 440.54685234697536,
+  "solver_status": "UNSATISFIABLE",
+  "status": "UNSAT",
+  "t": 2,
+  "verifier": null,
+  "verifier_json_path": null,
+  "verifier_trace_summary_path": null
+}

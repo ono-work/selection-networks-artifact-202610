@@ -1,0 +1,166 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/branch_definition.json",
+  "branch_id": "A5_residual_L5eq2",
+  "clingo_result": "UNKNOWN",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 840,
+  "error_message": null,
+  "final_layer": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/instance.lp",
+  "l5_count": 2,
+  "layer_comparator_counts": null,
+  "leaf_id": "A5",
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/reproducibility.json",
+  "network_json_path": null,
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/parsed_status.json",
+  "peak_rss_kb": 74864,
+  "pid": 2610043,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq2/solver.json",
+  "residual_id": "A5_residual",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_l5_partitioned/logs/A5_residual_L5eq2.resources.jsonl",
+  "runtime_seconds": 900.3823381550028,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 789077,
+      "Backtracks": 0,
+      "Choices": 874338,
+      "Conflicts": 789077,
+      "RestartAvg": 404.033,
+      "RestartLast": 221,
+      "Restarts": 1953
+    },
+    "Jumps": {
+      "Avg": 1.096,
+      "AvgExec": 1.095,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 200,
+        "Max": 1,
+        "Sum": 200
+      },
+      "Levels": 864594,
+      "LevelsExec": 864394,
+      "Max": 28,
+      "MaxExec": 28,
+      "Sum": 789077
+    },
+    "LP": {
+      "Atoms": 18153,
+      "Bodies": {
+        "Count": {
+          "Final": 52,
+          "Original": 57
+        },
+        "Final": 129509,
+        "Original": 129466
+      },
+      "Equivalences": {
+        "Atom": 488,
+        "Body": 1472,
+        "Other": 2443,
+        "Sum": 4403
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 152222,
+        "Original": 152165
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 899.893,
+      "Lemma": {
+        "Deleted": 755211,
+        "Sum": 789077,
+        "Type": [
+          {
+            "Binary": 1049,
+            "Ratio": 0.489,
+            "Sum": 3860,
+            "Ternary": 2811,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 32.771,
+            "Sum": 789077,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 355354,
+        "Sum": 473152,
+        "Ternary": 78874
+      },
+      "Eliminated": 0,
+      "Frozen": 12051,
+      "Variables": 117286
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "TIMEOUT",
+  "timeout_seconds": 900,
+  "verifier_json_path": null,
+  "verifier_ok": null,
+  "worker_count": 6
+}

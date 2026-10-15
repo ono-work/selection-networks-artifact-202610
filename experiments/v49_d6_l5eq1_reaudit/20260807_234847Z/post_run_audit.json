@@ -1,0 +1,158 @@
+{
+  "branch_identity": {
+    "A5_residual_L5eq1": {
+      "branch_definition_exact": true,
+      "compatible_l5_matching_count": 34,
+      "final_layer": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "generated_instance_exact": true,
+      "input_snapshot_exact": true,
+      "l5_count": 1,
+      "leaf_id": "A5",
+      "process_exit_status": 0,
+      "raw_input_list_exact": true,
+      "raw_models": {
+        "More": "no",
+        "Number": 0
+      },
+      "raw_result": "UNSATISFIABLE",
+      "raw_stdout_sha256": "84424365858054b3ff4a8877824b67e9726f73e7b802a5a96dbb07dde9ce140a",
+      "raw_unsat_confirmed": true,
+      "residual_id": "A5_residual",
+      "resource_time_exit_status": 0,
+      "source_instance": "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq1/instance.lp",
+      "source_instance_sha256": "50f49de2e87d3d35bf1f2cd77544ccdc3c39d839f277558dbece979f4648aa20"
+    },
+    "B6_residual_L5eq1": {
+      "branch_definition_exact": true,
+      "compatible_l5_matching_count": 33,
+      "final_layer": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "forbid_l5": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "generated_instance_exact": true,
+      "input_snapshot_exact": true,
+      "l5_count": 1,
+      "leaf_id": "B6",
+      "process_exit_status": 0,
+      "raw_input_list_exact": true,
+      "raw_models": {
+        "More": "no",
+        "Number": 0
+      },
+      "raw_result": "UNSATISFIABLE",
+      "raw_stdout_sha256": "567e520a0f64328e3b012265e3cc68665403f813b998f2ecef124820d75a34fa",
+      "raw_unsat_confirmed": true,
+      "residual_id": "B6_residual",
+      "resource_time_exit_status": 0,
+      "source_instance": "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp",
+      "source_instance_sha256": "6cebc8627592dcf0de1722834ff0c4925f524d6e1291edd6b61c93dc475a6b69"
+    }
+  },
+  "conclusion": "VDepth(4,9)=7",
+  "decision": "A",
+  "depth6_candidate_lineage_to_raw_unsat_complete": true,
+  "depth7_witness": {
+    "depth": 7,
+    "inputs_checked": 512,
+    "path": "/home/ono/Agent/experiments/baseline_n9/decisions/V_t4_n9/depth_07/network.json",
+    "verified": true
+  },
+  "frozen_bundle": {
+    "files_checked": 588,
+    "hash_failures": []
+  },
+  "non_tail_direct_unsat": {
+    "bp5": {
+      "expected": 8,
+      "raw_unsat": 8
+    },
+    "l5_longrun": {
+      "expected": 11,
+      "raw_unsat": 11
+    },
+    "l5_pilot_preserved": {
+      "expected": 4,
+      "raw_unsat": 4
+    },
+    "l5_replayed": {
+      "expected": 2,
+      "raw_unsat": 2
+    },
+    "partner": {
+      "expected": 12,
+      "raw_unsat": 12
+    },
+    "refined": {
+      "expected": 3,
+      "raw_unsat": 3
+    },
+    "six": {
+      "expected": 1,
+      "raw_unsat": 1
+    },
+    "support": {
+      "expected": 13,
+      "raw_unsat": 13
+    }
+  },
+  "prior_regression_result": "253 passed in 33.73s",
+  "problems": [],
+  "status": "PASSED",
+  "tail_relationship": {
+    "replayed_branches_are_outside_75_tail": true,
+    "screening_status_counts": {
+      "TIMEOUT": 26,
+      "UNSAT": 49
+    },
+    "screening_timeout_equals_overnight_selection": true,
+    "tail_parents": [
+      "A5_residual_L5eq3",
+      "B6_residual_L5eq3",
+      "B6_residual_L5eq4"
+    ],
+    "tail_raw_unsat_count": 75
+  }
+}

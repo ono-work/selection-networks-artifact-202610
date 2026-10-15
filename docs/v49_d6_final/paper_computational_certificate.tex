@@ -1,0 +1,112 @@
+\subsection{Computational certificate for $\mathrm{VDepth}(4,9)=7$}
+
+\paragraph{Statement.}
+For V-type 4-selection networks on 9 wires,
+\[
+  \mathrm{VDepth}(4,9)=7 .
+\]
+Here depth means the number of comparator layers. Each layer is a matching of
+disjoint comparators.
+
+\paragraph{Model and verification convention.}
+A comparator network on \(n\) wires is a sequence of layers, where each layer
+contains pairwise-disjoint comparators. A V-type \(t\)-selection network is
+required to place the \(t\) selected outputs in the prescribed V-prefix
+positions for every input. By the 0--1 principle, the network conditions are
+checked on binary inputs. For the upper bound below, the stored SAT witness was
+checked by an independent Python verifier on all \(2^9\) binary inputs.
+
+\paragraph{Upper bound.}
+The certificate includes an explicit depth-7 witness for the V-type
+4-selection problem on 9 wires. The witness is stored at
+\texttt{experiments/baseline\_n9/decisions/V\_t4\_n9/depth\_07/network.json}.
+The verifier artifact
+\texttt{experiments/baseline\_n9/decisions/V\_t4\_n9/depth\_07/verifier.json}
+records \texttt{ok=true}, \texttt{kind=V}, \texttt{t=4}, and \texttt{n=9},
+with the message that all binary inputs were verified. Thus the upper bound
+\(\mathrm{VDepth}(4,9) \le 7\) is certified by an explicit network and
+exhaustive binary simulation.
+
+\paragraph{Lower bound strategy.}
+The lower bound is organized as a dependency graph whose machine-readable form
+is \texttt{experiments/v49\_d6\_final/proof\_dependency\_graph.json}. The graph
+separates mathematical lemmas, artifact audits, solver UNSAT artifacts, and
+derived conclusions.
+
+First, the raw solver artifact
+\texttt{experiments/baseline\_n9/decisions/V\_t3\_n9/depth\_05/solver.json}
+records \texttt{UNSATISFIABLE} for \(V(3,9)\) at depth 5; this is a
+\texttt{SOLVER\_UNSAT} premise. Second, the prefix observation that every
+V-type 4-selection network is also a V-type 3-selection network is recorded as
+a \texttt{MATHEMATICAL\_LEMMA}. Together with the empty-layer elimination
+lemma, this implies that a depth-6 \(V(4,9)\) candidate with an empty layer
+would yield a depth-at-most-5 \(V(3,9)\) candidate. Hence the depth-6 search may
+be restricted to all layers nonempty; this is a \texttt{DERIVED\_CONCLUSION}.
+
+The remaining depth-6 search is then reduced by the closure audit and
+terminal-profile reduction, recorded as \texttt{ARTIFACT\_AUDIT} nodes. These
+audits leave three residual parent families. The L5 tail census exhaustively
+partitions these residual parents into 75 tail categories. Finally, for each of
+the 75 leaves, the certificate records a raw clingo JSON artifact with
+\texttt{Result=UNSATISFIABLE}; these leaf closures are \texttt{SOLVER\_UNSAT}
+evidence for the corresponding constrained ASP instances. Combining the
+audited coverage with the 75 raw UNSAT leaf artifacts gives the derived
+depth-6 conclusion that no V-type 4-selection network on 9 wires exists at
+depth 6. Figure~X schematically summarizes this partition.
+
+\paragraph{Tail partition summary.}
+The following table is read from
+\texttt{experiments/v49\_d6\_final/tail\_leaf\_table.csv} and
+\texttt{experiments/v49\_d6\_final/tail\_family\_summary.csv}.
+
+\begin{center}
+\begin{tabular}{lrrrrr}
+\hline
+Residual parent & Categories & L5 matchings & Screening & Overnight & UNSAT leaves \\
+\hline
+\texttt{A5\_residual\_L5eq3} & 9 & 1060 & 2 & 7 & 9 \\
+\texttt{B6\_residual\_L5eq3} & 57 & 974 & 43 & 14 & 57 \\
+\texttt{B6\_residual\_L5eq4} & 9 & 672 & 4 & 5 & 9 \\
+\hline
+Total & 75 & 2706 & 49 & 26 & 75 \\
+\hline
+\end{tabular}
+\end{center}
+
+The screening/overnight distinction records when the raw UNSAT artifact was
+obtained; it is not used as a mathematical explanation of UNSAT.
+
+\paragraph{Reproducibility and certificate.}
+The final certificate is
+\texttt{experiments/v49\_d6\_final/final\_certificate.json}. The evidence
+manifest is \texttt{experiments/v49\_d6\_final/evidence\_manifest.json}, and
+the evidence index is
+\texttt{experiments/v49\_d6\_final/evidence\_index.md}. The dependency graph is
+\texttt{experiments/v49\_d6\_final/proof\_dependency\_graph.json}. The audit
+and bundling script is \texttt{scripts/audit\_v49\_d6\_final\_bundle.py}; the
+tail-leaf analysis script is \texttt{src/analyze\_v49\_d6\_tail\_leaves.py}.
+Raw solver outputs are included through the manifest, and SHA-256 hashes for
+the source snapshots and evidence files are recorded there.
+
+\paragraph{Limitations of the certificate.}
+The solver UNSAT outputs are not converted here into human-readable proofs, and
+no UNSAT cores are presented. The current certificate also does not include an
+independent second encoding of the depth-6 lower-bound search. Timing data are
+operational observations only. Changing solver version or hardware may affect
+runtime, but not the recorded branch definitions or the manifest checksums. A
+future clean replay and an independent CNF/SAT encoding would strengthen the
+certificate.
+
+\paragraph{Suggested citation in the paper.}
+By the computational certificate described in Appendix~X, no depth-six V-type
+4-selection network on nine wires exists, while a depth-seven network is
+verified by exhaustive binary simulation. Hence \(\mathrm{VDepth}(4,9)=7\).
+
+The case \(V(4,9)\) is settled by a computational certificate: the depth-six
+search is reduced to 75 certified UNSAT tail leaves, and a depth-seven witness
+is independently verified on all binary inputs.
+
+Appendix~X records the computational certificate for \(V(4,9)\), separating the
+mathematical reductions, artifact audits, raw solver UNSAT leaves, and the
+verified depth-seven witness.
+

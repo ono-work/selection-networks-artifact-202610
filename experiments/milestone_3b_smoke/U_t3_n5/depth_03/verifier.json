@@ -1,0 +1,10 @@
+{
+  "counterexample": null,
+  "expected": null,
+  "kind": "U",
+  "message": "verified all binary inputs",
+  "n": 5,
+  "ok": true,
+  "output": null,
+  "t": 3
+}

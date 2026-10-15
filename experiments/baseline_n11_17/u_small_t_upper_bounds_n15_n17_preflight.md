@@ -1,0 +1,21 @@
+# U-side small-t upper-bound preflight for n=15,16,17
+
+- pyclingo/libclingo version: `pyclingo version 5.8.0`.
+- Existing `solver/common.lp` and `solver/target_u.lp` are used.
+- Existing instance generator, parser, and independent verifier are used.
+- Exhaustive verification sizes: `2^15 = 32768`, `2^16 = 65536`, `2^17 = 131072` binary inputs.
+- Targets are exactly `U(2..4,15)` at depth 8, `U(2..4,16)` at depth 8, `U(2,17)` and `U(3,17)` at depth 8, and `U(4,17)` at depth 9.
+- GPU use: none.
+- Sorting-depth citation status: `local note candidate: docs/n11_17/selection_bounds_notes.md; n=17 remains TODO_SORTING_DEPTH_CITATION`.
+- Source report exists: `True` at `docs/n11_17/u_upper_bounds_n13_n14_depth7.md`.
+- Source report exists: `True` at `docs/n11_17/u_upper_bounds_n13_n14_depth8.md`.
+- Source report exists: `True` at `docs/n11_17/selection_bounds_summary.md`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t2_n15/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t3_n15/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t4_n15/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t2_n16/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t3_n16/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t4_n16/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t2_n17/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t3_n17/depth_08`.
+- Output directory nonempty: `False` at `experiments/baseline_n11_17/decisions/U_t4_n17/depth_09`.

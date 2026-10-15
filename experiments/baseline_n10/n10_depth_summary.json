@@ -1,0 +1,346 @@
+{
+  "U_table": [
+    {
+      "artifact_paths": [],
+      "depth": 4,
+      "derivation_summary": "Standard one-selection depth.",
+      "kind": "U",
+      "lower_bound_source": "ceil(log2 10)=4 lower bound for one selected wire",
+      "n": 10,
+      "status": "EXACT",
+      "t": 1,
+      "upper_bound_source": "standard binary tournament construction"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n10/decisions/U_t2_n10/depth_04/",
+        "experiments/baseline_n10/decisions/U_t2_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "Direct depth-4 UNSAT and depth-5 verified SAT.",
+      "kind": "U",
+      "lower_bound_source": "U(2,10) depth 4 UNSAT",
+      "n": 10,
+      "status": "EXACT",
+      "t": 2,
+      "upper_bound_source": "Verified U(2,10) depth-5 witness"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n9/decisions/U_t3_n9/depth_04/",
+        "experiments/baseline_n9/decisions/U_t3_n9/depth_05/",
+        "experiments/baseline_n10/decisions/U_t3_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "n=9 lower bound plus n=10 verified witness.",
+      "kind": "U",
+      "lower_bound_source": "Monotonicity from UDepth(3,9)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 3,
+      "upper_bound_source": "Verified U(3,10) depth-5 witness"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n9/decisions/U_t4_n9/depth_04/",
+        "experiments/baseline_n9/decisions/U_t4_n9/depth_05/",
+        "experiments/baseline_n10/decisions/U_t4_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "n=9 lower bound plus n=10 verified witness.",
+      "kind": "U",
+      "lower_bound_source": "Monotonicity from UDepth(4,9)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 4,
+      "upper_bound_source": "Verified U(4,10) depth-5 witness"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n9/decisions/U_t4_n9/depth_04/",
+        "experiments/baseline_n9/decisions/U_t4_n9/depth_05/",
+        "experiments/baseline_n10/decisions/U_t5_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "Direct n=10 witness; lower bound uses n=9 U-duality.",
+      "kind": "U",
+      "lower_bound_source": "Monotonicity from UDepth(5,9)=5, obtained by U-duality from UDepth(4,9)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 5,
+      "upper_bound_source": "Verified U(5,10) depth-5 witness"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n10/decisions/U_t4_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "U-depth duality: UDepth(6,10)=UDepth(4,10).",
+      "kind": "U",
+      "lower_bound_source": "U-duality from UDepth(4,10)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 6,
+      "upper_bound_source": "U-duality from UDepth(4,10)=5"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n10/decisions/U_t3_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "U-depth duality: UDepth(7,10)=UDepth(3,10).",
+      "kind": "U",
+      "lower_bound_source": "U-duality from UDepth(3,10)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 7,
+      "upper_bound_source": "U-duality from UDepth(3,10)=5"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n10/decisions/U_t2_n10/depth_05/"
+      ],
+      "depth": 5,
+      "derivation_summary": "U-depth duality: UDepth(8,10)=UDepth(2,10).",
+      "kind": "U",
+      "lower_bound_source": "U-duality from UDepth(2,10)=5",
+      "n": 10,
+      "status": "EXACT",
+      "t": 8,
+      "upper_bound_source": "U-duality from UDepth(2,10)=5"
+    },
+    {
+      "artifact_paths": [],
+      "depth": 4,
+      "derivation_summary": "U-depth duality: UDepth(9,10)=UDepth(1,10).",
+      "kind": "U",
+      "lower_bound_source": "U-duality from UDepth(1,10)=4",
+      "n": 10,
+      "status": "EXACT",
+      "t": 9,
+      "upper_bound_source": "U-duality from UDepth(1,10)=4"
+    },
+    {
+      "artifact_paths": [],
+      "depth": 0,
+      "derivation_summary": "Selecting all wires in arbitrary order requires no comparators.",
+      "kind": "U",
+      "lower_bound_source": "trivial all-wire selection",
+      "n": 10,
+      "status": "EXACT",
+      "t": 10,
+      "upper_bound_source": "trivial all-wire selection"
+    }
+  ],
+  "V_table": [
+    {
+      "artifact_paths": [],
+      "depth": 4,
+      "derivation_summary": "Standard one-selection depth.",
+      "kind": "V",
+      "lower_bound_source": "ceil(log2 10)=4 lower bound for one selected wire",
+      "n": 10,
+      "status": "EXACT",
+      "t": 1,
+      "upper_bound_source": "standard binary tournament construction"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n10/decisions/V_t2_n10/depth_05/",
+        "experiments/baseline_n10/decisions/V_t3_n10/depth_06/"
+      ],
+      "depth": 6,
+      "derivation_summary": "Depth 5 is UNSAT; the V(3,10) depth-6 witness is also a V(2,10) witness.",
+      "kind": "V",
+      "lower_bound_source": "V(2,10) depth 5 UNSAT",
+      "n": 10,
+      "status": "EXACT",
+      "t": 2,
+      "upper_bound_source": "Verified V(3,10) depth-6 witness; V3 implies V2"
+    },
+    {
+      "artifact_paths": [
+        "experiments/baseline_n9/decisions/V_t3_n9/depth_05/",
+        "experiments/baseline_n9/decisions/V_t3_n9/depth_06/",
+        "experiments/baseline_n10/decisions/V_t3_n10/depth_06/"
+      ],
+      "depth": 6,
+      "derivation_summary": "n=9 lower bound plus n=10 verified witness.",
+      "kind": "V",
+      "lower_bound_source": "Monotonicity from VDepth(3,9)=6",
+      "n": 10,
+      "status": "EXACT",
+      "t": 3,
+      "upper_bound_source": "Verified V(3,10) depth-6 witness"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 4,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 5,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 6,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 7,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 8,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 9,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    },
+    {
+      "artifact_paths": [
+        "experiments/v49_d6_final/final_certificate.json",
+        "experiments/v49_d6_final/evidence_index.md",
+        "docs/literature/exact_depth_audit.md"
+      ],
+      "depth": 7,
+      "derivation_summary": "VDepth(4,10)>=7; full sorting at depth 7 gives V upper bound for all t.",
+      "kind": "V",
+      "lower_bound_source": "For t>=4, monotonicity from VDepth(4,9)=7 and V(t) lower-bound transfer from V(4)",
+      "n": 10,
+      "status": "EXACT",
+      "t": 10,
+      "upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10"
+    }
+  ],
+  "audit_status": "PASSED",
+  "caveats": [
+    "UNSAT results are solver artifacts for encoded ASP instances; no human-readable UNSAT proof or unsat core is claimed.",
+    "SAT witnesses are accepted only after independent exhaustive binary verification on all 2^10 inputs.",
+    "Runtime is operational only and is not used as structural evidence.",
+    "U-duality is used only for U-type depths, not V-type depths.",
+    "The n=10 sorting-network upper bound is sourced from local literature notes and bibliography; it is an upper bound for V/U selection via full sorting."
+  ],
+  "citation_todo": null,
+  "derivations": {
+    "U": [
+      "UDepth(2,10)=5 from depth-4 UNSAT and depth-5 verified SAT; no U(3)->U(2) witness implication is used.",
+      "UDepth(3,10), UDepth(4,10), and UDepth(5,10) are direct depth-5 verified SAT upper bounds combined with n=9 lower bounds.",
+      "UDepth(6,10), UDepth(7,10), UDepth(8,10), and UDepth(9,10) are filled by U-duality."
+    ],
+    "V": [
+      "V(2,10) depth 5 UNSAT plus verified V(3,10) depth-6 witness gives VDepth(2,10)=6 because V3 implies V2.",
+      "VDepth(3,10)=6 from VDepth(3,9)=6 by monotonicity and a verified depth-6 witness.",
+      "VDepth(t,10)=7 for t>=4 from VDepth(4,9)=7 by monotonicity, V(t) lower-bound transfer for t>=4, and the n=10 depth-7 full-sorting upper bound."
+    ]
+  },
+  "generated_at": "2026-07-09T22:39:12.985817+00:00",
+  "problems": [],
+  "sorting_upper_bound_source": "docs/literature/exact_depth_audit.md and docs/literature/references.bib (DobbelaereSortingNetworks); local note records full sorting depth 7 for n=10",
+  "source_artifacts": [
+    "experiments/baseline_n10/decisions/V_t2_n10/depth_05/result.json",
+    "experiments/baseline_n10/decisions/V_t2_n10/depth_05/solver_raw.json",
+    "experiments/baseline_n10/decisions/V_t3_n10/depth_06/result.json",
+    "experiments/baseline_n10/decisions/V_t3_n10/depth_06/verifier.json",
+    "experiments/baseline_n9/decisions/V_t3_n9/depth_05/decision.json",
+    "experiments/baseline_n9/decisions/V_t3_n9/depth_05/solver.json",
+    "experiments/baseline_n9/decisions/V_t3_n9/depth_06/network.json",
+    "experiments/baseline_n9/decisions/V_t3_n9/depth_06/verifier.json",
+    "experiments/v49_d6_final/final_certificate.json",
+    "experiments/v49_d6_final/evidence_index.md",
+    "experiments/baseline_n10/decisions/U_t2_n10/depth_04/result.json",
+    "experiments/baseline_n10/decisions/U_t2_n10/depth_04/solver_raw.json",
+    "experiments/baseline_n10/decisions/U_t2_n10/depth_05/result.json",
+    "experiments/baseline_n10/decisions/U_t2_n10/depth_05/verifier.json",
+    "experiments/baseline_n10/decisions/U_t3_n10/depth_05/result.json",
+    "experiments/baseline_n10/decisions/U_t3_n10/depth_05/verifier.json",
+    "experiments/baseline_n10/decisions/U_t4_n10/depth_05/result.json",
+    "experiments/baseline_n10/decisions/U_t4_n10/depth_05/verifier.json",
+    "experiments/baseline_n10/decisions/U_t5_n10/depth_05/result.json",
+    "experiments/baseline_n10/decisions/U_t5_n10/depth_05/verifier.json",
+    "experiments/baseline_n9/decisions/U_t3_n9/depth_04/decision.json",
+    "experiments/baseline_n9/decisions/U_t3_n9/depth_04/solver.json",
+    "experiments/baseline_n9/decisions/U_t3_n9/depth_05/network.json",
+    "experiments/baseline_n9/decisions/U_t3_n9/depth_05/verifier.json",
+    "experiments/baseline_n9/decisions/U_t4_n9/depth_04/decision.json",
+    "experiments/baseline_n9/decisions/U_t4_n9/depth_04/solver.json",
+    "experiments/baseline_n9/decisions/U_t4_n9/depth_05/network.json",
+    "experiments/baseline_n9/decisions/U_t4_n9/depth_05/verifier.json",
+    "experiments/u_calibration/U_t2_n8/summary.csv",
+    "experiments/u_calibration/U_t2_n8/depth_03/solver.json",
+    "experiments/u_calibration/U_t2_n8/depth_04/network.json",
+    "experiments/u_calibration/U_t2_n8/depth_04/verifier.json",
+    "docs/literature/exact_depth_audit.md",
+    "docs/literature/references.bib"
+  ],
+  "source_reports": [
+    "docs/n10/n10_v_selection_decisions.md",
+    "docs/n10/u_selection_decisions.md"
+  ]
+}

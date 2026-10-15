@@ -1,0 +1,30 @@
+{
+  "branch_id": "A5_residual_L5eq3__wire1_partner_2",
+  "category": "wire1_partner_2",
+  "category_constraints": "% Tail category for A5_residual_L5eq3: wire1_partner_2\n:- not selected(5,1,2).\n",
+  "category_matching_count": 95,
+  "final_layer": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "l5_count": 3,
+  "leaf_id": "A5",
+  "parent_branch_id": "A5_residual_L5eq3",
+  "residual_id": "A5_residual"
+}

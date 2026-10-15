@@ -1,0 +1,5 @@
+source_path,status,source_kind,entries_contributed,citation_readiness,caveats
+"V(2,2^k) formula",citation TODO,theorem formula,"V(2,n), n<=17",citation TODO,needs paper-ready citation or included proof
+experiments/baseline_n10/decisions/V_t2_n10/depth_05/,exists,computational lower bound,"VDepth(2,10)>=6 and n-monotonic consequences",computational-artifact,
+experiments/baseline_n10/decisions/V_t3_n10/depth_06/,exists,verified witness,"VDepth(2,10)<=6 because V3 implies V2",computational-artifact,
+docs/n11_17/constructive_upper_bound_closure.md,exists,generated closure,all,local-note-only,

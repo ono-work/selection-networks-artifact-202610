@@ -1,0 +1,16 @@
+{
+  "branch_id": "T_134",
+  "clingo_result": "UNSATISFIABLE",
+  "cpu_snapshots": 397,
+  "error_message": null,
+  "peak_rss_kb": 79252,
+  "returncode": 0,
+  "runtime_seconds": 421.4094404919888,
+  "status": "UNSAT",
+  "support": [
+    1,
+    3,
+    4
+  ],
+  "timeout_seconds": 900
+}

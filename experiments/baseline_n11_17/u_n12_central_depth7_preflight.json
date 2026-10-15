@@ -1,0 +1,124 @@
+{
+  "binary_input_counts": {
+    "n12": 4096
+  },
+  "cases": [
+    {
+      "depth": 7,
+      "kind": "U",
+      "n": 12,
+      "previous_depth6_status": "TIMEOUT",
+      "t": 5
+    },
+    {
+      "depth": 7,
+      "kind": "U",
+      "n": 12,
+      "previous_depth6_status": "TIMEOUT",
+      "t": 6
+    }
+  ],
+  "clingo_command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo"
+  ],
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "common_encoding": "solver/common.lp",
+  "decision_runner": "src.run_u_n12_central_depth7_upper_bounds",
+  "depth6_report_exists": true,
+  "depth6_report_path": "docs/n11_17/u_milestone1_depth6_upper_bounds.md",
+  "depth6_summary_exists": true,
+  "depth6_summary_path": "experiments/baseline_n11_17/u_milestone1_depth6_upper_bounds.json",
+  "gpu_use": "none",
+  "light_regression_command": ".venv/bin/python -m pytest tests/test_verifier.py tests/test_selection_u_asp.py tests/test_parse_model.py tests/test_selection_bounds.py",
+  "purpose": "depth-7 SAT upper-bound scouting only; depth 5 and depth 6 are not rerun",
+  "target_encoding": "solver/target_u.lp",
+  "verifier": "src.verify.verify_binary",
+  "verifier_smoke": [
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 5,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 5
+      },
+      "t": 5
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 6,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 6
+      },
+      "t": 6
+    }
+  ]
+}

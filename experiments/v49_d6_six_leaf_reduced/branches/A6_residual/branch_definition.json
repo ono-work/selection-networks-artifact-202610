@@ -1,0 +1,25 @@
+{
+  "branch_id": "A6_residual",
+  "constraints": "% V(4,9), depth-6 six-leaf reduced hard-instance constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), 2 != #count { I,J : selected(D,I,J) }.\n:- depth(D), not selected(D,2,3).\n:- depth(D), not selected(D,4,6).\n:- selected(5,2,3).\n:- selected(5,4,6).\n",
+  "final_layer": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "forbid_l5": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "leaf_id": "A6"
+}

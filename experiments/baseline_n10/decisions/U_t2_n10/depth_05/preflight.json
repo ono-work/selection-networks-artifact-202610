@@ -1,0 +1,60 @@
+{
+  "binary_input_count": 1024,
+  "clingo_command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo"
+  ],
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "common_encoding": "solver/common.lp",
+  "decision_runner": "src.run_baseline_n10_u_decision",
+  "gpu_use": "none",
+  "light_regression_command": ".venv/bin/python -m pytest tests/test_verifier.py tests/test_selection_u_asp.py tests/test_parse_model.py",
+  "light_regression_result": "17 passed",
+  "previous_u_t2_depth4_result_path": "experiments/baseline_n10/decisions/U_t2_n10/depth_04/result.json",
+  "previous_u_t2_depth4_unsat": true,
+  "target_encoding": "solver/target_u.lp",
+  "v_t3_depth6_as_u_t2_verifier": {
+    "checked_binary_inputs": 1024,
+    "ok": true
+  },
+  "v_t3_depth6_as_v_t2_verifier": {
+    "checked_binary_inputs": 1024,
+    "ok": true
+  },
+  "v_t3_depth6_upper_bound_network_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json",
+  "verifier": "src.verify.verify_binary",
+  "verifier_accepts_parameters": true,
+  "verifier_parameter_smoke": {
+    "counterexample": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "expected": 2,
+    "kind": "U",
+    "message": "U-type verification failed",
+    "n": 10,
+    "ok": false,
+    "output": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": 2
+  }
+}

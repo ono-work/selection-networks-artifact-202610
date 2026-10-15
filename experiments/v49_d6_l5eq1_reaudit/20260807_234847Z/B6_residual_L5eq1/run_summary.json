@@ -1,0 +1,66 @@
+{
+  "artifact_paths": {
+    "raw_json": "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/raw_solver.json",
+    "raw_stderr": "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/raw_stderr.txt",
+    "raw_stdout": "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/raw_stdout.json",
+    "resource_usage": "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/resource_usage.txt"
+  },
+  "branch_id": "B6_residual_L5eq1",
+  "finished_at_utc": "2026-08-07T23:52:38.890415Z",
+  "input_hashes_sha256": {
+    "common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+    "instance.lp": "6cebc8627592dcf0de1722834ff0c4925f524d6e1291edd6b61c93dc475a6b69",
+    "target_v.lp": "ddae98e3a4bd702b9d97342ab558f7a4670eb7c7caf5dd726e28aef7cfe77f1a"
+  },
+  "process_exit_status": 0,
+  "raw_clingo_result": "UNSATISFIABLE",
+  "raw_json_parse_error": null,
+  "raw_models": {
+    "More": "no",
+    "Number": 0
+  },
+  "raw_stderr_bytes": 0,
+  "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "raw_stdout_sha256": "567e520a0f64328e3b012265e3cc68665403f813b998f2ecef124820d75a34fa",
+  "resource_usage": {
+    "cpu_percent": "99%",
+    "elapsed_wall_clock": "1:13.58",
+    "maximum_resident_set_kbytes": 73504,
+    "system_cpu_seconds": 0.04,
+    "time_exit_status": 0,
+    "user_cpu_seconds": 73.45
+  },
+  "solver_command": [
+    "/home/ono/Agent/.venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_v.lp",
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp"
+  ],
+  "source_instance_path": "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp",
+  "started_at_utc": "2026-08-07T23:51:14.559214Z",
+  "wrapped_command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/resource_usage.txt",
+    "/home/ono/Agent/.venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_v.lp",
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp"
+  ],
+  "wrapper_wall_seconds": 84.33114411402494
+}

@@ -1,0 +1,3 @@
+kind,n,t,depth,previous_depth6_status,solver_status,verifier_status,upper_bound_7_established,lower_bound,current_interval,runtime_seconds,artifact_directory,notes
+U,12,5,7,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,7]",922.913407383021,experiments/baseline_n11_17/decisions/U_t5_n12/depth_07,"5 <= UDepth(5,12) <= 7"
+U,12,6,7,TIMEOUT,SATISFIABLE,VERIFIED_SAT,True,5,"[5,7]",3866.934677440091,experiments/baseline_n11_17/decisions/U_t6_n12/depth_07,"5 <= UDepth(6,12) <= 7"

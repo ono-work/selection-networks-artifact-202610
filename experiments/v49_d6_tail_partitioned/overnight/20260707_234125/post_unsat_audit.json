@@ -1,0 +1,7 @@
+{
+  "closure_audit_returncode": 0,
+  "closure_audit_stderr": "",
+  "closure_audit_stdout": "COVERAGE_AUDIT_PASSED\n/home/ono/Codex/experiments/v49_d6_closure_audit/coverage_certificate.json\n",
+  "tail_child_count": 75,
+  "tail_children_all_closed": true
+}

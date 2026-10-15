@@ -1,0 +1,31 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--time-limit=7200",
+    "-n",
+    "1",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_u.lp",
+    "/home/ono/Agent/experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/depth_04/instance.lp"
+  ],
+  "comparator_count": null,
+  "depth": 4,
+  "error_message": null,
+  "instance_path": "/home/ono/Agent/experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/depth_04/instance.lp",
+  "kind": "U",
+  "layer_comparator_counts": null,
+  "n": 9,
+  "network_json_path": null,
+  "raw_solver_json_path": "/home/ono/Agent/experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/depth_04/solver.json",
+  "returncode": 0,
+  "runtime_seconds": 208.2007154887542,
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "stderr_path": "/home/ono/Agent/experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/depth_04/stderr.log",
+  "t": 2,
+  "verifier_json_path": null,
+  "verifier_ok": null
+}

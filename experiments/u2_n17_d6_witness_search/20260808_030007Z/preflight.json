@@ -1,0 +1,26 @@
+{
+  "component_canonical_key_used": false,
+  "depth": 6,
+  "environment": {
+    "cwd": "/home/ono/Agent",
+    "hostname": "thor",
+    "logical_cpu_count": 20,
+    "machine": "aarch64",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "started_at_utc": "2026-08-08T03:02:52.394254+00:00"
+  },
+  "input_count": 153,
+  "input_zero_counts": [
+    1,
+    2
+  ],
+  "n": 17,
+  "normal_forms_used": false,
+  "reduction_argument": "zero_count=0 is automatic. For z>2, change all but two zeros to ones; coordinatewise monotonicity of compare-exchange networks implies that if both selected outputs are zero for every z=2 input, they remain zero for the smaller input with additional zeros. Thus z=1 and z=2 are complete for U(2,n).",
+  "scope": "SAT witness search only; UNKNOWN/TIMEOUT is not UNSAT",
+  "solver_version_exit_status": 0,
+  "solver_version_stderr": "",
+  "solver_version_stdout": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>\n",
+  "t": 2
+}

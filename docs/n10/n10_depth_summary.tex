@@ -1,0 +1,51 @@
+\subsection{The case $n=10$}
+
+This subsection summarizes the integrated $n=10$ evidence for V-type and U-type
+selection depth. No new solver instance is introduced here; the data are taken
+from the existing standard-pipeline reports
+\texttt{docs/n10/n10\_v\_selection\_decisions.md} and
+\texttt{docs/n10/u\_selection\_decisions.md}, together with the recorded
+$n=9$ lower-bound artifacts and the final $\mathrm{VDepth}(4,9)=7$ certificate.
+
+\begin{center}
+\begin{tabular}{c|cccccccccc}
+$t$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+$\mathrm{VDepth}(t,10)$ & 4 & 6 & 6 & 7 & 7 & 7 & 7 & 7 & 7 & 7 \\
+\end{tabular}
+\end{center}
+
+For V-type selection, $\mathrm{VDepth}(1,10)=\lceil\log_2 10\rceil=4$.
+The depth-five instance for $V(2,10)$ is UNSAT, while the verified depth-six
+$V(3,10)$ witness is also a $V(2,10)$ witness; hence
+$\mathrm{VDepth}(2,10)=6$.  The equality
+$\mathrm{VDepth}(3,10)=6$ follows from the same verified witness and
+monotonicity from the recorded $\mathrm{VDepth}(3,9)=6$ artifacts.  For
+$t\ge 4$, the final certificate records $\mathrm{VDepth}(4,9)=7$, giving the
+lower bound at $n=10$ by monotonicity and the V-type implication direction.  A
+known depth-seven sorting network on ten inputs gives the matching upper bound
+for all V-type targets; the local source note is
+\texttt{docs/literature/exact\_depth\_audit.md} with bibliography key
+\texttt{DobbelaereSortingNetworks}.
+
+\begin{center}
+\begin{tabular}{c|cccccccccc}
+$t$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+$\mathrm{UDepth}(t,10)$ & 4 & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 4 & 0 \\
+\end{tabular}
+\end{center}
+
+For U-type selection, the entries $t=2,3,4,5$ are directly supported by the
+$n=10$ solver/verifier artifacts.  The $U(2,10)$ depth-four instance is UNSAT
+and the depth-five witness is verified, so $\mathrm{UDepth}(2,10)=5$; this does
+not use any implication from a $U(3,10)$ witness.  The $t=3$ and $t=4$ entries
+use verified depth-five witnesses together with monotonicity from the recorded
+$n=9$ lower bounds.  The central entry $t=5$ uses a verified depth-five witness
+and the $n=9$ lower bound obtained from $\mathrm{UDepth}(4,9)=5$ by U-duality.
+The remaining entries $t=6,7,8,9$ follow by U-duality on ten wires, and
+$\mathrm{UDepth}(10,10)=0$ is trivial.
+
+All UNSAT claims are treated as solver artifacts for the encoded ASP instances,
+not as human-readable UNSAT proofs.  SAT witnesses are accepted only after
+independent exhaustive binary verification.

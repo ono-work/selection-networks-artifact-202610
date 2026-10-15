@@ -1,0 +1,12 @@
+kind,n,t,depth,solver_status,verifier_status,upper_bound_established,current_interval,runtime_seconds,artifact_directory,mirror_t_by_duality,notes
+U,13,2,7,SATISFIABLE,VERIFIED_SAT,True,"[5,7]",99.53239653690252,experiments/baseline_n11_17/decisions/U_t2_n13/depth_07,11,"5 <= UDepth(2,13) <= 7"
+U,13,3,7,SATISFIABLE,VERIFIED_SAT,True,"[5,7]",4507.643128472962,experiments/baseline_n11_17/decisions/U_t3_n13/depth_07,10,"5 <= UDepth(3,13) <= 7"
+U,13,4,7,UNKNOWN,n/a,False,"[5,?]",7201.8586102339905,experiments/baseline_n11_17/decisions/U_t4_n13/depth_07,9,upper bound 7 not established
+U,13,5,7,UNKNOWN,n/a,False,"[5,?]",7201.807702307007,experiments/baseline_n11_17/decisions/U_t5_n13/depth_07,8,upper bound 7 not established
+U,13,6,7,UNKNOWN,n/a,False,"[5,?]",7201.852589251939,experiments/baseline_n11_17/decisions/U_t6_n13/depth_07,7,upper bound 7 not established
+U,14,2,7,SATISFIABLE,VERIFIED_SAT,True,"[5,7]",977.1330610589357,experiments/baseline_n11_17/decisions/U_t2_n14/depth_07,12,"5 <= UDepth(2,14) <= 7"
+U,14,3,7,UNKNOWN,n/a,False,"[5,?]",7204.567458512029,experiments/baseline_n11_17/decisions/U_t3_n14/depth_07,11,upper bound 7 not established
+U,14,4,7,UNKNOWN,n/a,False,"[5,?]",7204.604113042005,experiments/baseline_n11_17/decisions/U_t4_n14/depth_07,10,upper bound 7 not established
+U,14,5,7,UNKNOWN,n/a,False,"[5,?]",7204.881311225006,experiments/baseline_n11_17/decisions/U_t5_n14/depth_07,9,upper bound 7 not established
+U,14,6,7,UNKNOWN,n/a,False,"[5,?]",7204.9489932949655,experiments/baseline_n11_17/decisions/U_t6_n14/depth_07,8,upper bound 7 not established
+U,14,7,7,UNKNOWN,n/a,False,"[5,?]",7204.802322473959,experiments/baseline_n11_17/decisions/U_t7_n14/depth_07,7,upper bound 7 not established

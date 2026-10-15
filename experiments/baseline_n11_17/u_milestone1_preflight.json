@@ -1,0 +1,451 @@
+{
+  "binary_input_counts": {
+    "n11": 2048,
+    "n12": 4096
+  },
+  "cases": [
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 11,
+      "t": 2
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 11,
+      "t": 3
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 11,
+      "t": 4
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 11,
+      "t": 5
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 12,
+      "t": 2
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 12,
+      "t": 3
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 12,
+      "t": 4
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 12,
+      "t": 5
+    },
+    {
+      "depth": 5,
+      "kind": "U",
+      "n": 12,
+      "t": 6
+    }
+  ],
+  "clingo_command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo"
+  ],
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "common_encoding": "solver/common.lp",
+  "decision_runner": "src.run_u_milestone1_n11_n12",
+  "gpu_use": "none",
+  "light_regression_command": ".venv/bin/python -m pytest tests/test_verifier.py tests/test_selection_u_asp.py tests/test_parse_model.py tests/test_selection_bounds.py",
+  "n10_depth_summary_exists": true,
+  "n10_depth_summary_path": "experiments/baseline_n10/n10_depth_summary.json",
+  "selection_bounds_table_exists": true,
+  "selection_bounds_table_path": "experiments/selection_bounds_n11_17/bounds_table.csv",
+  "target_encoding": "solver/target_u.lp",
+  "u_duality_report_use": "U-duality will be used only for report consequences and mirrored U entries.",
+  "verifier": "src.verify.verify_binary",
+  "verifier_smoke": [
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 11,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 2,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 11,
+        "ok": false,
+        "output": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 2
+      },
+      "t": 2
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 11,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 3,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 11,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 3
+      },
+      "t": 3
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 11,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 4,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 11,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 4
+      },
+      "t": 4
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 11,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 5,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 11,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 5
+      },
+      "t": 5
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 2,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 2
+      },
+      "t": 2
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 3,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 3
+      },
+      "t": 3
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 4,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 4
+      },
+      "t": 4
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 5,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 5
+      },
+      "t": 5
+    },
+    {
+      "accepts_parameters": true,
+      "kind": "U",
+      "n": 12,
+      "smoke_result": {
+        "counterexample": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected": 6,
+        "kind": "U",
+        "message": "U-type verification failed",
+        "n": 12,
+        "ok": false,
+        "output": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "t": 6
+      },
+      "t": 6
+    }
+  ]
+}

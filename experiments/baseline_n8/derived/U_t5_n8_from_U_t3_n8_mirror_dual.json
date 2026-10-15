@@ -1,0 +1,80 @@
+{
+  "depth": 4,
+  "derivation": "derived by U-type mirror duality; not independently solver-synthesized",
+  "kind": "U",
+  "layers": [
+    [
+      [
+        3,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        6,
+        8
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  "n": 8,
+  "source_kind": "U",
+  "source_t": 3,
+  "source_witness_path": "experiments/baseline_n8/decisions/U_t3_n8/depth_04/network.json",
+  "t": 5
+}

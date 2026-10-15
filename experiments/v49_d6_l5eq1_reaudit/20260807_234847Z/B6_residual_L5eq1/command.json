@@ -1,0 +1,32 @@
+{
+  "solver_command": [
+    "/home/ono/Agent/.venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_v.lp",
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp"
+  ],
+  "wrapped_command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/ono/Agent/experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/B6_residual_L5eq1/resource_usage.txt",
+    "/home/ono/Agent/.venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=900",
+    "/home/ono/Agent/solver/common.lp",
+    "/home/ono/Agent/solver/target_v.lp",
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp"
+  ]
+}

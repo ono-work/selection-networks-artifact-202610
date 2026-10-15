@@ -1,0 +1,18 @@
+{
+  "branch_id": "T_1234_L6_4",
+  "clingo_result": "UNSATISFIABLE",
+  "cpu_snapshots": 711,
+  "error_message": null,
+  "final_layer_comparator_count": 4,
+  "peak_rss_kb": 84024,
+  "returncode": 0,
+  "runtime_seconds": 749.1347110680072,
+  "status": "UNSAT",
+  "support": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1800
+}

@@ -1,0 +1,105 @@
+{
+  "cases": {
+    "V_t2_n10_depth5": {
+      "depth": 5,
+      "n": 10,
+      "out": "/home/ono/Codex/experiments/baseline_n10/decisions/V_t2_n10/depth_05",
+      "t": 2
+    },
+    "V_t3_n10_depth6": {
+      "depth": 6,
+      "n": 10,
+      "out": "/home/ono/Codex/experiments/baseline_n10/decisions/V_t3_n10/depth_06",
+      "t": 3
+    }
+  },
+  "clingo_command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo"
+  ],
+  "clingo_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "existing_pipeline": {
+    "common": "solver/common.lp",
+    "generate_instance": "src.generate_instance.generate_instance",
+    "parser": "src.parse_model.parse_selected_network",
+    "target": "solver/target_v.lp",
+    "verifier": "src.verify.verify_binary"
+  },
+  "n10_binary_input_count": 1024,
+  "runner_accepts_n10_cases": true,
+  "verifier_accepts_n10_parameters": true,
+  "verifier_parameter_smoke": [
+    {
+      "counterexample": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "kind": "V",
+      "message": "V-type verification failed",
+      "n": 10,
+      "ok": false,
+      "output": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "t": 2
+    },
+    {
+      "counterexample": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "kind": "V",
+      "message": "V-type verification failed",
+      "n": 10,
+      "ok": false,
+      "output": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "t": 3
+    }
+  ]
+}

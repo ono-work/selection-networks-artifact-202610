@@ -1,0 +1,1468 @@
+{
+ "title": "Computational artifact inventory for 'Exact Depths and Bounds for Small Selection Networks' (CANDAR 2026)",
+ "generated_utc": "2026-10-15T03:54:39.965592+00:00",
+ "generated_by": "read-only inventory; no experiment file was modified, moved, renamed, or deleted; the only files written are ARTIFACT_INVENTORY.md and artifact_inventory.json",
+ "environment": {
+  "machine": "thor",
+  "os": "Linux thor 6.17.0-1021-nvidia #21-Ubuntu SMP PREEMPT_DYNAMIC Wed May 27 19:14:05 UTC 2026",
+  "architecture": "aarch64",
+  "repository_root": "/home/ono/Agent",
+  "git_head": "7c06ad41aa6b9037ce471cebc143dae24897f5f5",
+  "git_branch": "master",
+  "git_head_subject": "Add witness rendering dossiers (2026-06-24)",
+  "git_status_porcelain": " M README.md\n M SPEC.md\n M src/experiment.py\n M src/generate_instance.py\n M src/network.py\n M tests/test_calibration_matrix.py\n M tests/test_experiment.py\n M tests/test_network.py\n?? CLAUDE.md\n?? docs/literature/\n?? docs/n10/\n?? docs/n11_17/\n?? docs/u_block_permutation_untangling.md\n?? docs/v49_d6/\n?? docs/v49_d6_final/\n?? docs/v49_d6_six_leaf_reductions.md\n?? docs/v49_d6_terminal_profiles.md\n?? docs/v_boundary_and_v49_support_partition.md\n?? experiments/baseline_n10/\n?? experiments/baseline_n11_17/\n?? experiments/baseline_n7/\n?? experiments/baseline_n8/\n?? experiments/baseline_n9/\n?? experiments/n10_selection_depth_completion/\n?? experiments/provenance_closure/\n?? experiments/selection_bounds_n11_17/\n?? experiments/u2_n17_d6_witness_search/\n?? experiments/u3_n11_d5_depth2_family/\n?? experiments/u3_n11_d5_full_terminal_profile_run/\n?? experiments/u3_n11_d5_hard_profile_ladders/\n?? experiments/u3_n11_d5_prefix_sweep_10s/\n?? experiments/u3_n11_d5_subsumption_coverage_audit/\n?? experiments/u3_n11_d5_terminal_profile_audit/\n?? experiments/v49_d6_bp5_final_layer_partitioned/\n?? experiments/v49_d6_closure_audit/\n?? experiments/v49_d6_final/\n?? experiments/v49_d6_l5_partitioned/\n?? experiments/v49_d6_l5_tail_census/\n?? experiments/v49_d6_l5eq1_reaudit/\n?? experiments/v49_d6_partitioned/\n?? experiments/v49_d6_partner_partitioned/\n?? experiments/v49_d6_refined_partitioned/\n?? experiments/v49_d6_six_leaf_reduced/\n?? experiments/v49_d6_solver_config_benchmark/\n?? experiments/v49_d6_support_partitioned/\n?? experiments/v49_d6_tail_partitioned/\n?? experiments/v49_d6_topology_pruning/\n?? experiments/weight_game/\n?? manuscript/\n?? prompt000.txt\n?? prompt001.txt\n?? prompt002.txt\n?? prompt003.txt\n?? prompt004.txt\n?? prompt005.txt\n?? prompt006.txt\n?? prompt007.txt\n?? prompt007.txt~\n?? prompt008.txt\n?? prompt009.txt\n?? prompt010.txt\n?? prompt011.txt\n?? prompt011.txt~\n?? scripts/analyze_v49_d6_tail_leaves.sh\n?? scripts/audit_v49_d6_final_bundle.py\n?? scripts/benchmark_v49_d6_solver_config.sh\n?? scripts/create_u3_n11_d5_raw_archives.sh\n?? scripts/run_u3_n11_d5_depth2_family.sh\n?? scripts/run_u3_n11_d5_full_terminal_profile_run.sh\n?? scripts/run_u3_n11_d5_hard_profile_ladders.sh\n?? scripts/run_u3_n11_d5_prefix_sweep.sh\n?? scripts/run_u3_n11_d5_terminal_profile_audit.sh\n?? scripts/run_v49_d6_bp5_final_layer_partitioned.sh\n?? scripts/run_v49_d6_l5_longrun.sh\n?? scripts/run_v49_d6_l5_partitioned.sh\n?? scripts/run_v49_d6_partitioned.sh\n?? scripts/run_v49_d6_partner_partitioned.sh\n?? scripts/run_v49_d6_refined_partitioned.sh\n?? scripts/run_v49_d6_six_leaf_reduced.sh\n?? scripts/run_v49_d6_support_partitioned.sh\n?? scripts/run_v49_d6_tail_partitioned.sh\n?? src/analyze_residual_reuse_n11_u_depth5_depth6.py\n?? src/analyze_u3_n11_d5_exact3_residual_signatures.py\n?? src/analyze_u3_n11_d5_l4_l5_terminal_flow.py\n?? src/analyze_v49_d6_six_leaf_reductions.py\n?? src/analyze_v49_d6_tail_leaves.py\n?? src/analyze_v49_d6_terminal_profiles.py\n?? src/audit_u3_n11_d5_certificate.py\n?? src/audit_u3_n11_d5_g_class_coverage.py\n?? src/audit_u3_n11_d5_g_coverage.py\n?? src/audit_u3_n11_d5_g_residual_reduction.py\n?? src/audit_u3_n11_d5_subsumption_coverage.py\n?? src/benchmark_v49_d6_solver_config.py\n?? src/complete_n10_selection_depths.py\n?? src/constructive_upper_bounds.py\n?? src/exact_weight_residual_antichain.py\n?? src/generate_paper_ready_upper_bounds.py\n?? src/network_composition.py\n?? src/plan_selection_frontier_n11_17.py\n?? src/refine_u3_n11_d5_timeouts.py\n?? src/residual_state_sets.py\n?? src/run_baseline_n10_decisions.py\n?? src/run_baseline_n10_u_decision.py\n?? src/run_u3_n11_d5_full_terminal_profile_run.py\n?? src/run_u3_n11_d5_hard_profile_ladders.py\n?? src/run_u3_n11_d5_prefix_extension_pilot.py\n?? src/run_u3_n11_d5_prefix_sweep.py\n?? src/run_u3_n11_d5_refined_child_pilot.py\n?? src/run_u3_n11_d5_terminal_partition.py\n?? src/run_u3_n11_d5_terminal_profile_audit.py\n?? src/run_u_milestone1_depth6_upper_bounds.py\n?? src/run_u_milestone1_n11_n12.py\n?? src/run_u_n12_central_depth7_upper_bounds.py\n?? src/run_u_small_t_upper_bounds_n15_n17.py\n?? src/run_u_upper_bounds_n13_n14_depth7.py\n?? src/run_u_upper_bounds_n13_n14_depth8.py\n?? src/run_v49_d6_bp5_final_layer_partitioned.py\n?? src/run_v49_d6_l5_longrun.py\n?? src/run_v49_d6_l5_partitioned.py\n?? src/run_v49_d6_partitioned.py\n?? src/run_v49_d6_partner_partitioned.py\n?? src/run_v49_d6_refined_partitioned.py\n?? src/run_v49_d6_six_leaf_reduced.py\n?? src/run_v49_d6_support_partitioned.py\n?? src/run_v49_d6_tail_partitioned.py\n?? src/run_v4_n11_d7_terminal_partition.py\n?? src/selection_bounds.py\n?? src/u3_n11_d5_prefix_filters.py\n?? src/u_prefix_symmetry.py\n?? src/v49_d6_closure_audit.py\n?? src/v49_d6_l5_tail_census.py\n?? src/v49_d6_topology_pruning.py\n?? src/weight_game.py\n?? tests/test_constructive_upper_bounds.py\n?? tests/test_n10_selection_depth_completion.py\n?? tests/test_network_composition.py\n?? tests/test_prefix_quotient_soundness.py\n?? tests/test_residual_reuse_n11_u_depth5_depth6.py\n?? tests/test_residual_state_sets.py\n?? tests/test_selection_bounds.py\n?? tests/test_u3_n11_d5_certificate_audit.py\n?? tests/test_u3_n11_d5_full_terminal_profile_run.py\n?? tests/test_u3_n11_d5_g_coverage.py\n?? tests/test_u3_n11_d5_hard_profile_ladders.py\n?? tests/test_u3_n11_d5_prefix_filters.py\n?? tests/test_u3_n11_d5_prefix_sweep.py\n?? tests/test_u3_n11_d5_subsumption_coverage.py\n?? tests/test_u3_n11_d5_terminal_profile_audit.py\n?? tests/test_u_mirror_duality.py\n?? tests/test_u_prefix_symmetry.py\n?? tests/test_v49_d6_bp5_final_layer_partitioned.py\n?? tests/test_v49_d6_closure_audit.py\n?? tests/test_v49_d6_l5_partitioned.py\n?? tests/test_v49_d6_l5_tail_census.py\n?? tests/test_v49_d6_partitioned.py\n?? tests/test_v49_d6_partner_partitioned.py\n?? tests/test_v49_d6_refined_partitioned.py\n?? tests/test_v49_d6_six_leaf_reductions.py\n?? tests/test_v49_d6_solver_config_and_longrun.py\n?? tests/test_v49_d6_support_partitioned.py\n?? tests/test_v49_d6_tail_leaf_analysis.py\n?? tests/test_v49_d6_tail_screening.py\n?? tests/test_v49_d6_topology_pruning.py\n?? tests/test_weight_game.py\n?? u3_n11_d5_full_terminal_profile_audit_bundle.tar.gz\n",
+  "git_dirty_entries": 165,
+  "python": "Python 3.12.3 (/usr/bin/python3; venv .venv/bin/python, also 3.12.3)",
+  "clingo": "5.8.0 (Python module 'clingo' in .venv; invoked as '.venv/bin/python -m clingo'; no standalone clingo binary on PATH)",
+  "venv_note": "pip freeze shows editable install '-e /home/ono/Codex' -- the repository's former path; recorded commands in pre-August artifacts also use /home/ono/Codex."
+ },
+ "results": [
+  {
+   "paper_claim": "VDepth(2,7) >= 5 (depth-4 UNSAT)",
+   "category": "asp_lower_bound",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp",
+    "src/complete_n10_selection_depths.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.complete_n10_selection_depths --run-job V_t2_n7_d4 (Job table line 44; also --run-all)",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=1200 -n 1 solver/common.lp solver/target_v.lp experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/instance.lp",
+   "solver_output_logs": [
+    "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/solver.json",
+    "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/decision.json",
+    "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/stderr.log"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/independent_audit.json (solver_result UNSATISFIABLE)",
+   "notes": "Only depth 4 run by ASP; depths 0-3 closed by Nakano t=2 corollary per bounds_table.json lower_sources. Runtime 0.43 s. UNSAT at depth 4 is logically sufficient by depth monotonicity."
+  },
+  {
+   "paper_claim": "VDepth(2,9) >= 6 (depth-5 UNSAT)",
+   "category": "asp_lower_bound",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp",
+    "src/complete_n10_selection_depths.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.complete_n10_selection_depths --run-job V_t2_n9_d5 (Job table line 46)",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=7200 -n 1 solver/common.lp solver/target_v.lp experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/instance.lp",
+   "solver_output_logs": [
+    "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/solver.json",
+    "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/decision.json"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/independent_audit.json (solver_result UNSATISFIABLE)",
+   "notes": "Only depth 5 run by ASP; depths 0-4 closed by Nakano corollary. Runtime 1008.15 s."
+  },
+  {
+   "paper_claim": "VDepth(3,5) >= 5 (depth-4 UNSAT)",
+   "category": "asp_lower_bound",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/milestone_3b_smoke/V_t3_n5",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp"
+   ],
+   "runner_or_script": "python -m src.experiment --smoke-matrix --output-dir experiments/milestone_3b_smoke --time-limit 10",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=10 -n 1 solver/common.lp solver/target_v.lp experiments/milestone_3b_smoke/V_t3_n5/depth_04/instance.lp",
+   "solver_output_logs": [
+    "experiments/milestone_3b_smoke/V_t3_n5/depth_00..04/solver.json (all UNSATISFIABLE)",
+    "experiments/milestone_3b_smoke/V_t3_n5/depth_00..04/decision.json (all UNSAT)"
+   ],
+   "witness": "experiments/milestone_3b_smoke/V_t3_n5/depth_05/network.json (depth-5 SAT, bonus upper bound)",
+   "verifier_report": "experiments/milestone_3b_smoke/V_t3_n5/depth_05/verifier.json (ok=true, all 2^5 inputs)",
+   "independent_verification": "experiments/n10_selection_depth_completion/evidence_audit.json previous_exact ('V',5,3): fresh re-verification, 32 inputs, matching_layers true",
+   "notes": "Full ladder depths 0-4 all UNSAT. No stderr.log (June 2026 driver vintage)."
+  },
+  {
+   "paper_claim": "VDepth(3,7) >= 6 (depth-5 UNSAT)",
+   "category": "asp_lower_bound",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n7/decisions/V_t3_n7",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.experiment (canonical driver, per-instance timeout 1200 s; see experiments/baseline_n7/report.md)",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=1200 -n 1 solver/common.lp solver/target_v.lp experiments/baseline_n7/decisions/V_t3_n7/depth_05/instance.lp",
+   "solver_output_logs": [
+    "experiments/baseline_n7/decisions/V_t3_n7/depth_00..05/solver.json (all UNSATISFIABLE)",
+    "experiments/baseline_n7/raw_solver_outputs/V_t3_n7_d05_solver.json (mirror)",
+    "experiments/baseline_n7/decisions/V_t3_n7/depth_05/decision.json (UNSAT, 3.98 s)"
+   ],
+   "witness": "experiments/baseline_n7/decisions/V_t3_n7/depth_06/network.json (depth-6 SAT witness)",
+   "verifier_report": "experiments/baseline_n7/decisions/V_t3_n7/depth_06/verifier.json (ok=true)",
+   "independent_verification": "experiments/n10_selection_depth_completion/evidence_audit.json previous_exact ('V',7,3): fresh re-verification, 128 inputs",
+   "notes": "Full ladder 0-5 all UNSAT. Manuscript blanket 'depth-4 UNSAT' phrasing is wrong for this cell (evidence is depth-5 UNSAT); logged in experiments/n10_selection_depth_completion/manuscript_discrepancies.json."
+  },
+  {
+   "paper_claim": "UDepth(4,6) >= 4 (depth-3 UNSAT)",
+   "category": "asp_lower_bound",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/milestone_3b_smoke/U_t4_n6",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp"
+   ],
+   "runner_or_script": "python -m src.experiment --smoke-matrix --output-dir experiments/milestone_3b_smoke --time-limit 10 (direct run, not duality-derived)",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=10 -n 1 solver/common.lp solver/target_u.lp experiments/milestone_3b_smoke/U_t4_n6/depth_03/instance.lp",
+   "solver_output_logs": [
+    "experiments/milestone_3b_smoke/U_t4_n6/depth_00..03/solver.json (all UNSATISFIABLE)",
+    "experiments/milestone_3b_smoke/U_t4_n6/depth_03/decision.json (UNSAT, 0.048 s)"
+   ],
+   "witness": "experiments/milestone_3b_smoke/U_t4_n6/depth_04/network.json (depth-4 SAT, bonus upper bound)",
+   "verifier_report": "experiments/milestone_3b_smoke/U_t4_n6/depth_04/verifier.json (ok=true)",
+   "independent_verification": "experiments/n10_selection_depth_completion/evidence_audit.json previous_exact ('U',6,4); tests/test_weight_game.py guards A_U(4,6)=3 so the bound stays computational",
+   "notes": "Full ladder 0-3 all UNSAT. final_report.md records that an earlier claim UDepth(4,6)=3 was wrong; artifacts confirm 4."
+  },
+  {
+   "paper_claim": "VDepth(4,9) >= 7 (depth-6 partitioned UNSAT)",
+   "category": "asp_lower_bound_partitioned",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/v49_d6_final (certificate layer); chain: baseline_n9, v49_d6_support/partner/bp5/refined/six_leaf_reduced partitions, v49_d6_closure_audit, v49_d6_l5_tail_census, v49_d6_tail_partitioned, v49_d6_topology_pruning",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp",
+    "src/run_v49_d6_partitioned.py",
+    "src/run_v49_d6_support_partitioned.py",
+    "src/run_v49_d6_partner_partitioned.py",
+    "src/run_v49_d6_refined_partitioned.py",
+    "src/run_v49_d6_bp5_final_layer_partitioned.py",
+    "src/run_v49_d6_six_leaf_reduced.py",
+    "src/run_v49_d6_tail_partitioned.py",
+    "src/v49_d6_closure_audit.py",
+    "src/v49_d6_l5_tail_census.py",
+    "src/v49_d6_topology_pruning.py"
+   ],
+   "runner_or_script": "scripts/run_v49_d6_*.sh (per stage); final audit: scripts/audit_v49_d6_final_bundle.py",
+   "exact_command": "per-branch clingo invocations recorded in branch artifacts; template: .venv/bin/python -m clingo --outf=2 --time-limit={T} -n 1 solver/common.lp solver/target_{v|u}.lp <depth_dir>/instance.lp",
+   "solver_output_logs": [
+    "experiments/v49_d6_tail_partitioned/reports/screening_summary.csv (75 branches: 49 UNSAT, 26 TIMEOUT)",
+    "experiments/v49_d6_tail_partitioned/overnight/20260707_234125/overnight_summary.csv (26/26 UNSAT)",
+    "experiments/v49_d6_tail_partitioned/{screening,overnight/20260707_234125}/raw/<branch>/solver.json (raw clingo JSON per child)"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "experiments/v49_d6_closure_audit/coverage_certificate.json (COVERAGE_AUDIT_PASSED, 15720 classifications, 0 uncovered); experiments/v49_d6_l5_tail_census/coverage_certificate.json (PASSED, 3 parents -> 75 disjoint children); experiments/v49_d6_tail_partitioned/overnight/20260707_234125/post_unsat_audit.json (75 children all closed); experiments/v49_d6_final/evidence_manifest.json (588 files, VERIFIED); experiments/v49_d6_l5eq1_reaudit/20260807_234847Z (post-bundle re-audit, all_raw_unsat true)",
+   "notes": "Dependency graph: 14 nodes, 15 edges (experiments/v49_d6_final/proof_dependency_graph.json). All 179 graph evidence files, all 588 manifest files (repo+bundle), all 37 closure-certificate branch artifacts exist; all 588 bundle.sha256 checksums verify. Combined with verified depth-7 witness gives VDepth(4,9)=7 (final_certificate.json AFFIRMATIVE)."
+  },
+  {
+   "paper_claim": "V(4,9) depth-7 witness (upper bound matching the above)",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n9/decisions/V_t4_n9/depth_07",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.experiment driver (adaptive n=9 run); replayed by scripts/audit_v49_d6_final_bundle.py",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=<T> -n 1 solver/common.lp solver/target_v.lp experiments/baseline_n9/decisions/V_t4_n9/depth_07/instance.lp",
+   "solver_output_logs": [
+    "experiments/baseline_n9/decisions/V_t4_n9/depth_07/solver.json (SATISFIABLE)",
+    "experiments/baseline_n9/decisions/V_t4_n9/depth_07/decision.json (SAT)"
+   ],
+   "witness": "experiments/baseline_n9/decisions/V_t4_n9/depth_07/network.json",
+   "verifier_report": "experiments/baseline_n9/decisions/V_t4_n9/depth_07/verifier.json (ok=true, all 2^9 inputs)",
+   "independent_verification": "Replayed verifier at final-audit time: evidence_manifest.json audit_summary.v4_depth7_replayed_verifier ok=true",
+   "notes": "baseline_n9 V_t4_n9 depth_06 is TIMEOUT (hence the partitioned campaign); depth_07 SAT."
+  },
+  {
+   "paper_claim": "V(2,6) depth-4 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/milestone_3b_smoke/V_t2_n6",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp"
+   ],
+   "runner_or_script": "python -m src.experiment --smoke-matrix --output-dir experiments/milestone_3b_smoke --time-limit 10",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=10 -n 1 solver/common.lp solver/target_v.lp experiments/milestone_3b_smoke/V_t2_n6/depth_04/instance.lp",
+   "solver_output_logs": [
+    "experiments/milestone_3b_smoke/V_t2_n6/depth_04/solver.json",
+    "experiments/milestone_3b_smoke/V_t2_n6/depth_04/decision.json (SAT, verifier_ok true)"
+   ],
+   "witness": "experiments/milestone_3b_smoke/V_t2_n6/depth_04/network.json (10 comparators, layers 3,3,3,1)",
+   "verifier_report": "experiments/milestone_3b_smoke/V_t2_n6/depth_04/verifier.json (ok=true, all 2^6 inputs)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 64 inputs",
+   "notes": null
+  },
+  {
+   "paper_claim": "V(3,10) depth-6 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n10/decisions/V_t3_n10/depth_06",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_v.lp",
+    "src/run_baseline_n10_decisions.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_baseline_n10_decisions --case V_t3_n10_depth6 --timeout-seconds 7200",
+   "exact_command": "command.txt: .venv/bin/python -m clingo --outf=2 --time-limit=7200 -n 1 solver/common.lp solver/target_v.lp experiments/baseline_n10/decisions/V_t3_n10/depth_06/instance.lp (recorded with old /home/ono/Codex prefix)",
+   "solver_output_logs": [
+    "experiments/baseline_n10/decisions/V_t3_n10/depth_06/solver_raw.json (SATISFIABLE)",
+    "experiments/baseline_n10/decisions/V_t3_n10/depth_06/result.json (VERIFIED_SAT)"
+   ],
+   "witness": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json",
+   "verifier_report": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/verifier.json (ok=true) + verifier_trace_summary.json (1024 inputs)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 1024 inputs",
+   "notes": "Lower bound side of V(3,10)=6 is monotonicity from VDepth(3,9)=6 (baseline_n9 V_t3_n9 depth_05 UNSAT), per n10_depth_table.csv."
+  },
+  {
+   "paper_claim": "U(3,6) depth-3 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/milestone_3b_smoke/U_t3_n6",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp"
+   ],
+   "runner_or_script": "python -m src.experiment --smoke-matrix --output-dir experiments/milestone_3b_smoke --time-limit 10",
+   "exact_command": ".venv/bin/python -m clingo --outf=2 --time-limit=10 -n 1 solver/common.lp solver/target_u.lp experiments/milestone_3b_smoke/U_t3_n6/depth_03/instance.lp",
+   "solver_output_logs": [
+    "experiments/milestone_3b_smoke/U_t3_n6/depth_03/solver.json",
+    "experiments/milestone_3b_smoke/U_t3_n6/depth_03/decision.json (SAT, verifier_ok true)"
+   ],
+   "witness": "experiments/milestone_3b_smoke/U_t3_n6/depth_03/network.json (9 comparators, layers 3,3,3)",
+   "verifier_report": "experiments/milestone_3b_smoke/U_t3_n6/depth_03/verifier.json (ok=true)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 64 inputs; rendered dossier experiments/witnesses/U_n6_t3_d3.{md,tex}",
+   "notes": null
+  },
+  {
+   "paper_claim": "U(3,8) depth-4 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n8/decisions/U_t3_n8/depth_04",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.experiment driver (baseline n=8 batch, timeout 1800 s; see experiments/baseline_n8/report.md)",
+   "exact_command": "decision.json command field: .venv/bin/python -m clingo --outf=2 --time-limit=1800 -n 1 solver/common.lp solver/target_u.lp experiments/baseline_n8/decisions/U_t3_n8/depth_04/instance.lp",
+   "solver_output_logs": [
+    "experiments/baseline_n8/decisions/U_t3_n8/depth_04/solver.json",
+    "experiments/baseline_n8/raw/U_t3_n8_d04_solver.json (mirror)",
+    "experiments/baseline_n8/decisions/U_t3_n8/depth_04/decision.json (SAT)"
+   ],
+   "witness": "experiments/baseline_n8/decisions/U_t3_n8/depth_04/network.json (15 comparators); duplicate experiments/baseline_n8/witnesses/U_t3_n8_d04_network.json",
+   "verifier_report": "experiments/baseline_n8/decisions/U_t3_n8/depth_04/verifier.json (ok=true)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 256 inputs",
+   "notes": null
+  },
+  {
+   "paper_claim": "U(4,8) depth-4 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n8/decisions/U_t4_n8/depth_04",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.experiment driver (baseline n=8 batch, timeout 1800 s)",
+   "exact_command": "decision.json command field (as U(3,8), target_u.lp, own instance.lp)",
+   "solver_output_logs": [
+    "experiments/baseline_n8/decisions/U_t4_n8/depth_04/solver.json",
+    "experiments/baseline_n8/raw/U_t4_n8_d04_solver.json (mirror)",
+    "experiments/baseline_n8/decisions/U_t4_n8/depth_04/decision.json (SAT)"
+   ],
+   "witness": "experiments/baseline_n8/decisions/U_t4_n8/depth_04/network.json (16 comparators); duplicate in baseline_n8/witnesses/",
+   "verifier_report": "experiments/baseline_n8/decisions/U_t4_n8/depth_04/verifier.json (ok=true)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 256 inputs",
+   "notes": null
+  },
+  {
+   "paper_claim": "U(3,10) depth-5 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n10/decisions/U_t3_n10/depth_05",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_baseline_n10_u_decision.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_baseline_n10_u_decision --case U_t3_n10_depth5 --timeout-seconds 7200",
+   "exact_command": "command.txt in run dir (clingo line, target_u.lp)",
+   "solver_output_logs": [
+    "experiments/baseline_n10/decisions/U_t3_n10/depth_05/solver_raw.json (SATISFIABLE)",
+    "experiments/baseline_n10/decisions/U_t3_n10/depth_05/result.json (VERIFIED_SAT)"
+   ],
+   "witness": "experiments/baseline_n10/decisions/U_t3_n10/depth_05/network.json",
+   "verifier_report": "experiments/baseline_n10/decisions/U_t3_n10/depth_05/verifier.json (ok=true) + verifier_trace_summary.json (1024 inputs)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 1024 inputs",
+   "notes": "Lower bound side from baseline_n9 U_t3_n9 depth_04 UNSAT via monotonicity."
+  },
+  {
+   "paper_claim": "U(4,10) depth-5 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n10/decisions/U_t4_n10/depth_05",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_baseline_n10_u_decision.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_baseline_n10_u_decision --case U_t4_n10_depth5 --timeout-seconds 7200",
+   "exact_command": "command.txt in run dir",
+   "solver_output_logs": [
+    "experiments/baseline_n10/decisions/U_t4_n10/depth_05/solver_raw.json (SATISFIABLE, 352.6 s)",
+    "experiments/baseline_n10/decisions/U_t4_n10/depth_05/result.json (VERIFIED_SAT)"
+   ],
+   "witness": "experiments/baseline_n10/decisions/U_t4_n10/depth_05/network.json",
+   "verifier_report": "experiments/baseline_n10/decisions/U_t4_n10/depth_05/verifier.json (ok=true) + trace summary (1024 inputs)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 1024 inputs",
+   "notes": null
+  },
+  {
+   "paper_claim": "U(5,10) depth-5 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n10/decisions/U_t5_n10/depth_05",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_baseline_n10_u_decision.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_baseline_n10_u_decision --case U_t5_n10_depth5 --timeout-seconds 7200",
+   "exact_command": "command.txt in run dir",
+   "solver_output_logs": [
+    "experiments/baseline_n10/decisions/U_t5_n10/depth_05/solver_raw.json (SATISFIABLE, 51.1 s)",
+    "experiments/baseline_n10/decisions/U_t5_n10/depth_05/result.json (VERIFIED_SAT)"
+   ],
+   "witness": "experiments/baseline_n10/decisions/U_t5_n10/depth_05/network.json",
+   "verifier_report": "experiments/baseline_n10/decisions/U_t5_n10/depth_05/verifier.json (ok=true) + trace summary (1024 inputs)",
+   "independent_verification": "evidence_audit.json fresh re-verification, 1024 inputs",
+   "notes": "Lower bound side routes through U-duality from UDepth(4,9)."
+  },
+  {
+   "paper_claim": "U(2,17) depth-6 witness, independently verified",
+   "category": "direct_witness_double_verified",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/u2_n17_d6_witness_search/20260808_030007Z",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "experiments/u2_n17_d6_witness_search/20260808_030007Z/run_search.py (snapshot incl. second verifier)"
+   ],
+   "runner_or_script": "run_search.py (self-contained; snapshots common.lp/target_u.lp/instance.lp into the run dir)",
+   "exact_command": "command.json: clingo --outf=2 --stats=2 -n 1 --time-limit=900 solver/common.lp solver/target_u.lp <run>/instance.lp",
+   "solver_output_logs": [
+    "experiments/u2_n17_d6_witness_search/20260808_030007Z/raw_solver.json (SATISFIABLE)",
+    "experiments/u2_n17_d6_witness_search/20260808_030007Z/run_summary.json (verified_sat true, 92.3 s)"
+   ],
+   "witness": "experiments/u2_n17_d6_witness_search/20260808_030007Z/network.json (depth 6, 42 comparators, layers 8,7,6,6,7,8)",
+   "verifier_report": "verifier_primary.json (ok=true, all binary inputs)",
+   "independent_verification": "verifier_independent.json (checked 131072 = 2^17, failures [], ok=true) -- second, structurally independent verifier; artifact_manifest.sha256 covers 13 files; preflight.json records host thor, aarch64, clingo 5.8.0, and the z in {1,2} reduction argument",
+   "notes": "Combined with A_U(2,17)=6 from the weight game closes UDepth(2,17)=UDepth(15,17)=6."
+  },
+  {
+   "paper_claim": "U(3,11) depth-6 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_u_milestone1_depth6_upper_bounds.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_u_milestone1_depth6_upper_bounds (CASES include (11,3), DEPTH=6)",
+   "exact_command": "command.txt in run dir (old /home/ono/Codex prefix)",
+   "solver_output_logs": [
+    "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/solver_raw.json (SATISFIABLE, 252.6 s)",
+    "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/result.json (VERIFIED_SAT, interval [5,6])"
+   ],
+   "witness": "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/network.json",
+   "verifier_report": "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/verifier.json (ok=true) + verifier_trace_summary.json (2048 = 2^11 inputs)",
+   "independent_verification": "Single verifier only (src/verify.py); no second independent verifier as in U(2,17)",
+   "notes": "Depth-5 attempt TIMEOUT (src/run_u_milestone1_n11_n12.py); rollup experiments/baseline_n11_17/u_milestone1_depth6_upper_bounds.json; writeup docs/n11_17/u_milestone1_depth6_upper_bounds.md"
+  },
+  {
+   "paper_claim": "U(4,11) depth-6 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n11_17/decisions/U_t4_n11/depth_06",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_u_milestone1_depth6_upper_bounds.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_u_milestone1_depth6_upper_bounds",
+   "exact_command": "command.txt in run dir",
+   "solver_output_logs": [
+    "solver_raw.json (SATISFIABLE, 321.1 s)",
+    "result.json (VERIFIED_SAT, interval [5,6])"
+   ],
+   "witness": "experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/network.json",
+   "verifier_report": "verifier.json (ok=true) + verifier_trace_summary.json (2048 inputs)",
+   "independent_verification": "Single verifier only",
+   "notes": null
+  },
+  {
+   "paper_claim": "U(5,11) depth-6 witness",
+   "category": "direct_witness",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06",
+   "generator_encoding_sources": [
+    "src/experiment.py",
+    "src/generate_instance.py",
+    "src/solver.py",
+    "solver/common.lp",
+    "solver/target_u.lp",
+    "src/run_u_milestone1_depth6_upper_bounds.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.run_u_milestone1_depth6_upper_bounds",
+   "exact_command": "command.txt in run dir",
+   "solver_output_logs": [
+    "solver_raw.json (SATISFIABLE, 1696.0 s)",
+    "result.json (VERIFIED_SAT, interval [5,6])"
+   ],
+   "witness": "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/network.json",
+   "verifier_report": "verifier.json (ok=true) + verifier_trace_summary.json (2048 inputs)",
+   "independent_verification": "Single verifier only",
+   "notes": null
+  },
+  {
+   "paper_claim": "Weight-game values AV(2,5)=4, AU(3,5)=3, AU(2,9)=AU(3,9)=AU(4,9)=5",
+   "category": "weight_game",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/weight_game (sweep); experiments/provenance_closure/game_values_n_le_10.json (the n<=10 values used as closure inputs)",
+   "generator_encoding_sources": [
+    "src/weight_game.py",
+    "tests/test_weight_game.py",
+    "experiments/weight_game/run_sweep.py"
+   ],
+   "runner_or_script": "python3 -m experiments.weight_game.run_sweep (resumable; MAX_ROUNDS=11)",
+   "exact_command": null,
+   "solver_output_logs": [
+    "experiments/weight_game/sweep_log.txt (one line per cell)"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "closure_report.json by_type[5] = [G_U2_9, G_U3_5, G_U3_9, G_U4_9, G_V2_5] -- exactly the five values, matching manuscript prose",
+   "notes": "game_values_n_le_10.json contains V_2_5:4, U_3_5:3, U_2_9:5, U_3_9:5, U_4_9:5. results_n11_17.json: 130 cells, all complete:true."
+  },
+  {
+   "paper_claim": "Weight-game improvements of the 44 lower endpoints, 11<=n<=17",
+   "category": "weight_game",
+   "status": "PARTIAL",
+   "experiment_dir": "experiments/weight_game",
+   "generator_encoding_sources": [
+    "src/weight_game.py",
+    "experiments/weight_game/run_sweep.py"
+   ],
+   "runner_or_script": "python3 -m experiments.weight_game.run_sweep",
+   "exact_command": null,
+   "solver_output_logs": [
+    "experiments/weight_game/results_n11_17.json (130 cells, all complete:true)",
+    "experiments/weight_game/sweep_log.txt"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": null,
+   "notes": "Underlying A values all present (incl. A_U(2,17)=6). MISSING: no artifact enumerates the 44 improved cells or the before/after endpoints; the list exists only in manuscript/main.tex lines 1086-1100. 15 V-type cells deliberately not evaluated (wallclock budget); 4 of them (n=17, 12<=t<=15) declared unchecked in README and manuscript."
+  },
+  {
+   "paper_claim": "Closure computation: n<=10 exact tables",
+   "category": "closure",
+   "status": "COMPLETE",
+   "experiment_dir": "experiments/n10_selection_depth_completion (tables); experiments/provenance_closure (strict provenance closure)",
+   "generator_encoding_sources": [
+    "src/selection_bounds.py",
+    "src/complete_n10_selection_depths.py",
+    "experiments/provenance_closure/closure.py"
+   ],
+   "runner_or_script": ".venv/bin/python -m src.complete_n10_selection_depths --generate; provenance closure: experiments/provenance_closure/closure.py",
+   "exact_command": null,
+   "solver_output_logs": [
+    "experiments/n10_selection_depth_completion/final_report.md",
+    "experiments/provenance_closure/closure_report.json (19 irredundant inputs: 6 UNSAT, 8 witnesses, 5 game)"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "evidence_audit.json: validation errors [], exact_cells 110, unresolved []; tests_result.json 421 passed; published-table values appear only as VERIFY targets, never injected",
+   "notes": "Paper-ready tables: exact_tables.tex / exact_tables.md (value-identical to manuscript tab:v-n10 / tab:u-n10, which are inline in main.tex, not \\input)."
+  },
+  {
+   "paper_claim": "Closure computation: 11<=n<=17 bounds",
+   "category": "closure",
+   "status": "PARTIAL",
+   "experiment_dir": "experiments/selection_bounds_n11_17; experiments/baseline_n11_17/{constructive_upper_bounds,paper_ready_upper_bounds}",
+   "generator_encoding_sources": [
+    "src/selection_bounds.py",
+    "src/plan_selection_frontier_n11_17.py",
+    "src/constructive_upper_bounds.py",
+    "src/generate_paper_ready_upper_bounds.py"
+   ],
+   "runner_or_script": "python -m src.constructive_upper_bounds; python -m src.generate_paper_ready_upper_bounds; python -m src.plan_selection_frontier_n11_17",
+   "exact_command": null,
+   "solver_output_logs": [
+    "experiments/selection_bounds_n11_17/{bounds_summary.json,bounds_table.csv,derivation_graph.json}",
+    "experiments/baseline_n11_17/paper_ready_upper_bounds/{paper_ready_upper_bounds_all.json,audit_summary.json,provenance_audit.csv}"
+   ],
+   "witness": null,
+   "verifier_report": null,
+   "independent_verification": "Upper bounds verified via src.verify.verify_binary on generated networks; audit_summary.json entry_count 306",
+   "notes": "MISSING: these artifacts (2026-07-10/17) predate weight_game.py (2026-08-04); no artifact regenerates the n=11..17 tables with game-improved lower endpoints -- the published tables tab:v-depth(-b)/tab:u-depth(-b) are hand-assembled in main.tex. paper_table_{U,V}.tex are placeholders. V(2,2^k) formula citation still 'citation TODO'."
+  }
+ ],
+ "v49_d6_dependency_structure": {
+  "final_claim": "VDepth(4,9)=7",
+  "certificate": {
+   "path": "experiments/v49_d6_final/final_certificate.json",
+   "status": "AFFIRMATIVE",
+   "problems": 0
+  },
+  "evidence_manifest": {
+   "path": "experiments/v49_d6_final/evidence_manifest.json",
+   "status": "VERIFIED",
+   "files": 588,
+   "repo_present": 588,
+   "bundle_present": 588,
+   "bundle_hash_matches": 588,
+   "repo_hash_divergences": [
+    {
+     "path": "experiments/v49_d6_closure_audit/coverage_certificate.json",
+     "explanation": "content-identical to bundle copy except absolute-path prefix rewrite /home/ono/Codex -> /home/ono/Agent (verified: zero non-path diff lines)"
+    },
+    {
+     "path": "src/experiment.py",
+     "explanation": "extended after bundling (adds run_depth_decision and stderr capture); bundle preserves the version used; file is 'M' in git status"
+    }
+   ]
+  },
+  "bundle_sha256": {
+   "path": "experiments/v49_d6_final/bundle.sha256",
+   "entries": 588,
+   "failures": 0
+  },
+  "proof_dependency_graph": {
+   "path": "experiments/v49_d6_final/proof_dependency_graph.json",
+   "nodes": 14,
+   "edges": 15,
+   "evidence_files_referenced": 179,
+   "evidence_files_missing": 0,
+   "hash_records": 197,
+   "hash_records_ok": 193,
+   "hash_records_diverged": [
+    "src/experiment.py (post-bundle edit)",
+    "experiments/v49_d6_closure_audit/coverage_certificate.json (path rewrite, 3 nodes reference it)"
+   ]
+  },
+  "chain": [
+   {
+    "stage": "lower-bound seed",
+    "claim": "VDepth(3,9) >= 6 (depth-5 UNSAT)",
+    "evidence": "experiments/baseline_n9/decisions/V_t3_n9/depth_05/{solver.json,decision.json}"
+   },
+   {
+    "stage": "lemmas",
+    "claim": "V4 implies V3 restriction; empty-layer elimination; hence all 6 layers nonempty",
+    "evidence": "docs/v_boundary_and_v49_support_partition.md"
+   },
+   {
+    "stage": "parent partitions (direct UNSAT branches)",
+    "evidence": "experiments/v49_d6_support_partitioned (T_* branches), v49_d6_refined_partitioned (matching-size partition), v49_d6_partner_partitioned, v49_d6_bp5_final_layer_partitioned, v49_d6_six_leaf_reduced; all parsed_status.json artifacts referenced by the closure certificate exist (37/37)"
+   },
+   {
+    "stage": "closure audit",
+    "claim": "COVERAGE_AUDIT_PASSED; 15720 leaf classifications, 0 uncovered; residual families A5,B6,B7,B8,B9 after prior UNSAT",
+    "evidence": "experiments/v49_d6_closure_audit/coverage_certificate.json"
+   },
+   {
+    "stage": "tail census",
+    "claim": "3 residual parent branches (A5_residual_L5eq3, B6_residual_L5eq3, B6_residual_L5eq4) partitioned into 75 pairwise-disjoint children",
+    "evidence": "experiments/v49_d6_l5_tail_census/coverage_certificate.json (PASSED), summary.csv"
+   },
+   {
+    "stage": "leaf UNSAT",
+    "claim": "75/75 children UNSAT: 49 at screening, 26 at overnight rerun",
+    "evidence": "experiments/v49_d6_tail_partitioned/reports/screening_summary.csv; overnight/20260707_234125/{overnight_summary.csv,selection_certificate.json,raw/<branch>/solver.json}"
+   },
+   {
+    "stage": "pruning soundness",
+    "claim": "unique-min and dependency-cone pruning are necessary conditions",
+    "evidence": "experiments/v49_d6_topology_pruning/validation.json; tests/test_v49_d6_topology_pruning.py"
+   },
+   {
+    "stage": "post-UNSAT audit",
+    "claim": "tail_children_all_closed true, closure audit rerun returncode 0",
+    "evidence": "experiments/v49_d6_tail_partitioned/overnight/20260707_234125/post_unsat_audit.json"
+   },
+   {
+    "stage": "upper bound",
+    "claim": "depth-7 witness, verifier ok on all 2^9 inputs, replayed at audit time",
+    "evidence": "experiments/baseline_n9/decisions/V_t4_n9/depth_07/{network.json,verifier.json,solver.json,decision.json}"
+   },
+   {
+    "stage": "post-publication re-audits",
+    "evidence": "experiments/v49_d6_l5eq1_reaudit/20260807_234847Z (all_raw_unsat true, instance-hash identity checked); experiments/provenance_closure/audit_v49_d6.py (script present; its output v49_d6_branch_ledger.csv is MISSING)"
+   }
+  ],
+  "supporting_runs_not_in_manifest": [
+   "experiments/v49_d6_partitioned, v49_d6_l5_partitioned (earlier partition generations; l5_partitioned instances are re-audited by l5eq1_reaudit)",
+   "experiments/v49_d6_solver_config_benchmark (solver configuration benchmark, not evidence)",
+   "experiments/v49_d6_support_partitioned / partner / bp5_final_layer / refined / six_leaf_reduced hold the parent-level UNSAT branch artifacts referenced BY ABSOLUTE PATH from coverage_certificate.json but NOT copied into the 588-file bundle"
+  ]
+ },
+ "extra_experiments_not_in_paper": {
+  "u3_n11_d5_full_terminal_profile_audit_bundle.tar.gz": {
+   "size_bytes": 16570129,
+   "sha256": "5c2359ab72645f7e46d9346af83cdfefa096b0bf248ab8262683425f9b85ec4c",
+   "note": "Preserved U(3,11) depth-5 terminal-profile audit bundle plus experiments/u3_n11_d5_* directories. Treated as EXTRA per instructions; its result is NOT incorporated into the publication artifact's claims."
+  }
+ },
+ "file_hashes_sha256": {
+  "experiments/v49_d6_final/final_certificate.json": {
+   "sha256": "7558a6cfa60ab665bb6078c89a5c97f8c5617f8e0dec57abdf8f9e06a1048cc2",
+   "size_bytes": 287,
+   "mtime": "2026-07-08T06:56:28.879181"
+  },
+  "experiments/v49_d6_final/evidence_manifest.json": {
+   "sha256": "08d37461bf8c58a39c29f11c9a0012ce24db64db09f5f37dd19051c2dc30fcd5",
+   "size_bytes": 219071,
+   "mtime": "2026-07-08T06:56:28.844606"
+  },
+  "experiments/v49_d6_final/proof_dependency_graph.json": {
+   "sha256": "3b9e4baa8fc8e00b75a8c3985e4e5fd1e49bf0a113e2e4c71fed2cce8179a8d8",
+   "size_bytes": 71646,
+   "mtime": "2026-07-08T06:56:28.788069"
+  },
+  "experiments/v49_d6_final/evidence_index.md": {
+   "sha256": "9245d0bcc3243959b45a799df7f9525c9cc8f2f9cbb14f86c76d630e97f42985",
+   "size_bytes": 106372,
+   "mtime": "2026-07-08T06:56:28.844789"
+  },
+  "experiments/v49_d6_final/bundle.sha256": {
+   "sha256": "2d1d0f8b82d168c79ef5bf662c8ea17e83aed87afff6b47244750372f28dabc7",
+   "size_bytes": 100717,
+   "mtime": "2026-07-08T06:56:28.879087"
+  },
+  "experiments/v49_d6_final/tail_leaf_analysis.json": {
+   "sha256": "6485a01d6005074e03b27fe91ca861490a54a16af5807fa7c6fe62c339c8f63f",
+   "size_bytes": 190168,
+   "mtime": "2026-07-08T09:33:13.427377"
+  },
+  "experiments/v49_d6_final/tail_closure_ledger.csv": {
+   "sha256": "670e16f871b303e139e6e257f043365adc9c75835ee59becd47868adab6b4f1d",
+   "size_bytes": 32349,
+   "mtime": "2026-07-08T09:33:13.425881"
+  },
+  "experiments/v49_d6_final/tail_family_summary.csv": {
+   "sha256": "a1caac3885c94354a5ab7074ebb6d7bf3f5a247bf3dbd8c9bbc9831548fdfb22",
+   "size_bytes": 1049,
+   "mtime": "2026-07-08T09:33:13.425782"
+  },
+  "experiments/v49_d6_final/tail_leaf_table.csv": {
+   "sha256": "be82089d3417b4e0464d17d3bac1a94eaf7bda1ca4890453ac5210a11c5d0a54",
+   "size_bytes": 28475,
+   "mtime": "2026-07-08T09:33:13.424812"
+  },
+  "experiments/baseline_n9/decisions/V_t3_n9/depth_05/solver.json": {
+   "sha256": "0e6f3c698d5a091d1b6c49feb0cbe619055011e4b145112190a97a77307ab4da",
+   "size_bytes": 491,
+   "mtime": "2026-07-03T22:01:39.301956"
+  },
+  "experiments/baseline_n9/decisions/V_t3_n9/depth_05/decision.json": {
+   "sha256": "ec5be92bfe4e546742830b362e3ba1c61dc8bd9a1e02bec3c1d3988e5bd948b0",
+   "size_bytes": 1064,
+   "mtime": "2026-07-03T22:01:39.302071"
+  },
+  "experiments/baseline_n9/decisions/V_t4_n9/depth_07/solver.json": {
+   "sha256": "1eb09b2c8496aedcf47a82bcd75c30efb28a3615c6a9cd7770c67c3370b3417d",
+   "size_bytes": 1074,
+   "mtime": "2026-07-04T00:01:49.084263"
+  },
+  "experiments/baseline_n9/decisions/V_t4_n9/depth_07/network.json": {
+   "sha256": "10c3a8da7ae8722930a5741efc67fc33a6637a150bdcf8da650e3ac81d425b33",
+   "size_bytes": 1104,
+   "mtime": "2026-07-04T00:01:49.084456"
+  },
+  "experiments/baseline_n9/decisions/V_t4_n9/depth_07/verifier.json": {
+   "sha256": "efa780581c08161d31a83b8a8ff495d95bad5f11a431364d4dab79511deba7ca",
+   "size_bytes": 159,
+   "mtime": "2026-07-04T00:01:49.085462"
+  },
+  "experiments/baseline_n9/decisions/V_t4_n9/depth_07/decision.json": {
+   "sha256": "1c5e2f2aea5b0e78faac623e2e72da917680d4da5fbb477f212d5636d3990c8e",
+   "size_bytes": 1231,
+   "mtime": "2026-07-04T00:01:49.085510"
+  },
+  "experiments/v49_d6_closure_audit/coverage_certificate.json": {
+   "sha256": "596bb67732c69c0714fffc964413215032bfb9cab37b1f5c9ce90ff80db26bef",
+   "size_bytes": 7873125,
+   "mtime": "2026-08-08T15:49:25.639704"
+  },
+  "experiments/v49_d6_l5_tail_census/coverage_certificate.json": {
+   "sha256": "9faae0040ade02f1805ca915e5010e295626e27ccc1b71a036181c11da047e6c",
+   "size_bytes": 2530,
+   "mtime": "2026-07-07T21:07:16.467552"
+  },
+  "experiments/v49_d6_l5_tail_census/summary.csv": {
+   "sha256": "8fb04fdb0fef64444dc54cd49c59dcadaf1c4bab48ef620d56f9dd82bbd6ad9c",
+   "size_bytes": 2546,
+   "mtime": "2026-07-07T21:07:16.467486"
+  },
+  "experiments/v49_d6_tail_partitioned/reports/screening_summary.csv": {
+   "sha256": "aa747917d6234d1837f4e57191693401ed60adf85599aaf4208ab68e0aece5c4",
+   "size_bytes": 40220,
+   "mtime": "2026-07-07T23:26:48.596835"
+  },
+  "experiments/v49_d6_tail_partitioned/overnight/20260707_234125/overnight_summary.csv": {
+   "sha256": "5f37372597b21775906dd96e266e7e38929ecf79fde78ca1e2c821e2cc9ab2dd",
+   "size_bytes": 19625,
+   "mtime": "2026-07-08T01:29:58.146477"
+  },
+  "experiments/v49_d6_tail_partitioned/overnight/20260707_234125/selection_certificate.json": {
+   "sha256": "c4aa3b93275eaf917b282ffedec09a37322f507a53b12f3e4b6a45339c7b3df5",
+   "size_bytes": 2794,
+   "mtime": "2026-07-07T23:41:25.196700"
+  },
+  "experiments/v49_d6_tail_partitioned/overnight/20260707_234125/post_unsat_audit.json": {
+   "sha256": "897f1d0a8ee93c92158fb659af535eb5753dbfd36d4dcd6ff546d1c7aa1faa4f",
+   "size_bytes": 257,
+   "mtime": "2026-07-08T01:29:58.142234"
+  },
+  "experiments/v49_d6_topology_pruning/validation.json": {
+   "sha256": "c98d362f8184fe2d80d143e5d6e92c3c62ba15819270350a7079ebddb060ccc7",
+   "size_bytes": 95,
+   "mtime": "2026-07-07T21:06:56.627270"
+  },
+  "solver/common.lp": {
+   "sha256": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+   "size_bytes": 844,
+   "mtime": "2026-06-22T12:44:57.917379"
+  },
+  "solver/target_v.lp": {
+   "sha256": "ddae98e3a4bd702b9d97342ab558f7a4670eb7c7caf5dd726e28aef7cfe77f1a",
+   "size_bytes": 184,
+   "mtime": "2026-06-22T12:44:57.918379"
+  },
+  "solver/target_u.lp": {
+   "sha256": "f7e1dbdcc940ef3a752475624dfae737815c908fdc267e6fa5f03420d865af61",
+   "size_bytes": 243,
+   "mtime": "2026-06-22T14:55:20.827659"
+  },
+  "src/weight_game.py": {
+   "sha256": "67179a5b32e10b2176db3be47d459c6126a2a3411bddd6eb18bacea479c034a6",
+   "size_bytes": 5922,
+   "mtime": "2026-08-04T15:51:12.524920"
+  },
+  "tests/test_weight_game.py": {
+   "sha256": "a7ca8dfe5a0c462065c158afb0434329b56dfc6b2f102eca5bc7e00989fc72c3",
+   "size_bytes": 4970,
+   "mtime": "2026-08-04T15:51:41.193210"
+  },
+  "experiments/weight_game/run_sweep.py": {
+   "sha256": "133f5c9b655b392e5d5959c086771bb4b04deb0af15f75779c7a9b47f848036c",
+   "size_bytes": 3622,
+   "mtime": "2026-08-04T15:55:34.483801"
+  },
+  "experiments/weight_game/results_n11_17.json": {
+   "sha256": "aabe3cfa4f76dfd5efcb1f6be08a9937f66cfd9840fa7a6bbb4485e45687a589",
+   "size_bytes": 17749,
+   "mtime": "2026-08-04T15:56:39.434923"
+  },
+  "experiments/weight_game/sweep_log.txt": {
+   "sha256": "129de4ee27919965303d78b4bea28585281fc8655601a8c63979d7eee79e80e5",
+   "size_bytes": 5907,
+   "mtime": "2026-08-04T15:55:47.731201"
+  },
+  "experiments/weight_game/README.md": {
+   "sha256": "d486fccfbc5a0bf2210698c90008090832c104b55fb24157db4710b63f49ee01",
+   "size_bytes": 2525,
+   "mtime": "2026-08-04T15:59:15.542127"
+  },
+  "experiments/provenance_closure/closure.py": {
+   "sha256": "dd90e8976ae97d017f8b7157e2628ada7469896e8d4bf8f97f76de13f20d15a4",
+   "size_bytes": 15909,
+   "mtime": "2026-08-06T04:37:18.581418"
+  },
+  "experiments/provenance_closure/closure_report.json": {
+   "sha256": "68add2352a1a6d66575eb0e76a7e28950a0274ef7817eaf5547455e5dd50e0bb",
+   "size_bytes": 2038,
+   "mtime": "2026-08-06T04:37:41.338755"
+  },
+  "experiments/provenance_closure/game_values_n_le_10.json": {
+   "sha256": "c506d6fa327f7a076657e49e4e41cad4497e6f84c82bffc36c55906fe0385664",
+   "size_bytes": 1454,
+   "mtime": "2026-08-05T06:34:58.014241"
+  },
+  "experiments/provenance_closure/redundancy_report.json": {
+   "sha256": "87f985b7a185add277ba715e69181da7b0e524851c68180cd5068cf887884f13",
+   "size_bytes": 5049,
+   "mtime": "2026-08-05T06:43:07.319366"
+  },
+  "experiments/provenance_closure/depth2_family_verification.json": {
+   "sha256": "23977b80f513723a8453c90251d1f73a9dc62875208f7fbb1ab6cbf961ccfe68",
+   "size_bytes": 188,
+   "mtime": "2026-08-06T23:01:28.419669"
+  },
+  "experiments/provenance_closure/README.md": {
+   "sha256": "de6395b11c947b4be8b94cee9041132b421178c10c3ea6c485205dbbd0f2f771",
+   "size_bytes": 2409,
+   "mtime": "2026-08-06T04:51:47.490647"
+  },
+  "experiments/n10_selection_depth_completion/exact_tables.tex": {
+   "sha256": "377a1def66a1ca977a374b0f9170cf5df29ca72ce3aa022a96927636c9bcd964",
+   "size_bytes": 1411,
+   "mtime": "2026-08-02T13:07:00.736396"
+  },
+  "experiments/n10_selection_depth_completion/exact_tables.md": {
+   "sha256": "29065be965db7485442af156761f1a6b2b281f6ff647dfbae9ef70b27b0a9ee1",
+   "size_bytes": 1447,
+   "mtime": "2026-08-02T13:07:00.736326"
+  },
+  "experiments/n10_selection_depth_completion/bounds_table.csv": {
+   "sha256": "2ec82ca266065e0c5b792619f8390156e93a9811bda8cfbbea55b8502acfb6cc",
+   "size_bytes": 2147,
+   "mtime": "2026-08-02T13:07:00.736229"
+  },
+  "experiments/n10_selection_depth_completion/bounds_table.json": {
+   "sha256": "125395c7b2c9fd036938e3251de5d7878d78fa08049ef6d842a70778f861e15e",
+   "size_bytes": 251454,
+   "mtime": "2026-08-02T13:07:00.735927"
+  },
+  "experiments/n10_selection_depth_completion/evidence_audit.json": {
+   "sha256": "3124849ca6674663d7ba929210a8245f03f7a72b0dbff3d32589c680a5d3d83f",
+   "size_bytes": 208882,
+   "mtime": "2026-08-02T13:07:00.738282"
+  },
+  "experiments/n10_selection_depth_completion/manifest.json": {
+   "sha256": "9c027e32a10a6c1ccf740083bc54ed5a08af58d9f692b63b9af5167cb368f001",
+   "size_bytes": 12709,
+   "mtime": "2026-08-02T13:07:00.782535"
+  },
+  "experiments/n10_selection_depth_completion/final_report.md": {
+   "sha256": "308f64c3d4084c340993ab4b91b2ab59403a92979b6c332d186c0975a0665d2f",
+   "size_bytes": 4776,
+   "mtime": "2026-08-02T13:07:00.738506"
+  },
+  "src/complete_n10_selection_depths.py": {
+   "sha256": "17942a1a15170ed7d12c2ff452fd5f68b42f5f3b8342e06d18d1563b38004566",
+   "size_bytes": 30965,
+   "mtime": "2026-08-02T13:06:54.253314"
+  },
+  "src/selection_bounds.py": {
+   "sha256": "b79e17c75d0655017a1d4221db6eb039d4af9f4803e46670f585548b595e36a5",
+   "size_bytes": 14216,
+   "mtime": "2026-08-02T11:41:26.612977"
+  },
+  "experiments/selection_bounds_n11_17/bounds_summary.json": {
+   "sha256": "b20f1ebc855c094d43d0bcc3b8288a8f6af59354b14763083b299eb23af2b433",
+   "size_bytes": 673495,
+   "mtime": "2026-07-10T07:54:45.642071"
+  },
+  "experiments/selection_bounds_n11_17/bounds_table.csv": {
+   "sha256": "6a6d0500e43392bf59940ca046b6cbb06312fd9d02ae874bd19b0ed9b582d349",
+   "size_bytes": 514693,
+   "mtime": "2026-07-10T07:54:45.644192"
+  },
+  "experiments/selection_bounds_n11_17/derivation_graph.json": {
+   "sha256": "43ac540272b61dbd9825fc300eb1d32b8bae70780a3fe90ee3d8d67f920fd714",
+   "size_bytes": 920958,
+   "mtime": "2026-07-10T07:54:45.652069"
+  },
+  "experiments/baseline_n11_17/paper_ready_upper_bounds/paper_ready_upper_bounds_all.json": {
+   "sha256": "1a0f6809849409412051dc6cc921c3b18a718914a1e35a73ede1fb88bfb82e48",
+   "size_bytes": 254012,
+   "mtime": "2026-07-17T07:29:44.211207"
+  },
+  "experiments/baseline_n11_17/paper_ready_upper_bounds/audit_summary.json": {
+   "sha256": "7f0849da6f3af9f463bfcf9b99cbafaf1dce8a053565f3fff3462b4d9774fedd",
+   "size_bytes": 286,
+   "mtime": "2026-07-17T07:29:44.213642"
+  },
+  "src/constructive_upper_bounds.py": {
+   "sha256": "296f968751d28577e36a1d41d2b330d46df6e5b356722af8e321a5799467326d",
+   "size_bytes": 29709,
+   "mtime": "2026-07-17T07:29:14.098824"
+  },
+  "src/generate_paper_ready_upper_bounds.py": {
+   "sha256": "47574479aee7060090d8a3c1229a28ec5ca7a15a02b41a7d7a205b13895e9b53",
+   "size_bytes": 8870,
+   "mtime": "2026-07-17T07:28:51.899984"
+  },
+  "src/plan_selection_frontier_n11_17.py": {
+   "sha256": "0e15cd7ef1b34a3d0dc6e205dd63ac3dc21cf26260101906ef3e746cef5249eb",
+   "size_bytes": 22833,
+   "mtime": "2026-07-10T07:51:21.523852"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/network.json": {
+   "sha256": "eff83828933b2bed14fac9c2aec04d84f75816a1789511e45ab5155da63329f6",
+   "size_bytes": 1775,
+   "mtime": "2026-08-08T12:04:24.665588"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/verifier_primary.json": {
+   "sha256": "a86a365e431c675f511092cb44cf1603696576d1c90c0f1dbdc5cd737fed0310",
+   "size_bytes": 160,
+   "mtime": "2026-08-08T12:04:24.953117"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/verifier_independent.json": {
+   "sha256": "6949cf05f8867b8fe6a007f7a31c8737664785a5c62b8125a82bdeb68497d11b",
+   "size_bytes": 56,
+   "mtime": "2026-08-08T12:04:25.876543"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/run_summary.json": {
+   "sha256": "3108451e4ac858066f6b315bd76b3634a3dd67cae157a8fb8c164f8e21321de8",
+   "size_bytes": 1193,
+   "mtime": "2026-08-08T12:04:25.876710"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/command.json": {
+   "sha256": "896044079f520f5fbebb79b4c12e4b450dc28bf2ac714febdb7e901fd3fd2643",
+   "size_bytes": 330,
+   "mtime": "2026-08-08T12:02:52.394231"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/preflight.json": {
+   "sha256": "660d1ee3ada6908160162a26f5ddecfa8160e190d1fc0d2e89e963e58d56c1ac",
+   "size_bytes": 1291,
+   "mtime": "2026-08-08T12:02:52.395526"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/run_search.py": {
+   "sha256": "10e508fbb987c643aae26a3d5fcae2a230a87adb92031cae854b3d2d0c943120",
+   "size_bytes": 6970,
+   "mtime": "2026-08-08T12:00:55.829240"
+  },
+  "experiments/u2_n17_d6_witness_search/20260808_030007Z/artifact_manifest.sha256": {
+   "sha256": "003eb59d46e73a1706a6e5ed9921968dde52365d9bf1616f9c12fb302927e669",
+   "size_bytes": 1059,
+   "mtime": "2026-08-08T12:04:25.876917"
+  },
+  "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/network.json": {
+   "sha256": "d4559cfec56443c76b1add2c1c5ee4011f5c8818b37990964dc7746e53b1cad6",
+   "size_bytes": 1101,
+   "mtime": "2026-07-11T17:03:11.797507"
+  },
+  "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/result.json": {
+   "sha256": "0748ad4b86a8ae25107d11d4487810c62640c551be11062cc1b207ae8194d673",
+   "size_bytes": 2004,
+   "mtime": "2026-07-11T17:03:11.836922"
+  },
+  "experiments/baseline_n11_17/decisions/U_t3_n11/depth_06/verifier.json": {
+   "sha256": "b92cf754e0caf4fd037e8a652f72d0ffad79a44edb302298c47535752ad91980",
+   "size_bytes": 160,
+   "mtime": "2026-07-11T17:03:11.800683"
+  },
+  "experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/network.json": {
+   "sha256": "b690a4bd6204a3e76f97e39346e1dd438e94e4f7812835fc4fce0fae3dc04df3",
+   "size_bytes": 1254,
+   "mtime": "2026-07-11T17:08:32.957899"
+  },
+  "experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/result.json": {
+   "sha256": "917a5e6e5ba75c304d79077d77140292c76a574aa61472697dccb50d539c33a6",
+   "size_bytes": 1962,
+   "mtime": "2026-07-11T17:08:32.996865"
+  },
+  "experiments/baseline_n11_17/decisions/U_t4_n11/depth_06/verifier.json": {
+   "sha256": "7b36abf9bb67a3354fb7b498faeff6b9a226b8ea0cef0ff621117f40959d39db",
+   "size_bytes": 160,
+   "mtime": "2026-07-11T17:08:32.961359"
+  },
+  "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/network.json": {
+   "sha256": "d88f14353288e9242f82fb223c8bf6f98f25cc42a8380e839b65d83da7ed50ed",
+   "size_bytes": 1253,
+   "mtime": "2026-07-11T17:36:48.951586"
+  },
+  "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/result.json": {
+   "sha256": "47cf81cf3c94f6dbba8f9da3c5d478884b81b99e46dcee62f6dc4bc63fe97500",
+   "size_bytes": 1920,
+   "mtime": "2026-07-11T17:36:48.980136"
+  },
+  "experiments/baseline_n11_17/decisions/U_t5_n11/depth_06/verifier.json": {
+   "sha256": "158c9ce1dccd08bd9699ccd7510ada90deebe5d861cf825c3ad819069ecbea9b",
+   "size_bytes": 160,
+   "mtime": "2026-07-11T17:36:48.957694"
+  },
+  "experiments/baseline_n11_17/u_milestone1_depth6_upper_bounds.json": {
+   "sha256": "cffba3292b69cb6226785ab209664175f864d3de611145fb5758f4bcafa54220",
+   "size_bytes": 14573,
+   "mtime": "2026-07-11T22:42:53.647196"
+  },
+  "src/run_u_milestone1_depth6_upper_bounds.py": {
+   "sha256": "711830e86ceb776756b67f86222d80a930355b62e5bedde07b769779c920c2b5",
+   "size_bytes": 16605,
+   "mtime": "2026-07-11T16:58:14.212573"
+  },
+  "experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/run_manifest.json": {
+   "sha256": "625240b800a6cd7efd879f759074992a66f66f22765815457d7eb0409cdf7bac",
+   "size_bytes": 5858,
+   "mtime": "2026-08-08T08:52:38.890711"
+  },
+  "experiments/v49_d6_l5eq1_reaudit/20260807_234847Z/post_run_audit.json": {
+   "sha256": "36550c8695a53a60f42b1c50da0d67d820e6925e9d30c05a77d8785890a4b3f0",
+   "size_bytes": 3676,
+   "mtime": "2026-08-08T10:01:42.486683"
+  },
+  "manuscript/main.tex": {
+   "sha256": "9e2531f29b3550690d64ed068b23fab561eea1715eff04d5537f12be26aa5c5e",
+   "size_bytes": 101332,
+   "mtime": "2026-08-08T16:46:13.486984"
+  },
+  "manuscript/selection.bib": {
+   "sha256": "8a1ce9e3c8b73976d4a3f118c5ded517f9cf8e9df9612eec777ac61dbf5082a1",
+   "size_bytes": 5464,
+   "mtime": "2026-08-04T14:37:13.531887"
+  },
+  "u3_n11_d5_full_terminal_profile_audit_bundle.tar.gz": {
+   "sha256": "5c2359ab72645f7e46d9346af83cdfefa096b0bf248ab8262683425f9b85ec4c",
+   "size_bytes": 16570129,
+   "mtime": "2026-07-29T06:34:46.784672"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/decision.json": {
+   "sha256": "27a29df1a69c349b4dd6d5888b69a47ea6cf07fe5de11814995195dc9b7360be",
+   "size_bytes": 1297,
+   "mtime": "2026-08-02T12:05:08.447122"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/solver.json": {
+   "sha256": "6126e4a1de053def575107a613730d26c1b0c2c5427356ba1c2190748cb7ad33",
+   "size_bytes": 514,
+   "mtime": "2026-08-02T12:05:08.446398"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/depth_04/instance.lp": {
+   "sha256": "dd1595d2a065bad15950052381e859aa7a45310cbb2bedb4c83983187f8e79e1",
+   "size_bytes": 15544,
+   "mtime": "2026-08-02T12:05:08.016023"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n7_d4/independent_audit.json": {
+   "sha256": "6b6a381403ea2f08b1cc4516c84f77fbd99b44a862a20d71d0b7b5f359720dbb",
+   "size_bytes": 744,
+   "mtime": "2026-08-02T12:05:08.447499"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/decision.json": {
+   "sha256": "d753dee8dcfc514f5235a0395aa6394303263da59df96ba1059b63394d6ed68c",
+   "size_bytes": 1297,
+   "mtime": "2026-08-02T12:26:35.342248"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/solver.json": {
+   "sha256": "1c23f5727df5c7df976604c9bfa3032a1705840ff72eabd834009dd065a34e4f",
+   "size_bytes": 529,
+   "mtime": "2026-08-02T12:26:35.342075"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/depth_05/instance.lp": {
+   "sha256": "255a47200465058cfca22af6ca612590a0d2ae7e047cabedce868ed53b151889",
+   "size_bytes": 79196,
+   "mtime": "2026-08-02T12:09:47.190444"
+  },
+  "experiments/n10_selection_depth_completion/jobs/V_t2_n9_d5/independent_audit.json": {
+   "sha256": "fba92d05b6f9bd6559988b3dce69861afbd5a4e2724babbe67cd99e9f3a3c954",
+   "size_bytes": 744,
+   "mtime": "2026-08-02T12:26:35.342699"
+  },
+  "experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/depth_04/decision.json": {
+   "sha256": "08c7807cbe7476005e741373652b332c286371c24818a5e3daaa5efd3df0e459",
+   "size_bytes": 1296,
+   "mtime": "2026-08-02T12:09:33.112762"
+  },
+  "experiments/n10_selection_depth_completion/jobs/U_t2_n9_d4/independent_audit.json": {
+   "sha256": "2ce5eef5aadc3f7e27ef97cdcd8513da9b7b6e0efd8cca66815c7915a22fe8bf",
+   "size_bytes": 743,
+   "mtime": "2026-08-02T12:09:33.113224"
+  },
+  "experiments/milestone_3b_smoke/V_t3_n5/depth_04/decision.json": {
+   "sha256": "76a067a74a5d558e6f067003ec1e9feeaac7f225433a9695b009d18826d978bf",
+   "size_bytes": 1054,
+   "mtime": "2026-06-22T15:20:46.390508"
+  },
+  "experiments/milestone_3b_smoke/V_t3_n5/depth_04/solver.json": {
+   "sha256": "5346d338bff2814eb8b624c6dff6dc5191bcb1e6826888f18edee6945f29dc75",
+   "size_bytes": 478,
+   "mtime": "2026-06-22T15:20:46.390395"
+  },
+  "experiments/milestone_3b_smoke/V_t3_n5/depth_05/network.json": {
+   "sha256": "5575c3428a0b82faf38f4f64789427447c9738b3aedc64a18a1dc9466971fd36",
+   "size_bytes": 510,
+   "mtime": "2026-06-22T15:20:46.418952"
+  },
+  "experiments/milestone_3b_smoke/V_t3_n5/depth_05/verifier.json": {
+   "sha256": "d84dbb104abc06ff8b6a0bb3f9fc437cfb2ce1ea3855ec5bdddb85e06a8def6a",
+   "size_bytes": 159,
+   "mtime": "2026-06-22T15:20:46.419095"
+  },
+  "experiments/milestone_3b_smoke/V_t3_n5/case_result.json": {
+   "sha256": "7f0484b10d567e007d4d52cf672bf041cf025c2ed7a77d730670bb38db587d6d",
+   "size_bytes": 7474,
+   "mtime": "2026-06-22T15:20:46.419657"
+  },
+  "experiments/baseline_n7/decisions/V_t3_n7/depth_05/decision.json": {
+   "sha256": "9ce1a38a3c8cd4e8e7bf3a9ff53c6110f58c7fcf3ee32b4850d85e53942421d7",
+   "size_bytes": 1064,
+   "mtime": "2026-07-03T20:58:08.629195"
+  },
+  "experiments/baseline_n7/decisions/V_t3_n7/depth_05/solver.json": {
+   "sha256": "97bc998ac8320a809092ef1b7cbbc40896c28982ec6976289a640a67caf3c57f",
+   "size_bytes": 481,
+   "mtime": "2026-07-03T20:58:08.629024"
+  },
+  "experiments/baseline_n7/decisions/V_t3_n7/depth_06/network.json": {
+   "sha256": "f491670788d46bcc2bb9ed5658583d0cfa632e6f8b606efa77f579a4ff3a66dc",
+   "size_bytes": 674,
+   "mtime": "2026-07-03T20:58:08.718840"
+  },
+  "experiments/baseline_n7/decisions/V_t3_n7/depth_06/verifier.json": {
+   "sha256": "864ef5608684355a4e21312188f6f32e360c35889550da0288e7eac19c92a1cb",
+   "size_bytes": 159,
+   "mtime": "2026-07-03T20:58:08.719258"
+  },
+  "experiments/baseline_n7/decisions/V_t3_n7/case_result.json": {
+   "sha256": "af957e8de10656bcfd0f2af9ae153eeaeda9b14fdc056440dabf8f5c0c4b106a",
+   "size_bytes": 8749,
+   "mtime": "2026-07-03T20:58:08.720023"
+  },
+  "experiments/baseline_n7/report.md": {
+   "sha256": "345101b97900e30740da28a6e75524d960c2888d0115fb46bc45717dfa3a9f10",
+   "size_bytes": 5163,
+   "mtime": "2026-07-03T21:01:30.311147"
+  },
+  "experiments/milestone_3b_smoke/U_t4_n6/depth_03/decision.json": {
+   "sha256": "8598bb03143cca6b386de51adb13c6e3aec94e3c57c3f2f4cb74185d70d579db",
+   "size_bytes": 1054,
+   "mtime": "2026-06-22T15:20:48.873217"
+  },
+  "experiments/milestone_3b_smoke/U_t4_n6/depth_03/solver.json": {
+   "sha256": "3fb898a46da235ce683c57147a8b600e786d9844648258080ac00c78d35ec085",
+   "size_bytes": 478,
+   "mtime": "2026-06-22T15:20:48.873100"
+  },
+  "experiments/milestone_3b_smoke/U_t4_n6/depth_04/network.json": {
+   "sha256": "07a8cb05e11e9f18fa2288de2980e5579bcfa6a9073b7567fb70920b76e2fd92",
+   "size_bytes": 422,
+   "mtime": "2026-06-22T15:20:48.907778"
+  },
+  "experiments/milestone_3b_smoke/U_t4_n6/depth_04/verifier.json": {
+   "sha256": "27883153d516e6e42da8254e0a1b3abd4ed45eeb9a427a61e95378cb1149506b",
+   "size_bytes": 159,
+   "mtime": "2026-06-22T15:20:48.907951"
+  },
+  "experiments/milestone_3b_smoke/U_t4_n6/case_result.json": {
+   "sha256": "ad348527c261e293417cb082f2d781fe97106d29b10aeff6d4861bc9d9f4c5b6",
+   "size_bytes": 6283,
+   "mtime": "2026-06-22T15:20:48.908463"
+  },
+  "experiments/milestone_3b_smoke/summary.csv": {
+   "sha256": "c08597d0e6bcbd1387273f0f3ba8590918811a24c710ccb335edb2433163dc11",
+   "size_bytes": 3956,
+   "mtime": "2026-06-22T15:20:48.908784"
+  },
+  "experiments/milestone_3b_smoke/summary.json": {
+   "sha256": "83a093b2736aba3b8ecddc1d0a280eefddb88d09b793fba1f30b1556d89cf0df",
+   "size_bytes": 15286,
+   "mtime": "2026-06-22T15:20:48.909328"
+  },
+  "experiments/milestone_3b_smoke/V_t2_n6/depth_04/network.json": {
+   "sha256": "935df2ac590a196de447ab417fe90cdd6cb32ffde6424dbe89909a9d01f4d92e",
+   "size_bytes": 498,
+   "mtime": "2026-06-22T15:20:46.845520"
+  },
+  "experiments/milestone_3b_smoke/V_t2_n6/depth_04/verifier.json": {
+   "sha256": "5e61917ab99ef5ccea978e811c5bb851f38c3592d32bc8b6f92b908a67a4ad7e",
+   "size_bytes": 159,
+   "mtime": "2026-06-22T15:20:46.845735"
+  },
+  "experiments/milestone_3b_smoke/V_t2_n6/depth_04/decision.json": {
+   "sha256": "ba8f8bad446c42df68b3ba3fd733c87459f113917697d01de6523a3f2f45a8d6",
+   "size_bytes": 1194,
+   "mtime": "2026-06-22T15:20:46.845898"
+  },
+  "experiments/milestone_3b_smoke/U_t3_n6/depth_03/network.json": {
+   "sha256": "6bba4af2aa7577d9a4733ffad624e6b63e0d22becd65f1cb9b7a9fa68b0fdd78",
+   "size_bytes": 448,
+   "mtime": "2026-06-22T15:20:48.743760"
+  },
+  "experiments/milestone_3b_smoke/U_t3_n6/depth_03/verifier.json": {
+   "sha256": "bb6f4e922f1dd3577b925fe29fd223419aaee1446f3124f76cc56bb69afb9842",
+   "size_bytes": 159,
+   "mtime": "2026-06-22T15:20:48.744019"
+  },
+  "experiments/milestone_3b_smoke/U_t3_n6/depth_03/decision.json": {
+   "sha256": "ff0a196c6ef2c17e5e76c0a7f3626d006814e6374e88c7a2243da9793851b12f",
+   "size_bytes": 1187,
+   "mtime": "2026-06-22T15:20:48.744112"
+  },
+  "experiments/baseline_n8/decisions/U_t3_n8/depth_04/network.json": {
+   "sha256": "6785502161803a6cb9672ec7280a4815fbe2eb832cb55adcc970264c6b72faea",
+   "size_bytes": 688,
+   "mtime": "2026-07-03T21:10:35.328063"
+  },
+  "experiments/baseline_n8/decisions/U_t3_n8/depth_04/verifier.json": {
+   "sha256": "d459fdb7d0c14d73e1bfc3507799e501d0575213b193bca7cc897650b3585e0f",
+   "size_bytes": 159,
+   "mtime": "2026-07-03T21:10:35.328659"
+  },
+  "experiments/baseline_n8/decisions/U_t3_n8/depth_04/decision.json": {
+   "sha256": "3b8bbf74ac11c4b0f4ea7da388c344caa25da683ff00e4880c49f89e928072d1",
+   "size_bytes": 1212,
+   "mtime": "2026-07-03T21:10:35.328768"
+  },
+  "experiments/baseline_n8/decisions/U_t4_n8/depth_04/network.json": {
+   "sha256": "d3a1026b861b33eecb07be1fcd85c4d495d58b87741746ee33f4e42b44898a00",
+   "size_bytes": 726,
+   "mtime": "2026-07-03T21:10:40.662694"
+  },
+  "experiments/baseline_n8/decisions/U_t4_n8/depth_04/verifier.json": {
+   "sha256": "2f827929966425b3aacb86bdb460d8c65ffe7f223521e0f77b146387650f3476",
+   "size_bytes": 159,
+   "mtime": "2026-07-03T21:10:40.663294"
+  },
+  "experiments/baseline_n8/decisions/U_t4_n8/depth_04/decision.json": {
+   "sha256": "e4437d5664be512c6f4e2901febd91a6d578389181406e6df82705e2da21d3f5",
+   "size_bytes": 1212,
+   "mtime": "2026-07-03T21:10:40.663401"
+  },
+  "experiments/baseline_n8/report.md": {
+   "sha256": "351264ba9385178fe5b1110bacb1c29862a4e99a49315b16416f95cc1d81f830",
+   "size_bytes": 9918,
+   "mtime": "2026-07-03T21:34:06.772023"
+  },
+  "experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json": {
+   "sha256": "0176395392a7bd7d6c412c0ffa7ca937e74052d86a667c4155bda003eeaecc79",
+   "size_bytes": 1173,
+   "mtime": "2026-07-08T16:51:40.806187"
+  },
+  "experiments/baseline_n10/decisions/V_t3_n10/depth_06/verifier.json": {
+   "sha256": "7fe43b701f5e458fc3c1b831fdd8ee036d56f07e0494ece17eadf6be2f0dc225",
+   "size_bytes": 160,
+   "mtime": "2026-07-08T16:51:40.808147"
+  },
+  "experiments/baseline_n10/decisions/V_t3_n10/depth_06/result.json": {
+   "sha256": "9e85ae30b4c770a7362e57a3236e735c3abae67dbc6b3b1fe4c42695079b2011",
+   "size_bytes": 1225,
+   "mtime": "2026-07-08T16:51:40.844876"
+  },
+  "experiments/baseline_n10/decisions/V_t3_n10/depth_06/command.txt": {
+   "sha256": "de3af0cc65edb1f418e14b3e759b52a062f7251cb514d606bb3373a4fdac079e",
+   "size_bytes": 208,
+   "mtime": "2026-07-08T16:49:01.761914"
+  },
+  "experiments/baseline_n10/decisions/U_t3_n10/depth_05/network.json": {
+   "sha256": "e99d5f38c2f2bebe3bcff84c2385183e2988fca9def6f9c0cbf04e60e7c75e8e",
+   "size_bytes": 1009,
+   "mtime": "2026-07-09T06:14:12.091573"
+  },
+  "experiments/baseline_n10/decisions/U_t3_n10/depth_05/verifier.json": {
+   "sha256": "e0e9e4796de7425b442f705879ed32bc6de4845c0419b08e830c51000dddf664",
+   "size_bytes": 160,
+   "mtime": "2026-07-09T06:14:12.093037"
+  },
+  "experiments/baseline_n10/decisions/U_t3_n10/depth_05/result.json": {
+   "sha256": "db7644849ed0f80ccaf71938bf100bc4ad74125a69def08d10a40663ba5ef910",
+   "size_bytes": 760,
+   "mtime": "2026-07-09T06:14:12.128985"
+  },
+  "experiments/baseline_n10/decisions/U_t4_n10/depth_05/network.json": {
+   "sha256": "f280602fad8d02c3c848c3cad0ad3046fa1e4857d7e341c70278e04bfd035a4a",
+   "size_bytes": 1086,
+   "mtime": "2026-07-09T13:03:54.045924"
+  },
+  "experiments/baseline_n10/decisions/U_t4_n10/depth_05/verifier.json": {
+   "sha256": "cd5ba60df7a0a93ed728e250cf177bb9ef2a7727702e2d3b7bcacf79abe98851",
+   "size_bytes": 160,
+   "mtime": "2026-07-09T13:03:54.083363"
+  },
+  "experiments/baseline_n10/decisions/U_t4_n10/depth_05/result.json": {
+   "sha256": "ad3afa74b047473d551a172500303eea60bbb6774ea3dfadda758508aed8e978",
+   "size_bytes": 760,
+   "mtime": "2026-07-09T13:03:54.107041"
+  },
+  "experiments/baseline_n10/decisions/U_t5_n10/depth_05/network.json": {
+   "sha256": "2c46ad6a26d7db6d21b012164fc30522aba97a011fb4db9e5e3305e8ddd6f2db",
+   "size_bytes": 1048,
+   "mtime": "2026-07-10T07:15:04.828962"
+  },
+  "experiments/baseline_n10/decisions/U_t5_n10/depth_05/verifier.json": {
+   "sha256": "897b5003c0fb4b1f7da067638e549663714af5efe692d3fdb1a4d2af2f8b7a83",
+   "size_bytes": 160,
+   "mtime": "2026-07-10T07:15:04.830496"
+  },
+  "experiments/baseline_n10/decisions/U_t5_n10/depth_05/result.json": {
+   "sha256": "00eedd7db238c40c5be840a1fa799b86e446384e5bd81d320f5951219527983b",
+   "size_bytes": 760,
+   "mtime": "2026-07-10T07:15:04.853928"
+  },
+  "experiments/baseline_n10/n10_depth_table.csv": {
+   "sha256": "8adb4eaa684bcda2f0c033e48c2460c05f364d880ab25e66fb0212cafb26098d",
+   "size_bytes": 6227,
+   "mtime": "2026-07-10T07:39:12.986411"
+  },
+  "experiments/baseline_n10/n10_depth_summary.json": {
+   "sha256": "29a7b5e1b4c3de297b1778073856dddb8c2954bb9969ea55c7f3b717d476f77d",
+   "size_bytes": 14661,
+   "mtime": "2026-07-10T07:39:12.986159"
+  },
+  "experiments/baseline_n9/decisions/U_t3_n9/depth_04/decision.json": {
+   "sha256": "380d3d3b9c6de3eb2f83157c998f58739111c3c9423cd6e3035b6365792eb0af",
+   "size_bytes": 1064,
+   "mtime": "2026-07-03T21:57:08.637805"
+  },
+  "experiments/baseline_n9/decisions/U_t4_n9/depth_04/decision.json": {
+   "sha256": "0dad43573ac0bf4c868388cf08073324bdc8eef4c419ed2f23271a9517b19010",
+   "size_bytes": 1063,
+   "mtime": "2026-07-03T21:58:52.877408"
+  },
+  "experiments/baseline_n9/decisions/V_t3_n9/depth_06/network.json": {
+   "sha256": "28acfd13efc44ea612d5cb0f5a2a320a4eec71a4ce912297f0a4907cdaf70a4a",
+   "size_bytes": 1054,
+   "mtime": "2026-07-03T21:59:30.231291"
+  },
+  "experiments/baseline_n9/decisions/V_t3_n9/depth_06/verifier.json": {
+   "sha256": "064d07e6bd7aae4ee4c6e8c94245780e21be29e104b2d6a1662248511a08bcac",
+   "size_bytes": 159,
+   "mtime": "2026-07-03T21:59:30.232252"
+  },
+  "src/experiment.py": {
+   "sha256": "f89e1d2c4d726b032819d2ab9e0bea011d66ef018f891fa3169ec355fcc05ce5",
+   "size_bytes": 28442,
+   "mtime": "2026-08-02T11:38:57.673216"
+  },
+  "src/generate_instance.py": {
+   "sha256": "b6a32376b7bd225c7e7db6c1ba69db53d45134a799e529904e73841de982fdf2",
+   "size_bytes": 1762,
+   "mtime": "2026-07-06T21:50:18.726589"
+  },
+  "src/solver.py": {
+   "sha256": "b654448d3ed5d5f7f0073808e4691943ade8031044ba2fd2e6efffce0807c5d8",
+   "size_bytes": 1529,
+   "mtime": "2026-06-22T12:31:11.585955"
+  },
+  "src/verify.py": {
+   "sha256": "28d353d2cc796bf099f79c4db8e2587677d83e987b0ad3b2e526496b1b389219",
+   "size_bytes": 6259,
+   "mtime": "2026-06-22T11:56:34.401184"
+  },
+  "src/parse_model.py": {
+   "sha256": "3a62ff9e04ac6c737c17e2875a360fac1a8c7dd2e1efc93303c23ae5dcb0b2e2",
+   "size_bytes": 2775,
+   "mtime": "2026-06-22T15:18:48.103050"
+  },
+  "src/run_baseline_n10_decisions.py": {
+   "sha256": "5dfb7452a4ecbabdc7dd15bd1765008eb739874b5d3929ea3056d423537d2cc5",
+   "size_bytes": 9169,
+   "mtime": "2026-07-08T15:51:45.491230"
+  },
+  "src/run_baseline_n10_u_decision.py": {
+   "sha256": "2432a55fbba005d76c4a537bcc207276916f5176b67a0704af4076d48d56f09d",
+   "size_bytes": 7744,
+   "mtime": "2026-07-10T07:13:57.287139"
+  },
+  "experiments/n10_selection_depth_completion/manuscript_discrepancies.json": {
+   "sha256": "e7046b16ad5d78623475a793a6bc164653238008ef69a9620d1de3946642d9e0",
+   "size_bytes": 1295,
+   "mtime": "2026-08-02T13:07:00.738396"
+  },
+  "experiments/n10_selection_depth_completion/tests_result.json": {
+   "sha256": "4f2e837565df93125472fdfc74534c03b81356072f34a541f9c469c05d7dbeab",
+   "size_bytes": 429,
+   "mtime": "2026-08-02T13:06:54.253314"
+  }
+ },
+ "gaps_and_risks": [
+  {
+   "severity": "high",
+   "gap": "Nothing is committed: git HEAD (7c06ad4, 2026-06-24) predates nearly all evidence; 165 dirty/untracked entries include all experiments, manuscript, and most src/. A public artifact cannot be pinned to a commit as-is."
+  },
+  {
+   "severity": "high",
+   "gap": "No artifact regenerates the n=11..17 bound tables with weight-game-improved lower endpoints; the 44-cell improvement list and the final tables exist only inside manuscript/main.tex (tables are inline; zero \\input). paper_table_{U,V}.tex are placeholders."
+  },
+  {
+   "severity": "medium",
+   "gap": "The five parent-partition experiment dirs that the V(4,9) closure certificate cites by absolute path (support/partner/bp5/refined/six_leaf_reduced) are not inside the 588-file evidence bundle; the public artifact must include them or the certificate's references dangle."
+  },
+  {
+   "severity": "medium",
+   "gap": "Absolute paths /home/ono/Codex (old checkout) and /home/ono/Agent appear inside certificates, command.txt files, selection_certificate.json, screening CSVs, and tail_leaf_analysis.json; need normalization or a documented path-mapping note in the public artifact."
+  },
+  {
+   "severity": "medium",
+   "gap": "experiments/provenance_closure/audit_v49_d6.py output (v49_d6_branch_ledger.csv) is missing; script is read-only and cheap to rerun, but was not rerun during this inventory."
+  },
+  {
+   "severity": "low",
+   "gap": "U(3,11)/U(4,11)/U(5,11) witnesses have a single verifier (src/verify.py, exhaustive 2^11); no second independent verifier as for U(2,17)."
+  },
+  {
+   "severity": "low",
+   "gap": "VDepth(2,7) and VDepth(2,9) ladders below the decisive depth are closed by the Nakano corollary, not by ASP runs; paper wording must reflect this (single-depth UNSAT + monotonicity is sufficient)."
+  },
+  {
+   "severity": "low",
+   "gap": "Manuscript blanket 'depth-4 UNSAT' phrasing is wrong for VDepth(3,7) (actual evidence: depth-5 UNSAT); recorded in experiments/n10_selection_depth_completion/manuscript_discrepancies.json."
+  },
+  {
+   "severity": "low",
+   "gap": "June-vintage runs (milestone_3b_smoke, baseline_n7/n8) have no stderr.log (driver started writing it later); returncode and solver_version are still recorded."
+  },
+  {
+   "severity": "low",
+   "gap": "V(2,2^k) formula provenance marked 'citation TODO' in experiments/baseline_n11_17/paper_ready_upper_bounds/audit_summary.json."
+  },
+  {
+   "severity": "low",
+   "gap": "experiments/baseline_n9/derived/ and baseline_n9/witnesses/ are empty directories."
+  },
+  {
+   "severity": "info",
+   "gap": "No standalone clingo binary; all runs used '.venv/bin/python -m clingo' (pyclingo 5.8.0). Reproduction instructions must say so."
+  },
+  {
+   "severity": "info",
+   "gap": "experiments/provenance_closure/depth2_family_verification.json records that the retained U(3,11) depth-2 representative family is semantically incomplete (596326 of 605305 reachable state sets uncovered); relevant to the EXTRA n=11 bundle, not to any claim in the current paper."
+  }
+ ]
+}

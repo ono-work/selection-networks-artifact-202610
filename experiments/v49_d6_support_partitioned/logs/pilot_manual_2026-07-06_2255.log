@@ -1,0 +1,16 @@
+T_1: UNSAT in 45.386s
+T_2: UNSAT in 28.889s
+T_3: UNSAT in 33.669s
+T_4: UNSAT in 77.368s
+T_12: UNSAT in 43.099s
+T_13: UNSAT in 55.675s
+T_14: UNSAT in 58.054s
+T_23: UNSAT in 67.738s
+T_24: UNSAT in 76.316s
+T_34: UNSAT in 592.208s
+T_123: UNSAT in 59.123s
+T_124: UNSAT in 77.377s
+T_134: UNSAT in 421.409s
+T_234: TIMEOUT in 900.632s
+T_1234: TIMEOUT in 900.639s
+/home/ono/Codex/experiments/v49_d6_support_partitioned/reports/pilot_report.md

@@ -1,0 +1,24 @@
+{
+  "branch_id": "A_p6",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 1103,
+  "error_message": null,
+  "final_layer_comparator_count": 2,
+  "final_wire4_comparator": [
+    4,
+    6
+  ],
+  "parent_id": "A",
+  "partner": 6,
+  "peak_rss_kb": 78768,
+  "returncode": 0,
+  "runtime_seconds": 1200.7498213309445,
+  "status": "TIMEOUT",
+  "support": [
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "worker_count": 8
+}

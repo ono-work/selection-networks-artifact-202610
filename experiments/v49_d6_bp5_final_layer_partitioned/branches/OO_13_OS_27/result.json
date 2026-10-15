@@ -1,0 +1,169 @@
+{
+  "branch_definition_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/branch_definition.json",
+  "branch_id": "OO_13_OS_27",
+  "clingo_result": "UNSATISFIABLE",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "clingo",
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1800",
+    "/home/ono/Codex/solver/common.lp",
+    "/home/ono/Codex/solver/target_v.lp",
+    "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/instance.lp"
+  ],
+  "comparator_count": null,
+  "cpu_snapshots": 42,
+  "error_message": null,
+  "final_layer_comparators": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "fixed_comparator": [
+    4,
+    5
+  ],
+  "input_mode": "v_boundary",
+  "instance_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/instance.lp",
+  "layer_comparator_counts": null,
+  "metadata_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/reproducibility.json",
+  "network_json_path": null,
+  "output_output_comparator": [
+    1,
+    3
+  ],
+  "output_suffix_comparator": [
+    2,
+    7
+  ],
+  "parsed_status_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/parsed_status.json",
+  "peak_rss_kb": 74568,
+  "pid": 2469718,
+  "raw_solver_json_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/branches/OO_13_OS_27/solver.json",
+  "resource_log_path": "/home/ono/Codex/experiments/v49_d6_bp5_final_layer_partitioned/logs/OO_13_OS_27.resources.jsonl",
+  "runtime_seconds": 46.21686050097924,
+  "solver_options": [
+    "--outf=2",
+    "--stats=2",
+    "-n",
+    "1",
+    "--time-limit=1800"
+  ],
+  "solver_statistics": {
+    "Core": {
+      "Backjumps": 36705,
+      "Backtracks": 1,
+      "Choices": 44177,
+      "Conflicts": 36706,
+      "RestartAvg": 291.31,
+      "RestartLast": 3231,
+      "Restarts": 126
+    },
+    "Jumps": {
+      "Avg": 1.189,
+      "AvgExec": 1.188,
+      "Bounded": {
+        "Avg": 1.0,
+        "Levels": 53,
+        "Max": 1,
+        "Sum": 53
+      },
+      "Levels": 43655,
+      "LevelsExec": 43602,
+      "Max": 17,
+      "MaxExec": 17,
+      "Sum": 36705
+    },
+    "LP": {
+      "Atoms": 18150,
+      "Bodies": {
+        "Count": {
+          "Final": 48,
+          "Original": 55
+        },
+        "Final": 130552,
+        "Original": 130505
+      },
+      "Equivalences": {
+        "Atom": 529,
+        "Body": 1476,
+        "Other": 2704,
+        "Sum": 4709
+      },
+      "Rules": {
+        "Choice": {
+          "Final": 216,
+          "Original": 216
+        },
+        "Final": 153295,
+        "Original": 153227
+      },
+      "Tight": "yes"
+    },
+    "More": {
+      "AvgGPLength": 1.0,
+      "CPU": 45.865,
+      "Lemma": {
+        "Deleted": 26899,
+        "Sum": 36705,
+        "Type": [
+          {
+            "Binary": 297,
+            "Ratio": 2.267,
+            "Sum": 832,
+            "Ternary": 535,
+            "Type": "Short"
+          },
+          {
+            "AvgLen": 41.199,
+            "Sum": 36705,
+            "Type": "Conflict"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Loop"
+          },
+          {
+            "AvgLen": 0.0,
+            "Sum": 0,
+            "Type": "Other"
+          }
+        ]
+      },
+      "Models": 0,
+      "Problems": 1,
+      "Splits": 0
+    },
+    "Problem": {
+      "AcycEdges": 0,
+      "Constraints": {
+        "Binary": 365638,
+        "Sum": 485479,
+        "Ternary": 78839
+      },
+      "Eliminated": 0,
+      "Frozen": 12072,
+      "Variables": 118839
+    }
+  },
+  "solver_version": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>",
+  "status": "UNSAT",
+  "timeout_seconds": 1800,
+  "verifier_json_path": null,
+  "verifier_ok": null,
+  "worker_count": 8
+}

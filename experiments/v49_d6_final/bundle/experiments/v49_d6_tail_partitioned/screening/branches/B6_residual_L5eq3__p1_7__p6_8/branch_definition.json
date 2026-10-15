@@ -1,0 +1,38 @@
+{
+  "branch_id": "B6_residual_L5eq3__p1_7__p6_8",
+  "category": "p1_7__p6_8",
+  "category_constraints": "% Tail category for B6_residual_L5eq3: p1_7__p6_8\n:- not selected(5,1,7).\n:- not selected(5,6,8).\n",
+  "category_matching_count": 8,
+  "final_layer": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "forbid_l5": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "l5_count": 3,
+  "leaf_id": "B6",
+  "parent_branch_id": "B6_residual_L5eq3",
+  "residual_id": "B6_residual"
+}

@@ -1,0 +1,33 @@
+{
+  "Solver": "pyclingo version 5.8.0",
+  "Input": [
+    "/home/ono/Codex/solver/common.lp","/home/ono/Codex/solver/target_u.lp","/home/ono/Codex/experiments/baseline_n11_17/decisions/U_t4_n13/depth_08/instance.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 89.304,
+          "Value": [
+            "selected(1,1,2)", "selected(1,3,4)", "selected(1,9,10)", "selected(1,5,11)", "selected(1,7,12)", "selected(1,8,13)", "selected(2,1,3)", "selected(2,7,8)", "selected(2,5,9)", "selected(2,6,10)", "selected(2,4,12)", "selected(2,11,13)", "selected(3,2,4)", "selected(3,3,5)", "selected(3,6,9)", "selected(3,8,10)", "selected(3,7,11)", "selected(3,12,13)", "selected(4,3,6)", "selected(4,5,8)", "selected(4,7,9)", "selected(4,2,11)", "selected(4,1,12)", "selected(4,10,13)", "selected(5,1,2)", "selected(5,5,9)", "selected(5,7,10)", "selected(5,4,11)", "selected(5,3,12)", "selected(5,6,13)", "selected(6,2,5)", "selected(6,4,6)", "selected(6,3,7)", "selected(6,1,10)", "selected(6,9,11)", "selected(6,12,13)", "selected(7,1,2)", "selected(7,4,7)", "selected(7,8,9)", "selected(7,3,10)", "selected(7,11,13)", "selected(8,4,5)", "selected(8,2,7)", "selected(8,1,9)", "selected(8,3,11)"
+          ]
+        }
+      ],
+      "Stop": 89.381
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "yes"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 89.381,
+    "Solve": 62.856,
+    "Model": 62.779,
+    "Unsat": 0.000,
+    "CPU": 89.352
+  }
+}

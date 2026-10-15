@@ -1,0 +1,38 @@
+{
+  "branch_id": "OO_23_OS_19",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 1723,
+  "error_message": null,
+  "final_layer_comparators": [
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "fixed_comparator": [
+    4,
+    5
+  ],
+  "output_output_comparator": [
+    2,
+    3
+  ],
+  "output_suffix_comparator": [
+    1,
+    9
+  ],
+  "peak_rss_kb": 77792,
+  "returncode": 0,
+  "runtime_seconds": 1800.6328587459866,
+  "status": "TIMEOUT",
+  "timeout_seconds": 1800,
+  "worker_count": 8
+}

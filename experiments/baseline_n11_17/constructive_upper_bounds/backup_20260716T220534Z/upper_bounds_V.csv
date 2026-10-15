@@ -1,0 +1,154 @@
+kind,n,t,best_upper_bound,provenance_type,primary_rule,primary_source,exact_status,lower_bound_if_known,gap_if_known,network_artifact_available,generated_network_path,verifier_status,sorting_fallback,notes
+V,1,1,0,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n1/depth_00/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n1/depth_00/network.json,VERIFIED_SAT,0,existing network.json artifact
+V,2,1,1,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n2/depth_01/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n2/depth_01/network.json,VERIFIED_SAT,1,existing network.json artifact
+V,2,2,1,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t2_n2/depth_01/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t2_n2/depth_01/network.json,VERIFIED_SAT,1,existing network.json artifact
+V,3,1,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n3/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n3/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,3,2,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t2_n3/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t2_n3/depth_03/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,3,3,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t3_n3/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t3_n3/depth_03/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,4,1,2,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n4/depth_02/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n4/depth_02/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,4,2,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t2_n4/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t2_n4/depth_03/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,4,3,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t3_n4/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t3_n4/depth_03/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,4,4,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t4_n4/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t4_n4/depth_03/network.json,VERIFIED_SAT,3,existing network.json artifact
+V,5,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n5/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n5/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,5,2,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t2_n5/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t2_n5/depth_04/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,5,3,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t3_n5/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t3_n5/depth_05/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,5,4,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t4_n5/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t4_n5/depth_05/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,5,5,5,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,5,
+V,6,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n6/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n6/depth_03/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,6,2,4,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t2_n6/depth_04/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t2_n6/depth_04/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,6,3,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t3_n6/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t3_n6/depth_05/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,6,4,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_smoke/V_t4_n6/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_smoke/V_t4_n6/depth_05/network.json,VERIFIED_SAT,5,existing network.json artifact
+V,6,5,5,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,5,
+V,6,6,5,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(6)=5,UPPER_BOUND_ONLY,,,False,,not_applicable,5,full sorting network upper bound
+V,7,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n7/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n7/depth_03/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,7,2,5,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,7,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n7/decisions/V_t3_n7/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n7/decisions/V_t3_n7/depth_06/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,7,4,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n7/decisions/V_t4_n7/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n7/decisions/V_t4_n7/depth_06/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,7,5,6,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,7,6,6,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,7,7,6,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,8,1,3,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t1_n8/depth_03/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t1_n8/depth_03/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,8,2,5,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/milestone_3b_calibration/V_t2_n8/depth_05/network.json,UPPER_BOUND_ONLY,,,True,experiments/milestone_3b_calibration/V_t2_n8/depth_05/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,8,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n8/decisions/V_t3_n8/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n8/decisions/V_t3_n8/depth_06/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,8,4,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n8/decisions/V_t4_n8/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n8/decisions/V_t4_n8/depth_06/network.json,VERIFIED_SAT,6,existing network.json artifact
+V,8,5,6,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,8,6,6,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,8,7,6,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,6,
+V,8,8,6,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(8)=6,UPPER_BOUND_ONLY,,,False,,not_applicable,6,full sorting network upper bound
+V,9,1,4,GENERATED_VERIFIED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,True,experiments/baseline_n11_17/constructive_upper_bounds/generated_networks/V_t1_n9_depth4_by_u_to_v_binary_merge/network.json,VERIFIED,7,
+V,9,2,6,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,9,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n9/decisions/V_t3_n9/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n9/decisions/V_t3_n9/depth_06/network.json,VERIFIED_SAT,7,existing network.json artifact
+V,9,4,7,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n9/decisions/V_t4_n9/depth_07/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n9/decisions/V_t4_n9/depth_07/network.json,VERIFIED_SAT,7,existing network.json artifact
+V,9,5,7,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,9,6,7,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,9,7,7,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,9,8,7,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,9,9,7,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,1,4,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,2,6,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,3,6,ARTIFACT_VERIFIED,KNOWN_NETWORK_ARTIFACT,experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json,UPPER_BOUND_ONLY,,,True,experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json,VERIFIED_SAT,7,existing network.json artifact
+V,10,4,7,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,5,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,6,7,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,7,7,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,8,7,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,9,7,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,,,False,,not_applicable,7,
+V,10,10,7,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(10)=7,UPPER_BOUND_ONLY,,,False,,not_applicable,7,full sorting network upper bound
+V,11,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,one-selection tournament upper bound
+V,11,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,8,
+V,11,3,8,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,2,False,,not_applicable,8,
+V,11,4,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,5,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,6,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,7,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,8,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,9,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,11,10,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,8,0,False,,not_applicable,8,
+V,11,11,8,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,8,0,False,,not_applicable,8,
+V,12,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,8,one-selection tournament upper bound
+V,12,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,8,
+V,12,3,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,2,False,,not_applicable,8,
+V,12,4,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,5,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,6,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,7,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,8,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,9,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,1,False,,not_applicable,8,
+V,12,10,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,0,False,,not_applicable,8,
+V,12,11,8,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,0,False,,not_applicable,8,
+V,12,12,8,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(12)=8,UPPER_BOUND_ONLY,8,0,False,,not_applicable,8,full sorting network upper bound
+V,13,1,4,THEOREM_DERIVED,ONE_SELECTION,ceil(log2 n),UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,one-selection tournament upper bound
+V,13,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,9,
+V,13,3,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,3,False,,not_applicable,9,
+V,13,4,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,5,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,6,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,7,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,8,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,9,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,13,10,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,13,11,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,13,12,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,13,13,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,14,1,4,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+V,14,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,9,
+V,14,3,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,3,False,,not_applicable,9,
+V,14,4,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,5,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,6,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,7,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,8,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,9,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,14,10,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,14,11,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,14,12,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,14,13,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,14,14,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,15,1,4,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+V,15,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,9,
+V,15,3,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,3,False,,not_applicable,9,
+V,15,4,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,5,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,6,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,7,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,8,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,9,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,15,10,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,15,11,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,15,12,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,15,13,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,15,14,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,15,15,9,THEOREM_DERIVED,PADDING_RESTRICTION,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,16,1,4,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,4,0,False,,not_applicable,9,
+V,16,2,7,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,1,False,,not_applicable,9,
+V,16,3,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,3,False,,not_applicable,9,
+V,16,4,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,5,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,6,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,7,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,8,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,9,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,2,False,,not_applicable,9,
+V,16,10,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,16,11,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,1,False,,not_applicable,9,
+V,16,12,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,16,13,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,16,14,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,16,15,9,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,
+V,16,16,9,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(16)=9,UPPER_BOUND_ONLY,9,0,False,,not_applicable,9,full sorting network upper bound
+V,17,1,5,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,5,0,False,,not_applicable,10,
+V,17,2,8,THEOREM_DERIVED,U_TO_V_BINARY_MERGE,,UPPER_BOUND_ONLY,6,2,False,,not_applicable,10,
+V,17,3,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,6,4,False,,not_applicable,10,
+V,17,4,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,5,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,6,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,7,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,8,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,9,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,7,3,False,,not_applicable,10,
+V,17,10,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,2,False,,not_applicable,10,
+V,17,11,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,8,2,False,,not_applicable,10,
+V,17,12,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,1,False,,not_applicable,10,
+V,17,13,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,1,False,,not_applicable,10,
+V,17,14,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,1,False,,not_applicable,10,
+V,17,15,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,9,1,False,,not_applicable,10,
+V,17,16,10,THEOREM_DERIVED,V_T_MONOTONICITY,,UPPER_BOUND_ONLY,10,0,False,,not_applicable,10,
+V,17,17,10,SORTING_FALLBACK,SORTING_FALLBACK,SortDepth(17)=10,UPPER_BOUND_ONLY,10,0,False,,not_applicable,10,full sorting network upper bound

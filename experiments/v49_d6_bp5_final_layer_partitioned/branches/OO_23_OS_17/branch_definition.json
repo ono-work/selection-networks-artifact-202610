@@ -1,0 +1,32 @@
+{
+  "branch_id": "OO_23_OS_17",
+  "constraints": "% V(4,9), depth-6 B_p5 final-layer partition constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n% No suffix-wire symmetry or canonical suffix partner is assumed.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), not touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), not touched(D,3).\n:- depth(D), not touched(D,4).\n:- depth(D), 3 != #count { I,J : selected(D,I,J) }.\n:- depth(D), not selected(D,4,5).\n:- depth(D), not selected(D,1,7).\n:- depth(D), not selected(D,2,3).\n:- depth(D), not selected(D,4,5).\n",
+  "final_layer_comparators": [
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "final_layer_constraints": ":- depth(D), not selected(D,1,7).\n:- depth(D), not selected(D,2,3).\n:- depth(D), not selected(D,4,5).\n",
+  "fixed_comparator": [
+    4,
+    5
+  ],
+  "output_output_comparator": [
+    2,
+    3
+  ],
+  "output_suffix_comparator": [
+    1,
+    7
+  ],
+  "parent_constraints": ":- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), not touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), not touched(D,3).\n:- depth(D), not touched(D,4).\n:- depth(D), 3 != #count { I,J : selected(D,I,J) }.\n:- depth(D), not selected(D,4,5).\n"
+}

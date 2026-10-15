@@ -1,0 +1,84 @@
+{
+  "depth": 4,
+  "derivation": "self-duality consistency-check artifact; not an additional independent solver result",
+  "kind": "U",
+  "layers": [
+    [
+      [
+        5,
+        8
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        3,
+        8
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  "n": 8,
+  "source_kind": "U",
+  "source_t": 4,
+  "source_witness_path": "experiments/baseline_n8/decisions/U_t4_n8/depth_04/network.json",
+  "t": 4
+}

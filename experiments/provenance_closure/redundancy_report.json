@@ -1,0 +1,330 @@
+{
+ "redundant": [
+  {
+   "id": "L_V2_10",
+   "kind": "V",
+   "t": 2,
+   "n": 10,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(2,10) depth-5 UNSAT"
+  },
+  {
+   "id": "L_V3_9",
+   "kind": "V",
+   "t": 3,
+   "n": 9,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(3,9) depth-5 UNSAT"
+  },
+  {
+   "id": "L_V3_6",
+   "kind": "V",
+   "t": 3,
+   "n": 6,
+   "bound": "lower",
+   "value": 5,
+   "desc": "V(3,6) depth-4 UNSAT"
+  },
+  {
+   "id": "L_V4_7",
+   "kind": "V",
+   "t": 4,
+   "n": 7,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(4,7) depth-5 UNSAT"
+  },
+  {
+   "id": "L_V3_8",
+   "kind": "V",
+   "t": 3,
+   "n": 8,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(3,8) depth-5 UNSAT"
+  },
+  {
+   "id": "L_V4_8",
+   "kind": "V",
+   "t": 4,
+   "n": 8,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(4,8) depth-5 UNSAT"
+  },
+  {
+   "id": "G_U2_10",
+   "kind": "U",
+   "t": 2,
+   "n": 10,
+   "bound": "lower",
+   "value": 5,
+   "desc": "A_U(2,10)=5 game-evaluated"
+  },
+  {
+   "id": "G_U3_6",
+   "kind": "U",
+   "t": 3,
+   "n": 6,
+   "bound": "lower",
+   "value": 3,
+   "desc": "A_U(3,6)=3 game-evaluated"
+  },
+  {
+   "id": "G_U3_7",
+   "kind": "U",
+   "t": 3,
+   "n": 7,
+   "bound": "lower",
+   "value": 4,
+   "desc": "A_U(3,7)=4 game-evaluated"
+  },
+  {
+   "id": "G_U3_8",
+   "kind": "U",
+   "t": 3,
+   "n": 8,
+   "bound": "lower",
+   "value": 4,
+   "desc": "A_U(3,8)=4 game-evaluated"
+  },
+  {
+   "id": "G_U4_8",
+   "kind": "U",
+   "t": 4,
+   "n": 8,
+   "bound": "lower",
+   "value": 4,
+   "desc": "A_U(4,8)=4 game-evaluated"
+  },
+  {
+   "id": "W_U2_10",
+   "kind": "U",
+   "t": 2,
+   "n": 10,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(2,10) depth-5 witness"
+  },
+  {
+   "id": "W_V2_7",
+   "kind": "V",
+   "t": 2,
+   "n": 7,
+   "bound": "upper",
+   "value": 5,
+   "desc": "V(2,7) depth-5 witness"
+  },
+  {
+   "id": "W_V2_9",
+   "kind": "V",
+   "t": 2,
+   "n": 9,
+   "bound": "upper",
+   "value": 6,
+   "desc": "V(2,9) depth-6 witness"
+  },
+  {
+   "id": "W_U4_6",
+   "kind": "U",
+   "t": 4,
+   "n": 6,
+   "bound": "upper",
+   "value": 4,
+   "desc": "U(4,6) depth-4 witness"
+  },
+  {
+   "id": "W_U2_9",
+   "kind": "U",
+   "t": 2,
+   "n": 9,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(2,9) depth-5 witness"
+  }
+ ],
+ "irredundant": [
+  {
+   "id": "L_V4_9",
+   "kind": "V",
+   "t": 4,
+   "n": 9,
+   "bound": "lower",
+   "value": 7,
+   "desc": "V(4,9) depth-6 UNSAT"
+  },
+  {
+   "id": "L_V2_7",
+   "kind": "V",
+   "t": 2,
+   "n": 7,
+   "bound": "lower",
+   "value": 5,
+   "desc": "V(2,7) depth-4 UNSAT"
+  },
+  {
+   "id": "L_V2_9",
+   "kind": "V",
+   "t": 2,
+   "n": 9,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(2,9) depth-5 UNSAT"
+  },
+  {
+   "id": "L_U4_6",
+   "kind": "U",
+   "t": 4,
+   "n": 6,
+   "bound": "lower",
+   "value": 4,
+   "desc": "U(4,6) depth-3 UNSAT"
+  },
+  {
+   "id": "L_V3_7",
+   "kind": "V",
+   "t": 3,
+   "n": 7,
+   "bound": "lower",
+   "value": 6,
+   "desc": "V(3,7) depth-5 UNSAT"
+  },
+  {
+   "id": "L_V3_5",
+   "kind": "V",
+   "t": 3,
+   "n": 5,
+   "bound": "lower",
+   "value": 5,
+   "desc": "V(3,5) depth-4 UNSAT (newly confirmed)"
+  },
+  {
+   "id": "G_U2_9",
+   "kind": "U",
+   "t": 2,
+   "n": 9,
+   "bound": "lower",
+   "value": 5,
+   "desc": "A_U(2,9)=5 game-evaluated"
+  },
+  {
+   "id": "G_U3_9",
+   "kind": "U",
+   "t": 3,
+   "n": 9,
+   "bound": "lower",
+   "value": 5,
+   "desc": "A_U(3,9)=5 game-evaluated"
+  },
+  {
+   "id": "G_U4_9",
+   "kind": "U",
+   "t": 4,
+   "n": 9,
+   "bound": "lower",
+   "value": 5,
+   "desc": "A_U(4,9)=5 game-evaluated"
+  },
+  {
+   "id": "W_V3_10",
+   "kind": "V",
+   "t": 3,
+   "n": 10,
+   "bound": "upper",
+   "value": 6,
+   "desc": "V(3,10) depth-6 witness"
+  },
+  {
+   "id": "W_U3_10",
+   "kind": "U",
+   "t": 3,
+   "n": 10,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(3,10) depth-5 witness"
+  },
+  {
+   "id": "W_U4_10",
+   "kind": "U",
+   "t": 4,
+   "n": 10,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(4,10) depth-5 witness"
+  },
+  {
+   "id": "W_U5_10",
+   "kind": "U",
+   "t": 5,
+   "n": 10,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(5,10) depth-5 witness"
+  },
+  {
+   "id": "W_V3_9",
+   "kind": "V",
+   "t": 3,
+   "n": 9,
+   "bound": "upper",
+   "value": 6,
+   "desc": "V(3,9) depth-6 witness"
+  },
+  {
+   "id": "W_U3_6",
+   "kind": "U",
+   "t": 3,
+   "n": 6,
+   "bound": "upper",
+   "value": 3,
+   "desc": "U(3,6) depth-3 witness"
+  },
+  {
+   "id": "W_U3_7",
+   "kind": "U",
+   "t": 3,
+   "n": 7,
+   "bound": "upper",
+   "value": 4,
+   "desc": "U(3,7) depth-4 witness"
+  },
+  {
+   "id": "W_U3_8",
+   "kind": "U",
+   "t": 3,
+   "n": 8,
+   "bound": "upper",
+   "value": 4,
+   "desc": "U(3,8) depth-4 witness"
+  },
+  {
+   "id": "W_U4_8",
+   "kind": "U",
+   "t": 4,
+   "n": 8,
+   "bound": "upper",
+   "value": 4,
+   "desc": "U(4,8) depth-4 witness"
+  },
+  {
+   "id": "W_U3_9",
+   "kind": "U",
+   "t": 3,
+   "n": 9,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(3,9) depth-5 witness"
+  },
+  {
+   "id": "W_U4_9",
+   "kind": "U",
+   "t": 4,
+   "n": 9,
+   "bound": "upper",
+   "value": 5,
+   "desc": "U(4,9) depth-5 witness"
+  }
+ ]
+}

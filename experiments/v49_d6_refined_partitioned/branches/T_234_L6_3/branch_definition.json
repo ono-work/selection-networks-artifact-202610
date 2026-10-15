@@ -1,0 +1,10 @@
+{
+  "branch_id": "T_234_L6_3",
+  "constraints": "% V(4,9), depth-6 refined support/size hard-instance constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), not touched(D,3).\n:- depth(D), not touched(D,4).\n:- depth(D), 3 != #count { I,J : selected(D,I,J) }.\n",
+  "final_layer_comparator_count": 3,
+  "support": [
+    2,
+    3,
+    4
+  ]
+}

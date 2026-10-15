@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "correction": "V(3,7) has a raw depth-5 UNSAT result and a freshly reverified depth-6 witness.",
+      "evidence": [
+        "experiments/baseline_n7/decisions/V_t3_n7/depth_05/solver.json",
+        "experiments/baseline_n7/decisions/V_t3_n7/depth_06/network.json"
+      ],
+      "issue": "The blanket phrase depth-4 UNSAT is insufficient for VDepth(3,7)=6.",
+      "lines": "555-559"
+    },
+    {
+      "correction": {
+        "U": {
+          "(2,5)": 3,
+          "(2,6)": 4,
+          "(2,7)": 4,
+          "(2,9)": 5,
+          "(3,5)": 3,
+          "(3,6)": 3,
+          "(4,6)": 4,
+          "(5,7)": 4,
+          "(7,9)": 5
+        },
+        "V": {
+          "(2,5)": 4,
+          "(2,6)": 4,
+          "(2,7)": 5,
+          "(2,9)": 6,
+          "(3,5)": 5,
+          "(3,6)": 5
+        }
+      },
+      "issue": "The V/U tables and open-cell prose retain intervals that are now exact.",
+      "lines": "578-632",
+      "replacement_table": "experiments/n10_selection_depth_completion/exact_tables.tex"
+    },
+    {
+      "correction": "No cells remain open for 1 <= t <= n <= 10.",
+      "issue": "The prose says two kinds of open cell remain for n <= 10.",
+      "lines": "576-577"
+    }
+  ],
+  "manuscript": "manuscript/main.tex",
+  "tex_edited": false
+}

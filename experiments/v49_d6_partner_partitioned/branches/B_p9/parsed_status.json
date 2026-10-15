@@ -1,0 +1,25 @@
+{
+  "branch_id": "B_p9",
+  "clingo_result": "UNSATISFIABLE",
+  "cpu_snapshots": 137,
+  "error_message": null,
+  "final_layer_comparator_count": 3,
+  "final_wire4_comparator": [
+    4,
+    9
+  ],
+  "parent_id": "B",
+  "partner": 9,
+  "peak_rss_kb": 78232,
+  "returncode": 0,
+  "runtime_seconds": 150.85525020898785,
+  "status": "UNSAT",
+  "support": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 1200,
+  "worker_count": 8
+}

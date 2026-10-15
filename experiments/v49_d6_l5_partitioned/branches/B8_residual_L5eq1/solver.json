@@ -1,0 +1,123 @@
+{
+  "Solver": "pyclingo version 5.8.0",
+  "Input": [
+    "/home/ono/Codex/solver/common.lp","/home/ono/Codex/solver/target_v.lp","/home/ono/Codex/experiments/v49_d6_l5_partitioned/branches/B8_residual_L5eq1/instance.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Stop": 111.055
+    }
+  ],
+  "Result": "UNSATISFIABLE",
+  "Models": {
+    "Number": 0,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 111.055,
+    "Solve": 110.859,
+    "Model": 0.000,
+    "Unsat": 110.859,
+    "CPU": 111.058
+  },
+  "Stats": {
+    "Core": {
+      "Choices": 134086,
+      "Conflicts": 116595,
+      "Backtracks": 1,
+      "Backjumps": 116594,
+      "Restarts": 372,
+      "RestartAvg": 313.425,
+      "RestartLast": 38
+    },
+    "More": {
+      "CPU": 110.862,
+      "Models": 0,
+      "Splits": 0,
+      "Problems": 1,
+      "AvgGPLength": 1.000,
+      "Lemma": {
+        "Sum": 116594,
+        "Deleted": 102371,
+        "Type": [
+          {
+            "Type": "Short",
+            "Sum": 1795,
+            "Ratio": 1.540,
+            "Binary": 490,
+            "Ternary": 1305
+          },
+          {
+            "Type": "Conflict",
+            "Sum": 116594,
+            "AvgLen": 31.735
+          },
+          {
+            "Type": "Loop",
+            "Sum": 0,
+            "AvgLen": 0.000
+          },
+          {
+            "Type": "Other",
+            "Sum": 0,
+            "AvgLen": 0.000
+          }
+        ]
+      }
+    },
+    "Jumps": {
+      "Sum": 116594,
+      "Max": 20,
+      "MaxExec": 20,
+      "Avg": 1.138,
+      "AvgExec": 1.138,
+      "Levels": 132731,
+      "LevelsExec": 132634,
+      "Bounded": {
+        "Sum": 97,
+        "Max": 1,
+        "Avg": 1.000,
+        "Levels": 97
+      }
+    },
+    "LP": {
+      "Rules": {
+        "Original": 151156,
+        "Final": 151259,
+        "Choice": {
+          "Original": 216,
+          "Final": 216
+        }
+      },
+      "Atoms": 18153,
+      "Bodies": {
+        "Original": 128422,
+        "Final": 128504,
+        "Count": {
+          "Original": 57,
+          "Final": 49
+        }
+      },
+      "Tight": "yes",
+      "Equivalences": {
+        "Sum": 4744,
+        "Atom": 579,
+        "Body": 1470,
+        "Other": 2695
+      }
+    },
+    "Problem": {
+      "Variables": 116611,
+      "Eliminated": 0,
+      "Frozen": 11958,
+      "Constraints": {
+        "Sum": 476614,
+        "Binary": 358912,
+        "Ternary": 77483
+      },
+      "AcycEdges": 0
+    }
+  }
+}

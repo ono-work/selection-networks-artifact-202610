@@ -1,0 +1,7 @@
+{
+  "branch_id": "T_2",
+  "constraints": "% V(4,9), depth-6 support-partition hard-instance constraints.\n% Baseline solver/common.lp and solver/target_v.lp are not modified.\n:- layer(L), not active(L).\n:- depth(D), selected(D,I,J), I >= 5, J >= 5.\n:- depth(D), touched(D,1).\n:- depth(D), not touched(D,2).\n:- depth(D), touched(D,3).\n:- depth(D), touched(D,4).\n",
+  "support": [
+    2
+  ]
+}

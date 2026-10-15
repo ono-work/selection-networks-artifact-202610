@@ -1,0 +1,29 @@
+{
+  "artifact_directory": "experiments/baseline_n10/decisions/V_t3_n10/depth_06",
+  "case": "V_t3_n10_depth6",
+  "command_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/command.txt",
+  "depth": 6,
+  "instance_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/instance.lp",
+  "kind": "V",
+  "n": 10,
+  "network_json_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/network.json",
+  "runtime_seconds": 159.04391348001081,
+  "solver_json_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/solver.json",
+  "solver_metadata_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/solver_metadata.json",
+  "solver_raw_json_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/solver_raw.json",
+  "solver_status": "SATISFIABLE",
+  "status": "VERIFIED_SAT",
+  "t": 3,
+  "verifier": {
+    "counterexample": null,
+    "expected": null,
+    "kind": "V",
+    "message": "verified all binary inputs",
+    "n": 10,
+    "ok": true,
+    "output": null,
+    "t": 3
+  },
+  "verifier_json_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/verifier.json",
+  "verifier_trace_summary_path": "experiments/baseline_n10/decisions/V_t3_n10/depth_06/verifier_trace_summary.json"
+}

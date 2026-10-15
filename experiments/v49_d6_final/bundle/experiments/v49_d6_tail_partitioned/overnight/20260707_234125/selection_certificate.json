@@ -1,0 +1,85 @@
+{
+  "every_selected_branch_belongs_to_exactly_one_class": true,
+  "screening_status_counts": {
+    "TIMEOUT": 26,
+    "UNSAT": 49
+  },
+  "screening_summary_path": "/home/ono/Codex/experiments/v49_d6_tail_partitioned/reports/screening_summary.csv",
+  "screening_timeout_selected_count": 26,
+  "screening_unsat_excluded_count": 49,
+  "selected_branch_ids": [
+    "A5_residual_L5eq3__wire1_partner_2",
+    "A5_residual_L5eq3__wire1_partner_6",
+    "A5_residual_L5eq3__wire1_unused",
+    "B6_residual_L5eq3__p1_2__p6_4",
+    "B6_residual_L5eq3__p1_0__p6_2",
+    "B6_residual_L5eq3__p1_0__p6_7",
+    "B6_residual_L5eq3__p1_0__p6_0",
+    "B6_residual_L5eq4__unused_wire_1",
+    "B6_residual_L5eq4__unused_wire_7",
+    "A5_residual_L5eq3__wire1_partner_3",
+    "A5_residual_L5eq3__wire1_partner_7",
+    "B6_residual_L5eq3__p1_2__p6_5",
+    "B6_residual_L5eq3__p1_0__p6_5",
+    "B6_residual_L5eq3__p1_0__p6_8",
+    "B6_residual_L5eq4__unused_wire_6",
+    "B6_residual_L5eq4__unused_wire_8",
+    "A5_residual_L5eq3__wire1_partner_8",
+    "B6_residual_L5eq3__p1_3__p6_5",
+    "B6_residual_L5eq3__p1_2__p6_0",
+    "B6_residual_L5eq3__p1_0__p6_9",
+    "B6_residual_L5eq4__unused_wire_9",
+    "A5_residual_L5eq3__wire1_partner_9",
+    "B6_residual_L5eq3__p1_3__p6_0",
+    "B6_residual_L5eq3__p1_7__p6_0",
+    "B6_residual_L5eq3__p1_8__p6_0",
+    "B6_residual_L5eq3__p1_9__p6_0"
+  ],
+  "selection_matches_declared_workload_classes": true,
+  "workload_classes": {
+    "A5_near": [
+      "A5_residual_L5eq3__wire1_partner_2",
+      "A5_residual_L5eq3__wire1_partner_3"
+    ],
+    "A5_tail": [
+      "A5_residual_L5eq3__wire1_partner_6",
+      "A5_residual_L5eq3__wire1_partner_7",
+      "A5_residual_L5eq3__wire1_partner_8",
+      "A5_residual_L5eq3__wire1_partner_9"
+    ],
+    "A5_unused": [
+      "A5_residual_L5eq3__wire1_unused"
+    ],
+    "B6eq3_both_idle": [
+      "B6_residual_L5eq3__p1_0__p6_0"
+    ],
+    "B6eq3_both_used": [
+      "B6_residual_L5eq3__p1_2__p6_4",
+      "B6_residual_L5eq3__p1_2__p6_5",
+      "B6_residual_L5eq3__p1_3__p6_5"
+    ],
+    "B6eq3_one_idle_near": [
+      "B6_residual_L5eq3__p1_0__p6_2",
+      "B6_residual_L5eq3__p1_0__p6_5",
+      "B6_residual_L5eq3__p1_2__p6_0",
+      "B6_residual_L5eq3__p1_3__p6_0"
+    ],
+    "B6eq3_one_idle_tail": [
+      "B6_residual_L5eq3__p1_0__p6_7",
+      "B6_residual_L5eq3__p1_0__p6_8",
+      "B6_residual_L5eq3__p1_0__p6_9",
+      "B6_residual_L5eq3__p1_7__p6_0",
+      "B6_residual_L5eq3__p1_8__p6_0",
+      "B6_residual_L5eq3__p1_9__p6_0"
+    ],
+    "B6eq4_unused_final_endpoint": [
+      "B6_residual_L5eq4__unused_wire_1",
+      "B6_residual_L5eq4__unused_wire_6"
+    ],
+    "B6eq4_unused_tail": [
+      "B6_residual_L5eq4__unused_wire_7",
+      "B6_residual_L5eq4__unused_wire_8",
+      "B6_residual_L5eq4__unused_wire_9"
+    ]
+  }
+}

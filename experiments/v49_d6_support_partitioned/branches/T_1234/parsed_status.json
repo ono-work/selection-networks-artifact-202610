@@ -1,0 +1,17 @@
+{
+  "branch_id": "T_1234",
+  "clingo_result": "UNKNOWN",
+  "cpu_snapshots": 865,
+  "error_message": null,
+  "peak_rss_kb": 82576,
+  "returncode": 0,
+  "runtime_seconds": 900.6389896640321,
+  "status": "TIMEOUT",
+  "support": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "timeout_seconds": 900
+}

@@ -1,0 +1,21 @@
+branch_id,runs,instance_identity_first_vs_rerun,final_status,handoff
+A5_residual_L5eq1,branches:UNSAT(117s/limit 900),no-rerun,UNSAT,
+A5_residual_L5eq2,branches:TIMEOUT(900s/limit 900) | longrun:UNSAT(496s/limit 3600),SAME,UNSAT,
+A5_residual_L5eq3,branches:TIMEOUT(900s/limit 900) | longrun:TIMEOUT(3601s/limit 3600),SAME,TIMEOUT,"partitioned into 9 leaves (1060 candidate L5 matchings); 9 leaves, all UNSAT=True"
+A5_residual_L5eq4,branches:TIMEOUT(900s/limit 900) | longrun:UNSAT(2991s/limit 3600),SAME,UNSAT,
+B6_residual_L5eq1,branches:UNSAT(137s/limit 900),no-rerun,UNSAT,
+B6_residual_L5eq2,branches:TIMEOUT(900s/limit 900) | longrun:UNSAT(541s/limit 3600),SAME,UNSAT,
+B6_residual_L5eq3,branches:TIMEOUT(900s/limit 900) | longrun:TIMEOUT(3601s/limit 3600),SAME,TIMEOUT,"partitioned into 57 leaves (974 candidate L5 matchings); 57 leaves, all UNSAT=True"
+B6_residual_L5eq4,branches:TIMEOUT(900s/limit 900) | longrun:TIMEOUT(3601s/limit 3600),SAME,TIMEOUT,"partitioned into 9 leaves (672 candidate L5 matchings); 9 leaves, all UNSAT=True"
+B7_residual_L5eq1,branches:UNSAT(99s/limit 900),no-rerun,UNSAT,
+B7_residual_L5eq2,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(499s/limit 3600),SAME,UNSAT,
+B7_residual_L5eq3,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(3179s/limit 3600),SAME,UNSAT,
+B7_residual_L5eq4,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(3429s/limit 3600),SAME,UNSAT,
+B8_residual_L5eq1,branches:UNSAT(111s/limit 900),no-rerun,UNSAT,
+B8_residual_L5eq2,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(585s/limit 3600),SAME,UNSAT,
+B8_residual_L5eq3,branches:TIMEOUT(900s/limit 900) | longrun:UNSAT(3182s/limit 3600),SAME,UNSAT,
+B8_residual_L5eq4,branches:TIMEOUT(900s/limit 900) | longrun:UNSAT(3518s/limit 3600),SAME,UNSAT,
+B9_residual_L5eq1,branches:UNSAT(101s/limit 900),no-rerun,UNSAT,
+B9_residual_L5eq2,branches:UNSAT(886s/limit 900),no-rerun,UNSAT,
+B9_residual_L5eq3,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(2470s/limit 3600),SAME,UNSAT,
+B9_residual_L5eq4,branches:TIMEOUT(901s/limit 900) | longrun:UNSAT(2755s/limit 3600),SAME,UNSAT,

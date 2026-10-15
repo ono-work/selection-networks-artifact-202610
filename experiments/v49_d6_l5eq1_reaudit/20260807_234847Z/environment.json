@@ -1,0 +1,20 @@
+{
+  "cwd": "/home/ono/Agent",
+  "hostname": "thor",
+  "input_hashes_sha256": {
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/A5_residual_L5eq1/instance.lp": "50f49de2e87d3d35bf1f2cd77544ccdc3c39d839f277558dbece979f4648aa20",
+    "/home/ono/Agent/experiments/v49_d6_l5_partitioned/branches/B6_residual_L5eq1/instance.lp": "6cebc8627592dcf0de1722834ff0c4925f524d6e1291edd6b61c93dc475a6b69",
+    "/home/ono/Agent/solver/common.lp": "2cebdc5d3107f09b77e3ebeaf554b39f25212dbe7a1fb9bd78fa933e0b990fc0",
+    "/home/ono/Agent/solver/target_v.lp": "ddae98e3a4bd702b9d97342ab558f7a4670eb7c7caf5dd726e28aef7cfe77f1a"
+  },
+  "logical_cpu_count": 20,
+  "machine": "aarch64",
+  "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39",
+  "processor": "aarch64",
+  "python_executable": "/home/ono/Agent/.venv/bin/python",
+  "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "solver_name": "pyclingo",
+  "solver_version_stderr": "",
+  "solver_version_stdout": "pyclingo version 5.8.0\nAddress model: 64-bit\n\nlibclingo version 5.8.0\nConfiguration: without Python, without Lua\n\nlibclasp version 3.4.0 (libpotassco version 1.2.0)\nConfiguration: WITH_THREADS=1\nCopyright (C) Benjamin Kaufmann\n\nLicense: The MIT License <https://opensource.org/licenses/MIT>\n",
+  "started_at_utc": "2026-08-07T23:51:14.545763Z"
+}
